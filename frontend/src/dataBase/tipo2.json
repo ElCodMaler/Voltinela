@@ -1,0 +1,10 @@
+{
+    "producto2":{
+        "id": 1,
+        "titulo": "UPS",
+        "peso": 180,
+        "precio": 300,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "ups.jpg"
+    }
+}
