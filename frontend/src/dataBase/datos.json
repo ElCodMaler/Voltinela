@@ -1,44 +1,56 @@
-{
-    "producto1":{
-        "titulo": "CPU",
+[
+    {
+        "id": "1",
+        "categoria": "Respaldos",
+        "titulo": "Centinela 300",
         "peso": 145,
         "precio": 500,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "cpu.jpg"
+        "imagen": "voltinela-centinela-300.jpg"
     },
-    "producto2":{
-        "titulo": "UPS",
+    {
+        "id": "2",
+        "categoria": "Respaldos",
+        "titulo": "Centinela 500",
         "peso": 180,
         "precio": 300,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "ups.jpg"
+        "imagen": "voltinela-centinela-500.jpg"
     },
-    "producto3":{
-        "titulo": "radio",
+    {
+        "id": "3",
+        "categoria": "Respaldos",
+        "titulo": "Centinela 1200",
         "peso": 11,
         "precio": 30,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "radio.jpg"
+        "imagen": "voltinela-centinela-1200.jpg"
     },
-    "producto4":{
-        "titulo": "pantalla",
+    {
+        "id": "4",
+        "categoria": "Respaldos",
+        "titulo": "Centinela 2000",
         "peso": 12,
         "precio": 1200,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "pantalla.jpg"
+        "imagen": "voltinela-centinela-2000.jpg"
     },
-    "producto5":{
-        "titulo": "teclados",
+    {
+        "id": "5",
+        "categoria": "Respaldos",
+        "titulo": "Centinela 2000 Pro Max",
         "peso": 7,
         "precio": 12,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "teclados.jpg"
+        "imagen": "voltinela-centinela-2000-pro-max.jpg"
     },
-    "producto6":{
-        "titulo": "mouse",
+    {
+        "id": "6",
+        "categoria": "Paneles solares",
+        "titulo": "Bluetti",
         "peso": 7,
         "precio": 12,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "teclados.jpg"
+        "imagen": "bluetti.jpg"
     }
-}
+]
