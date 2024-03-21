@@ -1,0 +1,44 @@
+{
+    "producto1":{
+        "titulo": "CPU",
+        "peso": 145,
+        "precio": 500,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "cpu.jpg"
+    },
+    "producto2":{
+        "titulo": "UPS",
+        "peso": 180,
+        "precio": 300,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "ups.jpg"
+    },
+    "producto3":{
+        "titulo": "radio",
+        "peso": 11,
+        "precio": 30,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "radio.jpg"
+    },
+    "producto4":{
+        "titulo": "pantalla",
+        "peso": 12,
+        "precio": 1200,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "pantalla.jpg"
+    },
+    "producto5":{
+        "titulo": "teclados",
+        "peso": 7,
+        "precio": 12,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "teclados.jpg"
+    },
+    "producto6":{
+        "titulo": "mouse",
+        "peso": 7,
+        "precio": 12,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "teclados.jpg"
+    }
+}

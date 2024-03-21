@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: url(fondo.jpg) black;
+}
+
+.shadow-xl {
+    box-shadow: 0px 3px 20px -2px;
+}
+
+nav.h-full.w-100 .h-full.overflow-y-auto{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#drawer-navigation a{
+    color: white;
+}
+
+#drawer-navigation a:hover{
+    background-color: #84cc16;
+}
+
+#drawer-navigation span{
+    color: white;
+}
+
+#drawer-navigation svg{
+    color: white;
+}
+
+#categorias .flex.rounded-lg.border {
+    border-width: 0;
+}
+
+#proyectos .flex.rounded-lg.border {
+    border-width: 0;
+}
+
+#aboutUs .flex.flex-wrap.gap-3 button {
+    background-color: #84cc16;
+    color: white;
+}
