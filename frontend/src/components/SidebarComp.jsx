@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import { Sidebar } from 'flowbite-react';
-import { HiArrowSmRight, HiDuplicate, HiHome, HiShoppingBag, HiTable, HiUser } from 'react-icons/hi';
+import {HiDuplicate, HiHome} from 'react-icons/hi';
 import { AiFillFacebook, AiOutlineInstagram, AiOutlineTwitter, AiOutlineUsergroupAdd, AiOutlineWhatsApp } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 

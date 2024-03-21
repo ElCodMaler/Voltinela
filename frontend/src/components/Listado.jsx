@@ -7,8 +7,6 @@ import datos from '../dataBase/datos.json';
 
 function Listado() {
 
-
-
   return (
     <>
         <section className='py-4' style={{marginTop:'60px'}}>

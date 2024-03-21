@@ -1,5 +1,7 @@
 {
     "producto1":{
+        "id": 1,
+        "categoria": "p",
         "titulo": "CPU",
         "peso": 145,
         "precio": 500,
@@ -7,6 +9,8 @@
         "imagen": "cpu.jpg"
     },
     "producto2":{
+        "id": 2,
+        "categoria": "t",
         "titulo": "UPS",
         "peso": 180,
         "precio": 300,
@@ -14,6 +18,8 @@
         "imagen": "ups.jpg"
     },
     "producto3":{
+        "id": 3,
+        "categoria": "g",
         "titulo": "radio",
         "peso": 11,
         "precio": 30,
@@ -21,6 +27,8 @@
         "imagen": "radio.jpg"
     },
     "producto4":{
+        "id": 4,
+        "categoria": "p",
         "titulo": "pantalla",
         "peso": 12,
         "precio": 1200,
@@ -28,6 +36,8 @@
         "imagen": "pantalla.jpg"
     },
     "producto5":{
+        "id": 5,
+        "categoria": "p",
         "titulo": "teclados",
         "peso": 7,
         "precio": 12,
@@ -35,6 +45,8 @@
         "imagen": "teclados.jpg"
     },
     "producto6":{
+        "id": 6,
+        "categoria": "g",
         "titulo": "mouse",
         "peso": 7,
         "precio": 12,
