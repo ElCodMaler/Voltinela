@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './layout/Header'
 import FooterE from './layout/FooterE'
 import Products from './pages/Products'
+import AboutUs from './pages/AboutUs'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 
           <Route path='/' element={<Home />} />
           <Route path='/Productos' element={<Products />} />
+          <Route path='/Nosotros' element={<AboutUs />} />
 
         </Routes>
 

@@ -10,7 +10,7 @@ function Nosotros() {
         
         <section id='aboutUs'>
 
-            <div className='container mx-auto w-max shadow-xl'>
+            <div className='titulo container mx-auto w-max shadow-xl'>
                 <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full' style={{backgroundColor:'#84cc16'}}>
                     Nosotros
                 </h3>

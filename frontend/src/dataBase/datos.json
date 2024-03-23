@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "categoria": "Respaldos",
+        "categoria": "Portable Power Station",
         "titulo": "Centinela 300",
         "peso": 145,
         "precio": 500,
@@ -10,7 +10,7 @@
     },
     {
         "id": "2",
-        "categoria": "Respaldos",
+        "categoria": "Portable Power Station",
         "titulo": "Centinela 500",
         "peso": 180,
         "precio": 300,
@@ -19,7 +19,7 @@
     },
     {
         "id": "3",
-        "categoria": "Respaldos",
+        "categoria": "Portable Power Station",
         "titulo": "Centinela 1200",
         "peso": 11,
         "precio": 30,
@@ -28,7 +28,7 @@
     },
     {
         "id": "4",
-        "categoria": "Respaldos",
+        "categoria": "Portable Power Station",
         "titulo": "Centinela 2000",
         "peso": 12,
         "precio": 1200,
@@ -37,7 +37,7 @@
     },
     {
         "id": "5",
-        "categoria": "Respaldos",
+        "categoria": "Portable Power Station",
         "titulo": "Centinela 2000 Pro Max",
         "peso": 7,
         "precio": 12,
@@ -46,11 +46,29 @@
     },
     {
         "id": "6",
-        "categoria": "Paneles solares",
+        "categoria": "Portable Power Station",
         "titulo": "Bluetti",
         "peso": 7,
         "precio": 12,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         "imagen": "bluetti.jpg"
+    },
+    {
+        "id": "7",
+        "categoria": "Portable Power Station",
+        "titulo": "APC",
+        "peso": 7,
+        "precio": 12,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "apc.jpg"
+    },
+    {
+        "id": "8",
+        "categoria": "Portable Power Station",
+        "titulo": "ONAP",
+        "peso": 7,
+        "precio": 12,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "onap.jpg"
     }
 ]

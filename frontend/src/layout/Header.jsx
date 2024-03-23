@@ -1,20 +1,44 @@
 'use client';
-import React from 'react'
-import { Button, Navbar } from 'flowbite-react';
+import React, { useState, useEffect } from 'react'
+import { useSpring } from '@react-spring/web'
+import { Button, Navbar } from 'flowbite-react'
 import SidebarComp from '../components/SidebarComp'
+import { Link } from 'react-router-dom'
 
 function Header() {
+
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY;
+      if (scrolled < 150) {
+        setVisible(false);
+      } else {
+        setVisible(true);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
         <header>
 
-            <Navbar className='fixed top-0 left-0 right-0 z-30 container w-auto mx-4 my-4 px-6 py-1 bg-white/30 rounded-full' fluid rounded>
+            <Navbar className={`${visible ? 'block' : 'hidden'} fixed top-0 left-0 right-0 z-30 container w-auto mx-4 my-4 px-6 py-1 bg-white/30 rounded-full`} fluid rounded>
               <Navbar.Brand href="#">
-                <img src="voltinela-logo-blanco.png" className="mr-3 h-4 sm:h-6" alt="Logo" />
-                {/*<span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Voltinela</span>*/}
+                <Link to={'/'}>
+                  <img src="voltinela-logo-blanco.png" className="mr-3 h-4 sm:h-6" alt="Logo" />
+                  {/*<span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Voltinela</span>*/}
+                </Link>
               </Navbar.Brand>
               <div className="text-center">
-                <Button className="px-0 py-0" type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
+                <Button className="px-0 py-0 focus:ring-0" type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
                     <box-icon name='menu-alt-left' color='#ffffff' size="md"></box-icon>
                 </Button>
               </div>
