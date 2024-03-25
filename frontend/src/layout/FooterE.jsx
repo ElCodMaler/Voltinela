@@ -14,12 +14,12 @@ function FooterE() {
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div>
               <Link to={'/'}>
-                <Footer.Brand href="#" src="voltinela-logo.png" alt="Logo" />
+                <Footer.Brand href="#" src="../../public/voltinela-logo.png" alt="Logo" />
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
               <div>
-                <Footer.Title title="Follow us" />
+                <Footer.Title title="Siguenos" />
                 <Footer.LinkGroup col>
                   <Footer.Link href="https://www.linkedin.com/company/voltela/">LinkedIn</Footer.Link>
                   <Footer.Link href="#">Instagram</Footer.Link>

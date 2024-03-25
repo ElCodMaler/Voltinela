@@ -68,6 +68,10 @@ section .titulo {
     background-color: #84cc16;
 }
 
+#descripcion section .flex.flex-col.items-center .flex.rounded-lg.border .flex.h-full.flex-col.justify-center .flex.flex-col.gap-2 .flex.text-center.flex-wrap button {
+    flex-basis: 50%;
+}
+
 @media (min-height: 666px) and (max-width: 500px) {
     section .flex.justify-center.px-4.mx-auto.max-w-screen-xl.text-center.py-24 {
         padding-top: 10px;

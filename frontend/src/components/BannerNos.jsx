@@ -5,10 +5,10 @@ import { AiFillLinkedin, AiOutlineInstagram, AiOutlineWhatsApp } from 'react-ico
 function BannerNos() {
   return (
     <>
-        <section id='nosotros' className="bg-center bg-cover bg-local bg-no-repeat bg-[url('respaldo-mesa.jpg')] bg-gray-400 bg-blend-multiply shadow-xl" style={{backgroundImage:"url('respaldo-mesa.jpg')"}}>
+        <section id='nosotros' className="bg-center bg-cover bg-local bg-no-repeat bg-[url('vision-mision.jpg')] bg-gray-400 bg-blend-multiply shadow-xl" style={{backgroundImage:"url('vision-mision.jpg')"}}>
             
-            <div className="flex justify-center px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-                <img className='w-40' src="voltinela-logo2-blanco.png" alt="" />
+            <div className="flex justify-center px-4 mx-auto max-w-screen-xl text-center py-24 md:py-20 lg:py-16">
+                <img className='w-40 md:w-96' src="voltinela-logo2-blanco.png" alt="" />
             </div>
         
           <Banner className='bg-gray-100'>

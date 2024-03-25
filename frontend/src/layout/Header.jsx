@@ -1,6 +1,5 @@
 'use client';
 import React, { useState, useEffect } from 'react'
-import { useSpring } from '@react-spring/web'
 import { Button, Navbar } from 'flowbite-react'
 import SidebarComp from '../components/SidebarComp'
 import { Link } from 'react-router-dom'
@@ -28,12 +27,12 @@ function Header() {
 
   return (
     <>
-        <header>
+        <header className=''>
 
-            <Navbar className={`${visible ? 'block' : 'hidden'} fixed top-0 left-0 right-0 z-30 container w-auto mx-4 my-4 px-6 py-1 bg-white/30 rounded-full`} fluid rounded>
+            <Navbar className={`${visible ? 'block' : 'hidden'} fixed top-0 left-0 right-0 z-30 mx-4 my-4 px-6 py-1 bg-white/30 rounded-full md:mx-24 lg:mx-28 md:my-6`} fluid rounded>
               <Navbar.Brand href="#">
                 <Link to={'/'}>
-                  <img src="voltinela-logo-blanco.png" className="mr-3 h-4 sm:h-6" alt="Logo" />
+                  <img src="../../public/voltinela-logo-blanco.png" className="mr-3 h-4 sm:h-6" alt="Logo" />
                   {/*<span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Voltinela</span>*/}
                 </Link>
               </Navbar.Brand>
