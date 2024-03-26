@@ -26,7 +26,11 @@ nav div div button .flex.items-center.transition-all {
     color: white;
 }
 
-#drawer-navigation a:hover{
+#drawer-navigation a:hover {
+    background-color: #84cc16;
+}
+
+#drawer-navigation button:hover {
     background-color: #84cc16;
 }
 
