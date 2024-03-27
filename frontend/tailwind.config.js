@@ -2,8 +2,9 @@
 const colors = require('tailwindcss/colors')
 module.exports = {
   content: [
+    "./src/**/*.{html,js,jsx,ts,tsx}",
     "./node_modules/flowbite/**/*.{html,js,jsx,ts,tsx}",
-    'node_modules/flowbite-react/lib/esm/**/*.js'
+    "node_modules/flowbite-react/lib/esm/**/*.js"
     ],
   theme: {
     colors: {

@@ -1,56 +1,170 @@
-{
-    "producto1":{
-        "id": 1,
-        "categoria": "p",
-        "titulo": "CPU",
-        "peso": 145,
+[
+    {
+        "id": "1",
+        "categoria": "Portable Power Station",
+        "titulo": "Centinela 300",
+        "tituloTecnico": "300W Portable Power Station",
+        "peso": 13,
+        "medidas": "",
+        "temperaturas": "0~40°C (32~104°F)",
+        "bateriaCapacidad": "LiFePO 1008Wh±5%(45Ah/22.4V)",
+        "bateriaDuraion": "2500 veces, SOH≥70%",
+        "proteccion": "Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura",
+        "puertosDeSalida": [
+            [
+                "AC output*4 : 110V±10%. 60Hz±5. Peak 2400W"
+            ],
+            [
+                "USB-A1 : 2*5V2.4A AUTO"
+            ],
+            [
+                "US-A2 : 2*QC18W Max"
+            ],
+            [
+                "USB-C : 2*PD60W Max"
+            ],
+            [
+                "Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output 13.8V10A (Total 10A Max)"
+            ]
+        ],
+        "entradaCargaSolar": "DC12V-60V/10A 400W Max",
+        "entradaCargaAuto": "DC12V-24V/8A Max",
+        "entradaCargaAC": "AC90-120V 700W Max",
         "precio": 500,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "cpu.jpg"
+        "descripcion": "Estacion de energia equipado con salida AC, salida CC, puertos para auto, puertos USB y USB de carga rapida. Compatible con la mayoria de los dispositivos electronicos.",
+        "imagen": "voltinela-centinela-300.jpg"
     },
-    "producto2":{
-        "id": 2,
-        "categoria": "t",
-        "titulo": "UPS",
+    {
+        "id": "2",
+        "categoria": "Portable Power Station",
+        "titulo": "Centinela 500",
+        "tituloTecnico": "",
         "peso": 180,
+        "medidas": "",
+        "temperaturas": "",
+        "bateriaCapacidad": "",
+        "bateriaDuraion": "",
+        "proteccion": "",
+        "puertosDeSalida": "",
+        "entradaCargaSolar": "",
+        "entradaCargaAuto": "",
+        "entradaCargaAC": "",
         "precio": 300,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "ups.jpg"
+        "imagen": "voltinela-centinela-500.jpg"
     },
-    "producto3":{
-        "id": 3,
-        "categoria": "g",
-        "titulo": "radio",
+    {
+        "id": "3",
+        "categoria": "Portable Power Station",
+        "titulo": "Centinela 1200",
+        "tituloTecnico": "",
         "peso": 11,
+        "medidas": "",
+        "temperaturas": "",
+        "bateriaCapacidad": "",
+        "bateriaDuraion": "",
+        "proteccion": "",
+        "puertosDeSalida": "",
+        "entradaCargaSolar": "",
+        "entradaCargaAuto": "",
+        "entradaCargaAC": "",
         "precio": 30,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "radio.jpg"
+        "imagen": "voltinela-centinela-1200.jpg"
     },
-    "producto4":{
-        "id": 4,
-        "categoria": "p",
-        "titulo": "pantalla",
+    {
+        "id": "4",
+        "categoria": "Portable Power Station",
+        "titulo": "Centinela 2000",
+        "tituloTecnico": "",
         "peso": 12,
+        "medidas": "",
+        "temperaturas": "",
+        "bateriaCapacidad": "",
+        "bateriaDuraion": "",
+        "proteccion": "",
+        "puertosDeSalida": "",
+        "entradaCargaSolar": "",
+        "entradaCargaAuto": "",
+        "entradaCargaAC": "",
         "precio": 1200,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "pantalla.jpg"
+        "imagen": "voltinela-centinela-2000.jpg"
     },
-    "producto5":{
-        "id": 5,
-        "categoria": "p",
-        "titulo": "teclados",
+    {
+        "id": "5",
+        "categoria": "Portable Power Station",
+        "titulo": "Centinela 2000 Pro Max",
+        "tituloTecnico": "",
         "peso": 7,
+        "medidas": "",
+        "temperaturas": "",
+        "bateriaCapacidad": "",
+        "bateriaDuraion": "",
+        "proteccion": "",
+        "puertosDeSalida": "",
+        "entradaCargaSolar": "",
+        "entradaCargaAuto": "",
+        "entradaCargaAC": "",
         "precio": 12,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "teclados.jpg"
+        "imagen": "voltinela-centinela-2000-pro-max.jpg"
     },
-    "producto6":{
-        "id": 6,
-        "categoria": "g",
-        "titulo": "mouse",
-        "peso": 7,
+    {
+        "id": "6",
+        "categoria": "Portable Power Station",
+        "titulo": "Bluetti",
+        "peso": "",
+        "tituloTecnico": "",
+        "medidas": "",
+        "temperaturas": "",
+        "bateriaCapacidad": "",
+        "bateriaDuraion": "",
+        "proteccion": "",
+        "puertosDeSalida": "",
+        "entradaCargaSolar": "",
+        "entradaCargaAuto": "",
+        "entradaCargaAC": "",
         "precio": 12,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "teclados.jpg"
+        "imagen": "bluetti.jpg"
+    },
+    {
+        "id": "7",
+        "categoria": "Portable Power Station",
+        "titulo": "APC",
+        "peso": "",
+        "tituloTecnico": "",
+        "medidas": "",
+        "temperaturas": "",
+        "bateriaCapacidad": "",
+        "bateriaDuraion": "",
+        "proteccion": "",
+        "puertosDeSalida": "",
+        "entradaCargaSolar": "",
+        "entradaCargaAuto": "",
+        "entradaCargaAC": "",
+        "precio": 12,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "apc.jpg"
+    },
+    {
+        "id": "8",
+        "categoria": "Portable Power Station",
+        "titulo": "ONAP",
+        "peso": "",
+        "tituloTecnico": "",
+        "medidas": "",
+        "temperaturas": "",
+        "bateriaCapacidad": "",
+        "bateriaDuraion": "",
+        "proteccion": "",
+        "puertosDeSalida": "",
+        "entradaCargaSolar": "",
+        "entradaCargaAuto": "",
+        "entradaCargaAC": "",
+        "precio": 12,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "imagen": "onap.jpg"
     }
-}
+]

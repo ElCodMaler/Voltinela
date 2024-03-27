@@ -5,8 +5,8 @@ function BannerIni() {
     <>
         
         <section className="bg-center bg-cover bg-local bg-no-repeat bg-[url('respaldo-mesa.jpg')] bg-gray-400 bg-blend-multiply shadow-xl" style={{backgroundImage:"url('respaldo-mesa.jpg')"}}>
-            <div className="flex justify-center px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-                <img className='w-40' src="voltinela-logo2-blanco.png" alt="" />
+            <div className="flex justify-center px-4 mx-auto max-w-screen-xl text-center py-24 md:py-20 lg:py-16">
+                <img className='w-40 md:w-96' src="voltinela-logo2-blanco.png" alt="voltinela-logo" />
                 {/*<h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">We invest in the world’s potential</h1>*/}
                 {/*<p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>*/}
                 {/*<div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">

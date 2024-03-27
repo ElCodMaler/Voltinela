@@ -4,6 +4,7 @@ import BannerIni from '../components/BannerIni'
 import Categorias from '../components/Categorias'
 import Proyectos from '../components/Proyectos'
 import Nosotros from '../components/Nosotros'
+import BannerAlMayor from '../components/BannerAlMayor'
 
 function Home() {
   return (
@@ -13,7 +14,9 @@ function Home() {
 
       <Categorias />
 
-      <Proyectos />
+      <BannerAlMayor />
+
+      {/*<Proyectos />*/}
 
       <Nosotros />
 
