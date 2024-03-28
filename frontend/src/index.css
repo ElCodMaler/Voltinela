@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: url(fondo.jpg) black;
+}
+
+.shadow-xl {
+    box-shadow: 0px 3px 20px -2px;
+}
+
+header .fixed.top-0.left-0.right-0.z-30.container.w-auto {
+    background-color: rgb(255 255 255 / 50%);
+}
+
+nav.h-full.w-100 .h-full.overflow-y-auto{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav div div button .flex.items-center.transition-all {
+    padding: 0;
+}
+
+#drawer-navigation a{
+    color: white;
+}
+
+#drawer-navigation a:hover {
+    background-color: #84cc16;
+}
+
+#drawer-navigation button:hover {
+    background-color: #84cc16;
+}
+
+#drawer-navigation span{
+    color: white;
+}
+
+#drawer-navigation svg{
+    color: white;
+}
+
+section .titulo {
+    cursor: context-menu;
+}
+
+#categorias .flex.rounded-lg.border {
+    border-width: 0;
+}
+
+#categorias .flex.h-full.flex-col.justify-center.gap-4.p-6 {
+    padding: 0;
+}
+
+#categorias .carta {
+    cursor: pointer;
+}
+
+#proyectos .flex.rounded-lg.border {
+    border-width: 0;
+}
+
+#aboutUs .flex.flex-wrap.gap-3 button {
+    background-color: #84cc16;
+    color: white;
+}
+
+#nosotros div .container .flex.flex-wrap .bg-gray-300 {
+    color: white;
+    background-color: #84cc16;
+}
+
+#descripcion section .flex.flex-col.items-center .flex.rounded-lg.border .flex.h-full.flex-col.justify-center .flex.flex-col.gap-2 .flex.text-center.flex-wrap button {
+    flex-basis: 50%;
+}
+
+@media (min-height: 666px) and (max-width: 500px) {
+    section .flex.justify-center.px-4.mx-auto.max-w-screen-xl.text-center.py-24 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-height: 843px) and (max-width: 500px) {
+    section .flex.justify-center.px-4.mx-auto.max-w-screen-xl.text-center.py-24 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (min-height: 895px) and (max-width: 500px) {
+    section .flex.justify-center.px-4.mx-auto.max-w-screen-xl.text-center.py-24 {
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+}
+
+@media (min-height: 931px) and (max-width: 500px) {
+    section .flex.justify-center.px-4.mx-auto.max-w-screen-xl.text-center.py-24 {
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+}
