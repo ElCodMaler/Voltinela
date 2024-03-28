@@ -1,7 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { Tabs } from 'flowbite-react'
-import { AiFillTool, AiFillThunderbolt, AiOutlinePoweroff, AiOutlineUsb } from 'react-icons/ai'
+import { Card, Tabs } from 'flowbite-react'
+import { HiAdjustments, HiClipboardList, HiUserCircle } from 'react-icons/hi';
+import { MdDashboard } from 'react-icons/md';
 import datos from '../dataBase/datos.json'
 
 const productos = Object.keys(datos).map((producto) => datos[producto]);
@@ -50,7 +51,7 @@ function Descripcion() {
                           </p>
 
                         <Tabs aria-label="Tabs with underline" style="underline">
-                          <Tabs.Item active title="Bateria" icon={AiFillThunderbolt}>
+                          <Tabs.Item active title="Bateria" icon={HiUserCircle}>
                             <ul>
                               <li>
                                 <span className="font-medium text-gray-800 dark:text-white">Capacidad: </span>{productoSeleccionado.bateriaCapacidad}
@@ -60,7 +61,7 @@ function Descripcion() {
                               </li>
                             </ul>
                           </Tabs.Item>
-                          <Tabs.Item title="Puertos de carga" icon={AiOutlinePoweroff}>
+                          <Tabs.Item title="Puertos de carga" icon={MdDashboard}>
                             <ul>
                               <li>
                                 <span className="font-medium text-gray-800 dark:text-white">AC: </span>{productoSeleccionado.entradaCargaAC}
@@ -73,7 +74,7 @@ function Descripcion() {
                               </li>
                             </ul>
                           </Tabs.Item>
-                          <Tabs.Item title="Puertos de salida" icon={AiOutlineUsb}>
+                          <Tabs.Item title="Puertos de salida" icon={HiAdjustments}>
                             <ul>
                               {listaPuertosSalida.map((puerto) => {
                                 return (
@@ -86,7 +87,7 @@ function Descripcion() {
                               })}
                             </ul>
                           </Tabs.Item>
-                          <Tabs.Item title="Otros" icon={AiFillTool}>
+                          <Tabs.Item title="Otros" icon={HiClipboardList}>
                             <ul>
                               <li>
                                 <span className="font-medium text-gray-800 dark:text-white">Peso: </span>{productoSeleccionado.peso}kg
