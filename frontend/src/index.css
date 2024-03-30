@@ -84,6 +84,11 @@ section .titulo {
     color: #84cc16;
 }
 
+#descripcion .relative.h-full.w-full .flex.h-full.snap-mandatory {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
 @media (min-height: 666px) and (max-width: 500px) {
     section .flex.justify-center.px-4.mx-auto.max-w-screen-xl.text-center.py-24 {
         padding-top: 10px;
