@@ -1562,6 +1562,14 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
 .max-h-\[90dvh\] {
   max-height: 90dvh;
 }
@@ -5763,6 +5771,60 @@ section .titulo {
     height: 2.25rem;
   }
 
+  .sm\:h-72 {
+    height: 18rem;
+  }
+
+  .sm\:h-80 {
+    height: 20rem;
+  }
+
+  .sm\:h-52 {
+    height: 13rem;
+  }
+
+  .sm\:h-96 {
+    height: 24rem;
+  }
+
+  .sm\:h-full {
+    height: 100%;
+  }
+
+  .sm\:h-fit {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .sm\:h-max {
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  .sm\:h-svh {
+    height: 100svh;
+  }
+
+  .sm\:h-auto {
+    height: auto;
+  }
+
+  .sm\:h-5\/6 {
+    height: 83.333333%;
+  }
+
+  .sm\:h-screen {
+    height: 100vh;
+  }
+
+  .sm\:h-1\/2 {
+    height: 50%;
+  }
+
+  .sm\:h-dvh {
+    height: 100dvh;
+  }
+
   .sm\:w-10 {
     width: 2.5rem;
   }
@@ -5880,6 +5942,14 @@ section .titulo {
 
   .md\:h-full {
     height: 100%;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
+  }
+
+  .md\:h-svh {
+    height: 100svh;
   }
 
   .md\:w-1\/2 {
@@ -6041,6 +6111,14 @@ section .titulo {
     height: 18rem;
   }
 
+  .lg\:h-96 {
+    height: 24rem;
+  }
+
+  .lg\:h-svh {
+    height: 100svh;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -6100,6 +6178,10 @@ section .titulo {
     height: 24rem;
   }
 
+  .xl\:h-svh {
+    height: 100svh;
+  }
+
   .xl\:py-28 {
     padding-top: 7rem;
     padding-bottom: 7rem;
@@ -6109,6 +6191,10 @@ section .titulo {
 @media (min-width: 1536px) {
   .\32xl\:h-96 {
     height: 24rem;
+  }
+
+  .\32xl\:h-svh {
+    height: 100svh;
   }
 }
 
