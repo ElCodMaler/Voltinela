@@ -29,7 +29,7 @@ function Descripcion() {
 
   const handleBack = () => {
     navigate('/Voltinela/Productos');
-    window.location.reload();
+    //window.location.reload();
   };
 
   return (
