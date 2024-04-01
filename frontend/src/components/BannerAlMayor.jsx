@@ -12,7 +12,7 @@ const BannerAlMayor = () => {
             </div>
             <br />
             <div className='container mx-auto px-4' style={{width:'-webkit-fill-available'}}>
-                <Link to={'/'}>
+                <Link to={'/Voltinela'}>
                     <Card className="carta border-0 w-full py-12 bg-cover bg-center bg-[url('proyectos-solares.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96" style={{backgroundImage:"url('proyectos-solares.jpg')"}}>
                       <h5 className="text-center text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
                         Compras al mayor
