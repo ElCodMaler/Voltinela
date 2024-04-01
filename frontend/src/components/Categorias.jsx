@@ -12,7 +12,7 @@ function Categorias() {
     const id = e.target.id;
     console.log(id);
     localStorage.setItem('categoria', id);
-    navigate('/Productos');
+    navigate('/Voltinela/Productos');
     //console.log(localStorage.getItem('categoria'));
     window.location.reload();
     return false;

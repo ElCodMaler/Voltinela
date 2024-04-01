@@ -11,13 +11,13 @@ function SidebarComp() {
   const navigate = useNavigate();
 
   const routeIni = () => {
-    navigate('/');
+    navigate('/Voltinela');
     window.location.reload();
   };
   
   const handleSelect = (categoria) => {
     localStorage.setItem('categoria', categoria);
-    navigate('/Productos');
+    navigate('/Voltinela/Productos');
     //console.log(localStorage.getItem('categoria'));
     window.location.reload();
     return false;
@@ -25,13 +25,13 @@ function SidebarComp() {
 
   const allProducts = () => {
     localStorage.setItem('categoria', '');
-    navigate('/Productos');
+    navigate('/Voltinela/Productos');
     window.location.reload();
     return false;
   };
 
   const routeNos = () => {
-    navigate('/Nosotros');
+    navigate('/Voltinela/Nosotros');
     window.location.reload();
   };
 

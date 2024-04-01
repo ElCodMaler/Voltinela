@@ -31,7 +31,7 @@ function Header() {
 
             <Navbar className={`${visible ? 'block' : 'hidden'} fixed top-0 left-0 right-0 z-30 mx-4 my-4 px-6 py-1 bg-white/30 rounded-full md:mx-24 lg:mx-28 md:my-6`} fluid rounded>
               <Navbar.Brand href="#">
-                <Link to={'/'}>
+                <Link to={'/Voltinela'}>
                   <img src="../../public/voltinela-logo-blanco.png" className="mr-3 h-4 sm:h-6" alt="Logo" />
                   {/*<span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Voltinela</span>*/}
                 </Link>
