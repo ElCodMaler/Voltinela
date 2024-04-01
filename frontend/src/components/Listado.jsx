@@ -4,6 +4,7 @@ import { Card } from 'flowbite-react';
 import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom/client'
 import { Link, useNavigate } from 'react-router-dom'
+import { AiOutlineArrowLeft } from 'react-icons/ai'
 import datos from '../dataBase/datos.json'
 
 const productos = Object.keys(datos).map((producto) => datos[producto]);
@@ -54,7 +55,12 @@ function Listado(id) {
     <>
 
         <section className='py-4'>
-            <div className='container py-4 mx-auto w-max'>
+            <div className='ms-4 w-fit bg-white/30 rounded-md'>
+                <Link className='flex p-3' to={'/'}>
+                    <AiOutlineArrowLeft style={{color:'white'}}/>
+                </Link>
+            </div>
+            <div className='container mx-auto py-4 w-max'>
                 {renderTitulo()}
             </div>
             <div className='container mx-auto px-4'>

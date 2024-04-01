@@ -3,7 +3,7 @@
         "id": "1",
         "categoria": "Portable Power Station",
         "titulo": "Centinela 300",
-        "tituloTecnico": "300W Portable Power Station",
+        "tituloTecnico": "Portable Power Station 300W/296Wh",
         "peso": 13,
         "medidas": "",
         "temperaturas": "0~40°C (32~104°F)",
@@ -32,7 +32,14 @@
         "entradaCargaAC": "AC90-120V 700W Max",
         "precio": 500,
         "descripcion": "Estacion de energia equipado con salida AC, salida CC, puertos para auto, puertos USB y USB de carga rapida. Compatible con la mayoria de los dispositivos electronicos.",
-        "imagen": "voltinela-centinela-300.jpg"
+        "imagen": "voltinela-centinela-300.jpg",
+        "imagenes": [
+            "voltinela-centinela-300.jpg",
+            "voltinela-centinela-300-2.jpg",
+            "voltinela-centinela-300-3.jpg",
+            "voltinela-centinela-300-4.jpg",
+            "voltinela-centinela-300-5.jpg"
+        ]
     },
     {
         "id": "2",
@@ -51,7 +58,8 @@
         "entradaCargaAC": "entrada AC1",
         "precio": 300,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "voltinela-centinela-500.jpg"
+        "imagen": "voltinela-centinela-500.jpg",
+        "imagenes": ""
     },
     {
         "id": "3",
@@ -70,7 +78,8 @@
         "entradaCargaAC": "",
         "precio": 30,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "voltinela-centinela-1200.jpg"
+        "imagen": "voltinela-centinela-1200.jpg",
+        "imagenes": ""
     },
     {
         "id": "4",
@@ -89,7 +98,8 @@
         "entradaCargaAC": "",
         "precio": 1200,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "voltinela-centinela-2000.jpg"
+        "imagen": "voltinela-centinela-2000.jpg",
+        "imagenes": ""
     },
     {
         "id": "5",
@@ -108,7 +118,8 @@
         "entradaCargaAC": "",
         "precio": 12,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "voltinela-centinela-2000-pro-max.jpg"
+        "imagen": "voltinela-centinela-2000-pro-max.jpg",
+        "imagenes": ""
     },
     {
         "id": "6",
@@ -127,7 +138,8 @@
         "entradaCargaAC": "",
         "precio": 12,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "bluetti.jpg"
+        "imagen": "bluetti.jpg",
+        "imagenes": ""
     },
     {
         "id": "7",
@@ -146,7 +158,8 @@
         "entradaCargaAC": "",
         "precio": 12,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "apc.jpg"
+        "imagen": "apc.jpg",
+        "imagenes": ""
     },
     {
         "id": "8",
@@ -165,6 +178,7 @@
         "entradaCargaAC": "",
         "precio": 12,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "onap.jpg"
+        "imagen": "onap.jpg",
+        "imagenes": ""
     }
 ]
