@@ -89,6 +89,12 @@ section .titulo {
     border-bottom-right-radius: 0;
 }
 
+@media (max-width: 430px) {
+    #descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between.p-4 .flex.flex-col.gap-2 .flex.text-center.flex-wrap {
+        flex-direction: column;
+    }
+}
+
 @media (min-height: 666px) and (max-width: 500px) {
     section .flex.justify-center.px-4.mx-auto.max-w-screen-xl.text-center.py-24 {
         padding-top: 10px;
