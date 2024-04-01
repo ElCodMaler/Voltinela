@@ -12,27 +12,27 @@ function SidebarComp() {
 
   const routeIni = () => {
     navigate('/Voltinela');
-    window.location.reload();
+    //window.location.reload();
   };
   
   const handleSelect = (categoria) => {
     localStorage.setItem('categoria', categoria);
     navigate('/Voltinela/Productos');
     //console.log(localStorage.getItem('categoria'));
-    window.location.reload();
+    //window.location.reload();
     return false;
   };
 
   const allProducts = () => {
     localStorage.setItem('categoria', '');
     navigate('/Voltinela/Productos');
-    window.location.reload();
+    //window.location.reload();
     return false;
   };
 
   const routeNos = () => {
     navigate('/Voltinela/Nosotros');
-    window.location.reload();
+    //window.location.reload();
   };
 
   const productos = datos;
