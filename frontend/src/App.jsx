@@ -20,7 +20,7 @@ function App() {
 
           <Route path='/Voltinela' element={<Home />} />
           <Route path='/Voltinela/Productos' element={<Products />} />
-          <Route path="/Voltinela/descripcion/:id" element={<Descripcion />} />
+          <Route path="/Voltinela/Descripcion/:id" element={<Descripcion />} />
           <Route path='/Voltinela/Nosotros' element={<AboutUs />} />
 
         </Routes>
