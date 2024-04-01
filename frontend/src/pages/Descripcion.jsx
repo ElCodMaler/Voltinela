@@ -28,7 +28,7 @@ function Descripcion() {
   });
 
   const handleBack = () => {
-    navigate('/Productos');
+    navigate('/Voltinela/Productos');
     window.location.reload();
   };
 
@@ -39,7 +39,7 @@ function Descripcion() {
             <section className='container mx-auto px-4 py-5'>
 
               <div className='w-fit p-3 bg-white/30 rounded-md'>
-                <Link className='flex' to={'/Productos'} onClick={() => handleBack()}>
+                <Link className='flex' to={'/Voltinela/Productos'} onClick={() => handleBack()}>
                   <AiOutlineArrowLeft style={{color:'white'}}/>
                 </Link>
               </div>
