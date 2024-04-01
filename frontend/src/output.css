@@ -881,26 +881,6 @@ input[type="range"]::-ms-fill-lower {
   background: #3F83F8;
 }
 
-input[type="range"].range-sm::-webkit-slider-thumb {
-  height: 1rem;
-  width: 1rem;
-}
-
-input[type="range"].range-lg::-webkit-slider-thumb {
-  height: 1.5rem;
-  width: 1.5rem;
-}
-
-input[type="range"].range-sm::-moz-range-thumb {
-  height: 1rem;
-  width: 1rem;
-}
-
-input[type="range"].range-lg::-moz-range-thumb {
-  height: 1.5rem;
-  width: 1.5rem;
-}
-
 .toggle-bg:after {
   content: "";
   position: absolute;
@@ -1109,6 +1089,11 @@ input:checked + .toggle-bg {
   inset: 0px;
 }
 
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+
 .inset-y-0 {
   top: 0px;
   bottom: 0px;
@@ -1258,28 +1243,16 @@ input:checked + .toggle-bg {
   z-index: auto;
 }
 
+.-m-1 {
+  margin: -0.25rem;
+}
+
+.-m-1\.5 {
+  margin: -0.375rem;
+}
+
 .m-2 {
   margin: 0.5rem;
-}
-
-.-mx-1 {
-  margin-left: -0.25rem;
-  margin-right: -0.25rem;
-}
-
-.-mx-1\.5 {
-  margin-left: -0.375rem;
-  margin-right: -0.375rem;
-}
-
-.-my-1 {
-  margin-top: -0.25rem;
-  margin-bottom: -0.25rem;
-}
-
-.-my-1\.5 {
-  margin-top: -0.375rem;
-  margin-bottom: -0.375rem;
 }
 
 .mx-1 {
@@ -1300,11 +1273,6 @@ input:checked + .toggle-bg {
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .my-4 {
@@ -1349,10 +1317,6 @@ input:checked + .toggle-bg {
   margin-bottom: 1.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .me-2 {
   margin-inline-end: 0.5rem;
 }
@@ -1391,10 +1355,6 @@ input:checked + .toggle-bg {
 
 .mr-3 {
   margin-right: 0.75rem;
-}
-
-.ms-2 {
-  margin-inline-start: 0.5rem;
 }
 
 .mt-1 {
@@ -1505,10 +1465,6 @@ input:checked + .toggle-bg {
   height: 1rem;
 }
 
-.h-48 {
-  height: 12rem;
-}
-
 .h-5 {
   height: 1.25rem;
 }
@@ -1544,10 +1500,6 @@ input:checked + .toggle-bg {
 
 .h-full {
   height: 100%;
-}
-
-.h-modal {
-  height: calc(100% - 2rem);
 }
 
 .h-px {
@@ -1612,10 +1564,6 @@ input:checked + .toggle-bg {
 
 .w-4 {
   width: 1rem;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .w-5 {
@@ -2104,11 +2052,6 @@ input:checked + .toggle-bg {
   border-bottom-left-radius: 0.25rem;
 }
 
-.rounded-b-lg {
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
-
 .rounded-e-lg {
   border-start-end-radius: 0.5rem;
   border-end-end-radius: 0.5rem;
@@ -2411,11 +2354,6 @@ input:checked + .toggle-bg {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
@@ -2634,32 +2572,16 @@ input:checked + .toggle-bg {
   background-image: url('paneles-solares.jpg');
 }
 
-.bg-\[url\(\'proyectos-solares\.jpg\'\)\] {
-  background-image: url('proyectos-solares.jpg');
-}
-
 .bg-\[url\(\'respaldo-familia\.jpg\'\)\] {
   background-image: url('respaldo-familia.jpg');
-}
-
-.bg-\[url\(\'respaldo-mesa\.jpg\'\)\] {
-  background-image: url('respaldo-mesa.jpg');
 }
 
 .bg-\[url\(\'respaldo-playa\.jpg\'\)\] {
   background-image: url('respaldo-playa.jpg');
 }
 
-.bg-\[url\(\'servicio-tecnico\.jpg\'\)\] {
-  background-image: url('servicio-tecnico.jpg');
-}
-
 .bg-\[url\(\'teclado\.jpg\'\)\] {
   background-image: url('teclado.jpg');
-}
-
-.bg-\[url\(\'vision-mision\.jpg\'\)\] {
-  background-image: url('vision-mision.jpg');
 }
 
 .bg-gradient-to-br {
@@ -2809,10 +2731,6 @@ input:checked + .toggle-bg {
   background-size: cover;
 }
 
-.bg-local {
-  background-attachment: local;
-}
-
 .bg-center {
   background-position: center;
 }
@@ -2960,11 +2878,6 @@ input:checked + .toggle-bg {
   padding-bottom: 0.625rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -3078,11 +2991,6 @@ input:checked + .toggle-bg {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -3110,10 +3018,6 @@ input:checked + .toggle-bg {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .font-medium {
@@ -5714,10 +5618,6 @@ section .titulo {
     margin-bottom: 0px;
   }
 
-  .sm\:ms-4 {
-    margin-inline-start: 1rem;
-  }
-
   .sm\:mt-0 {
     margin-top: 0px;
   }
@@ -5758,10 +5658,6 @@ section .titulo {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
   .sm\:items-center {
     align-items: center;
   }
@@ -5776,12 +5672,6 @@ section .titulo {
 
   .sm\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
   .sm\:px-16 {
@@ -5800,6 +5690,11 @@ section .titulo {
 
   .sm\:text-center {
     text-align: center;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .sm\:text-xs {
@@ -5821,11 +5716,6 @@ section .titulo {
   .md\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
-  }
-
-  .md\:my-3 {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
   }
 
   .md\:my-6 {
@@ -5865,16 +5755,8 @@ section .titulo {
     height: 100%;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
-  }
-
   .md\:w-48 {
     width: 12rem;
-  }
-
-  .md\:w-96 {
-    width: 24rem;
   }
 
   .md\:w-auto {
@@ -5915,19 +5797,9 @@ section .titulo {
     border-radius: 0px;
   }
 
-  .md\:rounded-b-none {
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
   .md\:rounded-l-lg {
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
-  }
-
-  .md\:rounded-r-lg {
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
   }
 
   .md\:rounded-s-lg {
@@ -5962,11 +5834,6 @@ section .titulo {
     padding-bottom: 0.5rem;
   }
 
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .md\:pb-3 {
     padding-bottom: 0.75rem;
   }
@@ -5979,11 +5846,6 @@ section .titulo {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .md\:text-sm {
@@ -6024,18 +5886,9 @@ section .titulo {
     height: 18rem;
   }
 
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .lg\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
-  }
-
-  .lg\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
   }
 
   .lg\:py-24 {
@@ -6058,18 +5911,8 @@ section .titulo {
     line-height: 1;
   }
 
-  .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .lg\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
