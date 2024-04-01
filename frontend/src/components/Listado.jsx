@@ -43,7 +43,7 @@ function Listado(id) {
     };
 
     const handleSelectedProduct = (id) => {
-        navigate(`/Descripcion/${id}`);
+        navigate(`/Voltinela/Descripcion/${id}`);
     };
 
     useEffect(() => {
