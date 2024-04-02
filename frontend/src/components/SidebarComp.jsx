@@ -11,28 +11,28 @@ function SidebarComp() {
   const navigate = useNavigate();
 
   const routeIni = () => {
-    navigate('/');
-    window.location.reload();
+    navigate('/Voltinela');
+    //window.location.reload();
   };
   
   const handleSelect = (categoria) => {
     localStorage.setItem('categoria', categoria);
-    navigate('/Productos');
+    navigate('/Voltinela/Productos');
     //console.log(localStorage.getItem('categoria'));
-    window.location.reload();
+    //window.location.reload();
     return false;
   };
 
   const allProducts = () => {
     localStorage.setItem('categoria', '');
-    navigate('/Productos');
-    window.location.reload();
+    navigate('/Voltinela/Productos');
+    //window.location.reload();
     return false;
   };
 
   const routeNos = () => {
-    navigate('/Nosotros');
-    window.location.reload();
+    navigate('/Voltinela/Nosotros');
+    //window.location.reload();
   };
 
   const productos = datos;
