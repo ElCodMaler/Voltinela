@@ -36,11 +36,11 @@ function Header() {
                   {/*<span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Voltinela</span>*/}
                 </Link>
               </Navbar.Brand>
-              <div className="text-center">
+              <nav className="text-center">
                 <Button className="px-0 py-0 focus:ring-0" type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
                     <box-icon name='menu-alt-left' color='#ffffff' size="md"></box-icon>
                 </Button>
-              </div>
+              </nav>
             </Navbar>
 
             <div id="drawer-navigation" className="fixed top-0 left-0 z-40 w-full h-screen p-4 overflow-y-auto transition-transform translate-x-full dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-navigation-label" style={{backgroundColor:'#00000082',backdropFilter: "blur(4px)"}}>
