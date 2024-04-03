@@ -13,7 +13,7 @@ function FooterE() {
         <div className="w-full">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div>
-              <Link to={'/'}>
+              <Link to={'/Voltinela'}>
                 <Footer.Brand href="#" src="../../public/voltinela-logo.png" alt="Logo" />
               </Link>
             </div>
