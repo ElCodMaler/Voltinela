@@ -10,7 +10,7 @@ function Categorias() {
 
   function handleClick(e) {
     const id = e.target.id;
-    console.log(id);
+    //console.log(id);
     localStorage.setItem('categoria', id);
     navigate('/Voltinela/Productos');
     //console.log(localStorage.getItem('categoria'));
@@ -31,9 +31,9 @@ function Categorias() {
 
             <div className='container mx-auto px-4' id='categorias' onClick={handleClick} style={{width:'-webkit-fill-available'}}>
 
-              <Card id='Portable Power Station' className="carta w-full py-12 bg-cover bg-center bg-[url('respaldo-playa.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96" style={{backgroundImage:"url('respaldo-playa.jpg')"}}>
-                <h5 id='Portable Power Station' className="text-center text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
-                  Estación portátil de poder
+              <Card id='Estación Portátil de Poder' className="carta w-full py-12 bg-cover bg-center bg-[url('respaldo-playa.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96" style={{backgroundImage:"url('respaldo-playa.jpg')"}}>
+                <h5 id='Estación Portátil de Poder' className="text-center text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
+                  Estación Portátil de Poder
                 </h5>
               </Card>
               
@@ -47,9 +47,9 @@ function Categorias() {
                     </h5>
                   </Card>
 
-                  <Card id='Baterias' className="carta py-12 bg-no-repeat bg-cover bg-center bg-[url('paneles-portatiles.jpg')] bg-gray-400 bg-blend-multiply shadow-xl" style={{backgroundImage:"url('paneles-portatiles.jpg')"}}>
-                    <h5 id='Baterias' className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
-                      Baterías
+                  <Card id='Servicios' className="carta py-12 bg-no-repeat bg-cover bg-center bg-[url('paneles-portatiles.jpg')] bg-gray-400 bg-blend-multiply shadow-xl" style={{backgroundImage:"url('paneles-portatiles.jpg')"}}>
+                    <h5 id='Servicios' className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
+                      Servicios
                     </h5>
                   </Card>
 
@@ -57,9 +57,9 @@ function Categorias() {
 
               <br />
               
-              <Card id='Servicios' className="carta w-full py-12 bg-cover bg-center bg-[url('respaldo-familia.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96" style={{backgroundImage:"url('respaldo-familia.jpg')"}}>
-                <h5 id='Servicios' className="text-center text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
-                  Servicios
+              <Card id='Baterías / Inversores' className="carta w-full py-12 bg-cover bg-center bg-[url('respaldo-familia.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96" style={{backgroundImage:"url('respaldo-familia.jpg')"}}>
+                <h5 id='Baterías / Inversores' className="text-center text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
+                  Baterías / Inversores
                 </h5>
               </Card>
 

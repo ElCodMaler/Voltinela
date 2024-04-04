@@ -4,7 +4,7 @@ import { Button, Navbar } from 'flowbite-react'
 import SidebarComp from '../components/SidebarComp'
 import { Link } from 'react-router-dom'
 
-function Header() {
+function Header({carrito}) {
 
   const [visible, setVisible] = useState(false);
 
@@ -50,7 +50,7 @@ function Header() {
                     <span className="sr-only">Close menu</span>
                 </button>
               <div className="py-4 overflow-y-auto"> 
-                <SidebarComp/>
+                <SidebarComp carrito={carrito} />
               </div>
             </div>
 

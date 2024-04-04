@@ -7,29 +7,62 @@ import datos from '../dataBase/datos.json'
 
 const productos = Object.keys(datos).map((producto) => datos[producto]);
 
-function Descripcion() {
+function Descripcion({ carrito, setCarrito }) {
 
   const navigate = useNavigate();
 
   const { id } = useParams();
-  
+
   const productoSeleccionado = productos.find((p) => p.id === id);
   
   const imagenesProducto = productoSeleccionado.imagenes;
   
-  const puertosDeSalida = productoSeleccionado.puertosDeSalida;
+  const datosElectricos = productoSeleccionado.especificacionesElectricas;
   
-  const listaPuertosSalida = puertosDeSalida.map((puerto) => {
+  const listaDatosElectricos = datosElectricos.map((datElec) => {
     
     return {
-      tipo: puerto[0].split(":")[0].trim(),
-      descripcion: puerto[0].split(":")[1].trim(),
+      tipo: datElec[0].split(":")[0].trim(),
+      descripcion: datElec[0].split(":")[1].trim(),
+    };
+  });
+
+  const datosTecnicos = productoSeleccionado.especificacionesTecnicas;
+
+  const listaDatosTecnicos = datosTecnicos.map((datTec) => {
+  
+    return {
+      tipo: datTec[0].split(":")[0].trim(),
+      descripcion: datTec[0].split(":")[1].trim(),
+    };
+  });
+
+  const datosVarios = productoSeleccionado.otros;
+
+  const listaDatosVarios = datosVarios.map((datVar) => {
+  
+    return {
+      tipo: datVar[0].split(":")[0].trim(),
+      descripcion: datVar[0].split(":")[1].trim(),
     };
   });
 
   const handleBack = () => {
     navigate('/Voltinela/Productos');
     //window.location.reload();
+  };
+
+  const handleAddCar = () => {
+    const prod = productoSeleccionado;
+    if (!carrito.includes(prod)) {
+      setCarrito([...carrito, prod]);
+      localStorage.setItem('carrito', JSON.stringify(carrito));
+      console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
+    };
+    //setCarrito([...carrito, prod]);
+    //localStorage.setItem('carrito', JSON.stringify(carrito));
+    //console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
+    console.log(prod.id);
   };
 
   return (
@@ -50,6 +83,7 @@ function Descripcion() {
 
                 <div className="grid grid-cols-1 w-full items-center bg-white rounded-lg shadow md:grid-cols-2 md:w-auto shadow-xl">
                   <div className="h-72 sm:h-96 md:h-80 lg:h-96 xl:h-svh">
+
                     <Carousel>
                       {imagenesProducto.map((imagenProducto, index) => (
                         <div key={index}>
@@ -57,15 +91,7 @@ function Descripcion() {
                         </div>
                       ))}
                     </Carousel>
-                  {/*imagenesProducto && (
-                    <Carousel>
-                      {imagenesProducto.map((imagenProducto, index) => (
-                        <Carousel.Item key={index}>
-                          <img src={imagenProducto} alt={imagenProducto.titulo} />
-                        </Carousel.Item>
-                      ))}
-                    </Carousel>
-                  )*/}
+
                   </div>
                   <div className="flex flex-col justify-between p-4 leading-normal md:px-12">
 
@@ -85,14 +111,101 @@ function Descripcion() {
                           Especificaciones:
                         </h6>
 
-                        <Tabs aria-label="Tabs with underline" style="underline">
+                        <div id="accordion-open" data-accordion="open">
+                          <h2 id="accordion-open-heading-1">
+                            <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-0 gap-3" data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1">
+                              <span className="flex items-center">
+                                <svg className="w-7 h-7 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                  <AiFillThunderbolt />
+                                </svg> Eléctricas
+                              </span>
+                              <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                              </svg>
+                            </button>
+                          </h2>
+                          <div id="accordion-open-body-1" className="hidden" aria-labelledby="accordion-open-heading-1">
+                            <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                            {listaDatosElectricos.map((datElec) => {
+                              return (
+                                <>
+                                  <ul className='list-none list-inside'>
+                                    <li key={datElec.tipo}>
+                                      <span className="font-bold text-gray-800 dark:text-white">{datElec.tipo}: </span>{datElec.descripcion}
+                                    </li>
+                                  </ul>
+                                  <br />
+                                </>
+                              )
+                            })}
+                            </div>
+                          </div>
+                          <h2 id="accordion-open-heading-2">
+                            <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-0 gap-3" data-accordion-target="#accordion-open-body-2" aria-expanded="false" aria-controls="accordion-open-body-2">
+                              <span className="flex items-center">
+                                <svg className="w-5 h-5 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                  <AiOutlinePoweroff />
+                                </svg>Tecnicas
+                              </span>
+                              <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                              </svg>
+                            </button>
+                          </h2>
+                          <div id="accordion-open-body-2" className="hidden" aria-labelledby="accordion-open-heading-2">
+                            <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                            {listaDatosTecnicos.map((datTec) => {
+                              return (
+                                <>
+                                  <ul className='list-none list-inside'>
+                                    <li key={datTec.tipo}>
+                                      <span className="font-bold text-gray-800 dark:text-white">{datTec.tipo}: </span>{datTec.descripcion}
+                                    </li>
+                                  </ul>
+                                  <br />
+                                </>
+                              )
+                            })}
+                            </div>
+                          </div>
+                          <h2 id="accordion-open-heading-3">
+                            <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-0 gap-3" data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-3">
+                              <span className="flex items-center">
+                                <svg className="w-5 h-5 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                  <AiFillTool />
+                                </svg>Otros
+                              </span>
+                              <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                              </svg>
+                            </button>
+                          </h2>
+                          <div id="accordion-open-body-3" className="hidden" aria-labelledby="accordion-open-heading-3">
+                            <div className="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            {listaDatosVarios.map((datVar) => {
+                              return (
+                                <>
+                                  <ul className='list-none list-inside'>
+                                    <li key={datVar.tipo}>
+                                      <span className="font-bold text-gray-800 dark:text-white">{datVar.tipo}: </span>{datVar.descripcion}
+                                    </li>
+                                  </ul>
+                                  <br />
+                                </>
+                              )
+                            })}
+                            </div>
+                          </div>
+                        </div>
+
+                        {/*<Tabs aria-label="Tabs with underline" style="underline">
                           <Tabs.Item active title="Bateria" icon={AiFillThunderbolt}>
                             <ul className='list-disc list-inside'>
                               <li>
                                 <span className="font-bold text-gray-800 dark:text-white">Capacidad: </span>{productoSeleccionado.bateriaCapacidad}
                               </li>
                               <li>
-                                <span className="font-bold text-gray-800 dark:text-white">Ciclo de vida: </span>{productoSeleccionado.bateriaDuraion}
+                                <span className="font-bold text-gray-800 dark:text-white">Ciclo de vida: </span>{productoSeleccionado.cicloDeVidaBateria}
                               </li>
                             </ul>
                           </Tabs.Item>
@@ -135,10 +248,10 @@ function Descripcion() {
                               </li>
                             </ul>
                           </Tabs.Item>
-                        </Tabs>
+                        </Tabs>*/}
 
                         <div className='flex flex-col justify-center py-5'>
-                          <Button className='focus:ring-0' pill style={{backgroundColor:'#84cc16'}}>
+                          <Button className='focus:ring-0' pill style={{backgroundColor:'#84cc16'}} onClick={handleAddCar}>
                             <HiShoppingCart className='mr-2 h-7 w-7' />
                             <p className='text-base'>Añadir al carrito</p>
                           </Button>
@@ -152,76 +265,6 @@ function Descripcion() {
                       </div>
 
                 </div>
-
-                    {/*<div className="grid grid-cols-1 w-full items-center bg-white rounded-lg shadow md:grid-cols-2 md:w-auto shadow-xl">
-
-                      <img className="h-96 w-full object-cover rounded-t-lg md:h-full md:w-auto md:rounded-none md:rounded-s-lg" src={`../../public/${productoSeleccionado.imagen}`} alt={`../../public/${productoSeleccionado.imagen}`} />
-
-                      <div className="flex flex-col justify-between p-4 leading-normal md:px-12">
-    
-                          <h5 className="mb-2 text-2xl font-bold tracking-tight md:pb-3">
-                            {productoSeleccionado.tituloTecnico}
-                          </h5>
-
-                          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            {productoSeleccionado.descripcion}
-                          </p>
-
-                        <Tabs aria-label="Tabs with underline" style="underline">
-                          <Tabs.Item active title="Bateria" icon={AiFillThunderbolt}>
-                            <ul>
-                              <li>
-                                <span className="font-medium text-gray-800 dark:text-white">Capacidad: </span>{productoSeleccionado.bateriaCapacidad}
-                              </li>
-                              <li>
-                                <span className="font-medium text-gray-800 dark:text-white">Ciclo de vida: </span>{productoSeleccionado.bateriaDuraion}
-                              </li>
-                            </ul>
-                          </Tabs.Item>
-                          <Tabs.Item title="Puertos de carga" icon={AiOutlinePoweroff}>
-                            <ul>
-                              <li>
-                                <span className="font-medium text-gray-800 dark:text-white">AC: </span>{productoSeleccionado.entradaCargaAC}
-                              </li>
-                              <li>
-                                <span className="font-medium text-gray-800 dark:text-white">Auto: </span>{productoSeleccionado.entradaCargaAuto}
-                              </li>
-                              <li>
-                                <span className="font-medium text-gray-800 dark:text-white">Solar: </span>{productoSeleccionado.entradaCargaSolar}
-                              </li>
-                            </ul>
-                          </Tabs.Item>
-                          <Tabs.Item title="Puertos de salida" icon={AiOutlineUsb}>
-                            <ul>
-                              {listaPuertosSalida.map((puerto) => {
-                                return (
-                                  <>
-                                    <li key={puerto.tipo}>
-                                      <span className="font-medium text-gray-800 dark:text-white">{puerto.tipo}: </span>{puerto.descripcion}
-                                    </li>
-                                  </>
-                                )
-                              })}
-                            </ul>
-                          </Tabs.Item>
-                          <Tabs.Item title="Otros" icon={AiFillTool}>
-                            <ul>
-                              <li>
-                                <span className="font-medium text-gray-800 dark:text-white">Peso: </span>{productoSeleccionado.peso}kg
-                              </li>
-                              <li>
-                                <span className="font-medium text-gray-800 dark:text-white">Temperaturas: </span>{productoSeleccionado.temperaturas}
-                              </li>
-                              <li>
-                                <span className="font-medium text-gray-800 dark:text-white">Proteccion: </span>{productoSeleccionado.proteccion}
-                              </li>
-                            </ul>
-                          </Tabs.Item>
-                        </Tabs>
-                      
-                      </div>
-
-                  </div>*/}
 
                 </div>
 

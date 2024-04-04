@@ -5,6 +5,7 @@ import Categorias from '../components/Categorias'
 import Proyectos from '../components/Proyectos'
 import Nosotros from '../components/Nosotros'
 import BannerAlMayor from '../components/BannerAlMayor'
+import Siguenos from '../components/Siguenos'
 
 function Home() {
   return (
@@ -15,6 +16,8 @@ function Home() {
       <Categorias />
 
       <BannerAlMayor />
+
+      <Siguenos />
 
       {/*<Proyectos />*/}
 

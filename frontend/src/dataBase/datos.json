@@ -1,37 +1,7 @@
 [
     {
         "id": "1",
-        "categoria": "Portable Power Station",
-        "titulo": "Centinela 300",
-        "tituloTecnico": "Portable Power Station 300W/296Wh",
-        "peso": 13,
-        "medidas": "",
-        "temperaturas": "0~40°C (32~104°F)",
-        "bateriaCapacidad": "LiFePO 1008Wh±5%(45Ah/22.4V)",
-        "bateriaDuraion": "2500 veces, SOH≥70%",
-        "proteccion": "Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura",
-        "puertosDeSalida": [
-            [
-                "AC output*4 : 110V±10%. 60Hz±5. Peak 2400W"
-            ],
-            [
-                "USB-A1 : 2*5V2.4A AUTO"
-            ],
-            [
-                "US-A2 : 2*QC18W Max"
-            ],
-            [
-                "USB-C : 2*PD60W Max"
-            ],
-            [
-                "Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output 13.8V10A (Total 10A Max)"
-            ]
-        ],
-        "entradaCargaSolar": "DC12V-60V/10A 400W Max",
-        "entradaCargaAuto": "DC12V-24V/8A Max",
-        "entradaCargaAC": "AC90-120V 700W Max",
-        "precio": 500,
-        "descripcion": "Estacion de energia equipado con salida AC, salida CC, puertos para auto, puertos USB y USB de carga rapida. Compatible con la mayoria de los dispositivos electronicos.",
+        "categoria": "Estación Portátil de Poder",
         "imagen": "voltinela-centinela-300.jpg",
         "imagenes": [
             "voltinela-centinela-300.jpg",
@@ -39,146 +9,381 @@
             "voltinela-centinela-300-3.jpg",
             "voltinela-centinela-300-4.jpg",
             "voltinela-centinela-300-5.jpg"
-        ]
+        ],
+        "titulo": "Centinela 300",
+        "tituloTecnico": "Estación Portátil de Poder 300W/296Wh",
+        "descripcion": "Estación de energía equipado con salida AC, salida CC, puertos para auto, puertos USB y USB de carga rápida. Compatible con la mayoría de los dispositivos electrónicos.",
+        "especificacionesElectricas": [
+            [
+                "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
+            ],
+            [
+                "Ciclo de vida de la batería : 2500 veces, SOH≥70%"
+            ],
+            [
+                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Puertos de salida AC : 110V±10%. 60Hz±5. Peak 2400W"
+            ],
+            [
+                "Puertos de salida USB-A1 : 2*5V2.4A AUTO"
+            ],
+            [
+                "Puertos de salida US-A2 : 2*QC18W Max"
+            ],
+            [
+                "Puertos de salida USB-C : 2*PD60W Max"
+            ],
+            [
+                "Salida Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output 13.8V10A (Total 10A Max)"
+            ],
+            [
+                "Puerto de entrada para carga solar : DC12V-60V/10A 400W Max"
+            ],
+            [
+                "Puerto de entrada para auto : USB-A1 : 2*5V2.4A AUTO"
+            ],
+            [
+                "Puerto de entrada para carga AC : AC90-120V 700W Max"
+            ]
+        ],
+        "otros": [
+            [
+                "Temperaturas : 0~40°C (32~104°F)"
+            ],
+            [
+                "Peso : 3.2kg"
+            ]
+        ],
+        "precio": 500
     },
     {
         "id": "2",
-        "categoria": "Portable Power Station",
-        "titulo": "Centinela 500",
-        "tituloTecnico": "titulo tecnico1",
-        "peso": 180,
-        "medidas": "medidas1",
-        "temperaturas": "temperatura1",
-        "bateriaCapacidad": "capacidad de bateria1",
-        "bateriaDuraion": "duracion1",
-        "proteccion": "proteccion1",
-        "puertosDeSalida": "puertos1",
-        "entradaCargaSolar": "entrada solar1",
-        "entradaCargaAuto": "entrada AUto1",
-        "entradaCargaAC": "entrada AC1",
-        "precio": 300,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "categoria": "Estación Portátil de Poder",
         "imagen": "voltinela-centinela-500.jpg",
-        "imagenes": ""
+        "imagenes": [
+            "voltinela-centinela-500.jpg",
+            "voltinela-centinela-500-2.jpg",
+            "voltinela-centinela-500-3.jpg",
+            "voltinela-centinela-500-4.jpg"
+        ],
+        "titulo": "Centinela 500",
+        "tituloTecnico": "Estación Portátil de Poder 500W/512Wh",
+        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "especificacionesElectricas": [
+            [
+                "Capacidad de la bateria : LiFePO 512Wh±5%(20Ah/25.6V)"
+            ],
+            [
+                "Ciclo de vida de la batería : 2000 veces, SOH≥80%"
+            ],
+            [
+                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Puertos de salida AC : 120V, 60Hz, Peak 1000W"
+            ],
+            [
+                "Puertos de salida USB-A1 : QC24W Max (5V3A&9V2A&12V2A QC3.0)"
+            ],
+            [
+                "Puertos de salida USB-A2 : QC24W Max (5V3A&9V2A&12V2A QC3.0)"
+            ],
+            [
+                "Puertos de salida USB-C1 : PD27W Max (5V2.4A&9V3A&12V2.2A PD3.0)"
+            ],
+            [
+                "Puertos de salida USB-C2 : PD100W Max (5V3A&9V3A&12V3A&15V3A&20V5A PD3.0)"
+            ],
+            [
+                "Salida Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output, 13.8V10A (Total 10A Max)"
+            ],
+            [
+                "Puerto de entrada para carga solar : DC12V-24V/120W Max"
+            ],
+            [
+                "Puerto de entrada para auto : DC12V-24V/120W Max"
+            ],
+            [
+                "Puerto de entrada para carga AC : AC100V-120V/200W Max"
+            ]
+        ],
+        "otros": [
+            [
+                "Temperaturas : 0~40°C (32~104°F)"
+            ],
+            [
+                "Peso : 6.3kg"
+            ]
+        ],
+        "precio": 500
     },
     {
         "id": "3",
-        "categoria": "Portable Power Station",
-        "titulo": "Centinela 1200",
-        "tituloTecnico": "",
-        "peso": 11,
-        "medidas": "",
-        "temperaturas": "",
-        "bateriaCapacidad": "",
-        "bateriaDuraion": "",
-        "proteccion": "",
-        "puertosDeSalida": "",
-        "entradaCargaSolar": "",
-        "entradaCargaAuto": "",
-        "entradaCargaAC": "",
-        "precio": 30,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "categoria": "Estación Portátil de Poder",
         "imagen": "voltinela-centinela-1200.jpg",
-        "imagenes": ""
+        "imagenes": [
+            "voltinela-centinela-1200.jpg",
+            "voltinela-centinela-1200-2.jpg",
+            "voltinela-centinela-1200-3.jpg",
+            "voltinela-centinela-1200-4.jpg",
+            "voltinela-centinela-1200-5.jpg"
+        ],
+        "titulo": "Centinela 1200",
+        "tituloTecnico": "Estación Portátil de Poder 1.200W/1.008Wh",
+        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "especificacionesElectricas": [
+            [
+                "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
+            ],
+            [
+                "Ciclo de vida de la batería : 2500 veces, SOH≥70%"
+            ],
+            [
+                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Puertos de salida AC : 110V±10%. 60Hz±5. 1200W. Peak 2400W"
+            ],
+            [
+                "Puertos de salida USB-A1 : 2*5V2.4A AUTO"
+            ],
+            [
+                "Puertos de salida US-A2 : 2*QC18W Max (5V3A&9V2A&12V1.5A QC3.0)"
+            ],
+            [
+                "Puertos de salida USB-C : 2*PD60W Max (5V3A&9V3A&12V3A&15V3A&20V3A PD3.0)"
+            ],
+            [
+                "Salida Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output 13.8V10A (Total 10A Max)"
+            ],
+            [
+                "Puerto de entrada para carga solar : DC12V-60V/10A 400W Max"
+            ],
+            [
+                "Puerto de entrada para auto : 12V-24V/8A Max"
+            ],
+            [
+                "Puerto de entrada para carga AC : AC90-120V 700W Max"
+            ]
+        ],
+        "otros": [
+            [
+                "Temperaturas : 0~40°C (32~104°F)"
+            ],
+            [
+                "Peso : 13kg"
+            ]
+        ],
+        "precio": 500
     },
     {
         "id": "4",
-        "categoria": "Portable Power Station",
-        "titulo": "Centinela 2000",
-        "tituloTecnico": "",
-        "peso": 12,
-        "medidas": "",
-        "temperaturas": "",
-        "bateriaCapacidad": "",
-        "bateriaDuraion": "",
-        "proteccion": "",
-        "puertosDeSalida": "",
-        "entradaCargaSolar": "",
-        "entradaCargaAuto": "",
-        "entradaCargaAC": "",
-        "precio": 1200,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "categoria": "Estación Portátil de Poder",
         "imagen": "voltinela-centinela-2000.jpg",
-        "imagenes": ""
+        "imagenes": [
+            "voltinela-centinela-2000.jpg",
+            "voltinela-centinela-2000-2.jpg",
+            "voltinela-centinela-2000-3.jpg"
+        ],
+        "titulo": "Centinela 2000",
+        "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
+        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "especificacionesElectricas": [
+            [
+                "Capacidad de la bateria : LiFePO 1720Wh±5%(38.4Ah/44.8V)"
+            ],
+            [
+                "Ciclo de vida de la batería : 3000 veces, SOH≥70%"
+            ],
+            [
+                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Puerto 1 : Puerto de conexion derecho"
+            ],
+            [
+                "Puerto 2 : Puerto de conexion izquierdo"
+            ]
+        ],
+        "otros": [
+            [
+                "Temperaturas : 0~40°C (32~104°F)"
+            ],
+            [
+                "Peso : 17.9kg"
+            ]
+        ],
+        "precio": 500
     },
     {
         "id": "5",
-        "categoria": "Portable Power Station",
-        "titulo": "Centinela 2000 Pro Max",
-        "tituloTecnico": "",
-        "peso": 7,
-        "medidas": "",
-        "temperaturas": "",
-        "bateriaCapacidad": "",
-        "bateriaDuraion": "",
-        "proteccion": "",
-        "puertosDeSalida": "",
-        "entradaCargaSolar": "",
-        "entradaCargaAuto": "",
-        "entradaCargaAC": "",
-        "precio": 12,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "categoria": "Estación Portátil de Poder",
         "imagen": "voltinela-centinela-2000-pro-max.jpg",
-        "imagenes": ""
+        "imagenes": [
+            "voltinela-centinela-2000-pro-max.jpg",
+            "voltinela-centinela-2000-pro-max-2.jpg",
+            "voltinela-centinela-2000-pro-max-3.jpg",
+            "voltinela-centinela-2000-pro-max-4.jpg",
+            "voltinela-centinela-2000-pro-max-5.jpg",
+            "voltinela-centinela-2000-pro-max-6.jpg"
+        ],
+        "titulo": "Centinela 2000 Pro Max",
+        "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
+        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "especificacionesElectricas": [
+            [
+                "Capacidad de la bateria : LiFePO 1720Wh±5%(38.44Ah/44.8V)"
+            ],
+            [
+                "Ciclo de vida de la batería : 3000 veces, SOH≥70%"
+            ],
+            [
+                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Puertos de salida AC : 3*120V±10%. 60Hz. 2000W. Peak 4000W"
+            ],
+            [
+                "Puertos de salida AC TT-30R : 1*AC120V/30A Max"
+            ],
+            [
+                "Puertos de salida USB-A1 : QC18W Max (5V2.4A&9V2A&12V1.5A)"
+            ],
+            [
+                "Puertos de salida US-A2 : QC18W Max (5V2.4A&9V2A&12V1.5A)"
+            ],
+            [
+                "Puertos de salida USB-C1 : PD100W Max (5V3A&9V3A&12V3A&15V3A&20V5A)"
+            ],
+            [
+                "Puertos de salida USB-C2 : PD27W Max (5V3A&9V3A&12V2.25A&15V1.8A&20V1.35A)"
+            ],
+            [
+                "Salida Cigarette Lighter : 1*Cigarette Lighter 12.8V/12A Max, 2*DC5521 Rated Output 12.8V5A Max (Total 12A Max)"
+            ],
+            [
+                "Puerto de entrada para carga solar : DC18V-60V/10A 500W Max"
+            ],
+            [
+                "Puerto de entrada para auto : 12V/120W Max, 24V/240W Max"
+            ],
+            [
+                "Puerto de entrada para carga AC : AC100-120V/1400W Max"
+            ]
+        ],
+        "otros": [
+            [
+                "Temperaturas : 0~40°C (32~104°F)"
+            ],
+            [
+                "Peso : 21.5kg"
+            ]
+        ],
+        "precio": 500
     },
     {
         "id": "6",
-        "categoria": "Portable Power Station",
-        "titulo": "Bluetti",
-        "peso": "",
-        "tituloTecnico": "",
-        "medidas": "",
-        "temperaturas": "",
-        "bateriaCapacidad": "",
-        "bateriaDuraion": "",
-        "proteccion": "",
-        "puertosDeSalida": "",
-        "entradaCargaSolar": "",
-        "entradaCargaAuto": "",
-        "entradaCargaAC": "",
-        "precio": 12,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "bluetti.jpg",
-        "imagenes": ""
+        "categoria": "Paneles solares",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "SUNKET SKT525~550M10",
+        "tituloTecnico": "Solar PV Module 182mm 144Cells",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                "Poder maximo : STC 550W / NOCT 416W"
+            ],
+            [
+                "Voltaje de circuito abierto : STC 49.90V / NOCT 46.68V"
+            ],
+            [
+                "Corriente de cortocircuito : STC 14.00A / NOCT 11.17A"
+            ],
+            [
+                "Eficiencia de modulo : 21.3%"
+            ],
+            [
+                "Tolerancia de poder : 0, +4.99W"
+            ],
+            [
+                "Sistema de voltaje maximo : 1500Vdc (IEC / UL)"
+            ],
+            [
+                "Clasificación máxima del fusible : 25A"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Celdas solares : Monocristalino"
+            ],
+            [
+                "Cristal frontal : AR recubierta con 3.2mm de vidrio templado"
+            ],
+            [
+                "Marco : Aleación de aluminio anodizado"
+            ],
+            [
+                "Caja de conexiones : IP68"
+            ],
+            [
+                "Cables de salida : 4,0 mm, 1200 mm (+), 1200 mm (-), longitud, se pueden personalizar."
+            ],
+            [
+                "conexion : Compatible MC4"
+            ],
+            [
+                "Carga mecánica: Lado frontal Máx. 5400Pa, lado trasero Máx. 2400Pa"
+            ]
+        ],
+        "otros": [
+            [
+                "Temperatura de funcionamiento: -40~+85°C"
+            ],
+            [
+                "Peso : 28.6kg"
+            ]
+        ],
+        "precio": 500
     },
     {
         "id": "7",
-        "categoria": "Portable Power Station",
-        "titulo": "APC",
-        "peso": "",
-        "tituloTecnico": "",
-        "medidas": "",
-        "temperaturas": "",
-        "bateriaCapacidad": "",
-        "bateriaDuraion": "",
-        "proteccion": "",
-        "puertosDeSalida": "",
-        "entradaCargaSolar": "",
-        "entradaCargaAuto": "",
-        "entradaCargaAC": "",
-        "precio": 12,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "apc.jpg",
-        "imagenes": ""
-    },
-    {
-        "id": "8",
-        "categoria": "Portable Power Station",
-        "titulo": "ONAP",
-        "peso": "",
-        "tituloTecnico": "",
-        "medidas": "",
-        "temperaturas": "",
-        "bateriaCapacidad": "",
-        "bateriaDuraion": "",
-        "proteccion": "",
-        "puertosDeSalida": "",
-        "entradaCargaSolar": "",
-        "entradaCargaAuto": "",
-        "entradaCargaAC": "",
-        "precio": 12,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        "imagen": "onap.jpg",
-        "imagenes": ""
+        "categoria": "Baterías / Inversores",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "SUNKET LFP 3000 / HV",
+        "tituloTecnico": "Batería 57.6V 50Ah cada bloque",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Puertos de salida AC : 110V±10%. 60Hz±5. Peak 2400W"
+            ]
+        ],
+        "otros": [
+            [
+                "Temperaturas : 0~40°C (32~104°F)"
+            ]
+        ],
+        "precio": 500
     }
 ]
