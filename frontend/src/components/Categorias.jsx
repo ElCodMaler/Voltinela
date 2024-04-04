@@ -10,11 +10,11 @@ function Categorias() {
 
   function handleClick(e) {
     const id = e.target.id;
-    console.log(id);
+    //console.log(id);
     localStorage.setItem('categoria', id);
     navigate('/Voltinela/Productos');
     //console.log(localStorage.getItem('categoria'));
-    window.location.reload();
+    //window.location.reload();
     return false;
   };
 

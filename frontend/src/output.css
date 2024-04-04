@@ -1317,6 +1317,11 @@ input:checked + .toggle-bg {
   margin-bottom: 1.5rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .-mb-px {
   margin-bottom: -1px;
 }
@@ -2211,12 +2216,12 @@ input:checked + .toggle-bg {
   border-top-width: 1px;
 }
 
-.border-t-4 {
-  border-top-width: 4px;
-}
-
 .border-t-0 {
   border-top-width: 0px;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
 }
 
 .border-blue-500 {
@@ -3783,6 +3788,11 @@ section .titulo {
   border-bottom-right-radius: 0;
 }
 
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .flex.flex-col.justify-between.p-4 div h2 .gap-3.bg-gray-100 {
+  background-color: #84cc16;
+  color: white;
+}
+
 @media (max-width: 430px) {
   #descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between.p-4 .flex.flex-col.gap-2 .flex.text-center.flex-wrap {
     flex-direction: column;
@@ -4011,16 +4021,6 @@ section .titulo {
 .hover\:bg-yellow-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(252 233 106 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-lime-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 242 100 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-lime-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(163 230 53 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-br:hover {
@@ -6076,6 +6076,11 @@ section .titulo {
   .lg\:my-8 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .lg\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
   }
 
   .lg\:h-72 {

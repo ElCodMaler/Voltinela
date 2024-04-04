@@ -48,6 +48,7 @@ function Listado(id) {
 
     const handleSelectedProduct = (id) => {
         navigate(`/Voltinela/Descripcion/${id}`);
+        window.location.reload();
     };
 
     useEffect(() => {
