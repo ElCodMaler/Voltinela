@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
-import { Carousel, Tabs, Button } from "flowbite-react"
+import { Carousel, Button } from "flowbite-react"
 import { AiFillTool, AiFillThunderbolt, AiOutlinePoweroff, AiOutlineUsb, AiOutlineArrowLeft, AiOutlineWhatsApp } from 'react-icons/ai'
 import { HiShoppingCart } from "react-icons/hi"
 import datos from '../dataBase/datos.json'
@@ -65,6 +65,10 @@ function Descripcion({ carrito, setCarrito }) {
     console.log(prod.id);
   };
 
+  /*useEffect(() => {
+    renderAccordion();
+  }, []);*/
+
   return (
     <>
         <main id='descripcion'>
@@ -87,7 +91,7 @@ function Descripcion({ carrito, setCarrito }) {
                     <Carousel>
                       {imagenesProducto.map((imagenProducto, index) => (
                         <div key={index}>
-                          <img src={`../../public/${imagenProducto}`} alt={imagenProducto.titulo} />
+                          <img src={imagenProducto} alt={imagenProducto.titulo} />
                         </div>
                       ))}
                     </Carousel>
