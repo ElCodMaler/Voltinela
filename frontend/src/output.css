@@ -1307,6 +1307,11 @@ input:checked + .toggle-bg {
   margin-bottom: 0.5rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -1395,6 +1400,10 @@ input:checked + .toggle-bg {
 
 .ms-2 {
   margin-inline-start: 0.5rem;
+}
+
+.ms-4 {
+  margin-inline-start: 1rem;
 }
 
 .mt-1 {
@@ -1521,6 +1530,10 @@ input:checked + .toggle-bg {
   height: 1.75rem;
 }
 
+.h-72 {
+  height: 18rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -1596,6 +1609,10 @@ input:checked + .toggle-bg {
 
 .w-20 {
   width: 5rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .w-3 {
@@ -2154,6 +2171,11 @@ input:checked + .toggle-bg {
   border-top-right-radius: 0.5rem;
 }
 
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -2192,6 +2214,10 @@ input:checked + .toggle-bg {
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-t-0 {
+  border-top-width: 0px;
 }
 
 .border-t-4 {
@@ -2646,6 +2672,10 @@ input:checked + .toggle-bg {
   background-image: url('respaldo-mesa.jpg');
 }
 
+.bg-\[url\(\'respaldo-montana\.jpg\'\)\] {
+  background-image: url('respaldo-montana.jpg');
+}
+
 .bg-\[url\(\'respaldo-playa\.jpg\'\)\] {
   background-image: url('respaldo-playa.jpg');
 }
@@ -2876,6 +2906,10 @@ input:checked + .toggle-bg {
 
 .p-2\.5 {
   padding: 0.625rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-4 {
@@ -3747,6 +3781,22 @@ section .titulo {
 
 #descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between .flex.flex-col.gap-2 .flex.text-center.flex-wrap .active {
   color: #84cc16;
+}
+
+#descripcion .relative.h-full.w-full .flex.h-full.snap-mandatory {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .flex.flex-col.justify-between.p-4 div h2 .gap-3.bg-gray-100 {
+  background-color: #84cc16;
+  color: white;
+}
+
+@media (max-width: 430px) {
+  #descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between.p-4 .flex.flex-col.gap-2 .flex.text-center.flex-wrap {
+    flex-direction: column;
+  }
 }
 
 @media (min-height: 666px) and (max-width: 500px) {
@@ -5746,6 +5796,10 @@ section .titulo {
     height: 2.25rem;
   }
 
+  .sm\:h-96 {
+    height: 24rem;
+  }
+
   .sm\:w-10 {
     width: 2.5rem;
   }
@@ -5855,6 +5909,10 @@ section .titulo {
 
   .md\:h-48 {
     height: 12rem;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
   }
 
   .md\:h-auto {
@@ -6015,6 +6073,11 @@ section .titulo {
     margin-right: 7rem;
   }
 
+  .lg\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
   .lg\:my-8 {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -6022,6 +6085,10 @@ section .titulo {
 
   .lg\:h-72 {
     height: 18rem;
+  }
+
+  .lg\:h-96 {
+    height: 24rem;
   }
 
   .lg\:grid-cols-2 {
@@ -6079,6 +6146,10 @@ section .titulo {
     height: 24rem;
   }
 
+  .xl\:h-svh {
+    height: 100svh;
+  }
+
   .xl\:py-28 {
     padding-top: 7rem;
     padding-bottom: 7rem;
@@ -6092,6 +6163,10 @@ section .titulo {
 
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
+}
+
+.rtl\:text-right:where([dir="rtl"], [dir="rtl"] *) {
+  text-align: right;
 }
 
 .\[\&\:\:-webkit-scrollbar\]\:\!hidden::-webkit-scrollbar {
