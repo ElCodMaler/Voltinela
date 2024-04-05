@@ -49,7 +49,7 @@ function Descripcion({ carrito, setCarrito }) {
 
   const handleBack = () => {
     navigate('/Voltinela/Productos');
-    //window.location.reload();
+    window.location.reload();
   };
 
   const handleAddCar = () => {
@@ -87,7 +87,7 @@ function Descripcion({ carrito, setCarrito }) {
                     <Carousel>
                       {imagenesProducto.map((imagenProducto, index) => (
                         <div key={index}>
-                          <img src={`../../public/${imagenProducto}`} alt={imagenProducto.titulo} />
+                          <img src={`${imagenProducto}`} alt={imagenProducto.titulo} />
                         </div>
                       ))}
                     </Carousel>

@@ -34,15 +34,15 @@ function Listado(id) {
         if (selectedCategory === '') {
             return productos.map((producto) => (
                 <Card id={producto.id} className="m-2  bg-cover bg-no-repeat bg-center bg-white bg-blend-multiply shadow-xl" key={producto.id} onClick={() => handleSelectedProduct(producto.id)}>
-                    <img src={`../../public/${producto.imagen}`} alt={producto.titulo} />
+                    <img src={`${producto.imagen}`} alt={producto.titulo} />
                 </Card>
-            ))
+            ));
         } else {
             return productos.filter(producto => producto.categoria === selectedCategory).map((producto) => (
                 <Card id={producto.id} className="m-2  bg-cover bg-no-repeat bg-center bg-white bg-blend-multiply shadow-xl" key={producto.id} onClick={() => handleSelectedProduct(producto.id)}>
-                    <img src={`../../public/${producto.imagen}`} alt={producto.titulo} />
+                    <img src={`${producto.imagen}`} alt={producto.titulo} />
                 </Card>
-            ))
+            ));
         };
     };
 

@@ -13,7 +13,7 @@ function SidebarComp({carrito}) {
   const navigate = useNavigate();
 
   const routeIni = () => {
-    navigate('/');
+    navigate('/Voltinela');
     window.location.reload();
   };
   
@@ -59,7 +59,7 @@ function SidebarComp({carrito}) {
     
     return `
         <tr>
-            <td><img src="../../public/${producto.imagen}" alt="${producto.imagen}" class="imgCarrito w-24"/></td>
+            <td><img src="${producto.imagen}" alt="${producto.imagen}" class="imgCarrito w-24"/></td>
             <td>${producto.titulo}</td>
             <td><button class="" onClick=${eliminarProducto(producto.id)}>Eliminar</button></td>
         </tr>
