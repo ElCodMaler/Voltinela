@@ -261,6 +261,17 @@ function Descripcion({ carrito, setCarrito }) {
                           </div>
                         </div>
                       </div>*/}
+                      <div className='flex flex-col justify-center py-5'>
+                        <Button className='focus:ring-0' pill style={{backgroundColor:'#84cc16'}} onClick={handleAddCar}>
+                          <HiShoppingCart className='mr-2 h-7 w-7' />
+                          <p className='text-base'>Añadir al carrito</p>
+                        </Button>
+                        <br />
+                        <Button className='border-2 focus:ring-0' pill style={{color:'#84cc16', borderColor:'#84cc16'}}>
+                          <AiOutlineWhatsApp className='mr-2 h-7 w-7' />
+                          <p className='text-base'>Contactar</p>
+                        </Button>
+                      </div>
                     </div>
 
                   </div>
