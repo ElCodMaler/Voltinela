@@ -8,7 +8,7 @@ function NosotrosCont() {
         <section className='py-5'>
 
             <div className='ms-4 w-fit bg-white/30 rounded-md'>
-                <Link className='flex p-3' to={'/Voltinela'}>
+                <Link className='flex p-3' to={'/Voltinela/'}>
                     <AiOutlineArrowLeft style={{color:'white'}}/>
                 </Link>
             </div>

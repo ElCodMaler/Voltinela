@@ -20,9 +20,8 @@ function Nosotros() {
                   <h2 className="mb-4 text-3xl font-bold tracking-tight leading-none text-white md:text-4xl lg:text-5xl">¿Quienes somos?</h2>
                   <p className='mb-1 text-md font-semibold text-white lg:text-lg sm:px-16 lg:px-48'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi molestias eius ratione quas, obcaecati neque aperiam quaerat at.</p>
                   <div className="flex flex-wrap gap-3 justify-center pt-3">
-                    <Button className='focus:ring-0' pill>Mision</Button>
-                    <Button className='focus:ring-0' pill>Vision</Button>
-                    <Button className='focus:ring-0' pill>Valores</Button>
+                    <Button className='focus:ring-0' pill>Misión</Button>
+                    <Button className='focus:ring-0' pill>Visión</Button>
                   </div>
               </div>
           </div>

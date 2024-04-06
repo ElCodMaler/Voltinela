@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from 'react'
 import { Sidebar } from 'flowbite-react';
 import { HiDuplicate, HiHome } from 'react-icons/hi';
-import { AiFillLinkedin, AiOutlineInstagram, AiOutlineUsergroupAdd, AiOutlineWhatsApp } from 'react-icons/ai'
+import { AiFillLinkedin, AiOutlineInstagram, AiOutlineUsergroupAdd, AiOutlineWhatsApp, AiFillFacebook } from 'react-icons/ai'
+import { FaTiktok } from 'react-icons/fa'
 import { HiShoppingCart } from "react-icons/hi"
 import { Link, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2'
@@ -137,8 +138,14 @@ function SidebarComp({carrito}) {
                     LinkedIn
                   </a>
                 </Sidebar.Item>
-                <Sidebar.Item href="#" icon={AiOutlineInstagram}>
+                <Sidebar.Item href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" icon={AiFillFacebook}>
+                  Facebook
+                </Sidebar.Item>
+                <Sidebar.Item href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" icon={AiOutlineInstagram}>
                   Instagram
+                </Sidebar.Item>
+                <Sidebar.Item href="https://www.tiktok.com/@voltinela" icon={FaTiktok}>
+                  TikTok
                 </Sidebar.Item>
               </Sidebar.ItemGroup>
             </Sidebar.Items>

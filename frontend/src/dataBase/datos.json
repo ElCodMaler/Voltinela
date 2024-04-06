@@ -296,9 +296,9 @@
     {
         "id": "6",
         "categoria": "Paneles solares",
-        "imagen": "",
+        "imagen": "SKT525.jpg",
         "imagenes": [
-            ""
+            "SKT525.jpg"
         ],
         "titulo": "SUNKET SKT525~550M10",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
@@ -362,9 +362,10 @@
     {
         "id": "7",
         "categoria": "Baterías / Inversores",
-        "imagen": "",
+        "imagen": "LFP930k.jpg",
         "imagenes": [
-            ""
+            "LFP930k.jpg",
+            "LFP930k-2.jpg"
         ],
         "titulo": "SUNKET LFP 3000 / HV",
         "tituloTecnico": "Batería 57.6V 50Ah cada bloque",
