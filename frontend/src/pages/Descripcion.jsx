@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { Carousel, Button, Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flowbite-react"
 import { AiFillTool, AiFillThunderbolt, AiOutlinePoweroff, AiOutlineUsb, AiOutlineArrowLeft, AiOutlineWhatsApp } from 'react-icons/ai'
@@ -16,12 +16,6 @@ function Descripcion({ carrito, setCarrito }) {
   const productoSeleccionado = productos.find((p) => p.id === id);
   
   const imagenesProducto = productoSeleccionado.imagenes;
-
-  const renderCarousel = () => {
-    return imagenesProducto.map((imagen, index) => (
-      <img key={index} src={imagen} />
-    ));
-  };
   
   const datosElectricos = productoSeleccionado.especificacionesElectricas;
   
@@ -71,9 +65,9 @@ function Descripcion({ carrito, setCarrito }) {
     console.log(prod.id);
   };
 
-  useEffect(() => {
-    imagenesProducto;
-  });
+  /*useEffect(() => {
+    renderAccordion();
+  }, []);*/
 
   return (
     <>
@@ -95,12 +89,11 @@ function Descripcion({ carrito, setCarrito }) {
                     <div className="h-72 sm:h-96 md:h-80 lg:h-96 xl:h-svh">
 
                       <Carousel>
-                        {renderCarousel()
-                        /*imagenesProducto.map((imagenProducto, index) => (
+                        {imagenesProducto.map((imagenProducto, index) => (
                           <div key={index}>
-                            <img src={imagenProducto} />
+                            <img src={`../../public/${imagenProducto}`} alt={imagenProducto.titulo} />
                           </div>
-                        ))*/}
+                        ))}
                       </Carousel>
 
                     </div>
