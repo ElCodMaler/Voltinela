@@ -1,7 +1,7 @@
 'use client';
 
 import { Footer } from 'flowbite-react';
-import { BsLinkedin, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, BsTiktok } from 'react-icons/bs';
 import React from 'react'
 import { Link } from 'react-router-dom';
 
@@ -13,7 +13,7 @@ function FooterE() {
         <div className="w-full">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div>
-              <Link to={'/Voltinela'}>
+              <Link to={'/Voltinela/'}>
                 <Footer.Brand href="#" src="voltinela-logo.png" alt="Logo" />
               </Link>
             </div>
@@ -21,8 +21,10 @@ function FooterE() {
               <div>
                 <Footer.Title title="Siguenos" />
                 <Footer.LinkGroup col>
-                  <Footer.Link href="https://www.linkedin.com/company/voltela/">LinkedIn</Footer.Link>
-                  <Footer.Link href="#">Instagram</Footer.Link>
+                  <Footer.Link href="https://www.linkedin.com/company/voltinela/">LinkedIn</Footer.Link>
+                  <Footer.Link href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d">Facebook</Footer.Link>
+                  <Footer.Link href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr">Instagram</Footer.Link>
+                  <Footer.Link href="https://www.tiktok.com/@voltinela">TikTok</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
@@ -38,8 +40,10 @@ function FooterE() {
           <div className="w-full sm:flex sm:items-center sm:justify-between">
             <Footer.Copyright href="#" by="Voltinela™" year={2024} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              <Footer.Icon href="https://www.linkedin.com/company/voltela/" icon={BsLinkedin} />
-              <Footer.Icon href="#" icon={BsInstagram} />
+              <Footer.Icon href="https://www.linkedin.com/company/voltinela/" icon={BsLinkedin} />
+              <Footer.Icon href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" icon={BsFacebook} />
+              <Footer.Icon href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" icon={BsInstagram} />
+              <Footer.Icon href="https://www.tiktok.com/@voltinela" icon={BsTiktok} />
               <Footer.Icon href="https://github.com/Erny23" icon={BsGithub} />
             </div>
           </div>
