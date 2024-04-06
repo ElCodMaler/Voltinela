@@ -40,10 +40,8 @@ function Listado(id) {
     };
 
     const handleSelectedProduct = (id) => {
-        const nuevaUrl = `/Voltinela/Descripcion/${id}`;
-        history.pushState({}, "", nuevaUrl);
-        navigate(nuevaUrl);
-        window.location.reload();
+        navigate(`/Voltinela/Descripcion/${id}`);
+        //window.location.reload();
     };
 
     useEffect(() => {
