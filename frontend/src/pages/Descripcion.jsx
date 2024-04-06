@@ -62,7 +62,7 @@ function Descripcion({ carrito, setCarrito }) {
     //setCarrito([...carrito, prod]);
     //localStorage.setItem('carrito', JSON.stringify(carrito));
     //console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
-    console.log(prod.id);
+    //console.log(prod.id);
   };
 
   /*useEffect(() => {
@@ -91,7 +91,7 @@ function Descripcion({ carrito, setCarrito }) {
                     <Carousel>
                       {imagenesProducto.map((imagenProducto, index) => (
                         <div key={index}>
-                          <img src={`../../public/${producto.imagen}`} alt={imagenProducto.titulo} />
+                          <img src={imagenProducto.imagen} alt={imagenProducto.titulo} />
                         </div>
                       ))}
                     </Carousel>
