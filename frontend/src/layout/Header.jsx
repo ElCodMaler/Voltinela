@@ -29,7 +29,7 @@ function Header() {
     <>
         <header className=''>
 
-            <Navbar className={`${visible ? 'block' : 'hidden'} fixed top-0 left-0 right-0 z-30 mx-4 my-4 px-6 py-1 bg-white/30 rounded-full md:mx-24 lg:mx-28 md:my-6`} fluid rounded>
+            <Navbar className={`${visible ? 'bg-white/50' : 'bg-transparent'} fixed top-0 left-0 right-0 z-30 mx-4 my-4 px-6 py-1 rounded-full md:mx-24 lg:mx-28 md:my-6`} fluid rounded>
               <Navbar.Brand href="#">
                 <Link to={'/Voltinela/'}>
                   <img src="voltinela-logo-blanco.png" className="mr-3 h-4 sm:h-6" alt="Logo" />
