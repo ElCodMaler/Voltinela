@@ -1,6 +1,9 @@
 import React from 'react'
 import { Banner } from 'flowbite-react'
-import { AiOutlineWhatsApp, AiFillFacebook, AiOutlineInstagram, AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineWhatsApp, AiFillFacebook, AiOutlineInstagram, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
+import { FaXTwitter } from "react-icons/fa6"
+import { BiLogoGmail } from "react-icons/bi";
+import { SiMercadopago } from 'react-icons/si'
 import { FaTiktok } from 'react-icons/fa'
 
 function Siguenos() {
@@ -15,34 +18,54 @@ function Siguenos() {
                 </h3>
             </div>
             <br />
-            <Banner className='bg-gray-100'>
+            <Banner>
               <div className="container mx-auto px-4 py-2">
 
                 <div className="flex flex-wrap text-gray-500" style={{justifyContent: 'space-evenly'}}>
 
-                  <a className="h-12 w-12 rounded-full bg-lime-400 text-white p-1" href="#" style={{backgroundColor:'#84cc16'}}>
+                  <a className="h-16 w-16 mx-5 my-2 rounded-full bg-lime-400 text-white p-1 shadow-xl md:mx-8 lg:mx-14" href="#" style={{backgroundColor:'#84cc16'}}>
                     <span>
-                      <AiOutlineWhatsApp className="h-10 w-10" />
+                      <AiOutlineWhatsApp className="h-14 w-14" />
                     </span>
                   </a>
-                  <a className="h-12 w-12 rounded-full bg-lime-400 text-white p-1" href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" style={{backgroundColor:'#84cc16'}}>
+                  <a className="h-16 w-16 mx-5 my-2 rounded-full bg-lime-400 text-white p-1 shadow-xl md:mx-8 lg:mx-14" href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" style={{backgroundColor:'#84cc16'}}>
                     <span>
-                      <AiFillFacebook className="h-10 w-10" />
+                      <AiFillFacebook className="h-14 w-14" />
                     </span>
                   </a>
-                  <a className="h-12 w-12 rounded-full bg-lime-400 text-white p-1" href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" style={{backgroundColor:'#84cc16'}}>
+                  <a className="h-16 w-16 mx-5 my-2 rounded-full bg-lime-400 text-white p-1 shadow-xl md:mx-8 lg:mx-14" href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" style={{backgroundColor:'#84cc16'}}>
                     <span >
-                        <AiOutlineInstagram className="h-10 w-10" />
+                        <AiOutlineInstagram className="h-14 w-14" />
                     </span>
                   </a>
-                  <a className="h-12 w-12 rounded-full bg-lime-400 text-white p-1" href="https://www.linkedin.com/company/voltinela/" style={{backgroundColor:'#84cc16'}}>
+                  <a className="h-16 w-16 mx-5 my-2 rounded-full bg-lime-400 text-white p-1 shadow-xl md:mx-8 lg:mx-14" href="#" style={{backgroundColor:'#84cc16'}}>
                     <span>
-                      <AiFillLinkedin className="h-10 w-10" />
+                      <AiFillYoutube className="h-14 w-14" />
                     </span>
                   </a>
-                  <a className="h-12 w-12 rounded-full bg-lime-400 text-white p-1" href="https://www.tiktok.com/@voltinela" style={{backgroundColor:'#84cc16'}}>
+                  <a className="h-16 w-16 mx-5 my-2 rounded-full bg-lime-400 text-white p-1 shadow-xl md:mx-8 lg:mx-14" href="#" style={{backgroundColor:'#84cc16'}}>
                     <span>
-                      <FaTiktok className="h-10 w-10" />
+                      <FaXTwitter className="h-14 w-14" />
+                    </span>
+                  </a>
+                  <a className="h-16 w-16 mx-5 my-2 rounded-full bg-lime-400 text-white p-1 shadow-xl md:mx-8 lg:mx-14" href="https://www.linkedin.com/company/voltinela/" style={{backgroundColor:'#84cc16'}}>
+                    <span>
+                      <AiFillLinkedin className="h-14 w-14" />
+                    </span>
+                  </a>
+                  <a className="h-16 w-16 mx-5 my-2 rounded-full bg-lime-400 text-white p-1 shadow-xl md:mx-8 lg:mx-14" href="#" style={{backgroundColor:'#84cc16'}}>
+                    <span>
+                      <BiLogoGmail className="h-14 w-14" />
+                    </span>
+                  </a>
+                  <a className="h-16 w-16 mx-5 my-2 rounded-full bg-lime-400 text-white p-1 shadow-xl md:mx-8 lg:mx-14" href="#" style={{backgroundColor:'#84cc16'}}>
+                    <span>
+                      <SiMercadopago className="h-14 w-14" />
+                    </span>
+                  </a>
+                  <a className="h-16 w-16 mx-5 my-2 rounded-full bg-lime-400 text-white p-1 shadow-xl md:mx-8 lg:mx-14" href="https://www.tiktok.com/@voltinela" style={{backgroundColor:'#84cc16'}}>
+                    <span>
+                      <FaTiktok className="h-14 w-14" />
                     </span>
                   </a>
 

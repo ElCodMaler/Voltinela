@@ -7,7 +7,7 @@ body {
 }
 
 .shadow-xl {
-    box-shadow: 0px 3px 20px -2px;
+    box-shadow: 0px 3px 20px -2px black;
 }
 
 header .fixed.top-0.left-0.right-0.z-30.container.w-auto {
