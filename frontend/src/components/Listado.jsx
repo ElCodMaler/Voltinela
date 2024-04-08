@@ -17,9 +17,9 @@ function Listado(id) {
 
     const renderTitulo = () => {
         if (selectedCategory === '') {
-            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>Productos</h3>
+            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full lg:text-3xl' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>Productos</h3>
         } else {
-            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>{selectedCategory}</h3>
+            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full lg:text-3xl' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>{selectedCategory}</h3>
         }
     };
 
@@ -50,7 +50,9 @@ function Listado(id) {
 
   return (
     <>
-
+        <br />
+        <br />
+        <br />
         <section className='py-4'>
             <div className='ms-4 w-fit bg-white/30 rounded-md'>
                 <Link className='flex p-3' to={'/Voltinela/'}>

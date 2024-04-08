@@ -3,24 +3,34 @@
 import { Footer } from 'flowbite-react';
 import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, BsTiktok } from 'react-icons/bs';
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function FooterE() {
+
+  const navigate = useNavigate();
+
+  function handleClick(e) {
+    const id = e.target.id;
+    localStorage.setItem('categoria', id);
+    navigate('/Voltinela/Productos');
+    return false;
+  };
+
   return (
     <>
 
       <Footer className='rounded-none' container>
         <div className="w-full">
-          <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-            <div>
+          <div className="grid w-full">
+            <div className='py-0 sm:py-2 md:py-3'>
               <Link to={'/Voltinela/'}>
                 <Footer.Brand href="#" src="voltinela-logo.png" alt="Logo" />
               </Link>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+            <div className="grid grid-cols-2 gap-8 sm:mt-10 sm:grid-cols-3 sm:gap-4 md:grid-cols-6 md:gap-0 lg:gap-10">
               <div>
-                <Footer.Title title="Siguenos" />
-                <Footer.LinkGroup col>
+                <Footer.Title className='lg:text-lg' title="Siguenos" />
+                <Footer.LinkGroup className='lg:text-lg' col>
                   <Footer.Link href="https://www.linkedin.com/company/voltinela/">LinkedIn</Footer.Link>
                   <Footer.Link href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d">Facebook</Footer.Link>
                   <Footer.Link href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr">Instagram</Footer.Link>
@@ -28,8 +38,39 @@ function FooterE() {
                 </Footer.LinkGroup>
               </div>
               <div>
-                <Footer.Title title="Legal" />
-                <Footer.LinkGroup col>
+                <Footer.Title className='lg:text-lg' title="Productos" />
+                <Footer.LinkGroup className='lg:text-lg' col onClick={handleClick}>
+                  <Footer.Link id='Estación Portátil de Poder'>Estación Portatil de Poder</Footer.Link>
+                  <Footer.Link id='Paneles solares'>Paneles Solares</Footer.Link>
+                  <Footer.Link id='Servicios'>Servicios</Footer.Link>
+                  <Footer.Link id='Baterías / Inversores'>Baterías/Inversores</Footer.Link>
+                </Footer.LinkGroup>
+              </div>
+              <div>
+                <Footer.Title className='lg:text-lg' title="Programas" />
+                <Footer.LinkGroup className='lg:text-lg' col>
+                  <Footer.Link to={"/Voltinela/"}>Invita y Gana</Footer.Link>
+                  <Footer.Link to={"/Voltinela/"}>Embajadores</Footer.Link>
+                  <Footer.Link to={"/Voltinela/"}>Instala+</Footer.Link>
+                  <Footer.Link to={"/Voltinela/"}>Carreras</Footer.Link>
+                </Footer.LinkGroup>
+              </div>
+              <div>
+                <Footer.Title className='lg:text-lg' title="Soporte" />
+                <Footer.LinkGroup className='lg:text-lg' col>
+                  <Footer.Link to={"/Voltinela/"}>Soporte</Footer.Link>
+                </Footer.LinkGroup>
+              </div>
+              <div>
+                <Footer.Title className='lg:text-lg' title="Nosotros" />
+                <Footer.LinkGroup className='lg:text-lg' col>
+                  <Footer.Link to={"/Voltinela/Nosotros"}>Visión</Footer.Link>
+                  <Footer.Link to={"/Voltinela/Nosotros"}>Misión</Footer.Link>
+                </Footer.LinkGroup>
+              </div>
+              <div>
+                <Footer.Title className='lg:text-lg' title="Legal" />
+                <Footer.LinkGroup className='lg:text-lg' col>
                   <Footer.Link href="#">Politicas de privacidad</Footer.Link>
                   <Footer.Link href="#">Terminos &amp; Condiciones</Footer.Link>
                 </Footer.LinkGroup>
