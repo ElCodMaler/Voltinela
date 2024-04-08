@@ -23,8 +23,8 @@ function Categorias() {
 
         <section className='flex flex-col items-center w-full pt-5'>
 
-            <div className='titulo container mx-auto w-max shadow-xl'>
-               <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>Categorias</h3>
+            <div className='titulo container mx-auto w-max lg:py-8'>
+               <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full shadow-xl md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>Categorias</h3>
             </div>
 
             <br />

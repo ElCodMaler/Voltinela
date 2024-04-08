@@ -300,7 +300,7 @@
         "imagenes": [
             "SKT525.jpg"
         ],
-        "titulo": "SUNKET SKT525~550M10",
+        "titulo": "Panel solar de 550W",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
         "descripcion": "Lorem",
         "especificacionesElectricas": [
@@ -361,6 +361,60 @@
     },
     {
         "id": "7",
+        "categoria": "Servicios",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Instalación de paneles solares",
+        "tituloTecnico": "Servicios",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                ""
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                ""
+            ]
+        ],
+        "otros": [
+            [
+                ""
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "8",
+        "categoria": "Servicios",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Limpieza de paneles solares",
+        "tituloTecnico": "Servicios",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                ""
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                ""
+            ]
+        ],
+        "otros": [
+            [
+                ""
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "9",
         "categoria": "Baterías / Inversores",
         "imagen": "LFP930k.jpg",
         "imagenes": [
