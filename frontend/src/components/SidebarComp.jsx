@@ -13,7 +13,7 @@ function SidebarComp({carrito}) {
   const navigate = useNavigate();
 
   const routeIni = () => {
-    navigate('/Voltinela');
+    navigate('/Voltinela/');
     window.location.reload();
   };
   

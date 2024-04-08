@@ -22,7 +22,7 @@ function App() {
           <Route path='*' element={<Home />} />
           <Route path='/Voltinela' element={<Home />} />
           <Route path='/Voltinela/Productos' element={<Products />} />
-          <Route path="/Voltinela/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} />} />
+          <Route path="/Voltinela/descripcion/:id" element={<Descripcion />} />
           <Route path='/Voltinela/Nosotros' element={<AboutUs />} />
 
         </Routes>

@@ -7,7 +7,7 @@ import datos from '../dataBase/datos.json'
 
 const productos = Object.keys(datos).map((producto) => datos[producto]);
 
-function Descripcion({ carrito, setCarrito }) {
+function Descripcion() {
 
   const navigate = useNavigate();
 
@@ -16,6 +16,12 @@ function Descripcion({ carrito, setCarrito }) {
   const productoSeleccionado = productos.find((p) => p.id === id);
   
   const imagenesProducto = productoSeleccionado.imagenes;
+
+  const renderCarousel = () => {
+    return imagenesProducto.map((imagen, index) => (
+      <img key={index} src={imagen} alt={imagen}/>
+    ));
+  };
   
   const datosElectricos = productoSeleccionado.especificacionesElectricas;
   
@@ -82,14 +88,10 @@ function Descripcion({ carrito, setCarrito }) {
                 <div className='flex flex-col items-center'>
 
                 <div className="grid grid-cols-1 w-full items-center bg-white rounded-lg shadow md:grid-cols-2 md:w-auto shadow-xl">
-                  <div className="h-72 sm:h-96 md:h-80 lg:h-96 xl:h-svh">
+                  <div className="h-72 sm:h-50 md:h-70 lg:h-96 xl:h-svh">
 
                     <Carousel>
-                      {imagenesProducto.map((imagenProducto, index) => (
-                        <div key={index}>
-                          <img src={`${imagenProducto}`} alt={imagenProducto.titulo} />
-                        </div>
-                      ))}
+                      {renderCarousel()}
                     </Carousel>
 
                   </div>
