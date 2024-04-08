@@ -1,10 +1,10 @@
 import React from 'react'
-import FormularioDetal from '../components/FormularioDetal'
+import DetalTextForm from '../components/DetalTextForm'
 
 const Detal = () => {
   return (
     <>
-      <FormularioDetal />
+      <DetalTextForm />
     </>
   )
 }
