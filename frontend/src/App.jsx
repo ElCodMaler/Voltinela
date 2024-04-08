@@ -9,6 +9,10 @@ import Descripcion from './pages/Descripcion'
 import Carrito from './pages/Carrito'
 import Detal from './pages/Detal'
 import Distribuidor from './pages/Distribuidor'
+import InvitarGanar from './pages/InvitarGanar'
+import Embajadores from './pages/Embajadores'
+import Instala from './pages/Instala'
+import Carreras from './pages/Carreras'
 import AboutUs from './pages/AboutUs'
 import BotonCarrito from './components/BotonCarrito'
 
@@ -31,6 +35,10 @@ function App() {
           <Route path='/Voltinela/Carrito' element={<Carrito />} />
           <Route path='/Voltinela/Detal' element={<Detal />} />
           <Route path='/Voltinela/Distribuidor' element={<Distribuidor />} />
+          <Route path='/Voltinela/InvitaYGana' element={<InvitarGanar />} />
+          <Route path='/Voltinela/Embajadores' element={<Embajadores />} />
+          <Route path='/Voltinela/Instala+' element={<Instala />} />
+          <Route path='/Voltinela/Carreras' element={<Carreras />} />
           <Route path='/Voltinela/Nosotros' element={<AboutUs />} />
 
         </Routes>

@@ -4,7 +4,7 @@ import InvGanCont from '../components/InvGanCont'
 function InvitarGanar() {
   return (
     <>
-      <InvGanCont />
+        <InvGanCont />
     </>
   )
 }

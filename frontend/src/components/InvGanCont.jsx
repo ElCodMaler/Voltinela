@@ -1,26 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
-import FormularioInvGan from './FormularioInvGan'
 
 function InvGanCont() {
   return (
     <>
-        <br />
       <br />
       <br />
       <br />
-      <section id='invita/gana' className='bg-white lg:mt-12'>
-        <br />
-        <div className='ms-4 w-fit rounded-md' style={{backgroundColor:'#84cc16'}}>
+      <section id='invita/gana'>
+        <div className='ms-4 w-fit bg-white/30 rounded-md'>
           <Link className='flex p-3' to={'/Voltinela/'}>
-              <AiOutlineArrowLeft className="lg:size-10" style={{color:'white'}}/>
+              <AiOutlineArrowLeft style={{color:'white'}}/>
           </Link>
         </div>
-        <br />
         <div className='titulo container mx-auto w-max lg:py-10'>
-           <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>Invita y Gana</h3>
+           <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full shadow-xl md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>Invita y Gana</h3>
         </div>
+        <br />
         <div className='bg-white'>
           <div className='container mx-auto px-4 py-5'>
             <h2 className='text-lg font-semibold lg:text-3xl'>¡Transforma tus recomendaciones en beneficios con Voltinela!</h2>
@@ -37,8 +34,6 @@ function InvGanCont() {
               ¿Listo para empezar? Rellena nuestro formulario de inscripción ahora y haz que tus recomendaciones cuenten.
             </p>
             <p className='lg:text-xl'>¡Tu red y tú están a solo un paso de obtener beneficios mutuos!</p>
-            <br />
-            <FormularioInvGan />
             <br />
             <h2 className='text-lg font-semibold lg:text-3xl'>Reglas</h2>
             <br />
