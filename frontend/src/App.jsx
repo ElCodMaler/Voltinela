@@ -15,7 +15,6 @@ import Embajadores from './pages/Embajadores'
 import Instala from './pages/Instala'
 import Carreras from './pages/Carreras'
 import AboutUs from './pages/AboutUs'
-import BotonCarrito from './components/BotonCarrito'
 
 function App() {
 
@@ -43,8 +42,6 @@ function App() {
           <Route path='/Voltinela/Nosotros' element={<AboutUs />} />
 
         </Routes>
-
-        <BotonCarrito />
 
         <FooterE />
 
