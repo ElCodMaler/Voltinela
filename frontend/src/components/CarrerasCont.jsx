@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
+import FormularioCar from './FormularioCar'
 
 function CarrerasCont() {
   return (
@@ -36,7 +37,10 @@ function CarrerasCont() {
                     oportunidades de carrera. Estamos emocionados por conocer el talento que puedes aportar a nuestro equipo.
                 </p>
               </div>
+              <FormularioCar />
+              <br />
             </div>
+            <br />
         </section>
     </>
   )

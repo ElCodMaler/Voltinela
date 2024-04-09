@@ -72,7 +72,9 @@ function Descripcion({ carrito, setCarrito }) {
   return (
     <>
         <main id='descripcion'>
-
+          <br />
+          <br />
+          <br />
             <section className='container mx-auto px-4 py-5'>
 
               <div className='w-fit p-3 bg-white/30 rounded-md'>

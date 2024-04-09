@@ -54,15 +54,15 @@ function Listado(id) {
         <br />
         <br />
         <section className='py-4'>
-            <div className='ms-4 w-fit bg-white/30 rounded-md'>
-                <Link className='flex p-3' to={'/Voltinela/'}>
-                    <AiOutlineArrowLeft style={{color:'white'}}/>
-                </Link>
-            </div>
-            <div className='container mx-auto py-4 w-max'>
-                {renderTitulo()}
-            </div>
             <div className='container mx-auto px-4'>
+                <div className='ms-4 w-fit bg-white/30 rounded-md'>
+                    <Link className='flex p-3' to={'/Voltinela/'}>
+                        <AiOutlineArrowLeft style={{color:'white'}}/>
+                    </Link>
+                </div>
+                <div className='container mx-auto py-4 w-max'>
+                    {renderTitulo()}
+                </div>
                 <div className='flex flex-wrap justify-center grid grid-cols-2'>
                     {renderProductos()}
                 </div>
