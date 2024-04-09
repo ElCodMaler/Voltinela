@@ -22,49 +22,49 @@ function Siguenos() {
             <Banner>
               <div className="container mx-auto px-4 py-2">
 
-                <div className="flex flex-wrap text-gray-500" style={{justifyContent: 'space-evenly'}}>
+                <div className="grid grid-cols-3 text-gray-500" style={{justifyContent: 'space-evenly'}}>
 
-                  <a className="mx-5 my-2 md:mx-8 lg:mx-14" href="#">
+                  <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="#">
                     <Button className='p-0 h-16 w-16 rounded-full text-white shadow-xl focus:ring-0 lg:h-24 lg:w-24' style={{backgroundColor: 'rgb(0, 230, 118)'}}>
                       <AiOutlineWhatsApp className="h-12 w-12 lg:h-20 lg:w-20" />
                     </Button>
                   </a>
-                  <a className="mx-5 my-2 md:mx-8 lg:mx-14" href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d">
+                  <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d">
                     <Button color='blue' className='p-0 h-16 w-16 rounded-full text-white shadow-xl focus:ring-0 lg:h-24 lg:w-24'>
                       <AiFillFacebook className="h-12 w-12 lg:h-20 lg:w-20" />
                     </Button>
                   </a>
-                  <a className="mx-5 my-2 md:mx-8 lg:mx-14" href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr">
+                  <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr">
                     <Button gradientDuoTone='pinkToOrange' className='p-0 h-16 w-16 rounded-full text-white shadow-xl focus:ring-0 lg:h-24 lg:w-24'>
                         <AiOutlineInstagram className="h-12 w-12 lg:h-20 lg:w-20" />
                     </Button>
                   </a>
-                  <a className="mx-5 my-2 md:mx-8 lg:mx-14" href="#">
+                  <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="#">
                     <Button className='p-0 h-16 w-16 rounded-full text-white shadow-xl focus:ring-0 lg:h-24 lg:w-24' style={{backgroundColor: 'rgb(255, 0, 0)'}}>
                       <AiFillYoutube className="h-12 w-12 lg:h-20 lg:w-20" />
                     </Button>
                   </a>
-                  <a className="mx-5 my-2 md:mx-8 lg:mx-14" href="#">
+                  <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="#">
                     <Button className='p-0 h-16 w-16 rounded-full text-white shadow-xl focus:ring-0 lg:h-24 lg:w-24' style={{backgroundColor: 'black'}}>
                       <FaXTwitter className="h-12 w-12 lg:h-20 lg:w-20" />
                     </Button>
                   </a>
-                  <a className="mx-5 my-2 md:mx-8 lg:mx-14" href="https://www.linkedin.com/company/voltinela/">
+                  <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://www.linkedin.com/company/voltinela/">
                     <Button className='p-0 h-16 w-16 rounded-full text-white shadow-xl focus:ring-0 lg:h-24 lg:w-24' style={{backgroundColor: '#0a66c2'}}>
                       <AiFillLinkedin className="h-12 w-12 lg:h-20 lg:w-20" />
                     </Button>
                   </a>
-                  <a className="mx-5 my-2 md:mx-8 lg:mx-14" href="#">
+                  <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="#">
                     <Button className='p-0 h-16 w-16 rounded-full shadow-xl focus:ring-0 lg:h-24 lg:w-24' style={{backgroundColor:'white'}}>
                       <BiLogoGmail className="h-12 w-12 lg:h-20 lg:w-20" color='red' />
                     </Button>
                   </a>
-                  <a className="mx-5 my-2 md:mx-8 lg:mx-14" href="#">
+                  <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="#">
                     <Button className='p-0 h-16 w-16 rounded-full shadow-xl focus:ring-0 lg:h-24 lg:w-24' style={{backgroundColor:'yellow'}}>
                       <SiMercadopago className="h-12 w-12 lg:h-20 lg:w-20" color='black' />
                     </Button>
                   </a>
-                  <a className="mx-5 my-2 md:mx-8 lg:mx-14" href="https://www.tiktok.com/@voltinela">
+                  <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://www.tiktok.com/@voltinela">
                     <Button className='p-0 h-16 w-16 rounded-full shadow-xl focus:ring-0 lg:h-24 lg:w-24' style={{backgroundColor:'white'}}>
                       <FaTiktok className="h-12 w-12 lg:h-20 lg:w-20" color='black' />
                     </Button>
