@@ -10,8 +10,8 @@ body {
     box-shadow: 0px 3px 20px -2px black;
 }
 
-header .fixed.top-0.left-0.right-0.z-30.container.w-auto {
-    background-color: rgb(255 255 255 / 50%);
+header .bgNav {
+    background-color: #84cc1680;
 }
 
 nav.h-full.w-100 .h-full.overflow-y-auto{

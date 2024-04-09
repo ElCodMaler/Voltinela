@@ -1305,6 +1305,11 @@ input:checked + .toggle-bg {
   margin-bottom: 1.5rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .-mb-px {
   margin-bottom: -1px;
 }
@@ -1447,6 +1452,11 @@ input:checked + .toggle-bg {
 
 .hidden {
   display: none;
+}
+
+.size-8 {
+  width: 2rem;
+  height: 2rem;
 }
 
 .h-0 {
@@ -3717,8 +3727,8 @@ body {
   box-shadow: 0px 3px 20px -2px black;
 }
 
-header .fixed.top-0.left-0.right-0.z-30.container.w-auto {
-  background-color: rgb(255 255 255 / 50%);
+header .bgNav {
+  background-color: #84cc1680;
 }
 
 nav.h-full.w-100 .h-full.overflow-y-auto{
@@ -5796,6 +5806,10 @@ section .titulo {
     height: 1.75rem;
   }
 
+  .sm\:h-8 {
+    height: 2rem;
+  }
+
   .sm\:h-9 {
     height: 2.25rem;
   }
@@ -6107,6 +6121,15 @@ section .titulo {
     margin-bottom: 2rem;
   }
 
+  .lg\:size-14 {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .lg\:h-10 {
+    height: 2.5rem;
+  }
+
   .lg\:h-20 {
     height: 5rem;
   }
@@ -6133,6 +6156,11 @@ section .titulo {
 
   .lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:px-12 {
@@ -6183,11 +6211,6 @@ section .titulo {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .lg\:pb-8 {
