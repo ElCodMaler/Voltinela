@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
+import FormularioEmb from './FormularioEmb'
 
 function EmbajadoresCont() {
   return (
@@ -36,6 +37,8 @@ function EmbajadoresCont() {
                     Tu voz puede liderar el cambio hacia un futuro sostenible y, al mismo tiempo, recibir recompensas 
                     significativas.
                 </p>
+                <br />
+                <FormularioEmb />
                 <br />
                 <h2 className='text-lg font-semibold lg:text-3xl'>Reglas</h2>
                 <br />
