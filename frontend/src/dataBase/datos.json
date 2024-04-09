@@ -12,7 +12,7 @@
         ],
         "titulo": "Centinela 300",
         "tituloTecnico": "Estación Portátil de Poder 300W/296Wh",
-        "descripcion": "Estación de energía equipado con salida AC, salida CC, puertos para auto, puertos USB y USB de carga rápida. Compatible con la mayoría de los dispositivos electrónicos.",
+        "descripcion": "Pequeña pero poderosa, la estación de energía portátil Centinela 300 es tu aliado perfecto para cualquier aventura. Equipada con salidas AC y DC, puertos para autos, y USB de carga rápida, es ideal para camping, la playa, y situaciones de emergencia. Mantén tus dispositivos siempre cargados, donde sea que estés.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
@@ -72,7 +72,7 @@
         ],
         "titulo": "Centinela 500",
         "tituloTecnico": "Estación Portátil de Poder 500W/512Wh",
-        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "descripcion": "Robusta y fiable, la estación de energía portátil Centinela 500 asegura que tus dispositivos electrónicos sigan funcionando sin importar dónde te encuentres. Desde drones hasta cafeteras y ventiladores, es la compañera perfecta para tus viajes y emergencias, garantizando energía continua para lo que más necesitas.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 512Wh±5%(20Ah/25.6V)"
@@ -136,7 +136,7 @@
         ],
         "titulo": "Centinela 1200",
         "tituloTecnico": "Estación Portátil de Poder 1.200W/1.008Wh",
-        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "descripcion": "Para necesidades energéticas más exigentes, la estación de energía portátil Centinela 1200 te ofrece la solución. Compatible con una amplia gama de dispositivos electrónicos, desde refrigeradores hasta microondas, es ideal para viajes prolongados, eventos al aire libre, y situaciones de emergencia, asegurando que nunca te quedes sin energía.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
@@ -195,7 +195,7 @@
         ],
         "titulo": "Centinela 2000",
         "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
-        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "descripcion": "Diseñada específicamente para expandir la capacidad del Centinela 2000 Pro Max, la batería portátil Centinela 2000 es el accesorio esencial para quienes necesitan energía extendida en movimiento. Aumenta significativamente tu autonomía energética, asegurando que tus dispositivos electrónicos siempre tengan el soporte que necesitan.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 1720Wh±5%(38.4Ah/44.8V)"
@@ -239,7 +239,7 @@
         ],
         "titulo": "Centinela 2000 Pro Max",
         "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
-        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "descripcion": "La estación de energía portátil Centinela 2000 Pro Max es la elección definitiva para los aventureros y profesionales que requieren lo máximo en rendimiento energético. Compatible con prácticamente cualquier dispositivo electrónico, ofrece la potencia y versatilidad necesarias para mantenerte conectado y operativo en cualquier situación, ya sea en viajes, trabajos en campo o emergencias.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 1720Wh±5%(38.44Ah/44.8V)"
@@ -296,13 +296,13 @@
     {
         "id": "6",
         "categoria": "Paneles solares",
-        "imagen": "",
+        "imagen": "SKT525.jpg",
         "imagenes": [
-            ""
+            "SKT525.jpg"
         ],
-        "titulo": "SUNKET SKT525~550M10",
+        "titulo": "Panel solar de 550W",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
-        "descripcion": "Lorem",
+        "descripcion": "Nuestro Panel Solar de 550W es ideal para quienes buscan una solución eficiente y confiable, asegurando energía constante en su hogar. Más allá de su contribución a un futuro más sostenible, ofrece tranquilidad y autonomía en momentos críticos, manteniendo tu hogar siempre en marcha.",
         "especificacionesElectricas": [
             [
                 "Poder maximo : STC 550W / NOCT 416W"
@@ -361,27 +361,568 @@
     },
     {
         "id": "7",
+        "categoria": "Paneles solares",
+        "imagen": "SKT525.jpg",
+        "imagenes": [
+            "SKT525.jpg"
+        ],
+        "titulo": "Panel solar de 585W",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Maximiza tu capacidad de generación de energía con el Panel Solar de 585W, diseñado para hogares que no solo buscan reducir su huella ambiental, sino también asegurar un suministro energético estable en situaciones inesperadas, garantizando que tu hogar se mantenga activo y autosuficiente.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "8",
+        "categoria": "Servicios",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Instalación de paneles solares",
+        "tituloTecnico": "Servicios",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                ""
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                ""
+            ]
+        ],
+        "otros": [
+            [
+                ""
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "9",
+        "categoria": "Servicios",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Limpieza de paneles solares",
+        "tituloTecnico": "Servicios",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                ""
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                ""
+            ]
+        ],
+        "otros": [
+            [
+                ""
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "10",
+        "categoria": "Baterías / Inversores",
+        "imagen": "LFP930k.jpg",
+        "imagenes": [
+            "LFP930k.jpg",
+            "LFP930k-2.jpg"
+        ],
+        "titulo": "Baterías de Litio 3kWh",
+        "tituloTecnico": "Batería 57.6V 50Ah cada bloque",
+        "descripcion": "Asegura un suministro energético continuo con nuestras Baterías de Litio de 3kWh. Almacenando energía para cuando más la necesitas, estas baterías te ofrecen una solución práctica y económica, brindando paz mental y estabilidad en tu hogar, sin importar las circunstancias.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "11",
         "categoria": "Baterías / Inversores",
         "imagen": "",
         "imagenes": [
             ""
         ],
-        "titulo": "SUNKET LFP 3000 / HV",
-        "tituloTecnico": "Batería 57.6V 50Ah cada bloque",
-        "descripcion": "Lorem",
+        "titulo": "Inversor 6KW",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Optimiza tu energía solar con nuestro Inversor de 6KW, el cual garantiza que tus dispositivos funcionen sin interrupciones, ofreciendo una solución inteligente para un hogar eficiente y preparado para cualquier eventualidad, manteniendo el confort y seguridad de tu familia.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
+                "Lorem : Lorem"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 110V±10%. 60Hz±5. Peak 2400W"
+                "Lorem : Lorem"
             ]
         ],
         "otros": [
             [
-                "Temperaturas : 0~40°C (32~104°F)"
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "12",
+        "categoria": "Baterías / Inversores",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Inversor 9.6KW",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Con nuestro Inversor de 9.6KW, prepara tu hogar para mantener su ritmo de vida sin interrupciones, convirtiendo eficientemente la energía solar en electricidad utilizable. Es la solución perfecta para asegurar una gestión energética robusta y avanzada, lista para cualquier eventualidad.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "13",
+        "categoria": "Paneles solares",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Panel Solar Portátil 100W",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Nuestro Panel Solar Portátil de 100W es compacto y eficaz, ideal para aventuras al aire libre o como respaldo discreto. Ofrece energía renovable al alcance de la mano, garantizando libertad y seguridad en todo momento.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "14",
+        "categoria": "Paneles solares",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Panel Solar Portátil 200W",
+        "tituloTecnico": "Lorem",
+        "descripcion": "El Panel Solar Portátil de 200W, con más capacidad, es perfecto para necesidades energéticas mayores en movimiento. Versátil y eficiente, mantiene tus dispositivos cargados y listos, apoyando un estilo de vida activo y consciente sin aludir a situaciones específicas.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "15",
+        "categoria": "Baterías / Inversores",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Sistema de Respaldo de Energía Compacto",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit incluye 3 baterías de litio de alta capacidad, un Sistema de Gestión de Baterías (BMS) para optimizar su rendimiento y seguridad, y un inversor de 6kW. Ideal para hogares que buscan una solución eficiente para mantener sus dispositivos funcionando de manera continua, garantizando energía confiable sin mencionar directamente situaciones de emergencia.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "16",
+        "categoria": "Baterías / Inversores",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Sistema de Energía Avanzado",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Con 3 baterías de litio, un BMS y un inversor de 9.6kW, este kit es perfecto para quienes necesitan más potencia. Asegura el funcionamiento ininterrumpido de aparatos más exigentes en energía, ofreciendo una solución robusta y fiable para mantener un flujo energético estable, ideal para mantener un alto rendimiento energético en cualquier circunstancia.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "17",
+        "categoria": "Paneles solares",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Solución de Energía Solar Integral",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit combina 3 baterías de litio, un BMS, un inversor de 6kW, y 4 paneles solares de 550W, ofreciendo una solución completa para generar y almacenar energía solar. Perfecto para hogares que buscan maximizar su independencia energética con una instalación solar potente, asegura una gestión eficiente de la energía capturada, optimizando tanto el ahorro como la sostenibilidad.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "18",
+        "categoria": "Paneles solares",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Sistema Solar Completo de Alta Capacidad",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Elevando la apuesta del Kit 3, este conjunto incluye un inversor de 9.6kW para manejar mayores demandas de energía. Con 3 baterías de litio, un BMS y 4 paneles solares de 550W, es la solución definitiva para aquellos que buscan maximizar su producción y almacenamiento de energía solar, asegurando una solución energética de vanguardia para un hogar siempre activo y eficiente.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "19",
+        "categoria": "Paneles solares",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Solución de Energía Solar Integral con Accesorios",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Además de las 3 baterías de litio, el BMS y un inversor de 6kW, este kit se enriquece con 4 paneles solares de 550W y se complementa con una estructura de montaje para 4 paneles, cables solares de 6mm2/10AWG en colores negro y rojo de 100 metros cada uno, conectores MC4 para una configuración de dos ramas, y un Combiner Box capaz de manejar 3 strings de paneles solares a 550V DC, brindando una integración completa para una instalación solar eficiente y segura.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "20",
+        "categoria": "Paneles solares",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Sistema Solar Completo de Alta Capacidad con Accesorios",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit se completa con un inversor de 9.6kW y 4 paneles solares de 550W, e incluye accesorios esenciales para una instalación profesional: estructura de montaje para 4 paneles, cables solares de 6mm2/10AWG en negro y rojo de 100 metros, conectores MC4 y un Combiner Box de 550V DC para 3 strings. Es la opción superior para usuarios que buscan una solución solar de alto rendimiento con todos los componentes necesarios para una gestión energética optimizada.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "21",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Paquete de Respaldo de Alta Capacidad Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Maximiza tu capacidad de almacenamiento de energía con el Centinela 2000 Pro Max, acompañado de dos baterías adicionales Centinela 2000. Este kit proporciona una reserva energética robusta para aquellos que buscan confiabilidad y rendimiento prolongado en sus sistemas de energía portátil.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "22",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Solución de Energía Versátil Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Combina la potencia del Centinela 2000 Pro Max con la flexibilidad de un Panel Solar Portátil de 200W y una batería extra Centinela 2000. Este kit es ideal para mantener tus dispositivos cargados y listos para usar, ofreciendo una solución energética adaptable y portátil.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "23",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Sistema de Energía Compacto Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "El Centinela 1200 se une a un Panel Solar Portátil de 200W para crear un kit que no solo es potente sino también portátil, perfecto para viajeros y aventureros que requieren una fuente de energía confiable para mantener sus dispositivos electrónicos funcionando en cualquier lugar.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "24",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Paquete de Energía para el Viajero Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit presenta el Centinela 500 con un Panel Solar Portátil de 100W, una combinación ideal para excursiones y actividades al aire libre, proporcionando una carga fácil y eficiente para tus dispositivos esenciales mientras exploras.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "25",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit de Energía Solar Portátil Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Ideal para los aventureros conscientes del espacio, este kit incluye el Centinela 300 y un Panel Solar Portátil de 100W, ofreciendo una solución práctica y ligera para mantener tus dispositivos cargados durante tus viajes o como respaldo en situaciones inesperadas.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "26",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Paquete de Suministro Energético Integral Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit es la solución definitiva en energía portátil, con un Centinela 2000 Pro Max y cuatro unidades de Centinela 2000 para un almacenamiento masivo. Se complementa con cuatro Paneles Solares Portátiles de 200W, permitiéndote capturar y almacenar energía sustentable para uso continuo, asegurando que tendrás el poder y la flexibilidad para mantener todos tus dispositivos en funcionamiento, sin importar dónde te encuentres.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "27",
+        "categoria": "",
+        "imagen": "",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Lorem",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
             ]
         ],
         "precio": 500
