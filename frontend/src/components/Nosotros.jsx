@@ -6,6 +6,9 @@ function Nosotros() {
   return (
     <>
       <br />
+      <div className='titulo container mx-auto w-max lg:py-8'>
+         <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full shadow-xl md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>Nosotros</h3>
+      </div>
       <br />
       <Link to={'/Voltinela/Nosotros'}>
         <section id='aboutUs'>
