@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
+import FormularioInvGan from './FormularioInvGan'
 
 function InvGanCont() {
   return (
@@ -34,6 +35,8 @@ function InvGanCont() {
               ¿Listo para empezar? Rellena nuestro formulario de inscripción ahora y haz que tus recomendaciones cuenten.
             </p>
             <p className='lg:text-xl'>¡Tu red y tú están a solo un paso de obtener beneficios mutuos!</p>
+            <br />
+            <FormularioInvGan />
             <br />
             <h2 className='text-lg font-semibold lg:text-3xl'>Reglas</h2>
             <br />

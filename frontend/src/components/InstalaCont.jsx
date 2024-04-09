@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
+import FormularioIns from '../components/FormularioIns'
 
 function InstalaCont() {
   return (
@@ -36,7 +37,10 @@ function InstalaCont() {
                     y únase a la red de profesionales que están moldeando el futuro de la energía renovable.
                 </p>
               </div>
+              <FormularioIns />
+              <br />
             </div>
+            <br />
         </section>
     </>
   )
