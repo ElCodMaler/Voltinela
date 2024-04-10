@@ -14,7 +14,7 @@ const DetalTextForm = () => {
             <br />
             <div className='ms-4 w-fit rounded-md' style={{backgroundColor:'#84cc16'}}>
                 <Link className='flex p-3' to={'/Voltinela/'}>
-                    <AiOutlineArrowLeft style={{color:'white'}}/>
+                    <AiOutlineArrowLeft className="lg:size-10" style={{color:'white'}}/>
                 </Link>
             </div>
             <div className='titulo container mx-auto w-max lg:py-10'>
