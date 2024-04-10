@@ -105,46 +105,42 @@ function SidebarComp({carrito}) {
         <Sidebar className='w-100' aria-label="Sidebar with multi-level dropdown example">
             <Sidebar.Items>
               <Sidebar.ItemGroup>
-                <Sidebar.Item icon={HiHome} onClick={() => routeIni()}>
+                <Sidebar.Item className='lg:text-5xl lg:py-6' icon={HiHome} onClick={() => routeIni()}>
                   Inicio
                 </Sidebar.Item>
-                <Sidebar.Collapse icon={HiDuplicate} label="Categorías">
+                <Sidebar.Collapse className='lg:text-5xl lg:py-6' icon={HiDuplicate} label="Categorías">
                   {categorias.map((categoria) => (
-                    <Sidebar.Item key={categoria.id} onClick={() => handleSelect(categoria)}>
+                    <Sidebar.Item className='lg:text-5xl lg:py-6' key={categoria.id} onClick={() => handleSelect(categoria)}>
                       {categoria}
                     </Sidebar.Item>
                   ))}
-                    <Sidebar.Item onClick={() => allProducts()}>
+                    <Sidebar.Item className='lg:text-5xl lg:py-6' onClick={() => allProducts()}>
                       Todos los Productos
                     </Sidebar.Item>
-                  {/*<Sidebar.Item href="#">Respaldos</Sidebar.Item>
-                  <Sidebar.Item href="#">Paneles solares</Sidebar.Item>
-                  <Sidebar.Item href="#">Categorias 3</Sidebar.Item>
-                  <Sidebar.Item href="#">Categorias 4</Sidebar.Item>*/}
                 </Sidebar.Collapse>
-                <Sidebar.Item href="#" icon={AiOutlineUsergroupAdd} onClick={() => routeNos()}>
+                <Sidebar.Item className='lg:text-5xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd} onClick={() => routeNos()}>
                   Nosotros
                 </Sidebar.Item>
-                <Sidebar.Item href="#" icon={HiShoppingCart} onClick={() => verCarrito()}>
+                <Sidebar.Item className='lg:text-5xl lg:py-6' href="#" icon={HiShoppingCart} onClick={() => verCarrito()}>
                   Ver Carrito
                 </Sidebar.Item>
               </Sidebar.ItemGroup>
-              <Sidebar.ItemGroup>
-                <Sidebar.Item href="#" icon={AiOutlineWhatsApp}>
+              <Sidebar.ItemGroup className='lg:mt-8'>
+                <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiOutlineWhatsApp}>
                   Whatsapp
                 </Sidebar.Item>
-                <Sidebar.Item href="#" icon={AiFillLinkedin}>
+                <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiFillLinkedin}>
                   <a href='https://www.linkedin.com/company/voltela/'>
                     LinkedIn
                   </a>
                 </Sidebar.Item>
-                <Sidebar.Item href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" icon={AiFillFacebook}>
+                <Sidebar.Item className='lg:text-4xl lg:py-6' href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" icon={AiFillFacebook}>
                   Facebook
                 </Sidebar.Item>
-                <Sidebar.Item href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" icon={AiOutlineInstagram}>
+                <Sidebar.Item className='lg:text-4xl lg:py-6' href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" icon={AiOutlineInstagram}>
                   Instagram
                 </Sidebar.Item>
-                <Sidebar.Item href="https://www.tiktok.com/@voltinela" icon={FaTiktok}>
+                <Sidebar.Item className='lg:text-4xl lg:py-6' href="https://www.tiktok.com/@voltinela" icon={FaTiktok}>
                   TikTok
                 </Sidebar.Item>
               </Sidebar.ItemGroup>
