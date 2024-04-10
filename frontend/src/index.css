@@ -22,6 +22,16 @@ nav div div button .flex.items-center.transition-all {
     padding: 0;
 }
 
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li a svg {
+    width: auto;
+    height: auto;
+}
+
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li button svg {
+    width: auto;
+    height: auto;
+}
+
 #drawer-navigation a{
     color: white;
 }
