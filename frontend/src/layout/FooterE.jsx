@@ -58,7 +58,8 @@ function FooterE() {
               <div>
                 <Footer.Title className='lg:text-lg' title="Soporte" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/Voltinela/"}>Soporte</Footer.Link>
+                  <Footer.Link to={"/Voltinela/"}>Preguntas</Footer.Link>
+                  <Footer.Link to={"/Voltinela/"}>Contactos</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
