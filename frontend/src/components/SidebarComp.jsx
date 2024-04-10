@@ -98,35 +98,35 @@ function SidebarComp({carrito, handleClose}) {
             <Sidebar.Items>
               <Sidebar.ItemGroup>
                 <Link to={'/Voltinela/'} onClick={() => handleClose()}>
-                  <Sidebar.Item className='lg:text-5xl lg:py-6' icon={HiHome}>
+                  <Sidebar.Item className='lg:text-4xl lg:py-6' icon={HiHome}>
                     Inicio
                   </Sidebar.Item>
                 </Link>
-                <Sidebar.Collapse className='lg:text-5xl lg:py-6' icon={HiDuplicate} label="Categorías">
+                <Sidebar.Collapse className='lg:text-4xl lg:py-6' icon={HiDuplicate} label="Categorías">
                   {categorias.map((categoria) => (
                     <Link to={'/Voltinela/Productos'}>
-                      <Sidebar.Item className='lg:text-5xl lg:py-6' key={categoria.id} onClick={() => handleSelect(categoria)}>
+                      <Sidebar.Item className='lg:text-4xl lg:py-6' key={categoria.id} onClick={() => handleSelect(categoria)}>
                         {categoria}
                       </Sidebar.Item>
                     </Link>
                   ))}
-                    <Sidebar.Item className='lg:text-5xl lg:py-6' onClick={() => allProducts()}>
+                    <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => allProducts()}>
                       Todos los Productos
                     </Sidebar.Item>
                 </Sidebar.Collapse>
                 <Link to={'/Voltinela/Nosotros'} onClick={() => handleClose()}>
-                  <Sidebar.Item className='lg:text-5xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd}>
+                  <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd}>
                     Nosotros
                   </Sidebar.Item>
                 </Link>
                 <Link to={'/Voltinela/Carrito'} onClick={() => handleClose()}>
-                  <Sidebar.Item className='lg:text-5xl lg:py-6' href="#" icon={HiShoppingCart}>
+                  <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={HiShoppingCart}>
                     Carrito
                   </Sidebar.Item>
                 </Link>
               </Sidebar.ItemGroup>
               <Sidebar.ItemGroup className='lg:mt-8'>
-                <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiOutlineWhatsApp}>
+                <Sidebar.Item className='lg:text-4xl lg:py-6' href="https://wa.me/584127351051" icon={AiOutlineWhatsApp}>
                   Whatsapp
                 </Sidebar.Item>
                 <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiFillLinkedin}>
