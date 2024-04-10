@@ -31,7 +31,7 @@ function App() {
           <Route path='/Voltinela/' element={<Home />} />
           <Route path='/Voltinela/Productos' element={<Products />} />
           <Route path="/Voltinela/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} />} />
-          <Route path='/Voltinela/Carrito' element={<Carrito />} />
+          <Route path='/Voltinela/Carrito' element={<Carrito carrito={carrito} setCarrito={setCarrito} />} />
           <Route path='/Voltinela/Detal' element={<Detal />} />
           <Route path='/Voltinela/Distribuidor' element={<Distribuidor />} />
           <Route path='/Voltinela/InvitaYGana' element={<InvitarGanar />} />
