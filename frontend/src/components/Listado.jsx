@@ -27,7 +27,7 @@ function Listado(id) {
                 <Card id={producto.id} className="m-2  bg-cover bg-no-repeat bg-center bg-white bg-blend-multiply shadow-xl" key={producto.id} onClick={() => handleSelectedProduct(producto.id)}>
                     <img src={producto.imagen} alt={producto.titulo} />
                     <div className="flex flex-col justify-between items-start">
-                        <h5 className="pb-2 text-lg font-bold tracking-tight text-gray-900 lg:text-5xl lg:text-4xl lg:pb-4">{producto.titulo}</h5>
+                        <h5 className="pb-2 text-base font-bold tracking-tight text-gray-900 lg:text-4xl lg:pb-4">{producto.titulo}</h5>
                         <span className="text-lg font-semibold tracking-tight text-gray-900 lg:text-3xl">${producto.precio}</span>
                     </div>
                 </Card>
@@ -37,7 +37,7 @@ function Listado(id) {
                 <Card id={producto.id} className="m-2  bg-cover bg-no-repeat bg-center bg-white bg-blend-multiply shadow-xl" key={producto.id} onClick={() => handleSelectedProduct(producto.id)}>
                     <img src={producto.imagen} alt={producto.titulo} />
                     <div className="flex flex-col justify-between items-start">
-                        <h5 className="pb-2 text-lg font-bold tracking-tight text-gray-900 lg:text-5xl lg:text-4xl lg:pb-4">{producto.titulo}</h5>
+                        <h5 className="pb-2 text-base font-bold tracking-tight text-gray-900 lg:text-4xl lg:pb-4">{producto.titulo}</h5>
                         <span className="text-lg font-semibold tracking-tight text-gray-900 lg:text-3xl">${producto.precio}</span>
                     </div>
                 </Card>
@@ -59,11 +59,11 @@ function Listado(id) {
         <br />
         <br />
         <br />
-        <section className='py-4'>
+        <section className='lg:py-20'>
             <div className='container mx-auto px-4'>
                 <div className='ms-4 w-fit bg-white/30 rounded-md'>
                     <Link className='flex p-3' to={'/Voltinela/'}>
-                        <AiOutlineArrowLeft style={{color:'white'}}/>
+                        <AiOutlineArrowLeft className="lg:size-10" style={{color:'white'}}/>
                     </Link>
                 </div>
                 <div className='container mx-auto py-4 w-max'>

@@ -15,27 +15,27 @@ function SidebarComp({carrito}) {
 
   const routeIni = () => {
     navigate('/');
-    window.location.reload();
+    //window.location.reload();
   };
   
   const handleSelect = (categoria) => {
     localStorage.setItem('categoria', categoria);
     navigate('/Voltinela/Productos');
     //console.log(localStorage.getItem('categoria'));
-    window.location.reload();
+    //window.location.reload();
     return false;
   };
 
   const allProducts = () => {
     localStorage.setItem('categoria', '');
     navigate('/Voltinela/Productos');
-    window.location.reload();
+    //window.location.reload();
     return false;
   };
 
   const routeNos = () => {
     navigate('/Voltinela/Nosotros');
-    window.location.reload();
+    //window.location.reload();
   };
 
   const productos = datos;
@@ -47,7 +47,7 @@ function SidebarComp({carrito}) {
 
   const categorias = [...categoriasList];
 
-  const eliminarProducto = (id) => {
+  /*const eliminarProducto = (id) => {
     const carritoActualizado = carrito.filter((producto) => producto.id !== id);
     localStorage.setItem('carrito', JSON.stringify(carritoActualizado));
     window.location.reload();
@@ -97,7 +97,7 @@ function SidebarComp({carrito}) {
       cancelButtonText: `<i class="fa fa-thumbs-down"></i>`,
       cancelButtonAriaLabel: "Thumbs down"
     });
-  };
+  };*/
 
   return (
     <>
