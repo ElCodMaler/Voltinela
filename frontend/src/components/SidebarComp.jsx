@@ -91,6 +91,7 @@ function SidebarComp({carrito, handleClose}) {
   useEffect(() => {
     
   });
+  
   return (
     <>
         

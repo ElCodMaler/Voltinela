@@ -430,24 +430,24 @@
         "categoria": "Servicios",
         "imagen": "logo-voltinela-stock-verde.jpg",
         "imagenes": [
-            ""
+            "logo-voltinela-stock-verde.jpg"
         ],
         "titulo": "Instalación de paneles solares",
         "tituloTecnico": "Servicios",
         "descripcion": "Lorem",
         "especificacionesElectricas": [
             [
-                ""
+                "Lorem :"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                ""
+                "Lorem :"
             ]
         ],
         "otros": [
             [
-                ""
+                "Lorem :"
             ]
         ],
         "precio": 500
@@ -457,24 +457,24 @@
         "categoria": "Servicios",
         "imagen": "logo-voltinela-stock-verde.jpg",
         "imagenes": [
-            ""
+            "logo-voltinela-stock-verde.jpg"
         ],
         "titulo": "Limpieza de paneles solares",
         "tituloTecnico": "Servicios",
         "descripcion": "Lorem",
         "especificacionesElectricas": [
             [
-                ""
+                "Lorem :"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                ""
+                "Lorem :"
             ]
         ],
         "otros": [
             [
-                ""
+                "Lorem :"
             ]
         ],
         "precio": 500
