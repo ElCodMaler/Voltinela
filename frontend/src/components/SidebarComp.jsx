@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { Sidebar } from 'flowbite-react';
 import { HiDuplicate, HiHome } from 'react-icons/hi';
 import { AiFillLinkedin, AiOutlineInstagram, AiOutlineUsergroupAdd, AiOutlineWhatsApp, AiFillFacebook } from 'react-icons/ai'
@@ -9,33 +9,22 @@ import { Link, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2'
 import datos from '../dataBase/datos.json'
 
-function SidebarComp({carrito}) {
+function SidebarComp({carrito, handleClose}) {
 
   const navigate = useNavigate();
-
-  const routeIni = () => {
-    navigate('/');
-    //window.location.reload();
-  };
   
   const handleSelect = (categoria) => {
     localStorage.setItem('categoria', categoria);
-    navigate('/Voltinela/Productos');
-    //console.log(localStorage.getItem('categoria'));
-    //window.location.reload();
+    //navigate('/Voltinela/Productos');
+    handleClose();
     return false;
   };
 
   const allProducts = () => {
     localStorage.setItem('categoria', '');
-    navigate('/Voltinela/Productos');
-    //window.location.reload();
+    //navigate('/Voltinela/Productos');
+    handleClose();
     return false;
-  };
-
-  const routeNos = () => {
-    navigate('/Voltinela/Nosotros');
-    //window.location.reload();
   };
 
   const productos = datos;
@@ -99,31 +88,42 @@ function SidebarComp({carrito}) {
     });
   };*/
 
+  useEffect(() => {
+    
+  });
   return (
     <>
         
         <Sidebar className='w-100' aria-label="Sidebar with multi-level dropdown example">
             <Sidebar.Items>
               <Sidebar.ItemGroup>
-                <Sidebar.Item className='lg:text-5xl lg:py-6' icon={HiHome} onClick={() => routeIni()}>
-                  Inicio
-                </Sidebar.Item>
+                <Link to={'/Voltinela/'} onClick={() => handleClose()}>
+                  <Sidebar.Item className='lg:text-5xl lg:py-6' icon={HiHome}>
+                    Inicio
+                  </Sidebar.Item>
+                </Link>
                 <Sidebar.Collapse className='lg:text-5xl lg:py-6' icon={HiDuplicate} label="Categorías">
                   {categorias.map((categoria) => (
-                    <Sidebar.Item className='lg:text-5xl lg:py-6' key={categoria.id} onClick={() => handleSelect(categoria)}>
-                      {categoria}
-                    </Sidebar.Item>
+                    <Link to={'/Voltinela/Productos'}>
+                      <Sidebar.Item className='lg:text-5xl lg:py-6' key={categoria.id} onClick={() => handleSelect(categoria)}>
+                        {categoria}
+                      </Sidebar.Item>
+                    </Link>
                   ))}
                     <Sidebar.Item className='lg:text-5xl lg:py-6' onClick={() => allProducts()}>
                       Todos los Productos
                     </Sidebar.Item>
                 </Sidebar.Collapse>
-                <Sidebar.Item className='lg:text-5xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd} onClick={() => routeNos()}>
-                  Nosotros
-                </Sidebar.Item>
-                <Sidebar.Item className='lg:text-5xl lg:py-6' href="#" icon={HiShoppingCart} onClick={() => verCarrito()}>
-                  Ver Carrito
-                </Sidebar.Item>
+                <Link to={'/Voltinela/Nosotros'} onClick={() => handleClose()}>
+                  <Sidebar.Item className='lg:text-5xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd}>
+                    Nosotros
+                  </Sidebar.Item>
+                </Link>
+                <Link to={'/Voltinela/Carrito'} onClick={() => handleClose()}>
+                  <Sidebar.Item className='lg:text-5xl lg:py-6' href="#" icon={HiShoppingCart}>
+                    Carrito
+                  </Sidebar.Item>
+                </Link>
               </Sidebar.ItemGroup>
               <Sidebar.ItemGroup className='lg:mt-8'>
                 <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiOutlineWhatsApp}>
