@@ -21,7 +21,7 @@ function Categorias() {
         </div>
         <br />
         <div className='container mx-auto px-4' id='categorias' onClick={handleClick} style={{width:'-webkit-fill-available'}}>
-          <Card id='Estación Portátil de Poder' className="carta w-full py-12 bg-cover bg-center bg-[url('respaldo-playa.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96">
+          <Card id='Estación Portátil de Poder' className="carta w-full py-12 bg-cover bg-center bg-[url('respaldo-playa.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96" style={`${url('respaldo-playa.jpg')}`}>
             <h5 id='Estación Portátil de Poder' className="text-center text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
               Estación Portátil de Poder
             </h5>
