@@ -16,8 +16,8 @@ function CarruselProductos() {
     const renderImagenesProductos = () => {
         return imagenesProducto.map((imagenProducto, index) => (
             <div key={index}>
-              <img src={imagenProducto} alt={imagenProducto.titulo} />
-              {/*<img src={`../../public/${imagenProducto}`} alt={imagenProducto.titulo} />*/}
+              {/*<img src={imagenProducto} alt={imagenProducto.titulo} />*/}
+              <img src={`../../public/${imagenProducto}`} alt={imagenProducto.titulo} />
             </div>
         ))
     };
