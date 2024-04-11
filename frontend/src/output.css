@@ -2653,40 +2653,20 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\.\.\/\.\.\/public\/paneles-portatiles\.jpg\'\)\] {
-  background-image: url('../../public/paneles-portatiles.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/public\/paneles-solares\.jpg\'\)\] {
-  background-image: url('../../public/paneles-solares.jpg');
-}
-
 .bg-\[url\(\'\.\.\/\.\.\/public\/proyectos-solares\.jpg\'\)\] {
   background-image: url('../../public/proyectos-solares.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-familia\.jpg\'\)\] {
-  background-image: url('../../public/respaldo-familia.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-mesa\.jpg\'\)\] {
-  background-image: url('../../public/respaldo-mesa.jpg');
 }
 
 .bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-montana\.jpg\'\)\] {
   background-image: url('../../public/respaldo-montana.jpg');
 }
 
-.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-playa\.jpg\'\)\] {
-  background-image: url('../../public/respaldo-playa.jpg');
-}
-
 .bg-\[url\(\'\.\.\/\.\.\/public\/respaldo\.jpg\'\)\] {
   background-image: url('../../public/respaldo.jpg');
 }
 
-.bg-\[url\(\'\.\.\/\.\.\/public\/teclado\.jpg\'\)\] {
-  background-image: url('../../public/teclado.jpg');
+.bg-\[url\(\'paneles-portatiles\.jpg\'\)\] {
+  background-image: url('paneles-portatiles.jpg');
 }
 
 .bg-\[url\(\'paneles-solares\.jpg\'\)\] {
@@ -2697,8 +2677,24 @@ input:checked + .toggle-bg {
   background-image: url('proyectos-solares.jpg');
 }
 
+.bg-\[url\(\'respaldo-familia\.jpg\'\)\] {
+  background-image: url('respaldo-familia.jpg');
+}
+
+.bg-\[url\(\'respaldo-mesa\.jpg\'\)\] {
+  background-image: url('respaldo-mesa.jpg');
+}
+
+.bg-\[url\(\'respaldo-playa\.jpg\'\)\] {
+  background-image: url('respaldo-playa.jpg');
+}
+
 .bg-\[url\(\'servicio-tecnico\.jpg\'\)\] {
   background-image: url('servicio-tecnico.jpg');
+}
+
+.bg-\[url\(\'teclado\.jpg\'\)\] {
+  background-image: url('teclado.jpg');
 }
 
 .bg-\[url\(\'vision-mision\.jpg\'\)\] {
@@ -2711,34 +2707,6 @@ input:checked + .toggle-bg {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'respaldo-montana\.jpg\'\)\] {
-  background-image: url('respaldo-montana.jpg');
-}
-
-.bg-\[url\(\'respaldo-mesa\.jpg\'\)\] {
-  background-image: url('respaldo-mesa.jpg');
-}
-
-.bg-\[url\(\'paneles-portatiles\.jpg\'\)\] {
-  background-image: url('paneles-portatiles.jpg');
-}
-
-.bg-\[url\(\'respaldo-familia\.jpg\'\)\] {
-  background-image: url('respaldo-familia.jpg');
-}
-
-.bg-\[url\(\'respaldo-playa\.jpg\'\)\] {
-  background-image: url('respaldo-playa.jpg');
-}
-
-.bg-\[url\(\'teclado\.jpg\'\)\] {
-  background-image: url('teclado.jpg');
-}
-
-.bg-\[url\(\'respaldo\.jpg\'\)\] {
-  background-image: url('respaldo.jpg');
 }
 
 .from-green-400 {
