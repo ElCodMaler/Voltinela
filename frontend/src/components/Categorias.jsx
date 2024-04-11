@@ -9,7 +9,7 @@ function Categorias() {
   function handleClick(e) {
     const id = e.target.id;
     localStorage.setItem('categoria', id);
-    navigate('/Productos');
+    navigate('/Voltinela/Productos');
     return false;
   };
 

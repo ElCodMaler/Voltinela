@@ -13,14 +13,14 @@ function Programas() {
             <br />
             <div className='container mx-auto px-4' style={{width:'-webkit-fill-available'}}>
                 <div className='grid gab-2 grid-cols-2 space-x-3 h-32 md:h-48 lg:h-72 xl:h-96'>
-                    <Link to={'/InvitaYGana'}>
+                    <Link to={'/Voltinela/InvitaYGana'}>
                       <Card className="carta border-0 h-full me-2 bg-no-repeat bg-cover bg-center bg-[url('../../public/respaldo.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
                         <h5 className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
                           Invita y Gana
                         </h5>
                       </Card>
                     </Link>
-                    <Link to={'/Embajadores'}>
+                    <Link to={'/Voltinela/Embajadores'}>
                       <Card className="carta border-0 h-full bg-no-repeat bg-cover bg-center bg-[url('../../public/respaldo.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
                         <h5 className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
                           Embajadores
@@ -30,14 +30,14 @@ function Programas() {
                 </div>
                 <br />
                 <div className='grid gab-2 grid-cols-2 space-x-3 h-32 md:h-48 lg:h-72 xl:h-96'>
-                    <Link to={'/Instala+'}>
+                    <Link to={'/Voltinela/Instala+'}>
                       <Card className="carta border-0 h-full me-2 bg-no-repeat bg-cover bg-center bg-[url('../../public/respaldo.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
                         <h5 className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
                           Instala+
                         </h5>
                       </Card>
                     </Link>
-                    <Link to={'/Carreras'}>
+                    <Link to={'/Voltinela/Carreras'}>
                       <Card className="carta border-0 h-full bg-no-repeat bg-cover bg-center bg-[url('../../public/respaldo.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
                         <h5 className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
                           Carreras
