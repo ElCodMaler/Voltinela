@@ -1,4 +1,3 @@
-import ReactDOM from 'react-dom/client'
 import './App.css'
 import Home from './pages/Home'
 import { useState } from 'react'
