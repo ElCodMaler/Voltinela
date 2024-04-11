@@ -12,7 +12,7 @@
         ],
         "titulo": "Centinela 300",
         "tituloTecnico": "Estación Portátil de Poder 300W/296Wh",
-        "descripcion": "Estación de energía equipado con salida AC, salida CC, puertos para auto, puertos USB y USB de carga rápida. Compatible con la mayoría de los dispositivos electrónicos.",
+        "descripcion": "Pequeña pero poderosa, la estación de energía portátil Centinela 300 es tu aliado perfecto para cualquier aventura. Equipada con salidas AC y DC, puertos para autos, y USB de carga rápida, es ideal para camping, la playa, y situaciones de emergencia. Mantén tus dispositivos siempre cargados, donde sea que estés.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
@@ -72,7 +72,7 @@
         ],
         "titulo": "Centinela 500",
         "tituloTecnico": "Estación Portátil de Poder 500W/512Wh",
-        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "descripcion": "Robusta y fiable, la estación de energía portátil Centinela 500 asegura que tus dispositivos electrónicos sigan funcionando sin importar dónde te encuentres. Desde drones hasta cafeteras y ventiladores, es la compañera perfecta para tus viajes y emergencias, garantizando energía continua para lo que más necesitas.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 512Wh±5%(20Ah/25.6V)"
@@ -136,7 +136,7 @@
         ],
         "titulo": "Centinela 1200",
         "tituloTecnico": "Estación Portátil de Poder 1.200W/1.008Wh",
-        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "descripcion": "Para necesidades energéticas más exigentes, la estación de energía portátil Centinela 1200 te ofrece la solución. Compatible con una amplia gama de dispositivos electrónicos, desde refrigeradores hasta microondas, es ideal para viajes prolongados, eventos al aire libre, y situaciones de emergencia, asegurando que nunca te quedes sin energía.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
@@ -195,7 +195,7 @@
         ],
         "titulo": "Centinela 2000",
         "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
-        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "descripcion": "Diseñada específicamente para expandir la capacidad del Centinela 2000 Pro Max, la batería portátil Centinela 2000 es el accesorio esencial para quienes necesitan energía extendida en movimiento. Aumenta significativamente tu autonomía energética, asegurando que tus dispositivos electrónicos siempre tengan el soporte que necesitan.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 1720Wh±5%(38.4Ah/44.8V)"
@@ -239,7 +239,7 @@
         ],
         "titulo": "Centinela 2000 Pro Max",
         "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
-        "descripcion": "Estación de energía portátil diseñada para mantener sus dispositivos electrónicos tanto durante una emergencia como mientras viajes. Compatible con la mayoría de los dispositivos electrónicos como drones, proyectores, cafeteras, licuadoras, refrigeradores, ventiladores y microondas.",
+        "descripcion": "La estación de energía portátil Centinela 2000 Pro Max es la elección definitiva para los aventureros y profesionales que requieren lo máximo en rendimiento energético. Compatible con prácticamente cualquier dispositivo electrónico, ofrece la potencia y versatilidad necesarias para mantenerte conectado y operativo en cualquier situación, ya sea en viajes, trabajos en campo o emergencias.",
         "especificacionesElectricas": [
             [
                 "Capacidad de la bateria : LiFePO 1720Wh±5%(38.44Ah/44.8V)"
@@ -296,13 +296,13 @@
     {
         "id": "6",
         "categoria": "Paneles solares",
-        "imagen": "",
+        "imagen": "SKT525.jpg",
         "imagenes": [
-            ""
+            "SKT525.jpg"
         ],
-        "titulo": "SUNKET SKT525~550M10",
+        "titulo": "Panel solar de 550W",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
-        "descripcion": "Lorem",
+        "descripcion": "Nuestro Panel Solar de 550W es ideal para quienes buscan una solución eficiente y confiable, asegurando energía constante en su hogar. Más allá de su contribución a un futuro más sostenible, ofrece tranquilidad y autonomía en momentos críticos, manteniendo tu hogar siempre en marcha.",
         "especificacionesElectricas": [
             [
                 "Poder maximo : STC 550W / NOCT 416W"
@@ -361,27 +361,886 @@
     },
     {
         "id": "7",
-        "categoria": "Baterías / Inversores",
-        "imagen": "",
+        "categoria": "Paneles solares",
+        "imagen": "SKT525.jpg",
         "imagenes": [
-            ""
+            "SKT525.jpg"
         ],
-        "titulo": "SUNKET LFP 3000 / HV",
-        "tituloTecnico": "Batería 57.6V 50Ah cada bloque",
-        "descripcion": "Lorem",
+        "titulo": "Panel solar de 585W",
+        "tituloTecnico": "Solar PV Module 182mm 144Cells",
+        "descripcion": "Maximiza tu capacidad de generación de energía con el Panel Solar de 585W, diseñado para hogares que no solo buscan reducir su huella ambiental, sino también asegurar un suministro energético estable en situaciones inesperadas, garantizando que tu hogar se mantenga activo y autosuficiente.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
+                "Poder maximo (Pmax) : STC 585W / NOCT 442W"
+            ],
+            [
+                "Voltaje de circuito abierto (Voc) : STC 52.36V / NOCT 48.98V"
+            ],
+            [
+                "Corriente de cortocircuito (Isc) : STC 14.27A / NOCT 11.38A"
+            ],
+            [
+                "Tolerancia de poder : 0~3%"
+            ],
+            [
+                "Voltaje de poder máximo (Vmp) : 44.21V"
+            ],
+            [
+                "Corriente de poder máximo (Imp) : 13.24A"
+            ],
+            [
+                "Sistema de voltaje maximo : 1500Vdc (IEC / UL)"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 110V±10%. 60Hz±5. Peak 2400W"
+                "Celdas solares : Monocristalino"
+            ],
+            [
+                "Cristal frontal : AR recubierta con 3.2mm de vidrio templado"
+            ],
+            [
+                "Marco : Aleación de aluminio anodizado"
+            ],
+            [
+                "Caja de conexiones : IP68"
+            ],
+            [
+                "Cables de salida : 4,0 mm, 1200 mm (+), 1200 mm (-), longitud, se pueden personalizar."
+            ],
+            [
+                "conexion : Compatible MC4"
+            ],
+            [
+                "Carga mecánica: Lado frontal Máx. 5400Pa, lado trasero Máx. 2400Pa"
             ]
         ],
         "otros": [
             [
-                "Temperaturas : 0~40°C (32~104°F)"
+                "Temperatura de funcionamiento: -40~+85°C"
+            ],
+            [
+                "Peso : 28.6kg"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "8",
+        "categoria": "Servicios",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            "logo-voltinela-stock-verde.jpg"
+        ],
+        "titulo": "Instalación de paneles solares",
+        "tituloTecnico": "Servicios",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "9",
+        "categoria": "Servicios",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            "logo-voltinela-stock-verde.jpg"
+        ],
+        "titulo": "Limpieza de paneles solares",
+        "tituloTecnico": "Servicios",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "10",
+        "categoria": "Baterías / Inversores",
+        "imagen": "LFP930k.jpg",
+        "imagenes": [
+            "LFP930k.jpg",
+            "LFP930k-2.jpg"
+        ],
+        "titulo": "Baterías de Litio 3kWh",
+        "tituloTecnico": "Batería 57.6V 50Ah cada bloque",
+        "descripcion": "Asegura un suministro energético continuo con nuestras Baterías de Litio de 3kWh. Almacenando energía para cuando más la necesitas, estas baterías te ofrecen una solución práctica y económica, brindando paz mental y estabilidad en tu hogar, sin importar las circunstancias.",
+        "especificacionesElectricas": [
+            [
+                "Módulo de batería : LFP 3000 / HV - 57.6V 50Ah"
+            ],
+            [
+                "Módulos :"
+            ],
+            [
+                "3 módulos : Tipo - LFP 9kWh/HV, Energía utilizable - 8.64kWh, Voltaje nominal - 172.8V, Voltaje opeativo 135/197.1V"
+            ],
+            [
+                "4 módulos : Tipo - LFP 12kWh/HV, Energía utilizable - 11.52kWh, Voltaje nominal - 230.4V, Voltaje opeativo 180/262.8V"
+            ],
+            [
+                "5 módulos : Tipo - LFP 15kWh/HV, Energía utilizable - 14.40kWh, Voltaje nominal - 288V, Voltaje opeativo 225/328.5V"
+            ],
+            [
+                "6 módulos : Tipo - LFP 18kWh/HV, Energía utilizable - 17.28kWh, Voltaje nominal - 345.6V, Voltaje opeativo 270/394.2V"
+            ],
+            [
+                "7 módulos : Tipo - LFP 21kWh/HV, Energía utilizable - 20.16kWh, Voltaje nominal - 403.2V, Voltaje opeativo 315/459.9V"
+            ],
+            [
+                "8 módulos : Tipo - LFP 24kWh/HV, Energía utilizable - 23.04kWh, Voltaje nominal - 460.6V, Voltaje opeativo 360/525.6V"
+            ],
+            [
+                "9 módulos : Tipo - LFP 27kWh/HV, Energía utilizable - 25.92kWh, Voltaje nominal - 518.4V, Voltaje opeativo 405/591.3V"
+            ],
+            [
+                "10 módulos : Tipo - LFP 30kWh/HV, Energía utilizable - 28.80kWh, Voltaje nominal - 576V, Voltaje opeativo 450/657V"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Número de módulos : De 3 und a 10 und"
+            ],
+            [
+                "Protección de la batería : Sobrecorriente / Sobretensión / Cortocircuito / Subtensión"
+            ],
+            [
+                "Clasificación del IP : IP 54"
+            ],
+            [
+                "Modo de protección : Triple protección de hardware"
+            ],
+            [
+                "DOD máximo recomendado : 90%"
+            ],
+            [
+                "Seguridad : CE, UN38.3, IEC62619, IEC63056"
+            ]
+        ],
+        "otros": [
+            [
+                "Peso : Entre 102kg a 305kg (Según la cantidad de los módulos)"
+            ],
+            [
+                "Carga operativa : 0~55°C"
+            ],
+            [
+                "Descarga operativa : -20~55°C"
+            ],
+            [
+                "Tipo de enfriamiento : Natural"
+            ],
+            [
+                "Humedad : 0~95% (Sin agua condensada)"
+            ],
+            [
+                "Comunicación : CAN/WIFI"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "11",
+        "categoria": "Baterías / Inversores",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Inversor 6KW",
+        "tituloTecnico": "Afore AF6K-DH",
+        "descripcion": "Optimiza tu energía solar con nuestro Inversor de 6KW, el cual garantiza que tus dispositivos funcionen sin interrupciones, ofreciendo una solución inteligente para un hogar eficiente y preparado para cualquier eventualidad, manteniendo el confort y seguridad de tu familia.",
+        "especificacionesElectricas": [
+            [
+                "Potencia máxima de carga/descarga (kW) : 9.0/9.0"
+            ],
+            [
+                "Corriente máxima de carga/descarga (A) : 50"
+            ],
+            [
+                "Tensión normal de la batería (V) : 230"
+            ],
+            [
+                "Potencia de entrada máxima : 9.0"
+            ],
+            [
+                "Corriente de entrada máxima (A) : 15.5 x 2"
+            ],
+            [
+                "Corriente corta máxima (A) : 26.0 x 2"
+            ],
+            [
+                "Máx. Poder continuo (kVA) : 6.0"
+            ],
+            [
+                "Máx. corriente continua (A) : 29.0"
+            ],
+            [
+                "Tensión nominal de red (V) : 211 a 264 @ 240 / 183 a 229 @ 208"
+            ],
+            [
+                "Frecuencia nominal de red (Hz) : 60"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Factor de potencia de salida : 1 predeterminado (ajustable de 0,8 inicial a 0,8 retardado)"
+            ],
+            [
+                "Protección de polaridad : Inversa fotovoltaica"
+            ],
+            [
+                "Protección de batería : Polaridad inversa"
+            ],
+            [
+                "Protección contra : Sobrecorriente/Voltaje"
+            ],
+            [
+                "Protección : Anti-isla"
+            ],
+            [
+                "Protección contra cortocircuitos : AC"
+            ],
+            [
+                "Detección : Corriente residual"
+            ],
+            [
+                "Monitoreo : Falla a tierra"
+            ],
+            [
+                "Detección : Resistencia de aislamiento"
+            ],
+            [
+                "Detección : Arco fotovoltaico"
+            ],
+            [
+                "Sistema : Apagado rápido"
+            ],
+            [
+                "Grado de protección : IP65/NEMA4X"
+            ]
+        ],
+        "otros": [
+            [
+                "Dimensiones : 400 x 600 mm / 15.7 x 23.6 x9.0 in"
+            ],
+            [
+                "Peso : 25kg / 55lbs"
+            ],
+            [
+                "Enfriamiento : Convección natural"
+            ],
+            [
+                "Rango de temperatura operativa : -25°C a 60°C / -77°F a 140°F"
+            ],
+            [
+                "Altitud operativa : < 4000 m / < 13123 ft"
+            ],
+            [
+                "Emisión de ruidos (dB) : < 25"
+            ],
+            [
+                "Consumo en espera (W) : < 10"
+            ],
+            [
+                "Certificaciones y Aprobaciones : UL 1741 SA, UL 1741, UL1699B, UL 1998, IEEE1547A, IEEE1547.1, CSA 22.2 No.107, Rule21, HECO Rule 14."
+            ],
+            [
+                "EMC : FCC part15 CLASS B"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "12",
+        "categoria": "Baterías / Inversores",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Inversor 9.6KW",
+        "tituloTecnico": "Afore AF9.6K-DH",
+        "descripcion": "Con nuestro Inversor de 9.6KW, prepara tu hogar para mantener su ritmo de vida sin interrupciones, convirtiendo eficientemente la energía solar en electricidad utilizable. Es la solución perfecta para asegurar una gestión energética robusta y avanzada, lista para cualquier eventualidad.",
+        "especificacionesElectricas": [
+            [
+                "Potencia máxima de carga/descarga (kW) : 11.5/10.3"
+            ],
+            [
+                "Corriente máxima de carga/descarga (A) : 50"
+            ],
+            [
+                "Tensión normal de la batería (V) : 230"
+            ],
+            [
+                "Potencia de entrada máxima : 15.0"
+            ],
+            [
+                "Corriente de entrada máxima (A) : 15.5 x 3"
+            ],
+            [
+                "Corriente corta máxima (A) : 26.0 x 3"
+            ],
+            [
+                "Máx. Poder continuo (kVA) : 9.6"
+            ],
+            [
+                "Máx. corriente continua (A) : 46.5"
+            ],
+            [
+                "Tensión nominal de red (V) : 211 a 264 @ 240 / 183 a 229 @ 208"
+            ],
+            [
+                "Frecuencia nominal de red (Hz) : 60"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Factor de potencia de salida : 1 predeterminado (ajustable de 0,8 inicial a 0,8 retardado)"
+            ],
+            [
+                "Protección de polaridad : Inversa fotovoltaica"
+            ],
+            [
+                "Protección de batería : Polaridad inversa"
+            ],
+            [
+                "Protección contra : Sobrecorriente/Voltaje"
+            ],
+            [
+                "Protección : Anti-isla"
+            ],
+            [
+                "Protección contra cortocircuitos : AC"
+            ],
+            [
+                "Detección : Corriente residual"
+            ],
+            [
+                "Monitoreo : Falla a tierra"
+            ],
+            [
+                "Detección : Resistencia de aislamiento"
+            ],
+            [
+                "Detección : Arco fotovoltaico"
+            ],
+            [
+                "Sistema : Apagado rápido"
+            ],
+            [
+                "Grado de protección : IP65/NEMA4X"
+            ]
+        ],
+        "otros": [
+            [
+                "Dimensiones : 400 x 600 mm / 15.7 x 23.6 x9.0 in"
+            ],
+            [
+                "Peso : 25kg / 55lbs"
+            ],
+            [
+                "Enfriamiento : Vetiladores inteligentes"
+            ],
+            [
+                "Rango de temperatura operativa : -25°C a 60°C / -77°F a 140°F"
+            ],
+            [
+                "Altitud operativa : < 4000 m / < 13123 ft"
+            ],
+            [
+                "Emisión de ruidos (dB) : < 40"
+            ],
+            [
+                "Consumo en espera (W) : < 10"
+            ],
+            [
+                "Certificaciones y Aprobaciones : UL 1741 SA, UL 1741, UL1699B, UL 1998, IEEE1547A, IEEE1547.1, CSA 22.2 No.107, Rule21, HECO Rule 14."
+            ],
+            [
+                "EMC : FCC part15 CLASS B"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "13",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Panel Solar Portátil 100W",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Nuestro Panel Solar Portátil de 100W es compacto y eficaz, ideal para aventuras al aire libre o como respaldo discreto. Ofrece energía renovable al alcance de la mano, garantizando libertad y seguridad en todo momento.",
+        "especificacionesElectricas": [
+            [
+                "Poder máximo : 100W"
+            ],
+            [
+                "Eficiencia de conversion celular : 23%"
+            ],
+            [
+                "Votje de funcionamiento óptimo (Vmp) : 18V"
+            ],
+            [
+                "Corriente de funcionamiento óptima (Imp) : 5.6A"
+            ],
+            [
+                "Voltaje de circuito abierto (Voc) : 23.4V"
+            ],
+            [
+                "Corriente de cortocircuito (Isc) : 6.27A"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Conector de salida : DC 5.5 x 2.1mm"
+            ]
+        ],
+        "otros": [
+            [
+                "Dimensiones (desplegada) : 1230 x 560 mm"
+            ],
+            [
+                "Dimensiones (plegada) : 615 x 560 x 35 mm"
+            ],
+            [
+                "Número plegable : 2"
+            ],
+            [
+                "Temperatura : -40°C ± 85°C"
+            ],
+            [
+                "Peso : 3.5kg / 7.9lb"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "14",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Panel Solar Portátil 200W",
+        "tituloTecnico": "Lorem",
+        "descripcion": "El Panel Solar Portátil de 200W, con más capacidad, es perfecto para necesidades energéticas mayores en movimiento. Versátil y eficiente, mantiene tus dispositivos cargados y listos, apoyando un estilo de vida activo y consciente sin aludir a situaciones específicas.",
+        "especificacionesElectricas": [
+            [
+                "Poder máximo : 200W"
+            ],
+            [
+                "Eficiencia de conversion celular : 23%"
+            ],
+            [
+                "Votje de funcionamiento óptimo (Vmp) : 18V"
+            ],
+            [
+                "Corriente de funcionamiento óptima (Imp) : 11A"
+            ],
+            [
+                "Voltaje de circuito abierto (Voc) : 23.4V"
+            ],
+            [
+                "Corriente de cortocircuito (Isc) : 12.34A"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Conector de salida : M20 / XT60 / Anderson connectors"
+            ]
+        ],
+        "otros": [
+            [
+                "Dimensiones (desplegada) : 2390 x 564 mm"
+            ],
+            [
+                "Dimensiones (plegada) : 635 x 564 x 50 mm"
+            ],
+            [
+                "Número plegable : 4"
+            ],
+            [
+                "Temperatura : -40°C ± 85°C"
+            ],
+            [
+                "Peso : 6.62kg / 14.6lb"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "15",
+        "categoria": "Baterías / Inversores",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 1: Sistema de Respaldo de Energía Compacto",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit incluye 3 baterías de litio de alta capacidad, un Sistema de Gestión de Baterías (BMS) para optimizar su rendimiento y seguridad, y un inversor de 6kW. Ideal para hogares que buscan una solución eficiente para mantener sus dispositivos funcionando de manera continua, garantizando energía confiable sin mencionar directamente situaciones de emergencia.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "16",
+        "categoria": "Baterías / Inversores",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 2: Sistema de Energía Avanzado",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Con 3 baterías de litio, un BMS y un inversor de 9.6kW, este kit es perfecto para quienes necesitan más potencia. Asegura el funcionamiento ininterrumpido de aparatos más exigentes en energía, ofreciendo una solución robusta y fiable para mantener un flujo energético estable, ideal para mantener un alto rendimiento energético en cualquier circunstancia.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "17",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 3: Solución de Energía Solar Integral",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit combina 3 baterías de litio, un BMS, un inversor de 6kW, y 4 paneles solares de 550W, ofreciendo una solución completa para generar y almacenar energía solar. Perfecto para hogares que buscan maximizar su independencia energética con una instalación solar potente, asegura una gestión eficiente de la energía capturada, optimizando tanto el ahorro como la sostenibilidad.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "18",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 4: Sistema Solar Completo de Alta Capacidad",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Elevando la apuesta del Kit 3, este conjunto incluye un inversor de 9.6kW para manejar mayores demandas de energía. Con 3 baterías de litio, un BMS y 4 paneles solares de 550W, es la solución definitiva para aquellos que buscan maximizar su producción y almacenamiento de energía solar, asegurando una solución energética de vanguardia para un hogar siempre activo y eficiente.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "19",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Solución de Energía Solar Integral con Accesorios",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Además de las 3 baterías de litio, el BMS y un inversor de 6kW, este kit se enriquece con 4 paneles solares de 550W y se complementa con una estructura de montaje para 4 paneles, cables solares de 6mm2/10AWG en colores negro y rojo de 100 metros cada uno, conectores MC4 para una configuración de dos ramas, y un Combiner Box capaz de manejar 3 strings de paneles solares a 550V DC, brindando una integración completa para una instalación solar eficiente y segura.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "20",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Sistema Solar Completo de Alta Capacidad con Accesorios",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit se completa con un inversor de 9.6kW y 4 paneles solares de 550W, e incluye accesorios esenciales para una instalación profesional: estructura de montaje para 4 paneles, cables solares de 6mm2/10AWG en negro y rojo de 100 metros, conectores MC4 y un Combiner Box de 550V DC para 3 strings. Es la opción superior para usuarios que buscan una solución solar de alto rendimiento con todos los componentes necesarios para una gestión energética optimizada.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "21",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 5: Paquete de Respaldo de Alta Capacidad Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Maximiza tu capacidad de almacenamiento de energía con el Centinela 2000 Pro Max, acompañado de dos baterías adicionales Centinela 2000. Este kit proporciona una reserva energética robusta para aquellos que buscan confiabilidad y rendimiento prolongado en sus sistemas de energía portátil.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "22",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 6: Solución de Energía Versátil Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Combina la potencia del Centinela 2000 Pro Max con la flexibilidad de un Panel Solar Portátil de 200W y una batería extra Centinela 2000. Este kit es ideal para mantener tus dispositivos cargados y listos para usar, ofreciendo una solución energética adaptable y portátil.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "23",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 7: Sistema de Energía Compacto Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "El Centinela 1200 se une a un Panel Solar Portátil de 200W para crear un kit que no solo es potente sino también portátil, perfecto para viajeros y aventureros que requieren una fuente de energía confiable para mantener sus dispositivos electrónicos funcionando en cualquier lugar.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "24",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 8: Paquete de Energía para el Viajero Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit presenta el Centinela 500 con un Panel Solar Portátil de 100W, una combinación ideal para excursiones y actividades al aire libre, proporcionando una carga fácil y eficiente para tus dispositivos esenciales mientras exploras.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "25",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 9: Energía Solar Portátil Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Ideal para los aventureros conscientes del espacio, este kit incluye el Centinela 300 y un Panel Solar Portátil de 100W, ofreciendo una solución práctica y ligera para mantener tus dispositivos cargados durante tus viajes o como respaldo en situaciones inesperadas.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "26",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 10: Paquete de Suministro Energético Integral Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit es la solución definitiva en energía portátil, con un Centinela 2000 Pro Max y cuatro unidades de Centinela 2000 para un almacenamiento masivo. Se complementa con cuatro Paneles Solares Portátiles de 200W, permitiéndote capturar y almacenar energía sustentable para uso continuo, asegurando que tendrás el poder y la flexibilidad para mantener todos tus dispositivos en funcionamiento, sin importar dónde te encuentres.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "27",
+        "categoria": "",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Lorem",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Lorem",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
             ]
         ],
         "precio": 500

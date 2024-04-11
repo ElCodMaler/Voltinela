@@ -1295,6 +1295,16 @@ input:checked + .toggle-bg {
   margin-bottom: 1.5rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .-mb-px {
   margin-bottom: -1px;
 }
@@ -1439,6 +1449,11 @@ input:checked + .toggle-bg {
   display: none;
 }
 
+.size-8 {
+  width: 2rem;
+  height: 2rem;
+}
+
 .h-0 {
   height: 0px;
 }
@@ -1540,6 +1555,18 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .max-h-\[90dvh\] {
   max-height: 90dvh;
 }
@@ -1578,10 +1605,6 @@ input:checked + .toggle-bg {
 
 .w-20 {
   width: 5rem;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .w-3 {
@@ -1875,6 +1898,10 @@ input:checked + .toggle-bg {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -2140,11 +2167,6 @@ input:checked + .toggle-bg {
   border-top-right-radius: 0.5rem;
 }
 
-.rounded-t-xl {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-}
-
 .border {
   border-width: 1px;
 }
@@ -2183,10 +2205,6 @@ input:checked + .toggle-bg {
 
 .border-t {
   border-top-width: 1px;
-}
-
-.border-t-0 {
-  border-top-width: 0px;
 }
 
 .border-t-4 {
@@ -2669,6 +2687,42 @@ input:checked + .toggle-bg {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-mesa\.jpg\'\)\] {
+  background-image: url('../../public/respaldo-mesa.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/paneles-portatiles\.jpg\'\)\] {
+  background-image: url('../../public/paneles-portatiles.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/paneles-solares\.jpg\'\)\] {
+  background-image: url('../../public/paneles-solares.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-familia\.jpg\'\)\] {
+  background-image: url('../../public/respaldo-familia.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-playa\.jpg\'\)\] {
+  background-image: url('../../public/respaldo-playa.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-montana\.jpg\'\)\] {
+  background-image: url('../../public/respaldo-montana.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/proyectos-solares\.jpg\'\)\] {
+  background-image: url('../../public/proyectos-solares.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo\.jpg\'\)\] {
+  background-image: url('../../public/respaldo.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/teclado\.jpg\'\)\] {
+  background-image: url('../../public/teclado.jpg');
+}
+
 .from-green-400 {
   --tw-gradient-from: #31C48D var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(49 196 141 / 0) var(--tw-gradient-to-position);
@@ -2893,6 +2947,10 @@ input:checked + .toggle-bg {
   padding: 1.5rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -2981,6 +3039,16 @@ input:checked + .toggle-bg {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-28 {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pb-2 {
@@ -3675,11 +3743,11 @@ body {
 }
 
 .shadow-xl {
-  box-shadow: 0px 3px 20px -2px;
+  box-shadow: 0px 3px 20px -2px black;
 }
 
-header .fixed.top-0.left-0.right-0.z-30.container.w-auto {
-  background-color: rgb(255 255 255 / 50%);
+header .bgNav {
+  background-color: #84cc1680;
 }
 
 nav.h-full.w-100 .h-full.overflow-y-auto{
@@ -3688,6 +3756,16 @@ nav.h-full.w-100 .h-full.overflow-y-auto{
 
 nav div div button .flex.items-center.transition-all {
   padding: 0;
+}
+
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li a svg {
+  width: auto;
+  height: auto;
+}
+
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li button svg {
+  width: auto;
+  height: auto;
 }
 
 #drawer-navigation a{
@@ -3740,26 +3818,26 @@ section .titulo {
   background-color: #84cc16;
 }
 
-#descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between .flex.flex-col.gap-2 .flex.text-center.flex-wrap button {
-  --tw-ring-opacity: 0;
-}
-
-#descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between .flex.flex-col.gap-2 .flex.text-center.flex-wrap .active svg {
-  color: #84cc16;
-}
-
-#descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between .flex.flex-col.gap-2 .flex.text-center.flex-wrap .active {
-  color: #84cc16;
-}
-
 #descripcion .relative.h-full.w-full .flex.h-full.snap-mandatory {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 
-#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .flex.flex-col.justify-between.p-4 div h2 .gap-3.bg-gray-100 {
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 .flex.w-full.items-center.justify-between.text-gray-900.bg-gray-100 {
   background-color: #84cc16;
   color: white;
+}
+
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 .flex.w-full.items-center.justify-between {
+  background-color: white;
+}
+
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 button:focus {
+  --tw-ring-opacity: 0;
+}
+
+#carritoCont .cartaCarrito {
+  max-width: 100%;
 }
 
 @media (max-width: 430px) {
@@ -5741,8 +5819,8 @@ section .titulo {
     margin-top: 0px;
   }
 
-  .sm\:mt-4 {
-    margin-top: 1rem;
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .sm\:flex {
@@ -5759,6 +5837,10 @@ section .titulo {
 
   .sm\:h-7 {
     height: 1.75rem;
+  }
+
+  .sm\:h-8 {
+    height: 2rem;
   }
 
   .sm\:h-9 {
@@ -5797,8 +5879,8 @@ section .titulo {
     justify-content: space-between;
   }
 
-  .sm\:gap-6 {
-    gap: 1.5rem;
+  .sm\:gap-4 {
+    gap: 1rem;
   }
 
   .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -5815,6 +5897,11 @@ section .titulo {
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sm\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .sm\:pr-8 {
@@ -5841,14 +5928,14 @@ section .titulo {
     inset: 0px;
   }
 
+  .md\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .md\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-  }
-
-  .md\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
   }
 
   .md\:my-3 {
@@ -5859,6 +5946,11 @@ section .titulo {
   .md\:my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+  }
+
+  .md\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .md\:mr-6 {
@@ -5917,12 +6009,12 @@ section .titulo {
     max-width: 36rem;
   }
 
-  .md\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -5935,6 +6027,10 @@ section .titulo {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
   }
 
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -5999,6 +6095,11 @@ section .titulo {
     padding-bottom: 5rem;
   }
 
+  .md\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
   .md\:pb-3 {
     padding-bottom: 0.75rem;
   }
@@ -6042,9 +6143,9 @@ section .titulo {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-28 {
-    margin-left: 7rem;
-    margin-right: 7rem;
+  .lg\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   .lg\:my-5 {
@@ -6057,6 +6158,41 @@ section .titulo {
     margin-bottom: 2rem;
   }
 
+  .lg\:mx-14 {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .lg\:size-10 {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .lg\:size-14 {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .lg\:h-10 {
+    height: 2.5rem;
+  }
+
+  .lg\:h-16 {
+    height: 4rem;
+  }
+
   .lg\:h-72 {
     height: 18rem;
   }
@@ -6065,8 +6201,36 @@ section .titulo {
     height: 24rem;
   }
 
+  .lg\:h-20 {
+    height: 5rem;
+  }
+
+  .lg\:h-24 {
+    height: 6rem;
+  }
+
+  .lg\:w-16 {
+    width: 4rem;
+  }
+
+  .lg\:w-20 {
+    width: 5rem;
+  }
+
+  .lg\:w-24 {
+    width: 6rem;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
   }
 
   .lg\:px-48 {
@@ -6074,9 +6238,24 @@ section .titulo {
     padding-right: 12rem;
   }
 
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:py-24 {
@@ -6087,6 +6266,68 @@ section .titulo {
   .lg\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:px-60 {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .lg\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .lg\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:text-4xl {
@@ -6113,6 +6354,11 @@ section .titulo {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -6137,10 +6383,6 @@ section .titulo {
 
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
-}
-
-.rtl\:text-right:where([dir="rtl"], [dir="rtl"] *) {
-  text-align: right;
 }
 
 .\[\&\:\:-webkit-scrollbar\]\:\!hidden::-webkit-scrollbar {
