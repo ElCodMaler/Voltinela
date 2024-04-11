@@ -18,7 +18,7 @@ function DescripcionCont({ carrito, setCarrito }) {
     const productoSeleccionado = productos.find((p) => p.id === id);
 
     const handleBack = () => {
-      navigate('/Voltinela/Productos');
+      navigate('/Productos');
     };
 
     const handleAddCar = () => {

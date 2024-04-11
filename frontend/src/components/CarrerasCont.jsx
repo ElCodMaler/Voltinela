@@ -13,7 +13,7 @@ function CarrerasCont() {
         <section id='embajadores' className='bg-white lg:mt-12'>
           <br />
           <div className='ms-4 w-fit rounded-md' style={{backgroundColor:'#84cc16'}}>
-              <Link className='flex p-3' to={'/Voltinela/'}>
+              <Link className='flex p-3' to={'/'}>
                   <AiOutlineArrowLeft className="lg:size-10" style={{color:'white'}} />
               </Link>
           </div>

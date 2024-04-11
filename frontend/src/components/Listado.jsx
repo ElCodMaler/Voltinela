@@ -46,7 +46,7 @@ function Listado(id) {
     };
 
     const handleSelectedProduct = (id) => {
-        navigate(`/Voltinela/Descripcion/${id}`);
+        navigate(`/Descripcion/${id}`);
         //window.location.reload();
     };
 
@@ -62,7 +62,7 @@ function Listado(id) {
         <section className='lg:py-20'>
             <div className='container mx-auto px-4'>
                 <div className='ms-4 w-fit bg-white/30 rounded-md'>
-                    <Link className='flex p-3' to={'/Voltinela/'}>
+                    <Link className='flex p-3' to={'/'}>
                         <AiOutlineArrowLeft className="lg:size-10" style={{color:'white'}}/>
                     </Link>
                 </div>
