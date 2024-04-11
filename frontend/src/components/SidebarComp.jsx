@@ -1,12 +1,10 @@
-'use client';
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Sidebar } from 'flowbite-react';
 import { HiDuplicate, HiHome } from 'react-icons/hi';
 import { AiFillLinkedin, AiOutlineInstagram, AiOutlineUsergroupAdd, AiOutlineWhatsApp, AiFillFacebook } from 'react-icons/ai'
 import { FaTiktok } from 'react-icons/fa'
 import { HiShoppingCart } from "react-icons/hi"
 import { Link, useNavigate } from 'react-router-dom';
-import Swal from 'sweetalert2'
 import datos from '../dataBase/datos.json'
 
 function SidebarComp({carrito, handleClose}) {
@@ -36,66 +34,11 @@ function SidebarComp({carrito, handleClose}) {
 
   const categorias = [...categoriasList];
 
-  /*const eliminarProducto = (id) => {
-    const carritoActualizado = carrito.filter((producto) => producto.id !== id);
-    localStorage.setItem('carrito', JSON.stringify(carritoActualizado));
-    window.location.reload();
-  };
 
-  const verCarrito = () => {
-    console.log('Ver', JSON.parse(localStorage.getItem('carrito')));
 
-    const carritoTabla = carrito.map((producto) => {
-    
-    return `
-        <tr>
-            <td><img src="../../public/${producto.imagen}" alt="${producto.imagen}" class="imgCarrito w-24"/></td>
-            <td>${producto.titulo}</td>
-            <td><button class="" onClick=${eliminarProducto(producto.id)}>Eliminar</button></td>
-        </tr>
-      `;
-    }).join("");
-
-    const tablaHTML = `
-      <div class="text-center">
-          <table class="table table-striped table-bordered table-hover table-sm tablaCarrito" >
-          <thead class="table-dark">
-              <tr>
-              <th>Imagen</th>
-              <th>Título</th>
-              <th>Acciones</th>
-              </tr>
-          </thead>
-          <tbody>
-              ${carritoTabla}
-          </tbody>
-          </table>
-      </div>
-    `;
-
-    Swal.fire({
-      position: "top-center",
-      title: "Carrito",
-      html: tablaHTML,
-      width: "800px", // Establece el ancho deseado aquí
-      showCloseButton: true,
-      showCancelButton: true,
-      focusConfirm: false,
-      confirmButtonText: `<i class="fa fa-thumbs-up"></i> Great!`,
-      confirmButtonAriaLabel: "Thumbs up, great!",
-      cancelButtonText: `<i class="fa fa-thumbs-down"></i>`,
-      cancelButtonAriaLabel: "Thumbs down"
-    });
-  };*/
-
-  useEffect(() => {
-    
-  });
-  
   return (
     <>
-        
-        <Sidebar className='w-100' aria-label="Sidebar with multi-level dropdown example">
+      <Sidebar className='w-100' aria-label="Sidebar with multi-level dropdown example">
             <Sidebar.Items>
               <Sidebar.ItemGroup>
                 <Link to={'/Voltinela/'} onClick={() => handleClose()}>
@@ -147,7 +90,6 @@ function SidebarComp({carrito, handleClose}) {
               </Sidebar.ItemGroup>
             </Sidebar.Items>
         </Sidebar>
-
     </>
   )
 }

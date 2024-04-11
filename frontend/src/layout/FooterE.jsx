@@ -1,5 +1,3 @@
-'use client';
-
 import { Footer } from 'flowbite-react';
 import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, BsTiktok } from 'react-icons/bs';
 import React from 'react'
@@ -7,24 +5,23 @@ import { Link, useNavigate } from 'react-router-dom';
 
 function FooterE() {
 
-  const navigate = useNavigate();
+    const navigate = useNavigate();
 
-  function handleClick(e) {
-    const id = e.target.id;
-    localStorage.setItem('categoria', id);
-    navigate('/Voltinela/Productos');
-    return false;
-  };
-
+    function handleClick(e) {
+      const id = e.target.id;
+      localStorage.setItem('categoria', id);
+      navigate('/Voltinela/Productos');
+      return false;
+    };
+    
   return (
     <>
-
       <Footer className='rounded-none' container>
         <div className="w-full">
           <div className="grid w-full">
             <div className='py-0 sm:py-2 md:py-3'>
               <Link to={'/Voltinela/'}>
-                <Footer.Brand href="#" src="voltinela-logo.png" alt="Logo" />
+                <Footer.Brand href="#" src="../../public/voltinela-logo.png" alt="Logo" />
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:mt-10 sm:grid-cols-3 sm:gap-4 md:grid-cols-6 md:gap-0 lg:gap-10">

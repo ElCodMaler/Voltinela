@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 import FormularioEmb from './FormularioEmb'
 
-function EmbajadoresCont() {
+function EmbajadoreCont() {
   return (
     <>
         <br />
@@ -149,4 +149,4 @@ function EmbajadoresCont() {
   )
 }
 
-export default EmbajadoresCont
+export default EmbajadoreCont

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Button, Checkbox, Label, TextInput, Textarea } from "flowbite-react"
 
-const FormularioDetal = () => {
+function FormularioDetal() {
   return (
     <>
-      <section>
+        <section>
           <div className='container mx-auto px-4 lg:px-32'>
               <h3 className='flex justify-center text-lg font-semibold lg:text-2xl'>Informacion de contacto</h3>
               <form className="flex w-full flex-col gap-4">

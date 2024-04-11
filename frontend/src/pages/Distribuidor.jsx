@@ -1,7 +1,7 @@
 import React from 'react'
 import DistribuidorTextForm from '../components/DistribuidorTextForm'
 
-const Distribuidor = () => {
+function Distribuidor() {
   return (
     <>
       <DistribuidorTextForm />

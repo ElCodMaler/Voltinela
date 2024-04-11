@@ -6,7 +6,7 @@ import FormularioInvGan from './FormularioInvGan'
 function InvGanCont() {
   return (
     <>
-      <br />
+        <br />
       <br />
       <br />
       <br />

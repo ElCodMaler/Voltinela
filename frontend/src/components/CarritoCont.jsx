@@ -3,41 +3,41 @@ import { Card, Button } from "flowbite-react"
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineWhatsApp } from "react-icons/ai"
 
-const CarritoCont = ({carrito, setCarrito}) => {
+function CarritoCont({carrito, setCarrito}) {
 
-  const renderCarrito = () => {
-    console.log(carrito);
-    console.log('Ver', JSON.parse(localStorage.getItem('carrito')));
-    const listCarito = JSON.parse(localStorage.getItem('carrito'));
-    if (!listCarito) {
-      console.log('Esta cargando');
-      return (
-        <div className='container mx-auto px-4 w-full'>
-          <h2>No hay anda</h2>
-        </div>
-      );
-    } else {
-      return listCarito.map((producto) => (
-        <div className='py-5'>
-          <Card key={producto.id} className="cartaCarrito" imgSrc={`${producto.imagen}`} horizontal>
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900">
-              {producto.titulo}
-            </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              {producto.descripcion}
-            </p>
-          </Card>
-        </div>
-      ))
-    }
-  };
-
+    const renderCarrito = () => {
+        console.log(carrito);
+        console.log('Ver', JSON.parse(localStorage.getItem('carrito')));
+        const listCarito = JSON.parse(localStorage.getItem('carrito'));
+        if (!listCarito) {
+          console.log('Esta cargando');
+          return (
+            <div className='container mx-auto px-4 w-full'>
+              <h2>No hay anda</h2>
+            </div>
+          );
+        } else {
+          return listCarito.map((producto) => (
+            <div className='py-5'>
+              <Card key={producto.id} className="cartaCarrito" imgSrc={`${producto.imagen}`} horizontal>
+                <h5 className="text-2xl font-bold tracking-tight text-gray-900">
+                  {producto.titulo}
+                </h5>
+                <p className="font-normal text-gray-700 dark:text-gray-400">
+                  {producto.descripcion}
+                </p>
+              </Card>
+            </div>
+          ))
+        }
+      };
+    
   return (
     <>
-      <br />
-      <br />
-      <br />
-      <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <section id='carritoCont' className='bg-white lg:mt-12'>
           <br />
           <div className='ms-4 w-fit rounded-md' style={{backgroundColor:'#84cc16'}}>

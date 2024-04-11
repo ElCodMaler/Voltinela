@@ -3,7 +3,7 @@ import FormularioDetal from './FormularioDetal'
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft } from "react-icons/ai"
 
-const DetalTextForm = () => {
+function DetalTextForm() {
   return (
     <>
         <br />
@@ -51,8 +51,6 @@ const DetalTextForm = () => {
                         </li>
                     </ul>
                     <br />
-                    <FormularioDetal />
-                    <br />
                     <p className='lg:text-xl'>
                         Sé parte del cambio. Invitamos a tiendas de retail visionarias a colaborar con nosotros. 
                         Si deseas enriquecer tu oferta con soluciones que marcan la diferencia, por favor comparte tus datos a través del 
@@ -60,7 +58,7 @@ const DetalTextForm = () => {
                         sea una realidad accesible para todos.
                     </p>
                     <br />
-                    <h3 className='font-medium lg:text-xl'>Para Potenciales Distribuidores</h3>
+                    <FormularioDetal />
                     <br />
                 </div>
             </div>
