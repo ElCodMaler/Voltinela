@@ -26,17 +26,17 @@ function App() {
         <Routes>
 
           <Route path='*' element={<Home />} />
-          <Route path='/' element={<Home />} />
-          <Route path='/Productos' element={<Products />} />
-          <Route path="/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} />} />
-          <Route path='/Carrito' element={<Carrito carrito={carrito} setCarrito={setCarrito} />} />
-          <Route path='/Detal' element={<Detal />} />
-          <Route path='/Distribuidor' element={<Distribuidor />} />
-          <Route path='/InvitaYGana' element={<InvitarGanar />} />
-          <Route path='/Embajadores' element={<Embajadores />} />
-          <Route path='/Instala+' element={<Instala />} />
-          <Route path='/Carreras' element={<Carreras />} />
-          <Route path='/Nosotros' element={<AboutUs />} />
+          <Route path='/Voltinela/' element={<Home />} />
+          <Route path='/Voltinela/Productos' element={<Products />} />
+          <Route path="/Voltinela/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} />} />
+          <Route path='/Voltinela/Carrito' element={<Carrito carrito={carrito} setCarrito={setCarrito} />} />
+          <Route path='/Voltinela/Detal' element={<Detal />} />
+          <Route path='/Voltinela/Distribuidor' element={<Distribuidor />} />
+          <Route path='/Voltinela/InvitaYGana' element={<InvitarGanar />} />
+          <Route path='/Voltinela/Embajadores' element={<Embajadores />} />
+          <Route path='/Voltinela/Instala+' element={<Instala />} />
+          <Route path='/Voltinela/Carreras' element={<Carreras />} />
+          <Route path='/Voltinela/Nosotros' element={<AboutUs />} />
 
         </Routes>
 
