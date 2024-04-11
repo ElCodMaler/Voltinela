@@ -2713,6 +2713,34 @@ input:checked + .toggle-bg {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'respaldo-montana\.jpg\'\)\] {
+  background-image: url('respaldo-montana.jpg');
+}
+
+.bg-\[url\(\'respaldo-mesa\.jpg\'\)\] {
+  background-image: url('respaldo-mesa.jpg');
+}
+
+.bg-\[url\(\'paneles-portatiles\.jpg\'\)\] {
+  background-image: url('paneles-portatiles.jpg');
+}
+
+.bg-\[url\(\'respaldo-familia\.jpg\'\)\] {
+  background-image: url('respaldo-familia.jpg');
+}
+
+.bg-\[url\(\'respaldo-playa\.jpg\'\)\] {
+  background-image: url('respaldo-playa.jpg');
+}
+
+.bg-\[url\(\'teclado\.jpg\'\)\] {
+  background-image: url('teclado.jpg');
+}
+
+.bg-\[url\(\'respaldo\.jpg\'\)\] {
+  background-image: url('respaldo.jpg');
+}
+
 .from-green-400 {
   --tw-gradient-from: #31C48D var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(49 196 141 / 0) var(--tw-gradient-to-position);

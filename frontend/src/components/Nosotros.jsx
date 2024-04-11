@@ -12,7 +12,7 @@ function Nosotros() {
       <br />
       <Link to={'/Voltinela/Nosotros'}>
         <section id='aboutUs'>
-          <div className="bg-cover bg-center bg-no-repeat bg-[url('../../public/teclado.jpg')] bg-gray-600 bg-blend-multiply">
+          <div className="bg-cover bg-center bg-no-repeat bg-[url('teclado.jpg')] bg-gray-600 bg-blend-multiply">
               <div className="px-4 mx-auto max-w-screen-xl text-center py-12 md:py-16 lg:py-24 lg:px-20 xl:py-28">
                   <h2 className="mb-4 text-2xl font-bold tracking-tight leading-none text-white md:text-4xl lg:text-5xl lg:pb-8">
                     ¿Quienes somos?

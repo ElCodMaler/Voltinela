@@ -21,7 +21,7 @@ function FooterE() {
           <div className="grid w-full">
             <div className='py-0 sm:py-2 md:py-3'>
               <Link to={'/'}>
-                <Footer.Brand href="#" src="../../public/voltinela-logo.png" alt="Logo" />
+                <Footer.Brand href="#" src="voltinela-logo.png" alt="Logo" />
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:mt-10 sm:grid-cols-3 sm:gap-4 md:grid-cols-6 md:gap-0 lg:gap-10">

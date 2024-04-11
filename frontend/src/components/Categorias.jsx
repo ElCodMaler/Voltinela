@@ -21,26 +21,26 @@ function Categorias() {
         </div>
         <br />
         <div className='container mx-auto px-4' id='categorias' onClick={handleClick} style={{width:'-webkit-fill-available'}}>
-          <Card id='Estación Portátil de Poder' className="carta w-full py-12 bg-cover bg-center bg-[url('../../public/respaldo-playa.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96">
+          <Card id='Estación Portátil de Poder' className="carta w-full py-12 bg-cover bg-center bg-[url('respaldo-playa.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96">
             <h5 id='Estación Portátil de Poder' className="text-center text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
               Estación Portátil de Poder
             </h5>
           </Card>
           <br />
           <div className='grid gab-2 grid-cols-2 space-x-3 md:h-48 lg:h-72 xl:h-96'>
-            <Card id='Paneles solares' className="carta py-12 me-2 bg-no-repeat bg-cover bg-center bg-[url('../../public/paneles-solares.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
+            <Card id='Paneles solares' className="carta py-12 me-2 bg-no-repeat bg-cover bg-center bg-[url('paneles-solares.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
               <h5 id='Paneles solares' className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
                 Paneles Solares
               </h5>
             </Card>
-            <Card id='Servicios' className="carta py-12 bg-no-repeat bg-cover bg-center bg-[url('../../public/paneles-portatiles.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
+            <Card id='Servicios' className="carta py-12 bg-no-repeat bg-cover bg-center bg-[url('paneles-portatiles.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
               <h5 id='Servicios' className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
                 Servicios
               </h5>
             </Card>
           </div>
           <br />
-          <Card id='Baterías / Inversores' className="carta w-full py-12 bg-cover bg-center bg-[url('../../public/respaldo-familia.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96">
+          <Card id='Baterías / Inversores' className="carta w-full py-12 bg-cover bg-center bg-[url('respaldo-familia.jpg')] bg-gray-400 bg-blend-multiply shadow-xl md:h-48 lg:h-72 xl:h-96">
             <h5 id='Baterías / Inversores' className="text-center text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
               Baterías / Inversores
             </h5>
