@@ -42,12 +42,12 @@ function Header({carrito}) {
         <header>
           <Navbar className={`${visible ? 'bgNav bg-white/50' : 'bg-transparent'} fixed top-0 left-0 right-0 z-30 mx-4 my-4 px-6 py-0 rounded-full md:mx-16 md:my-6 lg:px-8 lg:py-2 lg:mx-20 lg:mt-12`} fluid rounded>
             <Navbar.Brand href="#">
-              <Link to={'/'}>
+              <Link to={'/Voltinela/'}>
                 <img src="voltinela-logo-blanco.png" className="mr-3 h-4 sm:h-8 lg:h-10" alt="Logo" />
               </Link>
             </Navbar.Brand>
             <nav className="text-center flex flex-wrap">
-              <Link className='my-auto' to={'/Carrito'}>
+              <Link className='my-auto' to={'/Voltinela/Carrito'}>
                 <FaCartShopping className='text-2xl text-white lg:text-4xl' />
               </Link>
               <Button className={`${close ? '' : 'transform-none'} px-0 py-0 focus:ring-0`} onClick={() => handleOpen()} type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
