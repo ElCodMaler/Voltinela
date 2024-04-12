@@ -38,7 +38,7 @@ function Listado(id) {
                     <img src={producto.imagen} alt={producto.titulo} />
                     <div className="flex flex-col justify-between items-start">
                         <h5 className="pb-2 text-base font-bold tracking-tight text-gray-900 lg:text-4xl lg:pb-4">{producto.titulo}</h5>
-                        <span className="text-lg font-semibold tracking-tight text-gray-900 lg:text-3xl">${producto.precio}</span>
+                        <span className="text-lg font-semibold tracking-tight text-gray-900 lg:text-3xl">{producto.precio}</span>
                     </div>
                 </Card>
             ))

@@ -23,7 +23,7 @@ function Header({carrito}) {
 
     const handleScroll = () => {
       const scrolled = window.scrollY;
-      if (scrolled < 150) {
+      if (scrolled < 100) {
         setVisible(false);
       } else {
         setVisible(true);
