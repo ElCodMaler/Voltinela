@@ -3,11 +3,8 @@ import { Link, useParams, useNavigate } from 'react-router-dom'
 import { Carousel, Button, Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flowbite-react"
 import { AiFillTool, AiFillThunderbolt, AiOutlinePoweroff, AiOutlineUsb, AiOutlineArrowLeft, AiOutlineWhatsApp } from 'react-icons/ai'
 import { HiShoppingCart } from "react-icons/hi"
-import datos from '../dataBase/datos.json'
 
-const productos = Object.keys(datos).map((producto) => datos[producto]);
-
-function Descripcion() {
+function Descripcion({productos}) {
 
   const navigate = useNavigate();
 
@@ -91,7 +88,7 @@ function Descripcion() {
                     <Carousel>
                       {imagenesProducto.map((imagenProducto, index) => (
                         <div key={index}>
-                          <img src={`../../public/${imagenProducto}`} alt={imagenProducto.titulo} />
+                          <img src={imagenProducto} alt={imagenProducto.titulo} />
                         </div>
                       ))}
                     </Carousel>

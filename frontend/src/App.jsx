@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import datos from './dataBase/datos.json'
 import Header from './layout/Header'
 import FooterE from './layout/FooterE'
 import Products from './pages/Products'
@@ -18,6 +19,8 @@ import AboutUs from './pages/AboutUs'
 
 function App() {
 
+  const productos = Object.keys(datos).map((producto) => datos[producto]);
+
   const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carrito')));
 
   return (
@@ -30,8 +33,8 @@ function App() {
 
           <Route path='*' element={<Home />} />
           <Route path='/Voltinela/' element={<Home />} />
-          <Route path='/Voltinela/Productos' element={<Products />} />
-          <Route path="/Voltinela/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} />} />
+          <Route path='/Voltinela/Productos' element={<Products productos={productos}/>} />
+          <Route path="/Voltinela/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} productos={productos}/>} />
           <Route path='/Voltinela/Carrito' element={<Carrito />} />
           <Route path='/Voltinela/Detal' element={<Detal />} />
           <Route path='/Voltinela/Distribuidor' element={<Distribuidor />} />
