@@ -41,8 +41,8 @@ function DescripcionCont({ carrito, setCarrito }) {
             <br />
             <br />
             <section className='container mx-auto px-4 lg:mt-20'>
-              <div className='w-fit p-3 bg-white/30 rounded-md'>
-                <Link className='flex' to={'/Voltinela/Productos'} onClick={() => handleBack()}>
+              <div className='ms-4 w-fit bg-white/30 rounded-md'>
+                <Link className='flex p-3' to={'/Voltinela/Productos'} onClick={() => handleBack()}>
                   <AiOutlineArrowLeft style={{color:'white'}}/>
                 </Link>
               </div>
