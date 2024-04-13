@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { Carousel, Button, Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flowbite-react"
 import { AiFillTool, AiFillThunderbolt, AiOutlinePoweroff, AiOutlineUsb, AiOutlineArrowLeft, AiOutlineWhatsApp } from 'react-icons/ai'
 import { HiShoppingCart } from "react-icons/hi"
+import { sendCustomEmail } from '../util/email'
 
 function Descripcion({productos}) {
 
@@ -15,6 +16,29 @@ function Descripcion({productos}) {
   const imagenesProducto = productoSeleccionado.imagenes;
   
   const datosElectricos = productoSeleccionado.especificacionesElectricas;
+
+  //funciones del boton email
+  const [details, setDetails] = useState({
+    subject: "",
+    message: "",
+    to_email: "",
+  });
+
+  const handleDetailsChange = (event) => {
+    const {name, value} = event.target;
+
+    setDetails( (prevDetails) => {
+      return {
+        ...prevDetails,
+        [name]: value,
+      };
+
+    });
+  };
+
+  const handleSendEmail = () => {
+    sendCustomEmail(details);
+  };
   
   const listaDatosElectricos = datosElectricos.map((datElec) => {
     
@@ -172,92 +196,6 @@ function Descripcion({productos}) {
                         </AccordionPanel>
                       </Accordion>
                       
-                      {/*<div id="accordion-open" data-accordion="open">
-                        <h2 id="accordion-open-heading-1">
-                          <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-0 gap-3" data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1">
-                            <span className="flex items-center">
-                              <svg className="w-7 h-7 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <AiFillThunderbolt />
-                              </svg> Eléctricas
-                            </span>
-                            <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-                            </svg>
-                          </button>
-                        </h2>
-                        <div id="accordion-open-body-1" className="hidden" aria-labelledby="accordion-open-heading-1">
-                          <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                          {listaDatosElectricos.map((datElec) => {
-                            return (
-                              <>
-                                <ul className='list-none list-inside'>
-                                  <li key={datElec.tipo}>
-                                    <span className="font-bold text-gray-800 dark:text-white">{datElec.tipo}: </span>{datElec.descripcion}
-                                  </li>
-                                </ul>
-                                <br />
-                              </>
-                            )
-                          })}
-                          </div>
-                        </div>
-                        <h2 id="accordion-open-heading-2">
-                          <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-0 gap-3" data-accordion-target="#accordion-open-body-2" aria-expanded="false" aria-controls="accordion-open-body-2">
-                            <span className="flex items-center">
-                              <svg className="w-5 h-5 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <AiOutlinePoweroff />
-                              </svg>Tecnicas
-                            </span>
-                            <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-                            </svg>
-                          </button>
-                        </h2>
-                        <div id="accordion-open-body-2" className="hidden" aria-labelledby="accordion-open-heading-2">
-                          <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-                          {listaDatosTecnicos.map((datTec) => {
-                            return (
-                              <>
-                                <ul className='list-none list-inside'>
-                                  <li key={datTec.tipo}>
-                                    <span className="font-bold text-gray-800 dark:text-white">{datTec.tipo}: </span>{datTec.descripcion}
-                                  </li>
-                                </ul>
-                                <br />
-                              </>
-                            )
-                          })}
-                          </div>
-                        </div>
-                        <h2 id="accordion-open-heading-3">
-                          <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-0 gap-3" data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-3">
-                            <span className="flex items-center">
-                              <svg className="w-5 h-5 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <AiFillTool />
-                              </svg>Otros
-                            </span>
-                            <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-                            </svg>
-                          </button>
-                        </h2>
-                        <div id="accordion-open-body-3" className="hidden" aria-labelledby="accordion-open-heading-3">
-                          <div className="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-                          {listaDatosVarios.map((datVar) => {
-                            return (
-                              <>
-                                <ul className='list-none list-inside'>
-                                  <li key={datVar.tipo}>
-                                    <span className="font-bold text-gray-800 dark:text-white">{datVar.tipo}: </span>{datVar.descripcion}
-                                  </li>
-                                </ul>
-                                <br />
-                              </>
-                            )
-                          })}
-                          </div>
-                        </div>
-                      </div>*/}
                       <div className='flex flex-col justify-center py-5'>
                         <Button className='focus:ring-0' pill style={{backgroundColor:'#84cc16'}} onClick={handleAddCar}>
                           <HiShoppingCart className='mr-2 h-7 w-7' />
