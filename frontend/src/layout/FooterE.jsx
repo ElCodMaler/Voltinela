@@ -1,5 +1,3 @@
-'use client';
-
 import { Footer } from 'flowbite-react';
 import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, BsTiktok } from 'react-icons/bs';
 import React from 'react'
@@ -7,23 +5,22 @@ import { Link, useNavigate } from 'react-router-dom';
 
 function FooterE() {
 
-  const navigate = useNavigate();
+    const navigate = useNavigate();
 
-  function handleClick(e) {
-    const id = e.target.id;
-    localStorage.setItem('categoria', id);
-    navigate('/Voltinela/Productos');
-    return false;
-  };
-
+    function handleClick(e) {
+      const id = e.target.id;
+      localStorage.setItem('categoria', id);
+      navigate('/Productos');
+      return false;
+    };
+    
   return (
     <>
-
       <Footer className='rounded-none' container>
         <div className="w-full">
           <div className="grid w-full">
             <div className='py-0 sm:py-2 md:py-3'>
-              <Link to={'/Voltinela/'}>
+              <Link to={'/'}>
                 <Footer.Brand href="#" src="voltinela-logo.png" alt="Logo" />
               </Link>
             </div>
@@ -49,23 +46,24 @@ function FooterE() {
               <div>
                 <Footer.Title className='lg:text-lg' title="Programas" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/Voltinela/"}>Invita y Gana</Footer.Link>
-                  <Footer.Link to={"/Voltinela/"}>Embajadores</Footer.Link>
-                  <Footer.Link to={"/Voltinela/"}>Instala+</Footer.Link>
-                  <Footer.Link to={"/Voltinela/"}>Carreras</Footer.Link>
+                  <Footer.Link to={"/"}>Invita y Gana</Footer.Link>
+                  <Footer.Link to={"/"}>Embajadores</Footer.Link>
+                  <Footer.Link to={"/"}>Instala+</Footer.Link>
+                  <Footer.Link to={"/"}>Carreras</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
                 <Footer.Title className='lg:text-lg' title="Soporte" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/Voltinela/"}>Soporte</Footer.Link>
+                  <Footer.Link to={"/"}>Preguntas</Footer.Link>
+                  <Footer.Link to={"/"}>Contactos</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
                 <Footer.Title className='lg:text-lg' title="Nosotros" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/Voltinela/Nosotros"}>Visión</Footer.Link>
-                  <Footer.Link to={"/Voltinela/Nosotros"}>Misión</Footer.Link>
+                  <Footer.Link to={"/Nosotros"}>Visión</Footer.Link>
+                  <Footer.Link to={"/Nosotros"}>Misión</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>

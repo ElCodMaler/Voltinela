@@ -22,6 +22,16 @@ nav div div button .flex.items-center.transition-all {
     padding: 0;
 }
 
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li a svg {
+    width: auto;
+    height: auto;
+}
+
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li button svg {
+    width: auto;
+    height: auto;
+}
+
 #drawer-navigation a{
     color: white;
 }
@@ -88,6 +98,10 @@ section .titulo {
 
 #descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 button:focus {
     --tw-ring-opacity: 0;
+}
+
+#carritoCont .cartaCarrito {
+    max-width: 100%;
 }
 
 @media (max-width: 430px) {

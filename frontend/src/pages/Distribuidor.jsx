@@ -1,10 +1,10 @@
 import React from 'react'
-import FormularioDist from '../components/FormularioDist'
+import DistribuidorTextForm from '../components/DistribuidorTextForm'
 
-const Distribuidor = () => {
+function Distribuidor() {
   return (
     <>
-      <FormularioDist />
+      <DistribuidorTextForm />
     </>
   )
 }

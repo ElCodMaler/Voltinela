@@ -881,6 +881,26 @@ input[type="range"]::-ms-fill-lower {
   background: #3F83F8;
 }
 
+input[type="range"].range-sm::-webkit-slider-thumb {
+  height: 1rem;
+  width: 1rem;
+}
+
+input[type="range"].range-lg::-webkit-slider-thumb {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+input[type="range"].range-sm::-moz-range-thumb {
+  height: 1rem;
+  width: 1rem;
+}
+
+input[type="range"].range-lg::-moz-range-thumb {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
 .toggle-bg:after {
   content: "";
   position: absolute;
@@ -1089,11 +1109,6 @@ input:checked + .toggle-bg {
   inset: 0px;
 }
 
-.inset-x-0 {
-  left: 0px;
-  right: 0px;
-}
-
 .inset-y-0 {
   top: 0px;
   bottom: 0px;
@@ -1243,16 +1258,28 @@ input:checked + .toggle-bg {
   z-index: auto;
 }
 
-.-m-1 {
-  margin: -0.25rem;
-}
-
-.-m-1\.5 {
-  margin: -0.375rem;
-}
-
 .m-2 {
   margin: 0.5rem;
+}
+
+.-mx-1 {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+}
+
+.-mx-1\.5 {
+  margin-left: -0.375rem;
+  margin-right: -0.375rem;
+}
+
+.-my-1 {
+  margin-top: -0.25rem;
+  margin-bottom: -0.25rem;
+}
+
+.-my-1\.5 {
+  margin-top: -0.375rem;
+  margin-bottom: -0.375rem;
 }
 
 .mx-1 {
@@ -1293,11 +1320,6 @@ input:checked + .toggle-bg {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
 }
 
 .my-6 {
@@ -1342,10 +1364,6 @@ input:checked + .toggle-bg {
   margin-bottom: 1.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .me-2 {
   margin-inline-end: 0.5rem;
 }
@@ -1384,10 +1402,6 @@ input:checked + .toggle-bg {
 
 .mr-3 {
   margin-right: 0.75rem;
-}
-
-.ms-2 {
-  margin-inline-start: 0.5rem;
 }
 
 .ms-4 {
@@ -1483,10 +1497,6 @@ input:checked + .toggle-bg {
   height: 3rem;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
 .h-16 {
   height: 4rem;
 }
@@ -1501,10 +1511,6 @@ input:checked + .toggle-bg {
 
 .h-20 {
   height: 5rem;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .h-3 {
@@ -1568,6 +1574,10 @@ input:checked + .toggle-bg {
   height: 100%;
 }
 
+.h-modal {
+  height: calc(100% - 2rem);
+}
+
 .h-px {
   height: 1px;
 }
@@ -1614,10 +1624,6 @@ input:checked + .toggle-bg {
 
 .w-20 {
   width: 5rem;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .w-3 {
@@ -1903,6 +1909,10 @@ input:checked + .toggle-bg {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -1917,10 +1927,6 @@ input:checked + .toggle-bg {
 
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-.content-end {
-  align-content: flex-end;
 }
 
 .items-start {
@@ -2175,11 +2181,6 @@ input:checked + .toggle-bg {
   border-top-right-radius: 0.5rem;
 }
 
-.rounded-t-xl {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-}
-
 .border {
   border-width: 1px;
 }
@@ -2218,10 +2219,6 @@ input:checked + .toggle-bg {
 
 .border-t {
   border-top-width: 1px;
-}
-
-.border-t-0 {
-  border-top-width: 0px;
 }
 
 .border-t-4 {
@@ -2656,6 +2653,18 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/public\/proyectos-solares\.jpg\'\)\] {
+  background-image: url('../../public/proyectos-solares.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-montana\.jpg\'\)\] {
+  background-image: url('../../public/respaldo-montana.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo\.jpg\'\)\] {
+  background-image: url('../../public/respaldo.jpg');
+}
+
 .bg-\[url\(\'paneles-portatiles\.jpg\'\)\] {
   background-image: url('paneles-portatiles.jpg');
 }
@@ -2676,16 +2685,8 @@ input:checked + .toggle-bg {
   background-image: url('respaldo-mesa.jpg');
 }
 
-.bg-\[url\(\'respaldo-montana\.jpg\'\)\] {
-  background-image: url('respaldo-montana.jpg');
-}
-
 .bg-\[url\(\'respaldo-playa\.jpg\'\)\] {
   background-image: url('respaldo-playa.jpg');
-}
-
-.bg-\[url\(\'respaldo\.jpg\'\)\] {
-  background-image: url('respaldo.jpg');
 }
 
 .bg-\[url\(\'servicio-tecnico\.jpg\'\)\] {
@@ -2932,6 +2933,10 @@ input:checked + .toggle-bg {
   padding: 1.5rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -2960,11 +2965,6 @@ input:checked + .toggle-bg {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
 }
 
 .px-4 {
@@ -3105,10 +3105,6 @@ input:checked + .toggle-bg {
   padding-top: 0.5rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .pt-4 {
   padding-top: 1rem;
 }
@@ -3128,11 +3124,6 @@ input:checked + .toggle-bg {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-base {
@@ -3162,10 +3153,6 @@ input:checked + .toggle-bg {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .font-medium {
@@ -3739,6 +3726,16 @@ nav div div button .flex.items-center.transition-all {
   padding: 0;
 }
 
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li a svg {
+  width: auto;
+  height: auto;
+}
+
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li button svg {
+  width: auto;
+  height: auto;
+}
+
 #drawer-navigation a{
   color: white;
 }
@@ -3805,6 +3802,10 @@ section .titulo {
 
 #descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 button:focus {
   --tw-ring-opacity: 0;
+}
+
+#carritoCont .cartaCarrito {
+  max-width: 100%;
 }
 
 @media (max-width: 430px) {
@@ -5778,10 +5779,6 @@ section .titulo {
     margin-bottom: 0px;
   }
 
-  .sm\:ms-4 {
-    margin-inline-start: 1rem;
-  }
-
   .sm\:mt-0 {
     margin-top: 0px;
   }
@@ -5830,10 +5827,6 @@ section .titulo {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
   .sm\:items-center {
     align-items: center;
   }
@@ -5848,12 +5841,6 @@ section .titulo {
 
   .sm\:gap-4 {
     gap: 1rem;
-  }
-
-  .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
   .sm\:px-10 {
@@ -5884,11 +5871,6 @@ section .titulo {
     text-align: center;
   }
 
-  .sm\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -5900,14 +5882,14 @@ section .titulo {
     inset: 0px;
   }
 
+  .md\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .md\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-  }
-
-  .md\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
   }
 
   .md\:mx-8 {
@@ -6072,11 +6054,6 @@ section .titulo {
     line-height: 2.5rem;
   }
 
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -6106,9 +6083,9 @@ section .titulo {
     margin-right: 3.5rem;
   }
 
-  .lg\:mx-28 {
-    margin-left: 7rem;
-    margin-right: 7rem;
+  .lg\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   .lg\:my-5 {
@@ -6121,6 +6098,23 @@ section .titulo {
     margin-bottom: 2rem;
   }
 
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .lg\:size-10 {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
   .lg\:size-14 {
     width: 3.5rem;
     height: 3.5rem;
@@ -6130,12 +6124,16 @@ section .titulo {
     height: 2.5rem;
   }
 
+  .lg\:h-16 {
+    height: 4rem;
+  }
+
   .lg\:h-20 {
     height: 5rem;
   }
 
-  .lg\:h-32 {
-    height: 8rem;
+  .lg\:h-24 {
+    height: 6rem;
   }
 
   .lg\:h-72 {
@@ -6146,16 +6144,24 @@ section .titulo {
     height: 24rem;
   }
 
+  .lg\:w-16 {
+    width: 4rem;
+  }
+
   .lg\:w-20 {
     width: 5rem;
   }
 
-  .lg\:w-32 {
-    width: 8rem;
+  .lg\:w-24 {
+    width: 6rem;
   }
 
   .lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
   }
 
   .lg\:px-10 {
@@ -6173,19 +6179,29 @@ section .titulo {
     padding-right: 5rem;
   }
 
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .lg\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
   .lg\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
   }
 
-  .lg\:px-48 {
-    padding-left: 12rem;
-    padding-right: 12rem;
-  }
-
   .lg\:px-60 {
     padding-left: 15rem;
     padding-right: 15rem;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .lg\:py-10 {
@@ -6198,6 +6214,16 @@ section .titulo {
     padding-bottom: 4rem;
   }
 
+  .lg\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .lg\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -6208,9 +6234,18 @@ section .titulo {
     padding-bottom: 0.75rem;
   }
 
+  .lg\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:pb-4 {
+    padding-bottom: 1rem;
   }
 
   .lg\:pb-8 {
@@ -6238,11 +6273,6 @@ section .titulo {
 
   .lg\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-6xl {
-    font-size: 3.75rem;
     line-height: 1;
   }
 
@@ -6279,10 +6309,6 @@ section .titulo {
 
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
-}
-
-.rtl\:text-right:where([dir="rtl"], [dir="rtl"] *) {
-  text-align: right;
 }
 
 .\[\&\:\:-webkit-scrollbar\]\:\!hidden::-webkit-scrollbar {
