@@ -17,7 +17,11 @@ import Carreras from './pages/Carreras'
 import AboutUs from './pages/AboutUs'
 
 function App() {
+
   const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carrito')));
+
+  const productos = Object.keys(datos).map( (producto) => datos[producto] )
+
   return (
     <>
       <BrowserRouter>
@@ -28,8 +32,8 @@ function App() {
 
           <Route path='*' element={<Home />} />
           <Route path='/Voltinela/' element={<Home />} />
-          <Route path='/Voltinela/Productos' element={<Products />} />
-          <Route path="/Voltinela/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} />} />
+          <Route path='/Voltinela/Productos' element={<Products productos={productos}/>} />
+          <Route path="/Voltinela/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} productos={productos}/>} />
           <Route path='/Voltinela/Carrito' element={<Carrito carrito={carrito} setCarrito={setCarrito} />} />
           <Route path='/Voltinela/Detal' element={<Detal />} />
           <Route path='/Voltinela/Distribuidor' element={<Distribuidor />} />

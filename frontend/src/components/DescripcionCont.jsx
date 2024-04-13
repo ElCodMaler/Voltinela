@@ -3,14 +3,10 @@ import { Link, useParams, useNavigate } from 'react-router-dom'
 import { Button } from "flowbite-react"
 import { AiOutlineArrowLeft, AiOutlineWhatsApp } from 'react-icons/ai'
 import { HiShoppingCart } from "react-icons/hi"
-import datos from '../dataBase/datos.json'
 import CarruselProductos from '../components/CarruselProductos'
 import DetallesTecnicosProd from '../components/DetallesTecnicosProd'
 
-
-const productos = Object.keys(datos).map((producto) => datos[producto]);
-
-function DescripcionCont({ carrito, setCarrito }) {
+function DescripcionCont({ carrito, setCarrito, productos}) {
 
     const navigate = useNavigate();
 
