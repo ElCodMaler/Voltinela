@@ -26,7 +26,7 @@
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 110V±10%. 60Hz±5. Peak 2400W"
+                "Puertos de salida AC : 110V±10%, 60Hz±5, Peak 2400W"
             ],
             [
                 "Puertos de salida USB-A1 : 2*5V2.4A AUTO"
@@ -58,7 +58,7 @@
                 "Peso : 3.2kg"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "2",
@@ -86,7 +86,7 @@
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 120V, 60Hz, Peak 1000W"
+                "Puertos de salida AC : 120V, 60Hz, 500w, Peak 1000W"
             ],
             [
                 "Puertos de salida USB-A1 : QC24W Max (5V3A&9V2A&12V2A QC3.0)"
@@ -121,7 +121,7 @@
                 "Peso : 6.3kg"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "3",
@@ -150,7 +150,7 @@
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 110V±10%. 60Hz±5. 1200W. Peak 2400W"
+                "Puertos de salida AC : 110V±10%, 60Hz±5, 1200W, Peak 2400W"
             ],
             [
                 "Puertos de salida USB-A1 : 2*5V2.4A AUTO"
@@ -182,7 +182,7 @@
                 "Peso : 13kg"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "4",
@@ -223,7 +223,7 @@
                 "Peso : 17.9kg"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "5",
@@ -253,7 +253,7 @@
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 3*120V±10%. 60Hz. 2000W. Peak 4000W"
+                "Puertos de salida AC : 3*120V±10%, 60Hz, 2000W, Peak 4000W"
             ],
             [
                 "Puertos de salida AC TT-30R : 1*AC120V/30A Max"
@@ -291,7 +291,7 @@
                 "Peso : 21.5kg"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "6",
@@ -357,7 +357,7 @@
                 "Peso : 28.6kg"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "7",
@@ -423,7 +423,7 @@
                 "Peso : 28.6kg"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "8",
@@ -450,7 +450,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "9",
@@ -477,7 +477,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "10",
@@ -562,7 +562,7 @@
                 "Comunicación : CAN/WIFI"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "11",
@@ -673,7 +673,7 @@
                 "EMC : FCC part15 CLASS B"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "12",
@@ -784,7 +784,7 @@
                 "EMC : FCC part15 CLASS B"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "13",
@@ -838,7 +838,7 @@
                 "Peso : 3.5kg / 7.9lb"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "14",
@@ -892,7 +892,7 @@
                 "Peso : 6.62kg / 14.6lb"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "15",
@@ -901,12 +901,15 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 1: Sistema de Respaldo de Energía Compacto",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 1",
+        "tituloTecnico": "Sistema de Respaldo de Energía Compacto",
         "descripcion": "Este kit incluye 3 baterías de litio de alta capacidad, un Sistema de Gestión de Baterías (BMS) para optimizar su rendimiento y seguridad, y un inversor de 6kW. Ideal para hogares que buscan una solución eficiente para mantener sus dispositivos funcionando de manera continua, garantizando energía confiable sin mencionar directamente situaciones de emergencia.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia : 6kw"
+            ],
+            [
+                "Capacidad : 9kwh"
             ]
         ],
         "especificacionesTecnicas": [
@@ -919,7 +922,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "16",
@@ -928,12 +931,15 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 2: Sistema de Energía Avanzado",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 2",
+        "tituloTecnico": "Sistema de Energía Avanzado",
         "descripcion": "Con 3 baterías de litio, un BMS y un inversor de 9.6kW, este kit es perfecto para quienes necesitan más potencia. Asegura el funcionamiento ininterrumpido de aparatos más exigentes en energía, ofreciendo una solución robusta y fiable para mantener un flujo energético estable, ideal para mantener un alto rendimiento energético en cualquier circunstancia.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia : 9.6kw"
+            ],
+            [
+                "Capacidad : 9kwh"
             ]
         ],
         "especificacionesTecnicas": [
@@ -946,7 +952,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "17",
@@ -955,12 +961,18 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 3: Solución de Energía Solar Integral",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 3",
+        "tituloTecnico": "Solución de Energía Solar Integral",
         "descripcion": "Este kit combina 3 baterías de litio, un BMS, un inversor de 6kW, y 4 paneles solares de 550W, ofreciendo una solución completa para generar y almacenar energía solar. Perfecto para hogares que buscan maximizar su independencia energética con una instalación solar potente, asegura una gestión eficiente de la energía capturada, optimizando tanto el ahorro como la sostenibilidad.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia : 6kw "
+            ],
+            [
+                "Capacidad : 9kwh"
+            ],
+            [
+                "Pv power : 2200w"
             ]
         ],
         "especificacionesTecnicas": [
@@ -973,7 +985,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "18",
@@ -982,12 +994,18 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 4: Sistema Solar Completo de Alta Capacidad",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 4",
+        "tituloTecnico": "Sistema Solar Completo de Alta Capacidad",
         "descripcion": "Elevando la apuesta del Kit 3, este conjunto incluye un inversor de 9.6kW para manejar mayores demandas de energía. Con 3 baterías de litio, un BMS y 4 paneles solares de 550W, es la solución definitiva para aquellos que buscan maximizar su producción y almacenamiento de energía solar, asegurando una solución energética de vanguardia para un hogar siempre activo y eficiente.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia : 9.6 kw"
+            ],
+            [
+                "Capacidad : 9kwh"
+            ],
+            [
+                "Pv power : 2200w"
             ]
         ],
         "especificacionesTecnicas": [
@@ -1000,7 +1018,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "19",
@@ -1027,7 +1045,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "20",
@@ -1054,7 +1072,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "21",
@@ -1063,12 +1081,15 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 5: Paquete de Respaldo de Alta Capacidad Centinela",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 5",
+        "tituloTecnico": "Paquete de Respaldo de Alta Capacidad Centinela",
         "descripcion": "Maximiza tu capacidad de almacenamiento de energía con el Centinela 2000 Pro Max, acompañado de dos baterías adicionales Centinela 2000. Este kit proporciona una reserva energética robusta para aquellos que buscan confiabilidad y rendimiento prolongado en sus sistemas de energía portátil.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia : 2000w / peak 4000w"
+            ],
+            [
+                "Capacidad : 5160wh"
             ]
         ],
         "especificacionesTecnicas": [
@@ -1081,7 +1102,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "22",
@@ -1090,12 +1111,18 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 6: Solución de Energía Versátil Centinela",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 6",
+        "tituloTecnico": "Solución de Energía Versátil Centinela",
         "descripcion": "Combina la potencia del Centinela 2000 Pro Max con la flexibilidad de un Panel Solar Portátil de 200W y una batería extra Centinela 2000. Este kit es ideal para mantener tus dispositivos cargados y listos para usar, ofreciendo una solución energética adaptable y portátil.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia : 2000w / peak 4000w"
+            ],
+            [
+                "Capacidad : 3440wh"
+            ],
+            [
+                "Pv power : 200w"
             ]
         ],
         "especificacionesTecnicas": [
@@ -1108,7 +1135,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "23",
@@ -1117,12 +1144,18 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 7: Sistema de Energía Compacto Centinela",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 7",
+        "tituloTecnico": "Sistema de Energía Compacto Centinela",
         "descripcion": "El Centinela 1200 se une a un Panel Solar Portátil de 200W para crear un kit que no solo es potente sino también portátil, perfecto para viajeros y aventureros que requieren una fuente de energía confiable para mantener sus dispositivos electrónicos funcionando en cualquier lugar.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia: 1200w / peak 2400w"
+            ],
+            [
+                "Capacidad : 1008wh"
+            ],
+            [
+                "Pv power : 200w"
             ]
         ],
         "especificacionesTecnicas": [
@@ -1135,7 +1168,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "24",
@@ -1144,12 +1177,18 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 8: Paquete de Energía para el Viajero Centinela",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 8",
+        "tituloTecnico": "Paquete de Energía para el Viajero Centinela",
         "descripcion": "Este kit presenta el Centinela 500 con un Panel Solar Portátil de 100W, una combinación ideal para excursiones y actividades al aire libre, proporcionando una carga fácil y eficiente para tus dispositivos esenciales mientras exploras.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia : 500w / peak 1000w"
+            ],
+            [
+                "Capacidad : 512wh"
+            ],
+            [
+                "Pv power : 100w"
             ]
         ],
         "especificacionesTecnicas": [
@@ -1162,7 +1201,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "25",
@@ -1171,12 +1210,18 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 9: Energía Solar Portátil Centinela",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 9",
+        "tituloTecnico": "Energía Solar Portátil Centinela",
         "descripcion": "Ideal para los aventureros conscientes del espacio, este kit incluye el Centinela 300 y un Panel Solar Portátil de 100W, ofreciendo una solución práctica y ligera para mantener tus dispositivos cargados durante tus viajes o como respaldo en situaciones inesperadas.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia : 300w"
+            ],
+            [
+                "Capacidad : 296wh"
+            ],
+            [
+                "Pv power : 100w"
             ]
         ],
         "especificacionesTecnicas": [
@@ -1189,7 +1234,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "26",
@@ -1198,12 +1243,18 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 10: Paquete de Suministro Energético Integral Centinela",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 10",
+        "tituloTecnico": "Paquete de Suministro Energético Integral Centinela",
         "descripcion": "Este kit es la solución definitiva en energía portátil, con un Centinela 2000 Pro Max y cuatro unidades de Centinela 2000 para un almacenamiento masivo. Se complementa con cuatro Paneles Solares Portátiles de 200W, permitiéndote capturar y almacenar energía sustentable para uso continuo, asegurando que tendrás el poder y la flexibilidad para mantener todos tus dispositivos en funcionamiento, sin importar dónde te encuentres.",
         "especificacionesElectricas": [
             [
-                "Lorem : Lorem"
+                "Potencia : 2000w"
+            ],
+            [
+                "Capacidad : 8600wh"
+            ],
+            [
+                "Pv power : 400w"
             ]
         ],
         "especificacionesTecnicas": [
@@ -1216,7 +1267,7 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     },
     {
         "id": "27",
@@ -1243,6 +1294,6 @@
                 "Lorem : Lorem"
             ]
         ],
-        "precio": 500
+        "precio": "Gratis"
     }
 ]
