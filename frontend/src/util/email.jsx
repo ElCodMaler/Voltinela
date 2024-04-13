@@ -24,4 +24,4 @@ const sendCustomEmail = (details) => {
      
 }
 
-export default { sendCustomEmail };
+export { sendCustomEmail };
