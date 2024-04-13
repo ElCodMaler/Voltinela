@@ -1,27 +1,22 @@
 import emailjs from '@emailjs/browser';
 
-const sendCustomEmail = (details) => {
-    //initialize using your User ID saved in the .env file
-    emailjs.init(import.meta.env.VITE_EMAIL_USER_ID);
-
-    emailjs.send(
-        import.meta.env.VITE_EMAIL_SERVICE_ID,//the service ID saved in the .env file
-        import.meta.env.VITE_EMAIL_TEMPLATE_ID,// the template ID also saved in the .env file
-        // Start of the variables defined in the template earlier
-        {
-            to_email: details.to_email,
-            subject: details.subject,
-            message: details.message,
-        }
-        //End of the variables defined in the template earlier
-    ).then( (response) => {
-        // Debug statement on the console to show the funtion has been executed successfully
-        console.log(response);
-    }).catch( (error) => {
-        // Debug statement on the console to show the error that occured
-        console.log(error);
-    })
-     
+const enviarMensaje = (e ,btn , form) => {
+    e.preventDefault();
+    
+    btn.current.value = 'Sending...';
+    
+    const serviceID = 'default_service';
+    const templateID = 'template_9fjtawa';
+    
+    emailjs.sendForm(serviceID, templateID, form.current, {
+    publicKey: '81kl26d2STiVF9uZu',
+    }).then(() => {
+        btn.current.value = 'Send Email';
+        alert('Sent!');
+    }, (err) => {
+        btn.current.value = 'Send Email';
+        alert(JSON.stringify(err));
+    });
 }
 
-export { sendCustomEmail };
+export { enviarMensaje };

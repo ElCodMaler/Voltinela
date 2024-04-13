@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { Button } from "flowbite-react"
 import { AiOutlineArrowLeft, AiOutlineWhatsApp } from 'react-icons/ai'
@@ -6,7 +6,7 @@ import { HiShoppingCart } from "react-icons/hi"
 import datos from '../dataBase/datos.json'
 import CarruselProductos from '../components/CarruselProductos'
 import DetallesTecnicosProd from '../components/DetallesTecnicosProd'
-import { sendCustomEmail } from '../util/email'
+
 
 const productos = Object.keys(datos).map((producto) => datos[producto]);
 
@@ -17,30 +17,6 @@ function DescripcionCont({ carrito, setCarrito }) {
     const { id } = useParams();
 
     const productoSeleccionado = productos.find((p) => p.id === id);
-
-    //funciones de email
-    const [details, setDetails] = useState({
-      subject: "",
-      message: "",
-      to_email: "",
-    });
-
-    const handledDetailsChange = (event) => {
-      const {name, value} = event.target
-
-      setDetails( (prevDetails) => {
-        return {
-          ...prevDetails,
-          [name]: value,
-        };
-      });
-    };
-
-    const handleSendEmail = () => {
-      sendCustomEmail(details);
-    };
-
-    //de resto pura carpinteria
 
     const handleBack = () => {
       navigate('/Voltinela/Productos');
