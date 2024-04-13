@@ -2,6 +2,30 @@ import React from 'react'
 import { Button, Checkbox, Label, TextInput, Textarea } from "flowbite-react"
 
 function FormularioDetal() {
+
+  //funciones de email
+  const [details, setDetails] = useState({
+    subject: "",
+    message: "",
+    to_email: "",
+  });
+
+  const handledDetailsChange = (event) => {
+    const {name, value} = event.target
+
+    setDetails( (prevDetails) => {
+      return {
+        ...prevDetails,
+        [name]: value,
+      };
+    });
+  };
+
+  const handleSendEmail = () => {
+    sendCustomEmail(details);
+  };
+
+
   return (
     <>
         <section>
