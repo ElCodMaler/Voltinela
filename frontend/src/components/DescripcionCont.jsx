@@ -7,29 +7,37 @@ import CarruselProductos from '../components/CarruselProductos'
 import DetallesTecnicosProd from '../components/DetallesTecnicosProd'
 
 function DescripcionCont({ carrito, setCarrito, productos}) {
+  //variables de contacto de whatsapp
+  const numero_cliente = '4128849604';
 
-    const navigate = useNavigate();
+  const numero_propio = '4144047756';
 
-    const { id } = useParams();
+  let mensaje = '';
 
-    const productoSeleccionado = productos.find((p) => p.id === id);
+  const navigate = useNavigate();
 
-    const handleBack = () => {
-      navigate('/Voltinela/Productos');
+  const { id } = useParams();
+
+  const productoSeleccionado = productos.find((p) => p.id === id);
+
+  mensaje = productoSeleccionado.titulo
+
+  const handleBack = () => {
+    navigate('/Voltinela/Productos');
+  };
+
+  const handleAddCar = () => {
+    const prod = productoSeleccionado;
+    if (!carrito.includes(prod)) {
+      setCarrito([...carrito, prod]);
+      localStorage.setItem('carrito', JSON.stringify(carrito));
+      console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
     };
-
-    const handleAddCar = () => {
-      const prod = productoSeleccionado;
-      if (!carrito.includes(prod)) {
-        setCarrito([...carrito, prod]);
-        localStorage.setItem('carrito', JSON.stringify(carrito));
-        console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
-      };
-      //setCarrito([...carrito, prod]);
-      //localStorage.setItem('carrito', JSON.stringify(carrito));
-      //console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
-      console.log(prod.id);
-    };
+    //setCarrito([...carrito, prod]);
+    //localStorage.setItem('carrito', JSON.stringify(carrito));
+    //console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
+    console.log(prod.id);
+  };
 
   return (
     <>
@@ -67,7 +75,11 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
                           <p className='text-base'>Añadir al carrito</p>
                         </Button>
                         <br />
-                        <Button className='border-2 focus:ring-0' pill style={{color:'#84cc16', borderColor:'#84cc16'}}>
+                        <Button 
+                        className='border-2 focus:ring-0'
+                        onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_propio}&text=${mensaje}`); alert('Send!')}}
+                        pill style={{color:'#84cc16', borderColor:'#84cc16'}}
+                        >
                           <AiOutlineWhatsApp className='mr-2 h-7 w-7' />
                           <p className='text-base'>Contactar</p>
                         </Button>
