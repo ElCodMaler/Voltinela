@@ -3,11 +3,8 @@ import ReactDOM from 'react-dom/client'
 import { Card } from 'flowbite-react'
 import { Link, useNavigate } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
-import datos from '../dataBase/datos.json'
 
-const productos = Object.keys(datos).map((producto) => datos[producto]);
-
-function Listado(id) {
+function Listado({productos}, id) {
 
     const [selectedCategory, setSelectedCategory] = useState('');
 
@@ -23,7 +20,7 @@ function Listado(id) {
 
     const renderProductos = () => {
         if (selectedCategory === '') {
-            return productos.map((producto) => (
+            return (productos.map((producto) => (
                 <Card id={producto.id} className="m-2  bg-cover bg-no-repeat bg-center bg-white bg-blend-multiply shadow-xl" key={producto.id} onClick={() => handleSelectedProduct(producto.id)}>
                     <img src={producto.imagen} alt={producto.titulo} />
                     <div className="flex flex-col justify-between items-start">
@@ -31,7 +28,7 @@ function Listado(id) {
                         <span className="text-lg font-semibold tracking-tight text-gray-900 lg:text-3xl">${producto.precio}</span>
                     </div>
                 </Card>
-            ))
+            )));
         } else {
             return productos.filter(producto => producto.categoria === selectedCategory).map((producto) => (
                 <Card id={producto.id} className="m-2  bg-cover bg-no-repeat bg-center bg-white bg-blend-multiply shadow-xl" key={producto.id} onClick={() => handleSelectedProduct(producto.id)}>
