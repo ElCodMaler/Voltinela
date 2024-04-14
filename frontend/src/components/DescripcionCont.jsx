@@ -10,9 +10,7 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
   //variables de contacto de whatsapp
   const numero_cliente = '4128849604';
 
-  const numero_propio = '4144047756';
-
-  let mensaje = 'Productos: '
+  let mensaje = 'Producto: '
 
   const navigate = useNavigate();
 
@@ -28,7 +26,6 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
 
   const handleAddCar = () => {
     if(productoSeleccionado){
-      console.log(productoSeleccionado)
       setCarrito([...carrito, { ...productoSeleccionado}]);
     }else{
       alert('no existe tal valor')
@@ -72,9 +69,9 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
                         </Button>
                         <br />
                         <Button 
-                        className='border-2 focus:ring-0'
-                        onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}}
-                        pill style={{color:'#84cc16', borderColor:'#84cc16'}}
+                          className='border-2 focus:ring-0'
+                          onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}}
+                          pill style={{color:'#84cc16', borderColor:'#84cc16'}}
                         >
                           <AiOutlineWhatsApp className='mr-2 h-7 w-7' />
                           <p className='text-base'>Contactar</p>
