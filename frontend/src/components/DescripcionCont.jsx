@@ -12,7 +12,7 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
 
   const numero_propio = '4144047756';
 
-  let mensaje = '';
+  let mensaje = 'Productos: '
 
   const navigate = useNavigate();
 
@@ -20,7 +20,7 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
 
   const productoSeleccionado = productos.find((p) => p.id === id);
 
-  mensaje = productoSeleccionado.titulo
+  mensaje = mensaje + productoSeleccionado.titulo+'.';//le agrego el producto a cotizar
 
   const handleBack = () => {
     navigate('/Voltinela/Productos');
@@ -77,7 +77,7 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
                         <br />
                         <Button 
                         className='border-2 focus:ring-0'
-                        onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_propio}&text=${mensaje}`); alert('Send!')}}
+                        onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}}
                         pill style={{color:'#84cc16', borderColor:'#84cc16'}}
                         >
                           <AiOutlineWhatsApp className='mr-2 h-7 w-7' />
