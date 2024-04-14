@@ -18,7 +18,7 @@ import AboutUs from './pages/AboutUs'
 
 function App() {
 
-  const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carrito')));
+  const [carrito, setCarrito] = useState([]);
 
   const productos = Object.keys(datos).map( (producto) => datos[producto] )
 
@@ -26,7 +26,7 @@ function App() {
     <>
       <BrowserRouter>
 
-        <Header carrito={carrito} />
+        <Header />
 
         <Routes>
 
@@ -34,7 +34,7 @@ function App() {
           <Route path='/Voltinela/' element={<Home />} />
           <Route path='/Voltinela/Productos' element={<Products productos={productos}/>} />
           <Route path="/Voltinela/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} productos={productos}/>} />
-          <Route path='/Voltinela/Carrito' element={<Carrito carrito={carrito} setCarrito={setCarrito} />} />
+          <Route path='/Voltinela/Carrito' element={<Carrito carrito={carrito} />} />
           <Route path='/Voltinela/Detal' element={<Detal />} />
           <Route path='/Voltinela/Distribuidor' element={<Distribuidor />} />
           <Route path='/Voltinela/InvitaYGana' element={<InvitarGanar />} />

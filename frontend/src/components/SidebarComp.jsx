@@ -7,7 +7,7 @@ import { HiShoppingCart } from "react-icons/hi"
 import { Link, useNavigate } from 'react-router-dom';
 import datos from '../dataBase/datos.json'
 
-function SidebarComp({carrito, handleClose}) {
+function SidebarComp({ handleClose }) {
 
   const navigate = useNavigate();
   

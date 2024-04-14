@@ -27,16 +27,12 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
   };
 
   const handleAddCar = () => {
-    const prod = productoSeleccionado;
-    if (!carrito.includes(prod)) {
-      setCarrito([...carrito, prod]);
-      localStorage.setItem('carrito', JSON.stringify(carrito));
-      console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
-    };
-    //setCarrito([...carrito, prod]);
-    //localStorage.setItem('carrito', JSON.stringify(carrito));
-    //console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
-    console.log(prod.id);
+    if(productoSeleccionado){
+      console.log(productoSeleccionado)
+      setCarrito([...carrito, { ...productoSeleccionado}]);
+    }else{
+      alert('no existe tal valor')
+    }
   };
 
   return (
@@ -70,7 +66,7 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
                       </p>
                       <DetallesTecnicosProd />
                       <div className='flex flex-col justify-center py-5'>
-                        <Button className='focus:ring-0' pill style={{backgroundColor:'#84cc16'}} onClick={handleAddCar}>
+                        <Button onClick={() => handleAddCar()} className='focus:ring-0' pill style={{backgroundColor:'#84cc16'}}>
                           <HiShoppingCart className='mr-2 h-7 w-7' />
                           <p className='text-base'>Añadir al carrito</p>
                         </Button>

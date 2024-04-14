@@ -1,10 +1,10 @@
 import React from 'react'
 import CarritoCont from '../components/CarritoCont'
 
-function Carrito() {
+function Carrito({carrito}) {
   return (
     <>
-      <CarritoCont />
+      <CarritoCont carrito={carrito}/>
     </>
   )
 }
