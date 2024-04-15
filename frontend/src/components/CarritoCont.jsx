@@ -3,34 +3,37 @@ import { Card, Button } from "flowbite-react"
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineWhatsApp } from "react-icons/ai"
 
-function CarritoCont({carrito, setCarrito}) {
+function CarritoCont({carrito}) {
 
-    const renderCarrito = () => {
-        console.log(carrito);
-        console.log('Ver', JSON.parse(localStorage.getItem('carrito')));
-        const listCarito = JSON.parse(localStorage.getItem('carrito'));
-        if (!listCarito) {
-          console.log('Esta cargando');
-          return (
-            <div className='container mx-auto px-4 w-full'>
-              <h2>No hay anda</h2>
-            </div>
-          );
-        } else {
-          return listCarito.map((producto) => (
-            <div className='py-5'>
-              <Card key={producto.id} className="cartaCarrito" imgSrc={`${producto.imagen}`} horizontal>
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900">
-                  {producto.titulo}
-                </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                  {producto.descripcion}
-                </p>
-              </Card>
-            </div>
-          ))
-        }
-      };
+  const numero_cliente = '4128849604';
+
+  let mensaje = 'Productos: '
+
+  const renderCarrito = () => {
+
+    if (!carrito) {
+      return (
+        <div className='container mx-auto px-4 w-full'>
+          <h2>No hay anda</h2>
+        </div>
+      );
+    } else {
+      carrito.map((producto) => { mensaje = mensaje +', '+ producto.titulo })
+
+      return carrito.map( (producto) => (
+        <div className='py-5'>
+          <Card key={producto.id} className="cartaCarrito" imgSrc={`${producto.imagen}`} horizontal>
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900">
+              {producto.titulo}
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              {producto.descripcion}
+            </p>
+          </Card>
+        </div>
+    ));
+    }
+  };
     
   return (
     <>
@@ -55,7 +58,12 @@ function CarritoCont({carrito, setCarrito}) {
             </div>
             <br />
             <div className='w-full flex justify-center py-5'>
-              <Button className='border-2 focus:ring-0' pill style={{color:'#84cc16', borderColor:'#84cc16'}}>
+              <Button
+                onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} 
+                className='border-2 focus:ring-0' 
+                pill 
+                style={{color:'#84cc16', borderColor:'#84cc16'}}
+              >
                 <AiOutlineWhatsApp className='mr-2 h-7 w-7' />
                 <p className='text-base'>Contactar</p>
               </Button>

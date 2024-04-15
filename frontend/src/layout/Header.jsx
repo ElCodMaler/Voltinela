@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { HiMenuAlt2 } from "react-icons/hi";
 import { FaCartShopping } from "react-icons/fa6"
 
-function Header({carrito}) {
+function Header() {
 
   const [visible, setVisible] = useState(false);
 

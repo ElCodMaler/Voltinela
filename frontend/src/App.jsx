@@ -18,7 +18,7 @@ import AboutUs from './pages/AboutUs'
 
 function App() {
 
-  const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carrito')));
+  const [carrito, setCarrito] = useState([]);
 
   const productos = Object.keys(datos).map( (producto) => datos[producto] )
 
@@ -26,14 +26,22 @@ function App() {
     <>
       <BrowserRouter>
 
-        <Header carrito={carrito} />
+        <Header />
 
         <Routes>
 
-          <Route path='/' element={<Home />} />
-          <Route path='/Productos' element={<Products />} />
-          <Route path="/descripcion/:id" element={<Descripcion />} />
-          <Route path='/Nosotros' element={<AboutUs />} />
+          <Route path='*' element={<Home />} />
+          <Route path='/Voltinela/' element={<Home />} />
+          <Route path='/Voltinela/Productos' element={<Products productos={productos}/>} />
+          <Route path="/Voltinela/descripcion/:id" element={<Descripcion carrito={carrito} setCarrito={setCarrito} productos={productos}/>} />
+          <Route path='/Voltinela/Carrito' element={<Carrito carrito={carrito} />} />
+          <Route path='/Voltinela/Detal' element={<Detal />} />
+          <Route path='/Voltinela/Distribuidor' element={<Distribuidor />} />
+          <Route path='/Voltinela/InvitaYGana' element={<InvitarGanar />} />
+          <Route path='/Voltinela/Embajadores' element={<Embajadores />} />
+          <Route path='/Voltinela/Instala+' element={<Instala />} />
+          <Route path='/Voltinela/Carreras' element={<Carreras />} />
+          <Route path='/Voltinela/Nosotros' element={<AboutUs />} />
 
         </Routes>
 
