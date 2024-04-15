@@ -44,11 +44,16 @@ function DetallesTecnicosProd() {
   const renderAccordion = () => {
     if (contDatosElectricos != 'Lorem' || contDatosTecnicos != 'Lorem' || contDatosVarios != 'Lorem') {
       return (
-        <Accordion collapseAll>
-          {renderAccordionElectricos()}
-          {renderAccordionTecnicos()}
-          {renderAccordionVarios()}
-        </Accordion>
+        <>
+          <br />
+          <h6 className='text-lg font-semibold lg:text-2xl'>Especificaciones: </h6>
+          <br />
+          <Accordion collapseAll>
+            {renderAccordionElectricos()}
+            {renderAccordionTecnicos()}
+            {renderAccordionVarios()}
+          </Accordion>
+        </>
       )
     }
   };
@@ -107,7 +112,7 @@ function DetallesTecnicosProd() {
   const renderListaDatosElectricos = () => {
     return listaDatosElectricos.map((datElec) => (
       <li className='py-3' key={datElec.tipo}>
-        <span className="font-bold text-gray-800 dark:text-white">{datElec.tipo}: </span>{datElec.descripcion}
+        <span className="font-bold text-gray-800 lg:text-xl">{datElec.tipo}: </span>{datElec.descripcion}
       </li>
     ))
   };
@@ -115,7 +120,7 @@ function DetallesTecnicosProd() {
   const renderListaDatosTecnicos = () => {
     return listaDatosTecnicos.map((datTec) => (
       <li className='py-3' key={datTec.tipo}>
-        <span className="font-bold text-gray-800 dark:text-white">{datTec.tipo}: </span>{datTec.descripcion}
+        <span className="font-bold text-gray-800 lg:text-xl">{datTec.tipo}: </span>{datTec.descripcion}
       </li>
     ))
   };
@@ -123,7 +128,7 @@ function DetallesTecnicosProd() {
   const renderListaDatosVarios = () => {
     return listaDatosVarios.map((datVar) => (
       <li className='py-3' key={datVar.tipo}>
-        <span className="font-bold text-gray-800 dark:text-white">{datVar.tipo}: </span>{datVar.descripcion}
+        <span className="font-bold text-gray-800 lg:text-xl">{datVar.tipo}: </span>{datVar.descripcion}
       </li>
     ))
   }

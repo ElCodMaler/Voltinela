@@ -15,6 +15,7 @@ function SidebarComp({carrito, handleClose}) {
     localStorage.setItem('categoria', categoria);
     //navigate('/Productos');
     handleClose();
+    //window.location.reload();
     return false;
   };
 
@@ -22,6 +23,7 @@ function SidebarComp({carrito, handleClose}) {
     localStorage.setItem('categoria', '');
     //navigate('/Productos');
     handleClose();
+    //window.location.reload();
     return false;
   };
 
