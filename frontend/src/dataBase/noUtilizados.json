@@ -1,0 +1,272 @@
+[
+    {
+        "id": "15",
+        "categoria": "Baterías / Inversores",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 1: Sistema de Respaldo de Energía Compacto",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit incluye 3 baterías de litio de alta capacidad, un Sistema de Gestión de Baterías (BMS) para optimizar su rendimiento y seguridad, y un inversor de 6kW. Ideal para hogares que buscan una solución eficiente para mantener sus dispositivos funcionando de manera continua, garantizando energía confiable sin mencionar directamente situaciones de emergencia.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "16",
+        "categoria": "Baterías / Inversores",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 2: Sistema de Energía Avanzado",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Con 3 baterías de litio, un BMS y un inversor de 9.6kW, este kit es perfecto para quienes necesitan más potencia. Asegura el funcionamiento ininterrumpido de aparatos más exigentes en energía, ofreciendo una solución robusta y fiable para mantener un flujo energético estable, ideal para mantener un alto rendimiento energético en cualquier circunstancia.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "17",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 3: Solución de Energía Solar Integral",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit combina 3 baterías de litio, un BMS, un inversor de 6kW, y 4 paneles solares de 550W, ofreciendo una solución completa para generar y almacenar energía solar. Perfecto para hogares que buscan maximizar su independencia energética con una instalación solar potente, asegura una gestión eficiente de la energía capturada, optimizando tanto el ahorro como la sostenibilidad.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "18",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 4: Sistema Solar Completo de Alta Capacidad",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Elevando la apuesta del Kit 3, este conjunto incluye un inversor de 9.6kW para manejar mayores demandas de energía. Con 3 baterías de litio, un BMS y 4 paneles solares de 550W, es la solución definitiva para aquellos que buscan maximizar su producción y almacenamiento de energía solar, asegurando una solución energética de vanguardia para un hogar siempre activo y eficiente.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "21",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 5: Paquete de Respaldo de Alta Capacidad Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Maximiza tu capacidad de almacenamiento de energía con el Centinela 2000 Pro Max, acompañado de dos baterías adicionales Centinela 2000. Este kit proporciona una reserva energética robusta para aquellos que buscan confiabilidad y rendimiento prolongado en sus sistemas de energía portátil.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "22",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 6: Solución de Energía Versátil Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Combina la potencia del Centinela 2000 Pro Max con la flexibilidad de un Panel Solar Portátil de 200W y una batería extra Centinela 2000. Este kit es ideal para mantener tus dispositivos cargados y listos para usar, ofreciendo una solución energética adaptable y portátil.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "23",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 7: Sistema de Energía Compacto Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "El Centinela 1200 se une a un Panel Solar Portátil de 200W para crear un kit que no solo es potente sino también portátil, perfecto para viajeros y aventureros que requieren una fuente de energía confiable para mantener sus dispositivos electrónicos funcionando en cualquier lugar.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "24",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 8: Paquete de Energía para el Viajero Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit presenta el Centinela 500 con un Panel Solar Portátil de 100W, una combinación ideal para excursiones y actividades al aire libre, proporcionando una carga fácil y eficiente para tus dispositivos esenciales mientras exploras.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "25",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 9: Energía Solar Portátil Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Ideal para los aventureros conscientes del espacio, este kit incluye el Centinela 300 y un Panel Solar Portátil de 100W, ofreciendo una solución práctica y ligera para mantener tus dispositivos cargados durante tus viajes o como respaldo en situaciones inesperadas.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "26",
+        "categoria": "Estación Portátil de Poder",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            ""
+        ],
+        "titulo": "Kit 10: Paquete de Suministro Energético Integral Centinela",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Este kit es la solución definitiva en energía portátil, con un Centinela 2000 Pro Max y cuatro unidades de Centinela 2000 para un almacenamiento masivo. Se complementa con cuatro Paneles Solares Portátiles de 200W, permitiéndote capturar y almacenar energía sustentable para uso continuo, asegurando que tendrás el poder y la flexibilidad para mantener todos tus dispositivos en funcionamiento, sin importar dónde te encuentres.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    }
+]

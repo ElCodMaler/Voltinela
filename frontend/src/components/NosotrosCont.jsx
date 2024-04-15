@@ -23,9 +23,9 @@ function NosotrosCont() {
             <br />
             <div>
                 <div className="container mx-auto px-4 py-3 flex flex-col justify-between leading-normal sm:px-10 md:px-16 lg:px-28">
-                    <h5 className="my-2 text-center text-2xl font-bold tracking-tight md:my-3 lg:text-3xl">
+                    {/*<h5 className="my-2 text-center text-2xl font-bold tracking-tight md:my-3 lg:text-3xl">
                         ¿Qué es Voltinela?
-                    </h5>
+                    </h5>*/}
                     <p className="mb-3 font-normal text-gray-700 lg:text-2xl">
                         Voltinela se enfoca en reforzar la seguridad energética y promover la autosuficiencia mediante 
                         soluciones de energía renovable. Actualmente, destacamos por ofrecer productos innovadores como 

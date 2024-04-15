@@ -28,8 +28,8 @@ function InvGanCont() {
             <p className='lg:text-xl'>
               Si conoces a alguien interesado en dar el paso hacia la sostenibilidad energética, es tu oportunidad de obtener 
               y ofrecer valor añadido. A través de nuestro programa “Invita y Gana”, tendrás la posibilidad de recibir una 
-              recompensa financiera equivalente al 5% del valor de la compra de tu referido. Además, tu referido se beneficiará 
-              de un descuento inmediato del 5% en su adquisición. Es una oportunidad perfecta para que ambos avancen 
+              recompensa financiera equivalente al 2% del valor de la compra de tu referido. Además, tu referido se beneficiará 
+              de un descuento inmediato del 2% en su adquisición. Es una oportunidad perfecta para que ambos avancen 
               hacia un futuro más verde, obteniendo ventajas tangibles por su compromiso con el planeta.
             </p>
             <br />

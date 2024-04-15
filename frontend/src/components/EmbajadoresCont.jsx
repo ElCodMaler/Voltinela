@@ -29,7 +29,7 @@ function EmbajadoreCont() {
                   Si tu influencia en las redes sociales es impulsada por tu pasión por el futuro sostenible, 
                   nuestro programa de Embajadores está especialmente pensado para ti. Al convertirte en embajador de 
                   nuestra marca, cada venta que refieras se traducirá en beneficios directos: un retorno financiero 
-                  del 5% para ti y un atractivo descuento del 5% para tus seguidores en su primera compra. Es la oportunidad 
+                  del 2% para ti y un atractivo descuento del 2% para tus seguidores en su primera compra. Es la oportunidad 
                   de amplificar tu impacto, promoviendo la energía renovable mientras te beneficias de cada paso hacia 
                   la sostenibilidad que impulsas.
               </p>

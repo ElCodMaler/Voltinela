@@ -2665,6 +2665,22 @@ input:checked + .toggle-bg {
   background-image: url('/proyectos-solares.jpg');
 }
 
+.bg-\[url\(\'\/respaldo-1\.jpg\'\)\] {
+  background-image: url('/respaldo-1.jpg');
+}
+
+.bg-\[url\(\'\/respaldo-2\.jpg\'\)\] {
+  background-image: url('/respaldo-2.jpg');
+}
+
+.bg-\[url\(\'\/respaldo-3\.jpg\'\)\] {
+  background-image: url('/respaldo-3.jpg');
+}
+
+.bg-\[url\(\'\/respaldo-4\.jpg\'\)\] {
+  background-image: url('/respaldo-4.jpg');
+}
+
 .bg-\[url\(\'\/respaldo-familia\.jpg\'\)\] {
   background-image: url('/respaldo-familia.jpg');
 }
@@ -2679,10 +2695,6 @@ input:checked + .toggle-bg {
 
 .bg-\[url\(\'\/respaldo-playa\.jpg\'\)\] {
   background-image: url('/respaldo-playa.jpg');
-}
-
-.bg-\[url\(\'\/respaldo\.jpg\'\)\] {
-  background-image: url('/respaldo.jpg');
 }
 
 .bg-\[url\(\'\/teclado\.jpg\'\)\] {
@@ -2711,22 +2723,6 @@ input:checked + .toggle-bg {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\/respaldo-1\.jpg\'\)\] {
-  background-image: url('/respaldo-1.jpg');
-}
-
-.bg-\[url\(\'\/respaldo-2\.jpg\'\)\] {
-  background-image: url('/respaldo-2.jpg');
-}
-
-.bg-\[url\(\'\/respaldo-3\.jpg\'\)\] {
-  background-image: url('/respaldo-3.jpg');
-}
-
-.bg-\[url\(\'\/respaldo-4\.jpg\'\)\] {
-  background-image: url('/respaldo-4.jpg');
 }
 
 .from-green-400 {
