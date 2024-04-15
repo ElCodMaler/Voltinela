@@ -10,7 +10,7 @@ function FooterE() {
     function handleClick(e) {
       const id = e.target.id;
       localStorage.setItem('categoria', id);
-      navigate('/Voltinela/Productos');
+      navigate('/Productos');
       return false;
     };
     
@@ -20,8 +20,8 @@ function FooterE() {
         <div className="w-full">
           <div className="grid w-full">
             <div className='py-0 sm:py-2 md:py-3'>
-              <Link to={'/Voltinela/'}>
-                <Footer.Brand href="#" src="../../public/voltinela-logo.png" alt="Logo" />
+              <Link to={'/'}>
+                <Footer.Brand href="#" src="voltinela-logo.png" alt="Logo" />
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:mt-10 sm:grid-cols-3 sm:gap-4 md:grid-cols-6 md:gap-0 lg:gap-10">
@@ -46,24 +46,24 @@ function FooterE() {
               <div>
                 <Footer.Title className='lg:text-lg' title="Programas" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/Voltinela/"}>Invita y Gana</Footer.Link>
-                  <Footer.Link to={"/Voltinela/"}>Embajadores</Footer.Link>
-                  <Footer.Link to={"/Voltinela/"}>Instala+</Footer.Link>
-                  <Footer.Link to={"/Voltinela/"}>Carreras</Footer.Link>
+                  <Footer.Link to={"/InvitaYGana"}>Invita y Gana</Footer.Link>
+                  <Footer.Link to={"/Embajadores"}>Embajadores</Footer.Link>
+                  <Footer.Link to={"/Instala+"}>Instalación</Footer.Link>
+                  <Footer.Link to={"/Carreras"}>Carreras</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
                 <Footer.Title className='lg:text-lg' title="Soporte" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/Voltinela/"}>Preguntas</Footer.Link>
-                  <Footer.Link to={"/Voltinela/"}>Contactos</Footer.Link>
+                  <Footer.Link to={"/"}>Preguntas</Footer.Link>
+                  <Footer.Link to={"/"}>Contactos</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
                 <Footer.Title className='lg:text-lg' title="Nosotros" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/Voltinela/Nosotros"}>Visión</Footer.Link>
-                  <Footer.Link to={"/Voltinela/Nosotros"}>Misión</Footer.Link>
+                  <Footer.Link to={"/Nosotros"}>Visión</Footer.Link>
+                  <Footer.Link to={"/Nosotros"}>Misión</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>

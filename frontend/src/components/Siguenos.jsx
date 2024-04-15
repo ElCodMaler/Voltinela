@@ -20,7 +20,7 @@ function Siguenos() {
           <Banner>
             <div className="container mx-auto px-4 py-2">
               <div className="grid grid-cols-3 text-gray-500" style={{justifyContent: 'space-evenly'}}>
-                <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="#">
+                <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://wa.me/584127351051">
                   <Button className='p-0 h-16 w-16 rounded-full text-white shadow-xl focus:ring-0 lg:h-24 lg:w-24' style={{backgroundColor: 'rgb(0, 230, 118)'}}>
                     <AiOutlineWhatsApp className="h-12 w-12 lg:h-20 lg:w-20" />
                   </Button>

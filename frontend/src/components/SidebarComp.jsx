@@ -13,14 +13,14 @@ function SidebarComp({carrito, handleClose}) {
   
   const handleSelect = (categoria) => {
     localStorage.setItem('categoria', categoria);
-    //navigate('/Voltinela/Productos');
+    //navigate('/Productos');
     handleClose();
     return false;
   };
 
   const allProducts = () => {
     localStorage.setItem('categoria', '');
-    //navigate('/Voltinela/Productos');
+    //navigate('/Productos');
     handleClose();
     return false;
   };
@@ -41,14 +41,14 @@ function SidebarComp({carrito, handleClose}) {
       <Sidebar className='w-100' aria-label="Sidebar with multi-level dropdown example">
             <Sidebar.Items>
               <Sidebar.ItemGroup>
-                <Link to={'/Voltinela/'} onClick={() => handleClose()}>
+                <Link to={'/'} onClick={() => handleClose()}>
                   <Sidebar.Item className='lg:text-4xl lg:py-6' icon={HiHome}>
                     Inicio
                   </Sidebar.Item>
                 </Link>
                 <Sidebar.Collapse className='lg:text-4xl lg:py-6' icon={HiDuplicate} label="Categorías">
                   {categorias.map((categoria) => (
-                    <Link to={'/Voltinela/Productos'}>
+                    <Link to={'/Productos'}>
                       <Sidebar.Item className='lg:text-4xl lg:py-6' key={categoria.id} onClick={() => handleSelect(categoria)}>
                         {categoria}
                       </Sidebar.Item>
@@ -58,12 +58,12 @@ function SidebarComp({carrito, handleClose}) {
                       Todos los Productos
                     </Sidebar.Item>
                 </Sidebar.Collapse>
-                <Link to={'/Voltinela/Nosotros'} onClick={() => handleClose()}>
+                <Link to={'/Nosotros'} onClick={() => handleClose()}>
                   <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd}>
                     Nosotros
                   </Sidebar.Item>
                 </Link>
-                <Link to={'/Voltinela/Carrito'} onClick={() => handleClose()}>
+                <Link to={'/Carrito'} onClick={() => handleClose()}>
                   <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={HiShoppingCart}>
                     Carrito
                   </Sidebar.Item>

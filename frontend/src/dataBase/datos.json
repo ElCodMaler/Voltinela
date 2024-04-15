@@ -8,7 +8,8 @@
             "voltinela-centinela-300-2.jpg",
             "voltinela-centinela-300-3.jpg",
             "voltinela-centinela-300-4.jpg",
-            "voltinela-centinela-300-5.jpg"
+            "voltinela-centinela-300-5.jpg",
+            "voltinela-centinela-300-6.png"
         ],
         "titulo": "Centinela 300",
         "tituloTecnico": "Estación Portátil de Poder 300W/296Wh",
@@ -68,7 +69,8 @@
             "voltinela-centinela-500.jpg",
             "voltinela-centinela-500-2.jpg",
             "voltinela-centinela-500-3.jpg",
-            "voltinela-centinela-500-4.jpg"
+            "voltinela-centinela-500-4.jpg",
+            "voltinela-centinela-500-6"
         ],
         "titulo": "Centinela 500",
         "tituloTecnico": "Estación Portátil de Poder 500W/512Wh",
@@ -132,7 +134,8 @@
             "voltinela-centinela-1200-2.jpg",
             "voltinela-centinela-1200-3.jpg",
             "voltinela-centinela-1200-4.jpg",
-            "voltinela-centinela-1200-5.jpg"
+            "voltinela-centinela-1200-5.jpg",
+            "voltinela-centinela-1200-6.png"
         ],
         "titulo": "Centinela 1200",
         "tituloTecnico": "Estación Portátil de Poder 1.200W/1.008Wh",
@@ -191,7 +194,10 @@
         "imagenes": [
             "voltinela-centinela-2000.jpg",
             "voltinela-centinela-2000-2.jpg",
-            "voltinela-centinela-2000-3.jpg"
+            "voltinela-centinela-2000-3.jpg",
+            "voltinela-centinela-2000-4.png",
+            "voltinela-centinela-2000-5.png",
+            "voltinela-centinela-2000-6.png"
         ],
         "titulo": "Centinela 2000",
         "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",

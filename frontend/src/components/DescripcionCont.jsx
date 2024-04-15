@@ -18,7 +18,7 @@ function DescripcionCont({ carrito, setCarrito }) {
     const productoSeleccionado = productos.find((p) => p.id === id);
 
     const handleBack = () => {
-      navigate('/Voltinela/Productos');
+      navigate('/Productos');
     };
 
     const handleAddCar = () => {
@@ -42,7 +42,7 @@ function DescripcionCont({ carrito, setCarrito }) {
             <br />
             <section className='container mx-auto px-4 lg:mt-20'>
               <div className='w-fit p-3 bg-white/30 rounded-md'>
-                <Link className='flex' to={'/Voltinela/Productos'} onClick={() => handleBack()}>
+                <Link className='flex' to={'/Productos'} onClick={() => handleBack()}>
                   <AiOutlineArrowLeft style={{color:'white'}}/>
                 </Link>
               </div>
