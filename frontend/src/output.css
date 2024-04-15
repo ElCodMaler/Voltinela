@@ -1292,6 +1292,11 @@ input:checked + .toggle-bg {
   margin-right: 1rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1307,6 +1312,11 @@ input:checked + .toggle-bg {
   margin-bottom: 0.5rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -1315,6 +1325,11 @@ input:checked + .toggle-bg {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .-mb-px {
@@ -1347,10 +1362,6 @@ input:checked + .toggle-bg {
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .me-2 {
@@ -1393,8 +1404,8 @@ input:checked + .toggle-bg {
   margin-right: 0.75rem;
 }
 
-.ms-2 {
-  margin-inline-start: 0.5rem;
+.ms-4 {
+  margin-inline-start: 1rem;
 }
 
 .mt-1 {
@@ -1457,6 +1468,11 @@ input:checked + .toggle-bg {
   display: none;
 }
 
+.size-8 {
+  width: 2rem;
+  height: 2rem;
+}
+
 .h-0 {
   height: 0px;
 }
@@ -1475,6 +1491,14 @@ input:checked + .toggle-bg {
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-2 {
@@ -1497,16 +1521,16 @@ input:checked + .toggle-bg {
   height: 0.875rem;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .h-36 {
   height: 9rem;
 }
 
 .h-4 {
   height: 1rem;
-}
-
-.h-48 {
-  height: 12rem;
 }
 
 .h-5 {
@@ -1519,6 +1543,10 @@ input:checked + .toggle-bg {
 
 .h-7 {
   height: 1.75rem;
+}
+
+.h-72 {
+  height: 18rem;
 }
 
 .h-8 {
@@ -1881,6 +1909,10 @@ input:checked + .toggle-bg {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -2102,11 +2134,6 @@ input:checked + .toggle-bg {
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
-}
-
-.rounded-b-lg {
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
 }
 
 .rounded-e-lg {
@@ -2626,8 +2653,40 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'paneles-portatiles\.jpg\'\)\] {
-  background-image: url('paneles-portatiles.jpg');
+.bg-\[url\(\'\.\.\/\.\.\/public\/paneles-portatiles\.jpg\'\)\] {
+  background-image: url('../../public/paneles-portatiles.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/paneles-solares\.jpg\'\)\] {
+  background-image: url('../../public/paneles-solares.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/proyectos-solares\.jpg\'\)\] {
+  background-image: url('../../public/proyectos-solares.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-familia\.jpg\'\)\] {
+  background-image: url('../../public/respaldo-familia.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-mesa\.jpg\'\)\] {
+  background-image: url('../../public/respaldo-mesa.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-montana\.jpg\'\)\] {
+  background-image: url('../../public/respaldo-montana.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo-playa\.jpg\'\)\] {
+  background-image: url('../../public/respaldo-playa.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/respaldo\.jpg\'\)\] {
+  background-image: url('../../public/respaldo.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/teclado\.jpg\'\)\] {
+  background-image: url('../../public/teclado.jpg');
 }
 
 .bg-\[url\(\'paneles-solares\.jpg\'\)\] {
@@ -2638,24 +2697,8 @@ input:checked + .toggle-bg {
   background-image: url('proyectos-solares.jpg');
 }
 
-.bg-\[url\(\'respaldo-familia\.jpg\'\)\] {
-  background-image: url('respaldo-familia.jpg');
-}
-
-.bg-\[url\(\'respaldo-mesa\.jpg\'\)\] {
-  background-image: url('respaldo-mesa.jpg');
-}
-
-.bg-\[url\(\'respaldo-playa\.jpg\'\)\] {
-  background-image: url('respaldo-playa.jpg');
-}
-
 .bg-\[url\(\'servicio-tecnico\.jpg\'\)\] {
   background-image: url('servicio-tecnico.jpg');
-}
-
-.bg-\[url\(\'teclado\.jpg\'\)\] {
-  background-image: url('teclado.jpg');
 }
 
 .bg-\[url\(\'vision-mision\.jpg\'\)\] {
@@ -2668,6 +2711,26 @@ input:checked + .toggle-bg {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'respaldo-mesa\.jpg\'\)\] {
+  background-image: url('respaldo-mesa.jpg');
+}
+
+.bg-\[url\(\'paneles-portatiles\.jpg\'\)\] {
+  background-image: url('paneles-portatiles.jpg');
+}
+
+.bg-\[url\(\'respaldo-familia\.jpg\'\)\] {
+  background-image: url('respaldo-familia.jpg');
+}
+
+.bg-\[url\(\'respaldo-playa\.jpg\'\)\] {
+  background-image: url('respaldo-playa.jpg');
+}
+
+.bg-\[url\(\'teclado\.jpg\'\)\] {
+  background-image: url('teclado.jpg');
 }
 
 .from-green-400 {
@@ -2878,6 +2941,10 @@ input:checked + .toggle-bg {
   padding: 0.625rem;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -2890,9 +2957,18 @@ input:checked + .toggle-bg {
   padding: 1.5rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-2 {
@@ -2903,6 +2979,11 @@ input:checked + .toggle-bg {
 .px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
+}
+
+.px-28 {
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .px-3 {
@@ -3048,10 +3129,6 @@ input:checked + .toggle-bg {
   padding-top: 0.5rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .pt-4 {
   padding-top: 1rem;
 }
@@ -3071,16 +3148,6 @@ input:checked + .toggle-bg {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-base {
@@ -3110,10 +3177,6 @@ input:checked + .toggle-bg {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .font-medium {
@@ -3672,11 +3735,11 @@ body {
 }
 
 .shadow-xl {
-  box-shadow: 0px 3px 20px -2px;
+  box-shadow: 0px 3px 20px -2px black;
 }
 
-header .fixed.top-0.left-0.right-0.z-30.container.w-auto {
-  background-color: rgb(255 255 255 / 50%);
+header .bgNav {
+  background-color: #84cc1680;
 }
 
 nav.h-full.w-100 .h-full.overflow-y-auto{
@@ -3685,6 +3748,16 @@ nav.h-full.w-100 .h-full.overflow-y-auto{
 
 nav div div button .flex.items-center.transition-all {
   padding: 0;
+}
+
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li a svg {
+  width: auto;
+  height: auto;
+}
+
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li button svg {
+  width: auto;
+  height: auto;
 }
 
 #drawer-navigation a{
@@ -3737,8 +3810,32 @@ section .titulo {
   background-color: #84cc16;
 }
 
-#descripcion section .flex.flex-col.items-center .flex.rounded-lg.border .flex.h-full.flex-col.justify-center .flex.flex-col.gap-2 .flex.text-center.flex-wrap button {
-  flex-basis: 50%;
+#descripcion .relative.h-full.w-full .flex.h-full.snap-mandatory {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 .flex.w-full.items-center.justify-between.text-gray-900.bg-gray-100 {
+  background-color: #84cc16;
+  color: white;
+}
+
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 .flex.w-full.items-center.justify-between {
+  background-color: white;
+}
+
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 button:focus {
+  --tw-ring-opacity: 0;
+}
+
+#carritoCont .cartaCarrito {
+  max-width: 100%;
+}
+
+@media (max-width: 430px) {
+  #descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between.p-4 .flex.flex-col.gap-2 .flex.text-center.flex-wrap {
+    flex-direction: column;
+  }
 }
 
 @media (min-height: 666px) and (max-width: 500px) {
@@ -5706,16 +5803,12 @@ section .titulo {
     margin-bottom: 0px;
   }
 
-  .sm\:ms-4 {
-    margin-inline-start: 1rem;
-  }
-
   .sm\:mt-0 {
     margin-top: 0px;
   }
 
-  .sm\:mt-4 {
-    margin-top: 1rem;
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .sm\:flex {
@@ -5734,8 +5827,16 @@ section .titulo {
     height: 1.75rem;
   }
 
+  .sm\:h-8 {
+    height: 2rem;
+  }
+
   .sm\:h-9 {
     height: 2.25rem;
+  }
+
+  .sm\:h-96 {
+    height: 24rem;
   }
 
   .sm\:w-10 {
@@ -5750,10 +5851,6 @@ section .titulo {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
   .sm\:items-center {
     align-items: center;
   }
@@ -5766,14 +5863,13 @@ section .titulo {
     justify-content: space-between;
   }
 
-  .sm\:gap-6 {
-    gap: 1.5rem;
+  .sm\:gap-4 {
+    gap: 1rem;
   }
 
-  .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .sm\:px-16 {
@@ -5784,6 +5880,11 @@ section .titulo {
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sm\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .sm\:pr-8 {
@@ -5805,14 +5906,19 @@ section .titulo {
     inset: 0px;
   }
 
+  .md\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .md\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
 
-  .md\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+  .md\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .md\:my-3 {
@@ -5849,16 +5955,16 @@ section .titulo {
     height: 12rem;
   }
 
+  .md\:h-80 {
+    height: 20rem;
+  }
+
   .md\:h-auto {
     height: auto;
   }
 
   .md\:h-full {
     height: 100%;
-  }
-
-  .md\:w-1\/2 {
-    width: 50%;
   }
 
   .md\:w-48 {
@@ -5877,12 +5983,12 @@ section .titulo {
     max-width: 36rem;
   }
 
-  .md\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -5897,6 +6003,10 @@ section .titulo {
     justify-content: space-between;
   }
 
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -5907,24 +6017,9 @@ section .titulo {
     border-radius: 0px;
   }
 
-  .md\:rounded-b-none {
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
   .md\:rounded-l-lg {
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
-  }
-
-  .md\:rounded-r-lg {
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .md\:rounded-s-lg {
-    border-start-start-radius: 0.5rem;
-    border-end-start-radius: 0.5rem;
   }
 
   .md\:border-0 {
@@ -5944,6 +6039,11 @@ section .titulo {
     padding-right: 3rem;
   }
 
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -5959,6 +6059,11 @@ section .titulo {
     padding-bottom: 5rem;
   }
 
+  .md\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
   .md\:pb-3 {
     padding-bottom: 0.75rem;
   }
@@ -5971,11 +6076,6 @@ section .titulo {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .md\:text-sm {
@@ -6002,9 +6102,19 @@ section .titulo {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-28 {
-    margin-left: 7rem;
-    margin-right: 7rem;
+  .lg\:mx-14 {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
+  .lg\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .lg\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
   }
 
   .lg\:my-8 {
@@ -6012,22 +6122,130 @@ section .titulo {
     margin-bottom: 2rem;
   }
 
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .lg\:size-10 {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .lg\:size-14 {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .lg\:h-10 {
+    height: 2.5rem;
+  }
+
+  .lg\:h-16 {
+    height: 4rem;
+  }
+
+  .lg\:h-20 {
+    height: 5rem;
+  }
+
+  .lg\:h-24 {
+    height: 6rem;
+  }
+
   .lg\:h-72 {
     height: 18rem;
   }
 
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .lg\:h-96 {
+    height: 24rem;
   }
 
-  .lg\:px-48 {
-    padding-left: 12rem;
-    padding-right: 12rem;
+  .lg\:w-16 {
+    width: 4rem;
+  }
+
+  .lg\:w-20 {
+    width: 5rem;
+  }
+
+  .lg\:w-24 {
+    width: 6rem;
+  }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .lg\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:px-60 {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:py-24 {
@@ -6040,6 +6258,38 @@ section .titulo {
     padding-bottom: 0.75rem;
   }
 
+  .lg\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .lg\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .lg\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .lg\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -6047,11 +6297,6 @@ section .titulo {
 
   .lg\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-6xl {
-    font-size: 3.75rem;
     line-height: 1;
   }
 
@@ -6069,6 +6314,10 @@ section .titulo {
 @media (min-width: 1280px) {
   .xl\:h-96 {
     height: 24rem;
+  }
+
+  .xl\:h-svh {
+    height: 100svh;
   }
 
   .xl\:py-28 {

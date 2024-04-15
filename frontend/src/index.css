@@ -7,11 +7,11 @@ body {
 }
 
 .shadow-xl {
-    box-shadow: 0px 3px 20px -2px;
+    box-shadow: 0px 3px 20px -2px black;
 }
 
-header .fixed.top-0.left-0.right-0.z-30.container.w-auto {
-    background-color: rgb(255 255 255 / 50%);
+header .bgNav {
+    background-color: #84cc1680;
 }
 
 nav.h-full.w-100 .h-full.overflow-y-auto{
@@ -20,6 +20,16 @@ nav.h-full.w-100 .h-full.overflow-y-auto{
 
 nav div div button .flex.items-center.transition-all {
     padding: 0;
+}
+
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li a svg {
+    width: auto;
+    height: auto;
+}
+
+nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div ul li button svg {
+    width: auto;
+    height: auto;
 }
 
 #drawer-navigation a{
@@ -72,8 +82,32 @@ section .titulo {
     background-color: #84cc16;
 }
 
-#descripcion section .flex.flex-col.items-center .flex.rounded-lg.border .flex.h-full.flex-col.justify-center .flex.flex-col.gap-2 .flex.text-center.flex-wrap button {
-    flex-basis: 50%;
+#descripcion .relative.h-full.w-full .flex.h-full.snap-mandatory {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 .flex.w-full.items-center.justify-between.text-gray-900.bg-gray-100 {
+    background-color: #84cc16;
+    color: white;
+}
+
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 .flex.w-full.items-center.justify-between {
+    background-color: white;
+}
+
+#descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 button:focus {
+    --tw-ring-opacity: 0;
+}
+
+#carritoCont .cartaCarrito {
+    max-width: 100%;
+}
+
+@media (max-width: 430px) {
+    #descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between.p-4 .flex.flex-col.gap-2 .flex.text-center.flex-wrap {
+        flex-direction: column;
+    }
 }
 
 @media (min-height: 666px) and (max-width: 500px) {

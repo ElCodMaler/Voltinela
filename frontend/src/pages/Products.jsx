@@ -1,13 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Listado from '../components/Listado'
+import React from "react";
+import Listado from "../components/Listado";
 
-function Products() {
+function Products({productos}) {
   return (
     <>
-
-        <Listado />
-
+        <Listado productos={productos}/>
     </>
   )
 }

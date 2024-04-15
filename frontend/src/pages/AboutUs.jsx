@@ -5,7 +5,7 @@ import NosotrosCont from '../components/NosotrosCont'
 function AboutUs() {
   return (
     <>
-        <BannerNos />
+        {/*<BannerNos />*/}
 
         <NosotrosCont />
     </>
