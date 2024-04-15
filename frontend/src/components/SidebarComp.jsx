@@ -10,19 +10,29 @@ import datos from '../dataBase/datos.json'
 function SidebarComp({carrito, handleClose}) {
 
   const navigate = useNavigate();
+
+  const routeIni = () => {
+    navigate('/');
+    window.location.reload();
+  };
   
   const handleSelect = (categoria) => {
     localStorage.setItem('categoria', categoria);
-    navigate('/Voltinela/Productos');
+    navigate('/Productos');
     handleClose();
     return false;
   };
 
   const allProducts = () => {
     localStorage.setItem('categoria', '');
-    navigate('/Voltinela/Productos');
-    handleClose();
+    navigate('/Productos');
+    window.location.reload();
     return false;
+  };
+
+  const routeNos = () => {
+    navigate('/Nosotros');
+    window.location.reload();
   };
 
   const productos = datos;
