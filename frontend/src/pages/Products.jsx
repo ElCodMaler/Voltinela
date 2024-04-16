@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Listado from '../components/Listado'
 
-function Products() {
+function Products({productos}) {
   return (
     <>
 
-        <Listado />
+        <Listado Productos={productos}/>
 
     </>
   )

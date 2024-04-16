@@ -14,8 +14,12 @@ import Embajadores from './pages/Embajadores'
 import Instala from './pages/Instala'
 import Carreras from './pages/Carreras'
 import AboutUs from './pages/AboutUs'
+import datos from '../dataBase/datos.json'
 
 function App() {
+
+  const productos = Object.keys(datos).map((producto) => datos[producto]);
+
   const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carrito')));
 
   return (
@@ -27,9 +31,9 @@ function App() {
         <Routes>
             <Route path='*' element={<Home />} />
             <Route path='/' element={<Home />} />
-            <Route path='/Productos' element={<Products />} />
-            <Route path='/descripcion/:id' element={<Descripcion carrito={carrito} setCarrito={setCarrito} />} />
-            <Route path='/Carrito' element={<Carrito carrito={carrito} setCarrito={setCarrito} />} />
+            <Route path='/Productos' element={<Products productos={productos}/>} />
+            <Route path='/descripcion/:id' element={<Descripcion carrito={carrito} setCarrito={setCarrito} productos={productos} />} />
+            <Route path='/Carrito' element={<Carrito carrito={carrito} />} />
             <Route path='/Detal' element={<Detal />} />
             <Route path='/Distribuidor' element={<Distribuidor />} />
             <Route path='/InvitaYGana' element={<InvitarGanar />} />

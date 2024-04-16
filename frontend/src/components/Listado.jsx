@@ -3,11 +3,8 @@ import ReactDOM from 'react-dom/client'
 import { Card } from 'flowbite-react'
 import { Link, useNavigate } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
-import datos from '../dataBase/datos.json'
 
-const productos = Object.keys(datos).map((producto) => datos[producto]);
-
-function Listado(id) {
+function Listado(id,{productos}) {
 
     const [selectedCategory, setSelectedCategory] = useState('');
 
