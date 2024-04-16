@@ -3,34 +3,26 @@ import { Card, Button } from "flowbite-react"
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineWhatsApp } from "react-icons/ai"
 
-function CarritoCont({carrito, setCarrito}) {
+function CarritoCont({carrito}) {
+  //variables de contacto de whatsapp
+  const numero_cliente = '4128849604';
 
-    const renderCarrito = () => {
-        console.log(carrito);
-        console.log('Ver', JSON.parse(localStorage.getItem('carrito')));
-        const listCarito = JSON.parse(localStorage.getItem('carrito'));
-        if (!listCarito) {
-          console.log('Esta cargando');
-          return (
-            <div className='container mx-auto px-4 w-full'>
-              <h2>No hay anda</h2>
-            </div>
-          );
-        } else {
-          return listCarito.map((producto) => (
-            <div className='py-5'>
-              <Card key={producto.id} className="cartaCarrito" imgSrc={`${producto.imagen}`} horizontal>
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900">
-                  {producto.titulo}
-                </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                  {producto.descripcion}
-                </p>
-              </Card>
-            </div>
-          ))
-        }
-      };
+  let mensaje = 'Producto: '
+
+  const renderCarrito = () => {
+    return carrito.map((producto) => (
+      <div className='py-5'>
+        <Card key={producto.id} className="cartaCarrito" imgSrc={`${producto.imagen}`} horizontal>
+          <h5 className="text-2xl font-bold tracking-tight text-gray-900">
+            {producto.titulo}
+          </h5>
+          <p className="font-normal text-gray-700 dark:text-gray-400">
+            {producto.descripcion}
+          </p>
+        </Card>
+      </div>
+    ))
+  }
     
   return (
     <>
