@@ -20,7 +20,7 @@ function App() {
 
   const productos = Object.keys(datos).map((producto) => datos[producto]);
 
-  const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carrito')));
+  const [carrito, setCarrito] = useState([]);
 
   return (
     <>
