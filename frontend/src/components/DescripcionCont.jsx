@@ -7,6 +7,10 @@ import CarruselProductos from '../components/CarruselProductos'
 import DetallesTecnicosProd from '../components/DetallesTecnicosProd'
 
 function DescripcionCont({ carrito, setCarrito, productos}) {
+    //variables de contacto de whatsapp
+    const numero_cliente = '4128849604';
+
+    let mensaje = 'Producto: '
 
     const navigate = useNavigate();
 
@@ -14,21 +18,18 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
 
     const productoSeleccionado = productos.find((p) => p.id === id);
 
+    mensaje = mensaje + productoSeleccionado.titulo+'.';//le agrego el producto a cotizar
+
     const handleBack = () => {
       navigate('/Productos');
     };
 
     const handleAddCar = () => {
-      const prod = productoSeleccionado;
-      if (!carrito.includes(prod)) {
-        setCarrito([...carrito, prod]);
-        localStorage.setItem('carrito', JSON.stringify(carrito));
-        console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
-      };
-      //setCarrito([...carrito, prod]);
-      //localStorage.setItem('carrito', JSON.stringify(carrito));
-      //console.log('Guardado', JSON.parse(localStorage.getItem('carrito')));
-      console.log(prod.id);
+      if(productoSeleccionado){
+        setCarrito([...carrito, { ...productoSeleccionado}]);
+      }else{
+        alert('no existe tal valor')
+      }  
     };
 
   return (
@@ -67,7 +68,7 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
                           <p className='text-base'>Añadir al carrito</p>
                         </Button>
                         <br />
-                        <Button className='border-2 focus:ring-0' pill style={{color:'#84cc16', borderColor:'#84cc16'}}>
+                        <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='border-2 focus:ring-0' pill style={{color:'#84cc16', borderColor:'#84cc16'}}>
                           <AiOutlineWhatsApp className='mr-2 h-7 w-7' />
                           <p className='text-base'>Contactar</p>
                         </Button>
