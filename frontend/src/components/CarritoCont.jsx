@@ -10,6 +10,9 @@ function CarritoCont({carrito}) {
   let mensaje = 'Producto: '
 
   const renderCarrito = () => {
+
+    carrito.map((producto) => { mensaje = mensaje +', '+ producto.titulo })
+
     return carrito.map((producto) => (
       <div className='py-5'>
         <Card key={producto.id} className="cartaCarrito" imgSrc={`${producto.imagen}`} horizontal>
@@ -47,7 +50,7 @@ function CarritoCont({carrito}) {
             </div>
             <br />
             <div className='w-full flex justify-center py-5'>
-              <Button className='border-2 focus:ring-0' pill style={{color:'#84cc16', borderColor:'#84cc16'}}>
+              <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='border-2 focus:ring-0' pill style={{color:'#84cc16', borderColor:'#84cc16'}}>
                 <AiOutlineWhatsApp className='mr-2 h-7 w-7' />
                 <p className='text-base'>Contactar</p>
               </Button>
