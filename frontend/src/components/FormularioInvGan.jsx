@@ -1,18 +1,23 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Button, Checkbox, Label, TextInput, Textarea } from "flowbite-react"
+import { enviarMensaje } from '../util/email'
 
 function FormularioInvGan() {
+  
+  const btn = useRef(null);
+  const form = useRef(null);
+
   return (
     <>
         <section>
             <div className='container mx-auto px-4 lg:px-32'>
                 <h3 className='flex justify-center text-lg font-semibold lg:text-2xl'>Informacion personal</h3>
-                <form className="flex w-full flex-col gap-4">
+                <form ref={form} id="form" name='form' onSubmit={(e) => enviarMensaje(e,btn,form)} className="flex w-full flex-col gap-4">
                     <div>
                       <div className="mb-2 block">
                         <Label htmlFor="name" value="Nombre" />
                       </div>
-                      <TextInput id="name" type="text" placeholder="Nombre y apellido" required />
+                      <TextInput id="to_name" name="to_name" type="text" placeholder="Nombre y apellido" required />
                     </div>
                     <div>
                       <div className="mb-2 block">
@@ -42,14 +47,14 @@ function FormularioInvGan() {
                       <div className="mb-2 block">
                         <Label htmlFor="comment" value="Tu mensaje" />
                       </div>
-                      <Textarea id="comment" placeholder="Dejanos tus dudas y comentarios..." required rows={4} />
+                      <Textarea id="mensaje" name="mensaje" placeholder="Dejanos tus dudas y comentarios..." required rows={4} />
                     </div>
                     <div className="flex items-center gap-2">
                       <Checkbox id="remember" />
                       <Label htmlFor="remember">Recuerdame</Label>
                     </div>
                     <div className='container mx-auto px-28 lg:px-60'>
-                      <Button className='w-full' type="submit" pill style={{backgroundColor: '#84cc16'}}>
+                      <Button id="button" name='button' ref={btn} className='w-full' type="submit" pill style={{backgroundColor: '#84cc16'}}>
                         <p className='lg:text-xl'>Envíar</p>
                       </Button>
                     </div>
