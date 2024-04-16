@@ -63,7 +63,7 @@ function DetallesTecnicosProd() {
       return (
         <AccordionPanel>
           <AccordionTitle>
-            <div className='flex flex-wrap'><AiFillThunderbolt className='mt-1 me-2' /> Electricas</div>
+            <div className='flex flex-wrap'><AiFillThunderbolt className='mt-1 me-2' /> Eléctricas</div>
           </AccordionTitle>
           <AccordionContent>
             <ul className='list-none list-inside'>
@@ -80,7 +80,7 @@ function DetallesTecnicosProd() {
       return (
         <AccordionPanel>
           <AccordionTitle>
-            <div className='flex flex-wrap'><AiOutlinePoweroff className='mt-1 me-2' /> Tecnicas</div>
+            <div className='flex flex-wrap'><AiOutlinePoweroff className='mt-1 me-2' /> Técnicas</div>
           </AccordionTitle>
           <AccordionContent>
             <ul className='list-none list-inside'>
