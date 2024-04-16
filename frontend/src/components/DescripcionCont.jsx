@@ -8,9 +8,9 @@ import DetallesTecnicosProd from '../components/DetallesTecnicosProd'
 
 function DescripcionCont({ carrito, setCarrito, productos}) {
     //variables de contacto de whatsapp
-    const numero_cliente = '4128849604';
+    const numero_cliente = '4127351051';
 
-    let mensaje = 'Producto: '
+    let mensaje = 'Quiero saber más sobre ';
 
     const navigate = useNavigate();
 
