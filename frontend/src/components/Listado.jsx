@@ -4,7 +4,7 @@ import { Card } from 'flowbite-react'
 import { Link, useNavigate } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 
-function Listado(id,{productos}) {
+function Listado({productos},id) {
 
     const [selectedCategory, setSelectedCategory] = useState('');
 
