@@ -14,7 +14,7 @@ import Embajadores from './pages/Embajadores'
 import Instala from './pages/Instala'
 import Carreras from './pages/Carreras'
 import AboutUs from './pages/AboutUs'
-import datos from '../dataBase/datos.json'
+import datos from './dataBase/datos.json'
 
 function App() {
 
