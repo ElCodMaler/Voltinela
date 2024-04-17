@@ -11,7 +11,16 @@ function CarritoCont({carrito}) {
 
   const renderCarrito = () => {
 
-    carrito.map((producto) => { mensaje = mensaje +', '+ producto.titulo })
+    let band = true;
+
+    carrito.map((producto) => {
+      if(band){
+        mensaje = mensaje + producto.titulo
+        band = false;
+      }else{
+        mensaje = mensaje +', '+ producto.titulo 
+      }
+    })
 
     return carrito.map((producto) => (
       <div className='py-5'>
