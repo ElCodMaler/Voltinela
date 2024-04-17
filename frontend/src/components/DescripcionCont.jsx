@@ -24,11 +24,13 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
       navigate('/Productos');
     };
 
+    const exite_carrito = carrito.some((producto) => producto.id == id);
+
     const handleAddCar = () => {
-      if(productoSeleccionado){
+      if(!exite_carrito){
         setCarrito([...carrito, { ...productoSeleccionado}]);
       }else{
-        alert('no existe tal valor')
+        alert('El producto ya esta en el carrito')
       }  
     };
 
