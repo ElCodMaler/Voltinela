@@ -60,8 +60,8 @@
         "imagenes": [
             ""
         ],
-        "titulo": "Kit 3: Solución de Energía Solar Integral",
-        "tituloTecnico": "Lorem",
+        "titulo": "Kit 3",
+        "tituloTecnico": "Solución de Energía Solar Integral",
         "descripcion": "Este kit combina 3 baterías de litio, un BMS, un inversor de 6kW, y 4 paneles solares de 550W, ofreciendo una solución completa para generar y almacenar energía solar. Perfecto para hogares que buscan maximizar su independencia energética con una instalación solar potente, asegura una gestión eficiente de la energía capturada, optimizando tanto el ahorro como la sostenibilidad.",
         "especificacionesElectricas": [
             [
@@ -252,6 +252,60 @@
         "titulo": "Kit 10: Paquete de Suministro Energético Integral Centinela",
         "tituloTecnico": "Lorem",
         "descripcion": "Este kit es la solución definitiva en energía portátil, con un Centinela 2000 Pro Max y cuatro unidades de Centinela 2000 para un almacenamiento masivo. Se complementa con cuatro Paneles Solares Portátiles de 200W, permitiéndote capturar y almacenar energía sustentable para uso continuo, asegurando que tendrás el poder y la flexibilidad para mantener todos tus dispositivos en funcionamiento, sin importar dónde te encuentres.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "19",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            "logo-voltinela-stock-verde.jpg"
+        ],
+        "titulo": "Kit 3 + accesorios",
+        "tituloTecnico": "Solución de Energía Solar Integral con Accesorios",
+        "descripcion": "Además de las 3 baterías de litio, el BMS y un inversor de 6kW, este kit se enriquece con 4 paneles solares de 550W y se complementa con una estructura de montaje para 4 paneles, cables solares de 6mm2/10AWG en colores negro y rojo de 100 metros cada uno, conectores MC4 para una configuración de dos ramas, y un Combiner Box capaz de manejar 3 strings de paneles solares a 550V DC, brindando una integración completa para una instalación solar eficiente y segura.",
+        "especificacionesElectricas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "otros": [
+            [
+                "Lorem : Lorem"
+            ]
+        ],
+        "precio": 500
+    },
+    {
+        "id": "20",
+        "categoria": "Paneles solares",
+        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagenes": [
+            "logo-voltinela-stock-verde.jpg"
+        ],
+        "titulo": "Kit 4 + accesorios",
+        "tituloTecnico": "Sistema Solar Completo de Alta Capacidad con Accesorios",
+        "descripcion": "Este kit se completa con un inversor de 9.6kW y 4 paneles solares de 550W, e incluye accesorios esenciales para una instalación profesional: estructura de montaje para 4 paneles, cables solares de 6mm2/10AWG en negro y rojo de 100 metros, conectores MC4 y un Combiner Box de 550V DC para 3 strings. Es la opción superior para usuarios que buscan una solución solar de alto rendimiento con todos los componentes necesarios para una gestión energética optimizada.",
         "especificacionesElectricas": [
             [
                 "Lorem : Lorem"
