@@ -12,19 +12,21 @@ function Home({productos}) {
   return (
     <>
 
-      <BannerIni />
+      <main>
+        <BannerIni />
 
-      <Categorias productos={productos} />
+        <Categorias productos={productos} />
 
-      <BannerAlMayor />
+        <BannerAlMayor />
 
-      <Programas />
+        <Programas />
 
-      <Siguenos />
+        <Siguenos />
 
-      {/*<Proyectos />*/}
+        {/*<Proyectos />*/}
 
-      <Nosotros />
+        <Nosotros />
+        </main>
 
     </>
   )
