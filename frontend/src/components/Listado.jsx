@@ -41,7 +41,7 @@ function Listado({productos}) {
     };
 
     const handleSelectedProduct = (id) => {
-        navigate(`/Descripcion/${id}`);
+        navigate(`/Descripcion/${categorias}/${id}`);
     };
 
   return (
