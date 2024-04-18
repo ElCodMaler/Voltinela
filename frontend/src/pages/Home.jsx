@@ -8,13 +8,13 @@ import BannerAlMayor from '../components/BannerAlMayor'
 import Siguenos from '../components/Siguenos'
 import Programas from '../components/Programas'
 
-function Home() {
+function Home({productos}) {
   return (
     <>
 
       <BannerIni />
 
-      <Categorias />
+      <Categorias productos={productos} />
 
       <BannerAlMayor />
 

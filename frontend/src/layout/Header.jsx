@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { HiMenuAlt2 } from "react-icons/hi";
 import { FaCartShopping } from "react-icons/fa6"
 
-function Header({carrito}) {
+function Header({carrito, productos}) {
 
   const [visible, setVisible] = useState(false);
 
@@ -63,7 +63,7 @@ function Header({carrito}) {
                   <span className="sr-only">Close menu</span>
               </button>
             <div className="py-4 overflow-y-auto"> 
-              <SidebarComp carrito={carrito} handleClose={handleClose} />
+              <SidebarComp carrito={carrito} productos={productos} handleClose={handleClose} />
             </div>
           </div>
         </header>

@@ -6,7 +6,7 @@ function Products({productos}) {
   return (
     <>
 
-        <Listado productos={productos}/>
+        <Listado productos={productos} />
 
     </>
   )

@@ -4,30 +4,14 @@ import { HiDuplicate, HiHome } from 'react-icons/hi';
 import { AiFillLinkedin, AiOutlineInstagram, AiOutlineUsergroupAdd, AiOutlineWhatsApp, AiFillFacebook } from 'react-icons/ai'
 import { FaTiktok } from 'react-icons/fa'
 import { HiShoppingCart } from "react-icons/hi"
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import datos from '../dataBase/datos.json'
 
-function SidebarComp({carrito, handleClose}) {
+function SidebarComp({carrito, handleClose, productos}) {
 
   const navigate = useNavigate();
-  
-  const handleSelect = (categoria) => {
-    localStorage.setItem('categoria', categoria);
-    //navigate('/Productos');
-    handleClose();
-    //window.location.reload();
-    return false;
-  };
 
-  const allProducts = () => {
-    localStorage.setItem('categoria', '');
-    //navigate('/Productos');
-    handleClose();
-    //window.location.reload();
-    return false;
-  };
-
-  const productos = datos;
+  //const productos = datos;
   const categoriasList = new Set();
 
   productos.forEach((productosList) => {
@@ -36,7 +20,39 @@ function SidebarComp({carrito, handleClose}) {
 
   const categorias = [...categoriasList];
 
+  const renderCategorias = () => {
+    return (
+      <>
+        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => handleSelect(categorias[0])}>
+          {categorias[0]}
+        </Sidebar.Item>
+        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => handleSelect(categorias[1])}>
+          {categorias[1]}
+        </Sidebar.Item>
+        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => handleSelect(categorias[2])}>
+          {categorias[2]}
+        </Sidebar.Item>
+        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => handleSelect(categorias[3])}>
+          Baterías / Inversores
+        </Sidebar.Item>
+        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => allProducts()}>
+          Todos los Productos
+        </Sidebar.Item>
+      </>
+    )
+  };
 
+  const handleSelect = (categorias) => {
+    navigate(`/Productos/${categorias}`);
+    handleClose();
+    return false;
+  };
+
+  const allProducts = () => {
+    navigate(`/Productos/${'Todos'}`);
+    handleClose();
+    return false;
+  };
 
   return (
     <>
@@ -49,16 +65,7 @@ function SidebarComp({carrito, handleClose}) {
                   </Sidebar.Item>
                 </Link>
                 <Sidebar.Collapse className='lg:text-4xl lg:py-6' icon={HiDuplicate} label="Categorías">
-                  {categorias.map((categoria) => (
-                    <Link to={'/Productos'}>
-                      <Sidebar.Item className='lg:text-4xl lg:py-6' key={categoria.id} onClick={() => handleSelect(categoria)}>
-                        {categoria}
-                      </Sidebar.Item>
-                    </Link>
-                  ))}
-                    <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => allProducts()}>
-                      Todos los Productos
-                    </Sidebar.Item>
+                  {renderCategorias()}
                 </Sidebar.Collapse>
                 <Link to={'/Nosotros'} onClick={() => handleClose()}>
                   <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd}>
