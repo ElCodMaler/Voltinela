@@ -45,12 +45,14 @@ function SidebarComp({carrito, handleClose, productos}) {
   const handleSelect = (categorias) => {
     navigate(`/Productos/${categorias}`);
     handleClose();
+    window.location.reload();
     return false;
   };
 
   const allProducts = () => {
     navigate(`/Productos/${'Todos'}`);
     handleClose();
+    window.location.reload();
     return false;
   };
 
