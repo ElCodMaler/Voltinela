@@ -22,7 +22,7 @@ const BannerAlMayor = () => {
                 </Link>
                 <Link to={'/Distribuidor'}>
                   <Card id='Baterias' className="carta h-full border-0 bg-no-repeat bg-cover bg-center bg-[url('/proyectos-solares.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
-                    <h5 id='Baterias' className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-2xl">
+                    <h5 id='Baterias' className="text-center text-xl font-bold break-all tracking-tight text-white md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-2xl">
                       Distribuidor
                     </h5>
                   </Card>

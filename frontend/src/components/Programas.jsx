@@ -22,7 +22,7 @@ function Programas() {
                     </Link>
                     <Link to={'/Embajadores'}>
                       <Card className="carta border-0 h-full bg-no-repeat bg-cover bg-center bg-[url('/respaldo-1.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
-                        <h5 className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-2xl">
+                        <h5 className="text-center text-xl font-bold break-all tracking-tight text-white md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-2xl">
                           Embajadores
                         </h5>
                       </Card>
@@ -32,7 +32,7 @@ function Programas() {
                 <div className='grid gab-2 grid-cols-2 space-x-3 h-32 md:h-48 lg:h-72 xl:h-48 2xl:h-60'>
                     <Link to={'/Instala+'}>
                       <Card className="carta border-0 h-full me-2 bg-no-repeat bg-cover bg-center bg-[url('/respaldo-4.jpg')] bg-gray-400 bg-blend-multiply shadow-xl">
-                        <h5 className="text-center text-xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-2xl">
+                        <h5 className="text-center text-xl font-bold break-all tracking-tight text-white md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-2xl">
                           Instalación
                         </h5>
                       </Card>
