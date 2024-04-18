@@ -3,16 +3,32 @@ import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, BsTiktok } from 'react-i
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 
-function FooterE() {
+function FooterE({productos}) {
 
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    function handleClick(e) {
-      const id = e.target.id;
-      localStorage.setItem('categoria', id);
-      navigate('/Productos');
-      return false;
-    };
+  const categoriasList = new Set();
+
+  productos.forEach((productosList) => {
+    categoriasList.add(productosList.categoria);
+  });
+
+  const categorias = [...categoriasList];
+
+  const renderCategorias = () => {
+    return (
+      <>
+        <Footer.Link id={categorias[0]} onClick={() => handleSelectedCat(categorias[0])}>Estación Portatil de Poder</Footer.Link>
+        <Footer.Link id={categorias[1]} onClick={() => handleSelectedCat(categorias[1])}>Paneles Solares</Footer.Link>
+        <Footer.Link id={categorias[2]} onClick={() => handleSelectedCat(categorias[2])}>Servicios</Footer.Link>
+        <Footer.Link id={categorias[3]} onClick={() => handleSelectedCat(categorias[3])}>Baterías/Inversores</Footer.Link>
+      </>
+    )
+  };
+
+  const handleSelectedCat = (categorias) => {
+    navigate(`/Productos/${categorias}`);
+};
     
   return (
     <>
@@ -36,20 +52,17 @@ function FooterE() {
               </div>
               <div>
                 <Footer.Title className='lg:text-lg' title="Productos" />
-                <Footer.LinkGroup className='lg:text-lg' col onClick={handleClick}>
-                  <Footer.Link id='Estación Portátil de Poder'>Estación Portatil de Poder</Footer.Link>
-                  <Footer.Link id='Paneles solares'>Paneles Solares</Footer.Link>
-                  <Footer.Link id='Servicios'>Servicios</Footer.Link>
-                  <Footer.Link id='Baterías / Inversores'>Baterías/Inversores</Footer.Link>
+                <Footer.LinkGroup className='lg:text-lg' col>
+                  {renderCategorias()}
                 </Footer.LinkGroup>
               </div>
               <div>
                 <Footer.Title className='lg:text-lg' title="Programas" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/InvitaYGana"}>Invita y Gana</Footer.Link>
-                  <Footer.Link to={"/Embajadores"}>Embajadores</Footer.Link>
-                  <Footer.Link to={"/Instala+"}>Instalación</Footer.Link>
-                  <Footer.Link to={"/Carreras"}>Carreras</Footer.Link>
+                  <Footer.Link><Link to={"/InvitaYGana"}>Invita y Gana</Link></Footer.Link>
+                  <Footer.Link><Link to={"/Embajadores"}>Embajadores</Link></Footer.Link>
+                  <Footer.Link><Link to={"/Instala+"}>Instalación</Link></Footer.Link>
+                  <Footer.Link><Link to={"/Carreras"}>Carreras</Link></Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
@@ -62,8 +75,8 @@ function FooterE() {
               <div>
                 <Footer.Title className='lg:text-lg' title="Nosotros" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/Nosotros"}>Visión</Footer.Link>
-                  <Footer.Link to={"/Nosotros"}>Misión</Footer.Link>
+                  <Footer.Link><Link to={"/Nosotros"}>Visión</Link></Footer.Link>
+                  <Footer.Link><Link to={"/Nosotros"}>Misión</Link></Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>

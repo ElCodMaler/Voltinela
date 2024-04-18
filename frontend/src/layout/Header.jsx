@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Button, Navbar } from 'flowbite-react'
 import SidebarComp from '../components/SidebarComp'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { HiMenuAlt2 } from "react-icons/hi";
 import { FaCartShopping } from "react-icons/fa6"
 
@@ -10,6 +10,14 @@ function Header({carrito, productos}) {
   const [visible, setVisible] = useState(false);
 
   const [close, setClose] = useState(false);
+
+  const location = useLocation();
+
+  const logoClick = () => {
+    if (location.pathname === '/') {
+      window.scrollTo(0, 0);
+    }
+  };
 
   const handleClose = () => {
     setClose(false);
@@ -41,7 +49,7 @@ function Header({carrito, productos}) {
     <>
         <header>
           <Navbar className={`${visible ? 'bgNav bg-white/50' : 'bg-transparent'} fixed top-0 left-0 right-0 z-30 mx-4 my-4 px-6 py-0 rounded-full md:mx-16 md:my-6 lg:px-8 lg:py-2 lg:mx-20 lg:mt-12`} fluid rounded>
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="#" onClick={logoClick}>
               <Link to={'/'}>
                 <img src="voltinela-logo-blanco.png" className="mr-3 h-4 sm:h-8 lg:h-10" alt="Logo" />
               </Link>

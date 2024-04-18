@@ -31,7 +31,7 @@ function App() {
         <Routes>
             <Route path='*' element={<Home />} />
             <Route path='/' element={<Home productos={productos} />} />
-            <Route path='/Productos/:categorias' element={<Products productos={productos}/>} />
+            <Route path='/Productos/:categorias' element={<Products productos={productos} />} />
             <Route path='/descripcion/:id' element={<Descripcion carrito={carrito} setCarrito={setCarrito} productos={productos} />} />
             <Route path='/Carrito' element={<Carrito carrito={carrito} />} />
             <Route path='/Detal' element={<Detal />} />
@@ -43,7 +43,7 @@ function App() {
             <Route path='/Nosotros' element={<AboutUs />} />
         </Routes>
 
-        <FooterE />
+        <FooterE productos={productos} />
 
       </HashRouter>
     </>
