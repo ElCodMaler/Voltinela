@@ -5,9 +5,9 @@ import { AiOutlineArrowLeft, AiOutlineWhatsApp } from "react-icons/ai"
 
 function CarritoCont({carrito}) {
   //variables de contacto de whatsapp
-  const numero_cliente = '4128849604';
+  const numero_cliente = '4127351051';
 
-  let mensaje = 'Producto: '
+  let mensaje = 'Quiero saber más sobre '
 
   const renderCarrito = () => {
 
