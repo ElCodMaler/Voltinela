@@ -28,7 +28,7 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
 
     const handleAddCar = () => {
       if(!exite_carrito){
-        setCarrito([...carrito, { ...productoSeleccionado}]);
+        setCarrito(productoSeleccionado);
       }else{
         alert('El producto ya esta en el carrito')
       }  

@@ -1,7 +1,6 @@
 import './App.css'
 import Home from './pages/Home'
-import { useState } from 'react'
-import { HashRouter, BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Header from './layout/Header'
 import FooterE from './layout/FooterE'
 import Products from './pages/Products'
@@ -15,25 +14,26 @@ import Instala from './pages/Instala'
 import Carreras from './pages/Carreras'
 import AboutUs from './pages/AboutUs'
 import datos from './dataBase/datos.json'
+import useCarrito from './util/useCarrito'
 
 function App() {
 
   const productos = Object.keys(datos).map((producto) => datos[producto]);
 
-  const [carrito, setCarrito] = useState([]);
+  const { productosCarrito , guardarProducto, eliminarProducto } = useCarrito();
 
   return (
     <>
       <HashRouter basename='/'>
 
-        <Header carrito={carrito} productos={productos} />
+        <Header carrito={productosCarrito} productos={productos} />
 
         <Routes>
             <Route path='*' element={<Home />} />
             <Route path='/' element={<Home productos={productos} />} />
             <Route path='/Productos/:categorias' element={<Products productos={productos} />} />
-            <Route path='/descripcion/:categorias/:id' element={<Descripcion carrito={carrito} setCarrito={setCarrito} productos={productos} />} />
-            <Route path='/Carrito' element={<Carrito carrito={carrito} />} />
+            <Route path='/descripcion/:categorias/:id' element={<Descripcion carrito={productosCarrito} setCarrito={guardarProducto} productos={productos} />} />
+            <Route path='/Carrito' element={<Carrito carrito={productosCarrito} />} />
             <Route path='/Detal' element={<Detal />} />
             <Route path='/Distribuidor' element={<Distribuidor />} />
             <Route path='/InvitaYGana' element={<InvitarGanar />} />
