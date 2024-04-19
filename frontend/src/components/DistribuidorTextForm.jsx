@@ -21,7 +21,7 @@ function DistribuidorTextForm() {
                <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>Distribuidor</h3>
             </div>
             <br />
-            <div className='lg:py-10'>
+            <div className='sm:mx-10 md:mx-16 lg:mx-20 xl:mx-28 2xl:mx-36 lg:py-10'>
                 <div className='container mx-auto px-5 lg:px-12'>
                     <br />
                     <h3 className='font-medium lg:text-xl'>Para Potenciales Distribuidores</h3>

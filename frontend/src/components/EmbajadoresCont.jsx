@@ -21,7 +21,7 @@ function EmbajadoreCont() {
           <div className='titulo container mx-auto w-max lg:py-10'>
               <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>Embajadores</h3>
           </div>
-          <div className='bg-white'>
+          <div className='sm:mx-10 md:mx-16 lg:mx-20 xl:mx-28 2xl:mx-36 bg-white'>
             <div className='container mx-auto px-4 py-5'>
               <h2 className='text-lg font-semibold lg:text-3xl'>Sé un Embajador Voltinela: Impulsa el Cambio, Recibe Recompensas</h2>
               <br />
