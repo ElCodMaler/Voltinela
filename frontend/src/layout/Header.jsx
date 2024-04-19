@@ -51,15 +51,15 @@ function Header({carrito, productos}) {
           <Navbar className={`${visible ? 'bgNav bg-white/50' : 'bg-transparent'} fixed top-0 left-0 right-0 z-30 mx-4 my-4 px-6 py-0 rounded-full sm:mx-10 md:mx-16 md:my-6 lg:px-8 lg:py-2 lg:mx-20 lg:mt-12`} fluid rounded>
             <Navbar.Brand href="#" onClick={logoClick}>
               <Link to={'/'}>
-                <img src="voltinela-logo-blanco.png" className="mr-3 h-5 sm:h-6 md:h-8 lg:h-12 xl:h-6 2xl:h-8" alt="Logo" />
+                <img src="voltinela-logo-blanco.png" className="mr-3 h-5 sm:h-6 md:h-8 lg:h-10 xl:h-6 2xl:h-8" alt="Logo" />
               </Link>
             </Navbar.Brand>
             <nav className="text-center flex flex-wrap">
               <Link className='my-auto' to={'/Carrito'}>
-                <FaCartShopping className='text-2xl text-white md:text-3xl lg:text-5xl xl:text-2xl 2xl:text-3xl' />
+                <FaCartShopping className='text-2xl text-white md:text-3xl lg:text-4xl xl:text-2xl 2xl:text-3xl' />
               </Link>
               <Button className={`${close ? '' : 'transform-none'} px-0 py-0 focus:ring-0`} onClick={() => handleOpen()} type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
-                  <HiMenuAlt2 className="size-8 sm:size-8 md:size-12 lg:size-20 xl:size-8 2xl:size-10" name='menu-alt-left' color='#ffffff'></HiMenuAlt2>
+                  <HiMenuAlt2 className="size-8 sm:size-8 md:size-12 lg:size-16 xl:size-8 2xl:size-10" name='menu-alt-left' color='#ffffff'></HiMenuAlt2>
               </Button>
             </nav>
           </Navbar>

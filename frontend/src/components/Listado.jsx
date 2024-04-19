@@ -12,9 +12,9 @@ function Listado({productos}) {
 
     const renderTitulo = () => {
         if (categorias === 'Todos') {
-            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full lg:text-4xl' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>Productos</h3>
+            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:px-6 lg:text-3xl lg:py-2 lg:px-6 xl:text-xl xl:py-3 xl:px-8 2xl:text-2xl 2xl:py-2 2xl:px-8' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>Productos</h3>
         } else {
-            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full lg:text-4xl' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>{categorias}</h3>
+            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:px-6 lg:text-3xl lg:py-2 lg:px-6 xl:text-xl xl:py-3 xl:px-8 2xl:text-2xl 2xl:py-2 2xl:px-8' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>{categorias}</h3>
         }
     };
 
@@ -56,10 +56,10 @@ function Listado({productos}) {
                         <AiOutlineArrowLeft className="lg:size-10" style={{color:'white'}}/>
                     </Link>
                 </div>
-                <div className='container mx-auto py-4 w-max'>
+                <div className='container mx-auto py-4 w-max lg:py-6 xl:py-8 2xl:py-10'>
                     {renderTitulo()}
                 </div>
-                <div className='flex flex-wrap justify-center grid grid-cols-2'>
+                <div className='flex flex-wrap justify-center grid grid-cols-2 sm:mx-10 md:mx-16 lg:gap-4 lg:mx-20 xl:grid-cols-3 xl:gap-6 xl:mx-28 2xl:gap-10 2xl:mx-36'>
                     {renderProductos()}
                 </div>
             </div>
