@@ -33,7 +33,7 @@ function App() {
             <Route path='/' element={<Home productos={productos} />} />
             <Route path='/Productos/:categorias' element={<Products productos={productos} />} />
             <Route path='/descripcion/:categorias/:id' element={<Descripcion carrito={productosCarrito} setCarrito={guardarProducto} productos={productos} />} />
-            <Route path='/Carrito' element={<Carrito carrito={productosCarrito} />} />
+            <Route path='/Carrito' element={<Carrito carrito={productosCarrito} removeProduct={eliminarProducto}/>} />
             <Route path='/Detal' element={<Detal />} />
             <Route path='/Distribuidor' element={<Distribuidor />} />
             <Route path='/InvitaYGana' element={<InvitarGanar />} />
