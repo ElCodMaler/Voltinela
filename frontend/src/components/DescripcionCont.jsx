@@ -5,6 +5,7 @@ import { AiOutlineArrowLeft, AiOutlineWhatsApp } from 'react-icons/ai'
 import { HiShoppingCart } from "react-icons/hi"
 import CarruselProductos from '../components/CarruselProductos'
 import DetallesTecnicosProd from '../components/DetallesTecnicosProd'
+import {toast, Toaster} from 'react-hot-toast'
 
 function DescripcionCont({ carrito, setCarrito, productos}) {
     //variables de contacto de whatsapp
@@ -29,8 +30,9 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
     const handleAddCar = () => {
       if(!exite_carrito){
         setCarrito(productoSeleccionado);
+        toast.success('Este producto se agrego al carrito')
       }else{
-        alert('El producto ya esta en el carrito')
+        toast.error('Este producto ya se encuentra en el carrito')
       }  
     };
 
@@ -41,6 +43,7 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
             <br />
             <br />
             <section className='container mx-auto px-4 lg:mt-20'>
+              <Toaster/>{/**notificacion del carrito */}
               <div className='w-fit p-3 bg-white/30 rounded-md sm:mx-10 md:mx-16 xl:mx-28 2xl:mx-36'>
                 <Link className='flex' to={`/Productos/${categorias}`} onClick={() => handleBack()}>
                   <AiOutlineArrowLeft style={{color:'white'}} />
