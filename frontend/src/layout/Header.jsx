@@ -7,6 +7,8 @@ import { FaCartShopping } from "react-icons/fa6"
 
 function Header({carrito, productos}) {
 
+  let cantidad = carrito.length;
+
   const [visible, setVisible] = useState(false);
 
   const [close, setClose] = useState(false);
@@ -56,7 +58,12 @@ function Header({carrito, productos}) {
             </Navbar.Brand>
             <nav className="text-center flex flex-wrap">
               <Link className='my-auto' to={'/Carrito'}>
+                {/**contador del carrito */}
                 <FaCartShopping className='text-2xl text-white md:text-3xl lg:text-4xl xl:text-2xl 2xl:text-3xl' />
+                <span className="top-0 start-7 absolute w-3.5 h-3.5 bg-green-500 border-2 border-white dark:border-gray-800 rounded-full">
+                  {cantidad}
+                </span>
+
               </Link>
               <Button className={`${close ? '' : 'transform-none'} px-0 py-0 focus:ring-0`} onClick={() => handleOpen()} type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
                   <HiMenuAlt2 className="size-8 sm:size-8 md:size-12 lg:size-16 xl:size-8 2xl:size-10" name='menu-alt-left' color='#ffffff'></HiMenuAlt2>
