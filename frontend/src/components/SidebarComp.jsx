@@ -4,8 +4,7 @@ import { HiDuplicate, HiHome } from 'react-icons/hi';
 import { AiFillLinkedin, AiOutlineInstagram, AiOutlineUsergroupAdd, AiOutlineWhatsApp, AiFillFacebook } from 'react-icons/ai'
 import { FaTiktok } from 'react-icons/fa'
 import { HiShoppingCart } from "react-icons/hi"
-import { Link, useNavigate, useParams } from 'react-router-dom';
-import datos from '../dataBase/datos.json'
+import { Link, useNavigate } from 'react-router-dom'
 
 function SidebarComp({info, carrito, handleClose, productos}) {
 
@@ -22,19 +21,19 @@ function SidebarComp({info, carrito, handleClose, productos}) {
   const renderCategorias = () => {
     return (
       <>
-        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => handleSelect(categorias[0])}>
+        <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' onClick={() => {handleSelect(categorias[0]); handleClose()}}>
           {categorias[0]}
         </Sidebar.Item>
-        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => handleSelect(categorias[1])}>
+        <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' onClick={() => {handleSelect(categorias[1]); handleClose()}}>
           {categorias[1]}
         </Sidebar.Item>
-        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => handleSelect(categorias[2])}>
+        <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' onClick={() => {handleSelect(categorias[2]); handleClose()}}>
           {categorias[2]}
         </Sidebar.Item>
-        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => handleSelect(categorias[3])}>
+        <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' onClick={() => {handleSelect(categorias[3]); handleClose()}}>
           {info.bateriasInvesores}
         </Sidebar.Item>
-        <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => allProducts()}>
+        <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' onClick={() => {allProducts(); handleClose()}}>
           {info.todosLosProductos}
         </Sidebar.Item>
       </>
@@ -43,15 +42,11 @@ function SidebarComp({info, carrito, handleClose, productos}) {
 
   const handleSelect = (categorias) => {
     navigate(`/Productos/${categorias}`);
-    handleClose();
-    window.location.reload();
     return false;
   };
 
   const allProducts = () => {
     navigate(`/Productos/${'Todos'}`);
-    handleClose();
-    window.location.reload();
     return false;
   };
 
@@ -73,41 +68,41 @@ function SidebarComp({info, carrito, handleClose, productos}) {
             <Sidebar.Items>
               <Sidebar.ItemGroup>
                 <Link to={'/'} onClick={() => handleClose()}>
-                  <Sidebar.Item className='lg:text-4xl lg:py-6' icon={HiHome}>
+                  <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' icon={HiHome}>
                     {info.inicio}
                   </Sidebar.Item>
                 </Link>
-                <Sidebar.Collapse className='lg:text-4xl lg:py-6' icon={HiDuplicate} label={info.categorias}>
+                <Sidebar.Collapse className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' icon={HiDuplicate} label={info.categorias}>
                   {renderCategorias()}
                 </Sidebar.Collapse>
                 <Link to={'/Nosotros'} onClick={() => handleClose()}>
-                  <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd}>
+                  <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd}>
                     {info.nosotros}
                   </Sidebar.Item>
                 </Link>
                 <Link to={'/Carrito'} onClick={() => handleClose()}>
-                  <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={HiShoppingCart}>
+                  <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' href="#" icon={HiShoppingCart}>
                     {info.carrito}
                     {conterCarrito2()}
                   </Sidebar.Item>
                 </Link>
               </Sidebar.ItemGroup>
               <Sidebar.ItemGroup className='lg:mt-8'>
-                <Sidebar.Item className='lg:text-4xl lg:py-6' href="https://wa.me/584127351051" icon={AiOutlineWhatsApp}>
+                <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' href="https://wa.me/584127351051" icon={AiOutlineWhatsApp}>
                   Whatsapp
                 </Sidebar.Item>
-                <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiFillLinkedin}>
+                <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' href="#" icon={AiFillLinkedin}>
                   <a href='https://www.linkedin.com/company/voltela/'>
                     LinkedIn
                   </a>
                 </Sidebar.Item>
-                <Sidebar.Item className='lg:text-4xl lg:py-6' href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" icon={AiFillFacebook}>
+                <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" icon={AiFillFacebook}>
                   Facebook
                 </Sidebar.Item>
-                <Sidebar.Item className='lg:text-4xl lg:py-6' href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" icon={AiOutlineInstagram}>
+                <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" icon={AiOutlineInstagram}>
                   Instagram
                 </Sidebar.Item>
-                <Sidebar.Item className='lg:text-4xl lg:py-6' href="https://www.tiktok.com/@voltinela" icon={FaTiktok}>
+                <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-4xl lg:py-6' href="https://www.tiktok.com/@voltinela" icon={FaTiktok}>
                   TikTok
                 </Sidebar.Item>
               </Sidebar.ItemGroup>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Button, Navbar } from 'flowbite-react'
+import { Button, Navbar, Drawer } from 'flowbite-react'
 import SidebarComp from '../components/SidebarComp'
 import { Link, useLocation } from 'react-router-dom'
 import { HiMenuAlt2 } from "react-icons/hi";
@@ -9,7 +9,9 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
 
   const [visible, setVisible] = useState(false);
 
-  const [close, setClose] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
+
+  const handleClose = () => setIsOpen(false);
 
   const [ lenguage, setLenguage ] = useState("ES");
 
@@ -31,14 +33,6 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
     if (location.pathname === '/') {
       window.scrollTo(0, 0);
     }
-  };
-
-  const handleClose = () => {
-    setClose(false);
-  };
-
-  const handleOpen = () => {
-    setClose(true);
   };
 
   const handleChange = () => {
@@ -84,7 +78,7 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
                 <div class="relative w-11 h-6 bg-gray-200 text-black peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#84cc16]">
                   <div className='flex flex-row mt-0.5'>
                     <span class="ms-1 text-sm font-medium text-white">EN</span>
-                    <span class="ms-1 text-sm font-medium text-black">ES</span>
+                    <span class="ms-0.5 text-sm font-medium text-black">ES</span>
                   </div>
                 </div>
               </label>
@@ -92,22 +86,21 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
                 <FaCartShopping className='text-2xl text-white md:text-3xl lg:text-4xl xl:text-2xl 2xl:text-3xl' />
                 {conterCarrito()}
               </Link>
-              <Button className={`${close ? '' : 'transform-none'} px-0 py-0 focus:ring-0`} onClick={() => handleOpen()} type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
+              <Button className="px-0 py-0 focus:ring-0" onClick={() => setIsOpen(true)}>
                   <HiMenuAlt2 className="size-8 sm:size-8 md:size-12 lg:size-16 xl:size-8 2xl:size-10" name='menu-alt-left' color='#ffffff'></HiMenuAlt2>
               </Button>
             </nav>
           </Navbar>
 
-          <div id="drawer-navigation" className={`${close ? 'transform-none' : ''} fixed top-0 left-0 z-40 w-full h-screen p-8 overflow-y-auto transition-transform translate-x-full lg:p-16`} tabindex="-1" aria-labelledby="drawer-navigation-label" style={{backgroundColor:'#00000082',backdropFilter: "blur(4px)"}}>
-              <img src="voltinela-logo-blanco.png" className="mr-3 h-6 sm:h-9 lg:h-16" alt="Logo" />
-              <button onClick={() => handleClose()} type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 end-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" >
-                  <svg aria-hidden="true" className="w-8 h-8 lg:w-16 lg:h-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                  <span className="sr-only">Close menu</span>
-              </button>
-            <div className="py-4 overflow-y-auto"> 
+          <Drawer className='w-full bg-black/20 backdrop-blur-sm' open={isOpen} onClose={handleClose} position="right">
+            <Drawer.Header titleIcon={() => <>
+              <Link to={'/'}>
+                <img src="voltinela-logo-blanco.png" className="mr-3 h-5 sm:h-6 md:h-8 lg:h-10 xl:h-6 2xl:h-8" alt="Logo" />
+              </Link></>} />
+            <Drawer.Items>
               <SidebarComp info={info} carrito={carrito} productos={productos} handleClose={handleClose} />
-            </div>
-          </div>
+            </Drawer.Items>
+          </Drawer>
         </header>
     </>
   )

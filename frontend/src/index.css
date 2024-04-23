@@ -32,7 +32,15 @@ nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div u
     height: auto;
 }
 
-#drawer-navigation a{
+header .fixed.z-40.overflow-y-auto div .h-full.w-100 .h-full.overflow-y-auto.overflow-x-hidden div ul li a svg {
+    color: white;
+}
+
+header .fixed.z-40.overflow-y-auto div .h-full.w-100 .h-full.overflow-y-auto.overflow-x-hidden div ul li button svg {
+    color: white;
+}
+
+/*#drawer-navigation a{
     color: white;
 }
 
@@ -50,7 +58,7 @@ nav .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4 div u
 
 #drawer-navigation svg{
     color: white;
-}
+}*/
 
 section .titulo {
     cursor: context-menu;
