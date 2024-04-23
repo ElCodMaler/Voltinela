@@ -65,7 +65,7 @@ function DescripcionCont({ info, carrito, setCarrito, productos }) {
                     <p className="mb-3 text-base font-normal text-gray-700 dark:text-gray-400 xl:text-lg 2xl:text-xl">
                       {productoSeleccionado.descripcion}
                     </p>
-                    <DetallesTecnicosProd info={info} />
+                    <DetallesTecnicosProd info={info} productos={productos} />
                     <div className='flex flex-col justify-center py-5'>
                       <Button className='focus:ring-0' pill style={{backgroundColor:'#84cc16'}} onClick={handleAddCar}>
                         <HiShoppingCart className='mr-2 h-7 w-7' />

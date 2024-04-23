@@ -12,51 +12,51 @@
             "voltinela-centinela-300-6.jpg"
         ],
         "titulo": "Centinela 300",
-        "tituloTecnico": "Estación Portátil de Poder 300W/296Wh",
-        "descripcion": "Pequeña pero poderosa, la estación de energía portátil Centinela 300 es tu aliado perfecto para cualquier aventura. Equipada con salidas AC y DC, puertos para autos, y USB de carga rápida, es ideal para camping, la playa, y situaciones de emergencia. Mantén tus dispositivos siempre cargados, donde sea que estés.",
+        "tituloTecnico": "Portable Power Station 300W/296Wh",
+        "descripcion": "Small but powerful, the Centinela 300 portable power station is your perfect ally for any adventure. Equipped with AC and DC outlets, car ports, and fast-charging USB ports, it is ideal for camping, the beach, and emergency situations. Keep your devices always charged, wherever you are.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
+                "Battery capacity : LiFePO 1008Wh±5%(45Ah/22.4V)"
             ],
             [
-                "Ciclo de vida de la batería : 2500 veces, SOH≥70%"
+                "Battery life cycle : 2500 veces, SOH≥70%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protection : Short circuits, overcurrent, overvoltage, undervoltage, overload and overtemperature"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 110V±10%. 60Hz±5. Peak 2400W"
+                "AC output ports : 110V±10%. 60Hz±5. Peak 2400W"
             ],
             [
-                "Puertos de salida USB-A1 : 2*5V2.4A AUTO"
+                "USB-A output ports1 : 2*5V2.4A AUTO"
             ],
             [
-                "Puertos de salida US-A2 : 2*QC18W Max"
+                "US-A departure ports2 : 2*QC18W Max"
             ],
             [
-                "Puertos de salida USB-C : 2*PD60W Max"
+                "USB-C output ports : 2*PD60W Max"
             ],
             [
-                "Salida Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output 13.8V10A (Total 10A Max)"
+                "Exit Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output 13.8V10A (Total 10A Max)"
             ],
             [
-                "Puerto de entrada para carga solar : DC12V-60V/10A 400W Max"
+                "Port of entry for solar charging : DC12V-60V/10A 400W Max"
             ],
             [
-                "Puerto de entrada para auto : USB-A1 : 2*5V2.4A AUTO"
+                "Port of entry for car : USB-A1 : 2*5V2.4A AUTO"
             ],
             [
-                "Puerto de entrada para carga AC : AC90-120V 700W Max"
+                "Port of entry for AC charging : AC90-120V 700W Max"
             ]
         ],
         "otros": [
             [
-                "Temperaturas : 0~40°C (32~104°F)"
+                "Temperatures : 0~40°C (32~104°F)"
             ],
             [
-                "Peso : 3.2kg"
+                "Weight : 3.2kg"
             ]
         ],
         "precio": 500
@@ -73,54 +73,54 @@
             "voltinela-centinela-500-6"
         ],
         "titulo": "Centinela 500",
-        "tituloTecnico": "Estación Portátil de Poder 500W/512Wh",
-        "descripcion": "Robusta y fiable, la estación de energía portátil Centinela 500 asegura que tus dispositivos electrónicos sigan funcionando sin importar dónde te encuentres. Desde drones hasta cafeteras y ventiladores, es la compañera perfecta para tus viajes y emergencias, garantizando energía continua para lo que más necesitas.",
+        "tituloTecnico": "Portable Power Station 500W/512Wh",
+        "descripcion": "Robust and reliable, the Centinela 500 portable power station ensures that your electronic devices continue to work no matter where you are. From drones to coffee makers and fans, it is the perfect companion for your travels and emergencies, guaranteeing continuous power for what you need most. you need.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 512Wh±5%(20Ah/25.6V)"
+                "Battery capacity : LiFePO 512Wh±5%(20Ah/25.6V)"
             ],
             [
-                "Ciclo de vida de la batería : 2000 veces, SOH≥80%"
+                "Battery life cycle : 2000 veces, SOH≥80%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protection : Short circuits, overcurrent, overvoltage, undervoltage, overload and overtemperature"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 120V, 60Hz, Peak 1000W"
+                "AC output ports : 120V, 60Hz, Peak 1000W"
             ],
             [
-                "Puertos de salida USB-A1 : QC24W Max (5V3A&9V2A&12V2A QC3.0)"
+                "USB-A output ports1 : QC24W Max (5V3A&9V2A&12V2A QC3.0)"
             ],
             [
-                "Puertos de salida USB-A2 : QC24W Max (5V3A&9V2A&12V2A QC3.0)"
+                "USB-A output ports2 : QC24W Max (5V3A&9V2A&12V2A QC3.0)"
             ],
             [
-                "Puertos de salida USB-C1 : PD27W Max (5V2.4A&9V3A&12V2.2A PD3.0)"
+                "USB-C output ports1 : PD27W Max (5V2.4A&9V3A&12V2.2A PD3.0)"
             ],
             [
-                "Puertos de salida USB-C2 : PD100W Max (5V3A&9V3A&12V3A&15V3A&20V5A PD3.0)"
+                "USB-C output ports2 : PD100W Max (5V3A&9V3A&12V3A&15V3A&20V5A PD3.0)"
             ],
             [
-                "Salida Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output, 13.8V10A (Total 10A Max)"
+                "Exit Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output, 13.8V10A (Total 10A Max)"
             ],
             [
-                "Puerto de entrada para carga solar : DC12V-24V/120W Max"
+                "Port of entry for solar charging : DC12V-24V/120W Max"
             ],
             [
-                "Puerto de entrada para auto : DC12V-24V/120W Max"
+                "Port of entry for car : DC12V-24V/120W Max"
             ],
             [
-                "Puerto de entrada para carga AC : AC100V-120V/200W Max"
+                "Port of entry for AC charging : AC100V-120V/200W Max"
             ]
         ],
         "otros": [
             [
-                "Temperaturas : 0~40°C (32~104°F)"
+                "Temperatures : 0~40°C (32~104°F)"
             ],
             [
-                "Peso : 6.3kg"
+                "Weight : 6.3kg"
             ]
         ],
         "precio": 500
@@ -138,51 +138,51 @@
             "voltinela-centinela-1200-6.jpg"
         ],
         "titulo": "Centinela 1200",
-        "tituloTecnico": "Estación Portátil de Poder 1.200W/1.008Wh",
-        "descripcion": "Para necesidades energéticas más exigentes, la estación de energía portátil Centinela 1200 te ofrece la solución. Compatible con una amplia gama de dispositivos electrónicos, desde refrigeradores hasta microondas, es ideal para viajes prolongados, eventos al aire libre, y situaciones de emergencia, asegurando que nunca te quedes sin energía.",
+        "tituloTecnico": "Portable Power Station 1.200W/1.008Wh",
+        "descripcion": "For more demanding power needs, the Centinela 1200 portable power station offers the solution. Compatible with a wide range of electronic devices, from refrigerators to microwaves, it is ideal for extended trips, outdoor events, and emergency situations, ensuring you never run out of power.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
+                "Battery capacity : LiFePO 1008Wh±5%(45Ah/22.4V)"
             ],
             [
-                "Ciclo de vida de la batería : 2500 veces, SOH≥70%"
+                "Battery life cycle : 2500 veces, SOH≥70%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protection : Short circuits, overcurrent, overvoltage, undervoltage, overload and overtemperature"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 110V±10%. 60Hz±5. 1200W. Peak 2400W"
+                "AC output ports : 110V±10%. 60Hz±5. 1200W. Peak 2400W"
             ],
             [
-                "Puertos de salida USB-A1 : 2*5V2.4A AUTO"
+                "USB-A output ports1 : 2*5V2.4A AUTO"
             ],
             [
-                "Puertos de salida US-A2 : 2*QC18W Max (5V3A&9V2A&12V1.5A QC3.0)"
+                "US-A departure ports2 : 2*QC18W Max (5V3A&9V2A&12V1.5A QC3.0)"
             ],
             [
-                "Puertos de salida USB-C : 2*PD60W Max (5V3A&9V3A&12V3A&15V3A&20V3A PD3.0)"
+                "USB-C output ports : 2*PD60W Max (5V3A&9V3A&12V3A&15V3A&20V3A PD3.0)"
             ],
             [
-                "Salida Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output 13.8V10A (Total 10A Max)"
+                "Exit Cigarette Lighter : 1*Cigarette Lighter, 2*DC5521 Rated Output 13.8V10A (Total 10A Max)"
             ],
             [
-                "Puerto de entrada para carga solar : DC12V-60V/10A 400W Max"
+                "Port of entry for solar charging : DC12V-60V/10A 400W Max"
             ],
             [
-                "Puerto de entrada para auto : 12V-24V/8A Max"
+                "Port of entry for car : 12V-24V/8A Max"
             ],
             [
-                "Puerto de entrada para carga AC : AC90-120V 700W Max"
+                "Port of entry for AC charging : AC90-120V 700W Max"
             ]
         ],
         "otros": [
             [
-                "Temperaturas : 0~40°C (32~104°F)"
+                "Temperatures : 0~40°C (32~104°F)"
             ],
             [
-                "Peso : 13kg"
+                "Weight : 13kg"
             ]
         ],
         "precio": 500
@@ -201,33 +201,33 @@
             "voltinela-centinela-2000-7.jpg"
         ],
         "titulo": "Centinela 2000",
-        "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
-        "descripcion": "Diseñada específicamente para expandir la capacidad del Centinela 2000 Pro Max, la batería portátil Centinela 2000 es el accesorio esencial para quienes necesitan energía extendida en movimiento. Aumenta significativamente tu autonomía energética, asegurando que tus dispositivos electrónicos siempre tengan el soporte que necesitan.",
+        "tituloTecnico": "Portable Power Station 2.000W/1.720Wh",
+        "descripcion": "Specifically designed to expand the capacity of the Sentinel 2000 Pro Max, the Centinela 2000 portable battery is the essential accessory for those who need extended power on the go. Significantly increases your energy autonomy, ensuring that your electronic devices always have the support they need.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1720Wh±5%(38.4Ah/44.8V)"
+                "Battery capacity : LiFePO 1720Wh±5%(38.4Ah/44.8V)"
             ],
             [
-                "Ciclo de vida de la batería : 3000 veces, SOH≥70%"
+                "Battery life cycle : 3000 veces, SOH≥70%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protection : Short circuits, overcurrent, overvoltage, undervoltage, overload and overtemperature"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Puerto 1 : Puerto de conexion derecho"
+                "Port 1 : Port right connection"
             ],
             [
-                "Puerto 2 : Puerto de conexion izquierdo"
+                "Port 2 : Port left connection"
             ]
         ],
         "otros": [
             [
-                "Temperaturas : 0~40°C (32~104°F)"
+                "Temperatures : 0~40°C (32~104°F)"
             ],
             [
-                "Peso : 17.9kg"
+                "Weight : 17.9kg"
             ]
         ],
         "precio": 500
@@ -245,57 +245,57 @@
             "voltinela-centinela-2000-pro-max-6.jpg"
         ],
         "titulo": "Centinela 2000 Pro Max",
-        "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
-        "descripcion": "La estación de energía portátil Centinela 2000 Pro Max es la elección definitiva para los aventureros y profesionales que requieren lo máximo en rendimiento energético. Compatible con prácticamente cualquier dispositivo electrónico, ofrece la potencia y versatilidad necesarias para mantenerte conectado y operativo en cualquier situación, ya sea en viajes, trabajos en campo o emergencias.",
+        "tituloTecnico": "Portable Power Station 2.000W/1.720Wh",
+        "descripcion": "The Centinela 2000 Pro Max portable power station is the ultimate choice for adventurers and professionals who require the ultimate in power performance. Compatible with virtually any electronic device, it offers the power and versatility necessary to keep you connected and operational in any situation, whether traveling, working in the field or emergencies.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1720Wh±5%(38.44Ah/44.8V)"
+                "Battery capacity : LiFePO 1720Wh±5%(38.44Ah/44.8V)"
             ],
             [
-                "Ciclo de vida de la batería : 3000 veces, SOH≥70%"
+                "Battery life cycle : 3000 veces, SOH≥70%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protection : Short circuits, overcurrent, overvoltage, undervoltage, overload and overtemperature"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Puertos de salida AC : 3*120V±10%. 60Hz. 2000W. Peak 4000W"
+                "AC output ports : 3*120V±10%. 60Hz. 2000W. Peak 4000W"
             ],
             [
-                "Puertos de salida AC TT-30R : 1*AC120V/30A Max"
+                "AC output ports TT-30R : 1*AC120V/30A Max"
             ],
             [
-                "Puertos de salida USB-A1 : QC18W Max (5V2.4A&9V2A&12V1.5A)"
+                "USB-A output ports1 : QC18W Max (5V2.4A&9V2A&12V1.5A)"
             ],
             [
-                "Puertos de salida US-A2 : QC18W Max (5V2.4A&9V2A&12V1.5A)"
+                "US-A departure ports2 : QC18W Max (5V2.4A&9V2A&12V1.5A)"
             ],
             [
-                "Puertos de salida USB-C1 : PD100W Max (5V3A&9V3A&12V3A&15V3A&20V5A)"
+                "USB-C output ports1 : PD100W Max (5V3A&9V3A&12V3A&15V3A&20V5A)"
             ],
             [
-                "Puertos de salida USB-C2 : PD27W Max (5V3A&9V3A&12V2.25A&15V1.8A&20V1.35A)"
+                "USB-C output ports2 : PD27W Max (5V3A&9V3A&12V2.25A&15V1.8A&20V1.35A)"
             ],
             [
-                "Salida Cigarette Lighter : 1*Cigarette Lighter 12.8V/12A Max, 2*DC5521 Rated Output 12.8V5A Max (Total 12A Max)"
+                "Exit Cigarette Lighter : 1*Cigarette Lighter 12.8V/12A Max, 2*DC5521 Rated Output 12.8V5A Max (Total 12A Max)"
             ],
             [
-                "Puerto de entrada para carga solar : DC18V-60V/10A 500W Max"
+                "Port of entry for solar charging : DC18V-60V/10A 500W Max"
             ],
             [
-                "Puerto de entrada para auto : 12V/120W Max, 24V/240W Max"
+                "Port of entry for car : 12V/120W Max, 24V/240W Max"
             ],
             [
-                "Puerto de entrada para carga AC : AC100-120V/1400W Max"
+                "Port of entry for AC charging : AC100-120V/1400W Max"
             ]
         ],
         "otros": [
             [
-                "Temperaturas : 0~40°C (32~104°F)"
+                "Temperatures : 0~40°C (32~104°F)"
             ],
             [
-                "Peso : 21.5kg"
+                "Weight : 21.5kg"
             ]
         ],
         "precio": 500
@@ -309,25 +309,25 @@
         ],
         "titulo": "Panel solar de 550W",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
-        "descripcion": "Nuestro Panel Solar de 550W es ideal para quienes buscan una solución eficiente y confiable, asegurando energía constante en su hogar. Más allá de su contribución a un futuro más sostenible, ofrece tranquilidad y autonomía en momentos críticos, manteniendo tu hogar siempre en marcha.",
+        "descripcion": "Our 550W Solar Panel is ideal for those seeking an efficient and reliable solution, ensuring constant energy in your home. Beyond its contribution to a more sustainable future, it offers peace of mind and autonomy in critical moments, keeping your home always running.",
         "especificacionesElectricas": [
             [
-                "Poder maximo : STC 550W / NOCT 416W"
+                "Maximum power : STC 550W / NOCT 416W"
             ],
             [
-                "Voltaje de circuito abierto : STC 49.90V / NOCT 46.68V"
+                "Open circuit voltage : STC 49.90V / NOCT 46.68V"
             ],
             [
-                "Corriente de cortocircuito : STC 14.00A / NOCT 11.17A"
+                "Short circuit current : STC 14.00A / NOCT 11.17A"
             ],
             [
                 "Eficiencia de modulo : 21.3%"
             ],
             [
-                "Tolerancia de poder : 0, +4.99W"
+                "Power tolerance : 0, +4.99W"
             ],
             [
-                "Sistema de voltaje maximo : 1500Vdc (IEC / UL)"
+                "Maximum voltage system : 1500Vdc (IEC / UL)"
             ],
             [
                 "Clasificación máxima del fusible : 25A"
@@ -335,33 +335,33 @@
         ],
         "especificacionesTecnicas": [
             [
-                "Celdas solares : Monocristalino"
+                "Solar cells : Monocristalino"
             ],
             [
-                "Cristal frontal : AR recubierta con 3.2mm de vidrio templado"
+                "Front glass : AR recubierta con 3.2mm de vidrio templado"
             ],
             [
-                "Marco : Aleación de aluminio anodizado"
+                "Frame : Aleación de aluminio anodizado"
             ],
             [
-                "Caja de conexiones : IP68"
+                "Connections Box : IP68"
             ],
             [
-                "Cables de salida : 4,0 mm, 1200 mm (+), 1200 mm (-), longitud, se pueden personalizar."
+                "Output cables : 4,0 mm, 1200 mm (+), 1200 mm (-), longitud, se pueden personalizar."
             ],
             [
-                "conexion : Compatible MC4"
+                "Connection : Compatible MC4"
             ],
             [
-                "Carga mecánica: Lado frontal Máx. 5400Pa, lado trasero Máx. 2400Pa"
+                "Mechanical load : Lado frontal Máx. 5400Pa, lado trasero Máx. 2400Pa"
             ]
         ],
         "otros": [
             [
-                "Temperatura de funcionamiento: -40~+85°C"
+                "Operating temperature : -40~+85°C"
             ],
             [
-                "Peso : 28.6kg"
+                "Weight : 28.6kg"
             ]
         ],
         "precio": 500
@@ -375,59 +375,59 @@
         ],
         "titulo": "Panel solar de 585W",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
-        "descripcion": "Maximiza tu capacidad de generación de energía con el Panel Solar de 585W, diseñado para hogares que no solo buscan reducir su huella ambiental, sino también asegurar un suministro energético estable en situaciones inesperadas, garantizando que tu hogar se mantenga activo y autosuficiente.",
+        "descripcion": "Maximize your power generation capabilities with the 585W Solar Panel, designed for homes that not only seek to reduce their environmental footprint but also ensure a stable energy supply in unexpected situations, guaranteeing that your home remains active and self-sufficient.",
         "especificacionesElectricas": [
             [
-                "Poder maximo (Pmax) : STC 585W / NOCT 442W"
+                "Maximum power (Pmax) : STC 585W / NOCT 442W"
             ],
             [
-                "Voltaje de circuito abierto (Voc) : STC 52.36V / NOCT 48.98V"
+                "Open circuit voltage (Voc) : STC 52.36V / NOCT 48.98V"
             ],
             [
-                "Corriente de cortocircuito (Isc) : STC 14.27A / NOCT 11.38A"
+                "Short circuit current (Isc) : STC 14.27A / NOCT 11.38A"
             ],
             [
-                "Tolerancia de poder : 0~3%"
+                "Power tolerance : 0~3%"
             ],
             [
-                "Voltaje de poder máximo (Vmp) : 44.21V"
+                "Maximum power voltage (Vmp) : 44.21V"
             ],
             [
-                "Corriente de poder máximo (Imp) : 13.24A"
+                "Maximum power current (Imp) : 13.24A"
             ],
             [
-                "Sistema de voltaje maximo : 1500Vdc (IEC / UL)"
+                "Maximum voltage system : 1500Vdc (IEC / UL)"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Celdas solares : Monocristalino"
+                "Solar cells : Monocristalino"
             ],
             [
-                "Cristal frontal : AR recubierta con 3.2mm de vidrio templado"
+                "Front glass : AR recubierta con 3.2mm de vidrio templado"
             ],
             [
-                "Marco : Aleación de aluminio anodizado"
+                "Frame : Aleación de aluminio anodizado"
             ],
             [
-                "Caja de conexiones : IP68"
+                "Connections Box : IP68"
             ],
             [
-                "Cables de salida : 4,0 mm, 1200 mm (+), 1200 mm (-), longitud, se pueden personalizar."
+                "Output cables : 4,0 mm, 1200 mm (+), 1200 mm (-), longitud, se pueden personalizar."
             ],
             [
-                "conexion : Compatible MC4"
+                "Connection : Compatible MC4"
             ],
             [
-                "Carga mecánica: Lado frontal Máx. 5400Pa, lado trasero Máx. 2400Pa"
+                "Mechanical load : Lado frontal Máx. 5400Pa, lado trasero Máx. 2400Pa"
             ]
         ],
         "otros": [
             [
-                "Temperatura de funcionamiento: -40~+85°C"
+                "Operating temperature : -40~+85°C"
             ],
             [
-                "Peso : 28.6kg"
+                "Weight : 28.6kg"
             ]
         ],
         "precio": 500
@@ -439,9 +439,9 @@
         "imagenes": [
             "logo-voltinela-stock-verde.jpg"
         ],
-        "titulo": "Instalaciones",
-        "tituloTecnico": "Servicio de Instalación Voltinela",
-        "descripcion": "Nuestro servicio de instalación se especializa en transformar su hogar o negocio en un bastión de autonomía energética. Ofrecemos instalaciones profesionales de sistemas de almacenamiento de energía, baterías, inversores y paneles solares, diseñadas para maximizar la eficiencia y la confiabilidad de su sistema. Con nuestro enfoque personalizado, aseguramos una integración perfecta con su espacio, proporcionando una transición fluida hacia la autosuficiencia energética. Opte por la experiencia Voltinela y dé el paso hacia un futuro más sostenible con la seguridad de que su proyecto está en manos expertas.",
+        "titulo": "Installations",
+        "tituloTecnico": "Voltinela Installation Service",
+        "descripcion": "Our installation service specializes in transforming your home or business into a bastion of energy autonomy. We offer professional installation of energy storage systems, batteries, inverters, and solar panels, designed to maximize the efficiency and reliability of your system. With our personalized approach, we ensure a perfect integration with your space, providing a smooth transition to energy self-sufficiency. Choose the Voltinela experience and take the step towards a more sustainable future with the confidence that your project is in expert hands.",
         "especificacionesElectricas": [
             [
                 "Lorem :"
@@ -466,7 +466,7 @@
         "imagenes": [
             "logo-voltinela-stock-verde.jpg"
         ],
-        "titulo": "Limpieza de paneles solares",
+        "titulo": "Solar panel cleaning",
         "tituloTecnico": "Services",
         "descripcion": "Lorem",
         "especificacionesElectricas": [
@@ -495,79 +495,79 @@
             "LFP930k-2.jpg",
             "LFP930k-3.jpg"
         ],
-        "titulo": "Baterías de Litio 3kWh",
-        "tituloTecnico": "Batería 57.6V 50Ah cada bloque",
-        "descripcion": "Asegura un suministro energético continuo con nuestras Baterías de Litio de 3kWh. Almacenando energía para cuando más la necesitas, estas baterías te ofrecen una solución práctica y económica, brindando paz mental y estabilidad en tu hogar, sin importar las circunstancias.",
+        "titulo": "Lithium Batteries 3kWh",
+        "tituloTecnico": "Battery 57.6V 50Ah each block",
+        "descripcion": "Ensure a continuous energy supply with our 3kWh Lithium Batteries. Storing power for when you need it most, these batteries offer you a practical and economical solution, providing peace of mind and stability in your home, no matter the circumstances.",
         "especificacionesElectricas": [
             [
-                "Módulo de batería : LFP 3000 / HV - 57.6V 50Ah"
+                "Battery module : LFP 3000 / HV - 57.6V 50Ah"
             ],
             [
-                "Módulos :"
+                "Modules :"
             ],
             [
-                "3 módulos : Tipo - LFP 9kWh/HV, Energía utilizable - 8.64kWh, Voltaje nominal - 172.8V, Voltaje opeativo 135/197.1V"
+                "3 modules : Type - LFP 9kWh/HV, Usable energy - 8.64kWh, Rated voltage - 172.8V, Operating voltage 135/197.1V"
             ],
             [
-                "4 módulos : Tipo - LFP 12kWh/HV, Energía utilizable - 11.52kWh, Voltaje nominal - 230.4V, Voltaje opeativo 180/262.8V"
+                "4 modules : Type - LFP 12kWh/HV, Usable energy - 11.52kWh, Rated voltage - 230.4V, Operating voltage 180/262.8V"
             ],
             [
-                "5 módulos : Tipo - LFP 15kWh/HV, Energía utilizable - 14.40kWh, Voltaje nominal - 288V, Voltaje opeativo 225/328.5V"
+                "5 modules : Type - LFP 15kWh/HV, Usable energy - 14.40kWh, Rated voltage - 288V, Operating voltage 225/328.5V"
             ],
             [
-                "6 módulos : Tipo - LFP 18kWh/HV, Energía utilizable - 17.28kWh, Voltaje nominal - 345.6V, Voltaje opeativo 270/394.2V"
+                "6 modules : Type - LFP 18kWh/HV, Usable energy - 17.28kWh, Rated voltage - 345.6V, Operating voltage 270/394.2V"
             ],
             [
-                "7 módulos : Tipo - LFP 21kWh/HV, Energía utilizable - 20.16kWh, Voltaje nominal - 403.2V, Voltaje opeativo 315/459.9V"
+                "7 modules : Type - LFP 21kWh/HV, Usable energy - 20.16kWh, Rated voltage - 403.2V, Operating voltage 315/459.9V"
             ],
             [
-                "8 módulos : Tipo - LFP 24kWh/HV, Energía utilizable - 23.04kWh, Voltaje nominal - 460.6V, Voltaje opeativo 360/525.6V"
+                "8 modules : Type - LFP 24kWh/HV, Usable energy - 23.04kWh, Rated voltage - 460.6V, Operating voltage 360/525.6V"
             ],
             [
-                "9 módulos : Tipo - LFP 27kWh/HV, Energía utilizable - 25.92kWh, Voltaje nominal - 518.4V, Voltaje opeativo 405/591.3V"
+                "9 modules : Type - LFP 27kWh/HV, Usable energy - 25.92kWh, Rated voltage - 518.4V, Operating voltage 405/591.3V"
             ],
             [
-                "10 módulos : Tipo - LFP 30kWh/HV, Energía utilizable - 28.80kWh, Voltaje nominal - 576V, Voltaje opeativo 450/657V"
+                "10 modules : Type - LFP 30kWh/HV, Usable energy - 28.80kWh, Rated voltage - 576V, Operating voltage 450/657V"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Número de módulos : De 3 und a 10 und"
+                "Number of modules : From 3 units to 10 units"
             ],
             [
-                "Protección de la batería : Sobrecorriente / Sobretensión / Cortocircuito / Subtensión"
+                "Battery protection : Overcurrent / Overvoltage / Short Circuit / Undervoltage"
             ],
             [
-                "Clasificación del IP : IP 54"
+                "IP Rating : IP 54"
             ],
             [
-                "Modo de protección : Triple protección de hardware"
+                "Protection mode : Triple hardware protection"
             ],
             [
-                "DOD máximo recomendado : 90%"
+                "Recommended Maximum DOD : 90%"
             ],
             [
-                "Seguridad : CE, UN38.3, IEC62619, IEC63056"
+                "Security : CE, UN38.3, IEC62619, IEC63056"
             ]
         ],
         "otros": [
             [
-                "Peso : Entre 102kg a 305kg (Según la cantidad de los módulos)"
+                "Weight : Between 102kg to 305kg (Depending on the number of modules)"
             ],
             [
-                "Carga operativa : 0~55°C"
+                "Operating charge : 0~55°C"
             ],
             [
-                "Descarga operativa : -20~55°C"
+                "Operating discharge : -20~55°C"
             ],
             [
-                "Tipo de enfriamiento : Natural"
+                "Cooling type : Natural"
             ],
             [
-                "Humedad : 0~95% (Sin agua condensada)"
+                "Humidity : 0~95% (No condensed water)"
             ],
             [
-                "Comunicación : CAN/WIFI"
+                "Communication : CAN/WIFI"
             ]
         ],
         "precio": 500
@@ -581,103 +581,103 @@
             "inversor-afore-2.jpg",
             "inversor-afore-3.jpg"
         ],
-        "titulo": "Inversor 6KW",
+        "titulo": "Inverter 6KW",
         "tituloTecnico": "Afore AF6K-DH",
-        "descripcion": "Optimiza tu energía solar con nuestro Inversor de 6KW, el cual garantiza que tus dispositivos funcionen sin interrupciones, ofreciendo una solución inteligente para un hogar eficiente y preparado para cualquier eventualidad, manteniendo el confort y seguridad de tu familia.",
+        "descripcion": "Optimize your solar energy with our 6KW Inverter, which ensures that your devices operate without interruptions, offering an intelligent solution for an efficient and prepared home for any eventuality, maintaining the comfort and safety of your family.",
         "especificacionesElectricas": [
             [
-                "Potencia máxima de carga/descarga (kW) : 9.0/9.0"
+                "Maximum charging/discharging power (kW) : 9.0/9.0"
             ],
             [
-                "Corriente máxima de carga/descarga (A) : 50"
+                "Maximum charge/discharge current (A) : 50"
             ],
             [
-                "Tensión normal de la batería (V) : 230"
+                "Normal battery voltage (V) : 230"
             ],
             [
-                "Potencia de entrada máxima : 9.0"
+                "Maximum input power : 9.0"
             ],
             [
-                "Corriente de entrada máxima (A) : 15.5 x 2"
+                "Maximum input current (A) : 15.5 x 2"
             ],
             [
-                "Corriente corta máxima (A) : 26.0 x 2"
+                "Max short current (A) : 26.0 x 2"
             ],
             [
-                "Máx. Poder continuo (kVA) : 6.0"
+                "Max. Continuous Power (kVA) : 6.0"
             ],
             [
-                "Máx. corriente continua (A) : 29.0"
+                "Max. continuous current (A) : 29.0"
             ],
             [
-                "Tensión nominal de red (V) : 211 a 264 @ 240 / 183 a 229 @ 208"
+                "Nominal network voltage (V) : 211 a 264 @ 240 / 183 a 229 @ 208"
             ],
             [
-                "Frecuencia nominal de red (Hz) : 60"
+                "Nominal network frequency (Hz) : 60"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Factor de potencia de salida : 1 predeterminado (ajustable de 0,8 inicial a 0,8 retardado)"
+                "Output power factor : 1 default (adjustable from 0.8 initial to 0.8 delayed)"
             ],
             [
-                "Protección de polaridad : Inversa fotovoltaica"
+                "Polarity protection: Reverse photovoltaic"
             ],
             [
-                "Protección de batería : Polaridad inversa"
+                "Battery protection: Reverse polarity"
             ],
             [
-                "Protección contra : Sobrecorriente/Voltaje"
+                "Protection against: Overcurrent/Voltage"
             ],
             [
-                "Protección : Anti-isla"
+                "Protection: Anti-islanding"
             ],
             [
-                "Protección contra cortocircuitos : AC"
+                "Short circuit protection : AC"
             ],
             [
-                "Detección : Corriente residual"
+                "Detection: Residual current"
             ],
             [
-                "Monitoreo : Falla a tierra"
+                "Monitoring: Ground fault"
             ],
             [
-                "Detección : Resistencia de aislamiento"
+                "Detection : Insulation resistance"
             ],
             [
-                "Detección : Arco fotovoltaico"
+                "Detection : Photovoltaic arc"
             ],
             [
-                "Sistema : Apagado rápido"
+                "System : Quick shutdown"
             ],
             [
-                "Grado de protección : IP65/NEMA4X"
+                "Protection degree : IP65/NEMA4X"
             ]
         ],
         "otros": [
             [
-                "Dimensiones : 400 x 600 mm / 15.7 x 23.6 x9.0 in"
+                "Dimensions : 400 x 600 mm / 15.7 x 23.6 x9.0 in"
             ],
             [
-                "Peso : 25kg / 55lbs"
+                "Weight : 25kg / 55lbs"
             ],
             [
-                "Enfriamiento : Convección natural"
+                "Cooling : Natural convection"
             ],
             [
-                "Rango de temperatura operativa : -25°C a 60°C / -77°F a 140°F"
+                "Operating temperature range : -25°C a 60°C / -77°F a 140°F"
             ],
             [
-                "Altitud operativa : < 4000 m / < 13123 ft"
+                "Operating altitude : < 4000 m / < 13123 ft"
             ],
             [
-                "Emisión de ruidos (dB) : < 25"
+                "noise emission (dB) : < 25"
             ],
             [
-                "Consumo en espera (W) : < 10"
+                "Standby consumption (W) : < 10"
             ],
             [
-                "Certificaciones y Aprobaciones : UL 1741 SA, UL 1741, UL1699B, UL 1998, IEEE1547A, IEEE1547.1, CSA 22.2 No.107, Rule21, HECO Rule 14."
+                "Certifications and Approvals : UL 1741 SA, UL 1741, UL1699B, UL 1998, IEEE1547A, IEEE1547.1, CSA 22.2 No.107, Rule21, HECO Rule 14."
             ],
             [
                 "EMC : FCC part15 CLASS B"
@@ -695,101 +695,101 @@
         ],
         "titulo": "Inversor 9.6KW",
         "tituloTecnico": "Afore AF9.6K-DH",
-        "descripcion": "Con nuestro Inversor de 9.6KW, prepara tu hogar para mantener su ritmo de vida sin interrupciones, convirtiendo eficientemente la energía solar en electricidad utilizable. Es la solución perfecta para asegurar una gestión energética robusta y avanzada, lista para cualquier eventualidad.",
+        "descripcion": "With our 9.6KW Inverter, prepare your home to maintain its lifestyle without interruptions, efficiently converting solar energy into usable electricity. It is the perfect solution to ensure robust and advanced energy management, ready for any eventuality.",
         "especificacionesElectricas": [
             [
-                "Potencia máxima de carga/descarga (kW) : 11.5/10.3"
+                "Maximum charging/discharging power (kW) : 11.5/10.3"
             ],
             [
-                "Corriente máxima de carga/descarga (A) : 50"
+                "Maximum charge/discharge current (A) : 50"
             ],
             [
-                "Tensión normal de la batería (V) : 230"
+                "Normal battery voltage (V) : 230"
             ],
             [
-                "Potencia de entrada máxima : 15.0"
+                "Maximum input power : 15.0"
             ],
             [
-                "Corriente de entrada máxima (A) : 15.5 x 3"
+                "Maximum input current (A) : 15.5 x 3"
             ],
             [
-                "Corriente corta máxima (A) : 26.0 x 3"
+                "Max short current (A) : 26.0 x 3"
             ],
             [
-                "Máx. Poder continuo (kVA) : 9.6"
+                "Max. Continuous Power (kVA) : 9.6"
             ],
             [
-                "Máx. corriente continua (A) : 46.5"
+                "Max. continuous current (A) : 46.5"
             ],
             [
-                "Tensión nominal de red (V) : 211 a 264 @ 240 / 183 a 229 @ 208"
+                "Nominal network voltage (V) : 211 a 264 @ 240 / 183 a 229 @ 208"
             ],
             [
-                "Frecuencia nominal de red (Hz) : 60"
+                "Nominal network frequency (Hz) : 60"
             ]
         ],
         "especificacionesTecnicas": [
             [
-                "Factor de potencia de salida : 1 predeterminado (ajustable de 0,8 inicial a 0,8 retardado)"
+                "Output power factor : 1 default (adjustable from 0.8 initial to 0.8 delayed)"
             ],
             [
-                "Protección de polaridad : Inversa fotovoltaica"
+                "Polarity protection : Reverse photovoltaic"
             ],
             [
-                "Protección de batería : Polaridad inversa"
+                "Battery protection : Reverse polarity"
             ],
             [
-                "Protección contra : Sobrecorriente/Voltaje"
+                "Protection against : Overcurrent/Voltage"
             ],
             [
-                "Protección : Anti-isla"
+                "Protection : Anti-islanding"
             ],
             [
-                "Protección contra cortocircuitos : AC"
+                "Short circuit protection : AC"
             ],
             [
-                "Detección : Corriente residual"
+                "Detection : Residual current"
             ],
             [
-                "Monitoreo : Falla a tierra"
+                "Monitoring : Ground fault"
             ],
             [
-                "Detección : Resistencia de aislamiento"
+                "Detection : Insulation resistance"
             ],
             [
-                "Detección : Arco fotovoltaico"
+                "Detection : Photovoltaic arc"
             ],
             [
-                "Sistema : Apagado rápido"
+                "System : Quick shutdown"
             ],
             [
-                "Grado de protección : IP65/NEMA4X"
+                "Protection degree : IP65/NEMA4X"
             ]
         ],
         "otros": [
             [
-                "Dimensiones : 400 x 600 mm / 15.7 x 23.6 x9.0 in"
+                "Dimensions : 400 x 600 mm / 15.7 x 23.6 x9.0 in"
             ],
             [
-                "Peso : 25kg / 55lbs"
+                "Weight : 25kg / 55lbs"
             ],
             [
-                "Enfriamiento : Vetiladores inteligentes"
+                "Cooling : Smart fans"
             ],
             [
-                "Rango de temperatura operativa : -25°C a 60°C / -77°F a 140°F"
+                "Operating temperature range : -25°C a 60°C / -77°F a 140°F"
             ],
             [
-                "Altitud operativa : < 4000 m / < 13123 ft"
+                "Operating altitude : < 4000 m / < 13123 ft"
             ],
             [
-                "Emisión de ruidos (dB) : < 40"
+                "noise emission (dB) : < 40"
             ],
             [
-                "Consumo en espera (W) : < 10"
+                "Standby consumption (W) : < 10"
             ],
             [
-                "Certificaciones y Aprobaciones : UL 1741 SA, UL 1741, UL1699B, UL 1998, IEEE1547A, IEEE1547.1, CSA 22.2 No.107, Rule21, HECO Rule 14."
+                "Certifications and Approvals : UL 1741 SA, UL 1741, UL1699B, UL 1998, IEEE1547A, IEEE1547.1, CSA 22.2 No.107, Rule21, HECO Rule 14."
             ],
             [
                 "EMC : FCC part15 CLASS B"
@@ -807,7 +807,7 @@
         ],
         "titulo": "Panel Solar Portátil 100W",
         "tituloTecnico": "Lorem",
-        "descripcion": "Nuestro Panel Solar Portátil de 100W es compacto y eficaz, ideal para aventuras al aire libre o como respaldo discreto. Ofrece energía renovable al alcance de la mano, garantizando libertad y seguridad en todo momento.",
+        "descripcion": "Our 100W Portable Solar Panel is compact and efficient, making it perfect for outdoor adventures or as a discreet backup. It provides renewable energy at your fingertips, ensuring freedom and security at all times.",
         "especificacionesElectricas": [
             [
                 "Poder máximo : 100W"
@@ -822,10 +822,10 @@
                 "Corriente de funcionamiento óptima (Imp) : 5.6A"
             ],
             [
-                "Voltaje de circuito abierto (Voc) : 23.4V"
+                "Open circuit voltage (Voc) : 23.4V"
             ],
             [
-                "Corriente de cortocircuito (Isc) : 6.27A"
+                "Short circuit current (Isc) : 6.27A"
             ]
         ],
         "especificacionesTecnicas": [
@@ -835,10 +835,10 @@
         ],
         "otros": [
             [
-                "Dimensiones (desplegada) : 1230 x 560 mm"
+                "Dimensions (desplegada) : 1230 x 560 mm"
             ],
             [
-                "Dimensiones (plegada) : 615 x 560 x 35 mm"
+                "Dimensions (plegada) : 615 x 560 x 35 mm"
             ],
             [
                 "Número plegable : 2"
@@ -847,7 +847,7 @@
                 "Temperatura : -40°C ± 85°C"
             ],
             [
-                "Peso : 3.5kg / 7.9lb"
+                "Weight : 3.5kg / 7.9lb"
             ]
         ],
         "precio": 500
@@ -862,7 +862,7 @@
         ],
         "titulo": "Panel Solar Portátil 200W",
         "tituloTecnico": "Lorem",
-        "descripcion": "El Panel Solar Portátil de 200W, con más capacidad, es perfecto para necesidades energéticas mayores en movimiento. Versátil y eficiente, mantiene tus dispositivos cargados y listos, apoyando un estilo de vida activo y consciente sin aludir a situaciones específicas.",
+        "descripcion": "The 200W Portable Solar Panel, with its increased capacity, is perfect for larger energy needs on the go. Versatile and efficient, it keeps your devices charged and ready, supporting an active and mindful lifestyle without alluding to specific situations.",
         "especificacionesElectricas": [
             [
                 "Poder máximo : 200W"
@@ -877,10 +877,10 @@
                 "Corriente de funcionamiento óptima (Imp) : 11A"
             ],
             [
-                "Voltaje de circuito abierto (Voc) : 23.4V"
+                "Open circuit voltage (Voc) : 23.4V"
             ],
             [
-                "Corriente de cortocircuito (Isc) : 12.34A"
+                "Short circuit current (Isc) : 12.34A"
             ]
         ],
         "especificacionesTecnicas": [
@@ -890,10 +890,10 @@
         ],
         "otros": [
             [
-                "Dimensiones (desplegada) : 2390 x 564 mm"
+                "Dimensions (desplegada) : 2390 x 564 mm"
             ],
             [
-                "Dimensiones (plegada) : 635 x 564 x 50 mm"
+                "Dimensions (plegada) : 635 x 564 x 50 mm"
             ],
             [
                 "Número plegable : 4"
@@ -902,7 +902,7 @@
                 "Temperatura : -40°C ± 85°C"
             ],
             [
-                "Peso : 6.62kg / 14.6lb"
+                "Weight : 6.62kg / 14.6lb"
             ]
         ],
         "precio": 500

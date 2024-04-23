@@ -2,11 +2,8 @@ import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { Button, Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flowbite-react"
 import { AiFillTool, AiFillThunderbolt, AiOutlinePoweroff, AiOutlineUsb, AiOutlineArrowLeft, AiOutlineWhatsApp } from 'react-icons/ai'
-import datos from '../dataBase/datos.json'
 
-const productos = Object.keys(datos).map((producto) => datos[producto]);
-
-function DetallesTecnicosProd({info}) {
+function DetallesTecnicosProd({info, productos}) {
 
   const { id } = useParams();
 

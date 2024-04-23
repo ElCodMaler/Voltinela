@@ -16,13 +16,13 @@
         "descripcion": "Pequeña pero poderosa, la estación de energía portátil Centinela 300 es tu aliado perfecto para cualquier aventura. Equipada con salidas AC y DC, puertos para autos, y USB de carga rápida, es ideal para camping, la playa, y situaciones de emergencia. Mantén tus dispositivos siempre cargados, donde sea que estés.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
+                "Capacidad de la batería : LiFePO 1008Wh±5%(45Ah/22.4V)"
             ],
             [
                 "Ciclo de vida de la batería : 2500 veces, SOH≥70%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protección : Cortocircuitos, sobrecorriente, sobretensión, baja tension, sobrecarga y exceso de temperatura"
             ]
         ],
         "especificacionesTecnicas": [
@@ -77,13 +77,13 @@
         "descripcion": "Robusta y fiable, la estación de energía portátil Centinela 500 asegura que tus dispositivos electrónicos sigan funcionando sin importar dónde te encuentres. Desde drones hasta cafeteras y ventiladores, es la compañera perfecta para tus viajes y emergencias, garantizando energía continua para lo que más necesitas.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 512Wh±5%(20Ah/25.6V)"
+                "Capacidad de la batería : LiFePO 512Wh±5%(20Ah/25.6V)"
             ],
             [
                 "Ciclo de vida de la batería : 2000 veces, SOH≥80%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protección : Cortocircuitos, sobrecorriente, sobretensión, baja tension, sobrecarga y exceso de temperatura"
             ]
         ],
         "especificacionesTecnicas": [
@@ -142,13 +142,13 @@
         "descripcion": "Para necesidades energéticas más exigentes, la estación de energía portátil Centinela 1200 te ofrece la solución. Compatible con una amplia gama de dispositivos electrónicos, desde refrigeradores hasta microondas, es ideal para viajes prolongados, eventos al aire libre, y situaciones de emergencia, asegurando que nunca te quedes sin energía.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1008Wh±5%(45Ah/22.4V)"
+                "Capacidad de la batería : LiFePO 1008Wh±5%(45Ah/22.4V)"
             ],
             [
                 "Ciclo de vida de la batería : 2500 veces, SOH≥70%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protección : Cortocircuitos, sobrecorriente, sobretensión, baja tension, sobrecarga y exceso de temperatura"
             ]
         ],
         "especificacionesTecnicas": [
@@ -205,13 +205,13 @@
         "descripcion": "Diseñada específicamente para expandir la capacidad del Centinela 2000 Pro Max, la batería portátil Centinela 2000 es el accesorio esencial para quienes necesitan energía extendida en movimiento. Aumenta significativamente tu autonomía energética, asegurando que tus dispositivos electrónicos siempre tengan el soporte que necesitan.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1720Wh±5%(38.4Ah/44.8V)"
+                "Capacidad de la batería : LiFePO 1720Wh±5%(38.4Ah/44.8V)"
             ],
             [
                 "Ciclo de vida de la batería : 3000 veces, SOH≥70%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protección : Cortocircuitos, sobrecorriente, sobretensión, baja tension, sobrecarga y exceso de temperatura"
             ]
         ],
         "especificacionesTecnicas": [
@@ -249,13 +249,13 @@
         "descripcion": "La estación de energía portátil Centinela 2000 Pro Max es la elección definitiva para los aventureros y profesionales que requieren lo máximo en rendimiento energético. Compatible con prácticamente cualquier dispositivo electrónico, ofrece la potencia y versatilidad necesarias para mantenerte conectado y operativo en cualquier situación, ya sea en viajes, trabajos en campo o emergencias.",
         "especificacionesElectricas": [
             [
-                "Capacidad de la bateria : LiFePO 1720Wh±5%(38.44Ah/44.8V)"
+                "Capacidad de la batería : LiFePO 1720Wh±5%(38.44Ah/44.8V)"
             ],
             [
                 "Ciclo de vida de la batería : 3000 veces, SOH≥70%"
             ],
             [
-                "Proteccion : Corto circuitos, sobrecorriente, sobretesion, baja tension, sobrecarga y exceso de temperatura"
+                "Protección : Cortocircuitos, sobrecorriente, sobretensión, baja tension, sobrecarga y exceso de temperatura"
             ]
         ],
         "especificacionesTecnicas": [
@@ -312,7 +312,7 @@
         "descripcion": "Nuestro Panel Solar de 550W es ideal para quienes buscan una solución eficiente y confiable, asegurando energía constante en su hogar. Más allá de su contribución a un futuro más sostenible, ofrece tranquilidad y autonomía en momentos críticos, manteniendo tu hogar siempre en marcha.",
         "especificacionesElectricas": [
             [
-                "Poder maximo : STC 550W / NOCT 416W"
+                "Poder máximo : STC 550W / NOCT 416W"
             ],
             [
                 "Voltaje de circuito abierto : STC 49.90V / NOCT 46.68V"
@@ -327,7 +327,7 @@
                 "Tolerancia de poder : 0, +4.99W"
             ],
             [
-                "Sistema de voltaje maximo : 1500Vdc (IEC / UL)"
+                "Sistema de voltaje máximo : 1500Vdc (IEC / UL)"
             ],
             [
                 "Clasificación máxima del fusible : 25A"
@@ -350,7 +350,7 @@
                 "Cables de salida : 4,0 mm, 1200 mm (+), 1200 mm (-), longitud, se pueden personalizar."
             ],
             [
-                "conexion : Compatible MC4"
+                "Conexión : Compatible MC4"
             ],
             [
                 "Carga mecánica: Lado frontal Máx. 5400Pa, lado trasero Máx. 2400Pa"
@@ -378,7 +378,7 @@
         "descripcion": "Maximiza tu capacidad de generación de energía con el Panel Solar de 585W, diseñado para hogares que no solo buscan reducir su huella ambiental, sino también asegurar un suministro energético estable en situaciones inesperadas, garantizando que tu hogar se mantenga activo y autosuficiente.",
         "especificacionesElectricas": [
             [
-                "Poder maximo (Pmax) : STC 585W / NOCT 442W"
+                "Poder máximo (Pmax) : STC 585W / NOCT 442W"
             ],
             [
                 "Voltaje de circuito abierto (Voc) : STC 52.36V / NOCT 48.98V"
@@ -396,7 +396,7 @@
                 "Corriente de poder máximo (Imp) : 13.24A"
             ],
             [
-                "Sistema de voltaje maximo : 1500Vdc (IEC / UL)"
+                "Sistema de voltaje máximo : 1500Vdc (IEC / UL)"
             ]
         ],
         "especificacionesTecnicas": [
@@ -416,7 +416,7 @@
                 "Cables de salida : 4,0 mm, 1200 mm (+), 1200 mm (-), longitud, se pueden personalizar."
             ],
             [
-                "conexion : Compatible MC4"
+                "Conexión : Compatible MC4"
             ],
             [
                 "Carga mecánica: Lado frontal Máx. 5400Pa, lado trasero Máx. 2400Pa"
@@ -774,7 +774,7 @@
                 "Peso : 25kg / 55lbs"
             ],
             [
-                "Enfriamiento : Vetiladores inteligentes"
+                "Enfriamiento : Ventiladores inteligentes"
             ],
             [
                 "Rango de temperatura operativa : -25°C a 60°C / -77°F a 140°F"
