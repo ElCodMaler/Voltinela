@@ -9,7 +9,7 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
 
   const [visible, setVisible] = useState(false);
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleClose = () => setIsOpen(false);
 
@@ -95,7 +95,7 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
           <Drawer className='w-full bg-black/20 backdrop-blur-sm' open={isOpen} onClose={handleClose} position="right">
             <Drawer.Header titleIcon={() => <>
               <Link to={'/'}>
-                <img src="voltinela-logo-blanco.png" className="mr-3 h-5 sm:h-6 md:h-8 lg:h-10 xl:h-6 2xl:h-8" alt="Logo" />
+                <img src="voltinela-logo-blanco.png" className="mt-5 ms-3 h-5 sm:h-6 md:h-8 lg:h-10 lg:mt-12 lg:ms-14 xl:h-6 xl:ms-24 2xl:h-8 2xl:ms-36" alt="Logo" />
               </Link></>} />
             <Drawer.Items>
               <SidebarComp info={info} carrito={carrito} productos={productos} handleClose={handleClose} />
