@@ -1226,6 +1226,14 @@ input:checked + .toggle-bg {
   top: 1rem;
 }
 
+.start-7 {
+  inset-inline-start: 1.75rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1432,6 +1440,18 @@ input:checked + .toggle-bg {
   margin-top: 1.5rem;
 }
 
+.ms-1 {
+  margin-inline-start: 0.25rem;
+}
+
+.ms-2 {
+  margin-inline-start: 0.5rem;
+}
+
+.ms-3 {
+  margin-inline-start: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -1545,12 +1565,12 @@ input:checked + .toggle-bg {
   height: 1.75rem;
 }
 
-.h-72 {
-  height: 18rem;
-}
-
 .h-8 {
   height: 2rem;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .h-9 {
@@ -2107,6 +2127,10 @@ input:checked + .toggle-bg {
   white-space: nowrap;
 }
 
+.break-all {
+  word-break: break-all;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -2649,6 +2673,11 @@ input:checked + .toggle-bg {
   background-color: rgb(159 88 10 / var(--tw-bg-opacity));
 }
 
+.bg-lime-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(132 204 22 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -2958,6 +2987,11 @@ input:checked + .toggle-bg {
   padding-right: 0px;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -3023,6 +3057,11 @@ input:checked + .toggle-bg {
   padding-bottom: 3rem;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -3059,6 +3098,10 @@ input:checked + .toggle-bg {
 
 .pb-2\.5 {
   padding-bottom: 0.625rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pl-0 {
@@ -3140,6 +3183,11 @@ input:checked + .toggle-bg {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-base {
@@ -5791,6 +5839,11 @@ section .titulo {
 }
 
 @media (min-width: 640px) {
+  .sm\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -5812,6 +5865,11 @@ section .titulo {
     display: flex;
   }
 
+  .sm\:size-8 {
+    width: 2rem;
+    height: 2rem;
+  }
+
   .sm\:h-10 {
     height: 2.5rem;
   }
@@ -5824,10 +5882,6 @@ section .titulo {
     height: 1.75rem;
   }
 
-  .sm\:h-8 {
-    height: 2rem;
-  }
-
   .sm\:h-9 {
     height: 2.25rem;
   }
@@ -5838,6 +5892,10 @@ section .titulo {
 
   .sm\:w-10 {
     width: 2.5rem;
+  }
+
+  .sm\:w-52 {
+    width: 13rem;
   }
 
   .sm\:w-6 {
@@ -5884,6 +5942,26 @@ section .titulo {
     padding-bottom: 0.5rem;
   }
 
+  .sm\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .sm\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .sm\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .sm\:px-2\.5 {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+
   .sm\:pr-8 {
     padding-right: 2rem;
   }
@@ -5895,6 +5973,21 @@ section .titulo {
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -5948,12 +6041,17 @@ section .titulo {
     display: none;
   }
 
+  .md\:size-12 {
+    width: 3rem;
+    height: 3rem;
+  }
+
   .md\:h-48 {
     height: 12rem;
   }
 
-  .md\:h-80 {
-    height: 20rem;
+  .md\:h-8 {
+    height: 2rem;
   }
 
   .md\:h-auto {
@@ -5968,6 +6066,10 @@ section .titulo {
     width: 12rem;
   }
 
+  .md\:w-56 {
+    width: 14rem;
+  }
+
   .md\:w-96 {
     width: 24rem;
   }
@@ -5978,10 +6080,6 @@ section .titulo {
 
   .md\:max-w-xl {
     max-width: 36rem;
-  }
-
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:grid-cols-6 {
@@ -6041,6 +6139,16 @@ section .titulo {
     padding-right: 4rem;
   }
 
+  .md\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -6068,11 +6176,6 @@ section .titulo {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .md\:text-sm {
@@ -6136,9 +6239,9 @@ section .titulo {
     height: 2.5rem;
   }
 
-  .lg\:size-14 {
-    width: 3.5rem;
-    height: 3.5rem;
+  .lg\:size-16 {
+    width: 4rem;
+    height: 4rem;
   }
 
   .lg\:h-10 {
@@ -6161,10 +6264,6 @@ section .titulo {
     height: 18rem;
   }
 
-  .lg\:h-96 {
-    height: 24rem;
-  }
-
   .lg\:w-16 {
     width: 4rem;
   }
@@ -6177,8 +6276,20 @@ section .titulo {
     width: 6rem;
   }
 
+  .lg\:w-72 {
+    width: 18rem;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .lg\:gap-4 {
+    gap: 1rem;
   }
 
   .lg\:p-16 {
@@ -6213,6 +6324,11 @@ section .titulo {
   .lg\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .lg\:px-60 {
@@ -6255,22 +6371,18 @@ section .titulo {
     padding-bottom: 0.75rem;
   }
 
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .lg\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
 
-  .lg\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .lg\:pb-4 {
     padding-bottom: 1rem;
-  }
-
-  .lg\:pb-8 {
-    padding-bottom: 2rem;
   }
 
   .lg\:pt-8 {
@@ -6309,17 +6421,161 @@ section .titulo {
 }
 
 @media (min-width: 1280px) {
-  .xl\:h-96 {
-    height: 24rem;
+  .xl\:mx-28 {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  .xl\:size-8 {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .xl\:h-48 {
+    height: 12rem;
+  }
+
+  .xl\:h-6 {
+    height: 1.5rem;
   }
 
   .xl\:h-svh {
     height: 100svh;
   }
 
-  .xl\:py-28 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+  .xl\:w-52 {
+    width: 13rem;
+  }
+
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .xl\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .xl\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .xl\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .xl\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .xl\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .xl\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .xl\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:mx-36 {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+
+  .\32xl\:size-10 {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .\32xl\:h-60 {
+    height: 15rem;
+  }
+
+  .\32xl\:h-8 {
+    height: 2rem;
+  }
+
+  .\32xl\:w-60 {
+    width: 15rem;
+  }
+
+  .\32xl\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .\32xl\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .\32xl\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .\32xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .\32xl\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .\32xl\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .\32xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .\32xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 

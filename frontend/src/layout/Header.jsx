@@ -7,13 +7,23 @@ import { FaCartShopping } from "react-icons/fa6"
 
 function Header({carrito, productos}) {
 
-  let cantidad = carrito.length;
-
   const [visible, setVisible] = useState(false);
 
   const [close, setClose] = useState(false);
 
   const location = useLocation();
+
+  let cantidad = carrito.length;
+
+  const conterCarrito = () => {
+    if (cantidad > 0) {
+      return (
+        <span className="absolute top-1 ms-4 my-auto px-1 text-xs text-white font-semibold bg-lime-500 rounded-full sm:text-lg sm:px-2.5">
+          {cantidad}
+        </span>
+      )
+    }
+  }
 
   const logoClick = () => {
     if (location.pathname === '/') {
@@ -57,13 +67,9 @@ function Header({carrito, productos}) {
               </Link>
             </Navbar.Brand>
             <nav className="text-center flex flex-wrap">
-              <Link className='my-auto' to={'/Carrito'}>
-                {/**contador del carrito */}
+              <Link className='my-auto flex' to={'/Carrito'}>
                 <FaCartShopping className='text-2xl text-white md:text-3xl lg:text-4xl xl:text-2xl 2xl:text-3xl' />
-                <span className="top-0 start-7 absolute w-3.5 h-3.5 bg-green-500 border-2 border-white dark:border-gray-800 rounded-full">
-                  {cantidad}
-                </span>
-
+                {conterCarrito()}
               </Link>
               <Button className={`${close ? '' : 'transform-none'} px-0 py-0 focus:ring-0`} onClick={() => handleOpen()} type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
                   <HiMenuAlt2 className="size-8 sm:size-8 md:size-12 lg:size-16 xl:size-8 2xl:size-10" name='menu-alt-left' color='#ffffff'></HiMenuAlt2>
