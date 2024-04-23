@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import InvGanCont from '../components/InvGanCont'
 
-function InvitarGanar() {
+function InvitarGanar({info}) {
 
   const location = useLocation();
 
@@ -14,7 +14,7 @@ function InvitarGanar() {
 
   return (
     <>
-      <InvGanCont />
+      <InvGanCont info={info} />
     </>
   )
 }

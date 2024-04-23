@@ -7,11 +7,10 @@ import { HiShoppingCart } from "react-icons/hi"
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import datos from '../dataBase/datos.json'
 
-function SidebarComp({carrito, handleClose, productos}) {
+function SidebarComp({info, carrito, handleClose, productos}) {
 
   const navigate = useNavigate();
 
-  //const productos = datos;
   const categoriasList = new Set();
 
   productos.forEach((productosList) => {
@@ -33,10 +32,10 @@ function SidebarComp({carrito, handleClose, productos}) {
           {categorias[2]}
         </Sidebar.Item>
         <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => handleSelect(categorias[3])}>
-          Baterías / Inversores
+          {info.bateriasInvesores}
         </Sidebar.Item>
         <Sidebar.Item className='lg:text-4xl lg:py-6' onClick={() => allProducts()}>
-          Todos los Productos
+          {info.todosLosProductos}
         </Sidebar.Item>
       </>
     )
@@ -56,6 +55,18 @@ function SidebarComp({carrito, handleClose, productos}) {
     return false;
   };
 
+  let cantidad = carrito.length;
+
+  const conterCarrito2 = () => {
+    if (cantidad > 0) {
+      return (
+        <span className="ms-2 px-1.5 text-xs text-white font-semibold bg-lime-500 rounded-full sm:text-sm sm:px-2">
+          {cantidad}
+        </span>
+      )
+    }
+  }
+
   return (
     <>
       <Sidebar className='w-100' aria-label="Sidebar with multi-level dropdown example">
@@ -63,20 +74,21 @@ function SidebarComp({carrito, handleClose, productos}) {
               <Sidebar.ItemGroup>
                 <Link to={'/'} onClick={() => handleClose()}>
                   <Sidebar.Item className='lg:text-4xl lg:py-6' icon={HiHome}>
-                    Inicio
+                    {info.inicio}
                   </Sidebar.Item>
                 </Link>
-                <Sidebar.Collapse className='lg:text-4xl lg:py-6' icon={HiDuplicate} label="Categorías">
+                <Sidebar.Collapse className='lg:text-4xl lg:py-6' icon={HiDuplicate} label={info.categorias}>
                   {renderCategorias()}
                 </Sidebar.Collapse>
                 <Link to={'/Nosotros'} onClick={() => handleClose()}>
                   <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={AiOutlineUsergroupAdd}>
-                    Nosotros
+                    {info.nosotros}
                   </Sidebar.Item>
                 </Link>
                 <Link to={'/Carrito'} onClick={() => handleClose()}>
                   <Sidebar.Item className='lg:text-4xl lg:py-6' href="#" icon={HiShoppingCart}>
-                    Carrito
+                    {info.carrito}
+                    {conterCarrito2()}
                   </Sidebar.Item>
                 </Link>
               </Sidebar.ItemGroup>

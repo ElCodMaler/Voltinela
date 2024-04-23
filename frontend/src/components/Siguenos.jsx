@@ -6,14 +6,14 @@ import { BiLogoGmail } from "react-icons/bi";
 import { SiMercadopago } from 'react-icons/si'
 import { FaTiktok } from 'react-icons/fa'
 
-function Siguenos() {
+function Siguenos({info}) {
   return (
     <>
       <br />
       <section id='siguenos'>
           <div className='titulo container mx-auto w-max lg:py-4 xl:py-1 2xl:py-2'>
               <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full shadow-xl md:text-3xl md:py-2 lg:text-4xl lg:py-3 xl:text-2xl xl:px-6 2xl:text-2xl 2xl:py-2' style={{backgroundColor:'#84cc16'}}>
-                  Conocenos
+                  {info.conocenos}
               </h3>
           </div>
           <br />

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import DistribuidorTextForm from '../components/DistribuidorTextForm'
 
-function Distribuidor() {
+function Distribuidor({info}) {
 
   const location = useLocation();
 
@@ -14,7 +14,7 @@ function Distribuidor() {
 
   return (
     <>
-      <DistribuidorTextForm />
+      <DistribuidorTextForm info={info} />
     </>
   )
 }

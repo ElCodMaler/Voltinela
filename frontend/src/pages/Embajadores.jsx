@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import EmbajadoresCont from '../components/EmbajadoresCont'
 
-function Embajadores() {
+function Embajadores({info}) {
 
   const location = useLocation();
 
@@ -14,7 +14,7 @@ function Embajadores() {
 
   return (
     <>
-      <EmbajadoresCont />
+      <EmbajadoresCont info={info} />
     </>
   )
 }

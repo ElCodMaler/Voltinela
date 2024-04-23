@@ -7,7 +7,7 @@ import CarruselProductos from '../components/CarruselProductos'
 import DetallesTecnicosProd from '../components/DetallesTecnicosProd'
 import {toast, Toaster} from 'react-hot-toast'
 
-function DescripcionCont({ carrito, setCarrito, productos}) {
+function DescripcionCont({ info, carrito, setCarrito, productos }) {
     //variables de contacto de whatsapp
     const numero_cliente = '4127351051';
 
@@ -65,16 +65,16 @@ function DescripcionCont({ carrito, setCarrito, productos}) {
                     <p className="mb-3 text-base font-normal text-gray-700 dark:text-gray-400 xl:text-lg 2xl:text-xl">
                       {productoSeleccionado.descripcion}
                     </p>
-                    <DetallesTecnicosProd />
+                    <DetallesTecnicosProd info={info} />
                     <div className='flex flex-col justify-center py-5'>
                       <Button className='focus:ring-0' pill style={{backgroundColor:'#84cc16'}} onClick={handleAddCar}>
                         <HiShoppingCart className='mr-2 h-7 w-7' />
-                        <p className='text-base'>Añadir al carrito</p>
+                        <p className='text-base'>{info.anadirAlCarrito}</p>
                       </Button>
                       <br />
                       <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='border-2 focus:ring-0' pill style={{color:'#84cc16', borderColor:'#84cc16'}}>
                         <AiOutlineWhatsApp className='mr-2 h-7 w-7' />
-                        <p className='text-base'>Contactar</p>
+                        <p className='text-base'>{info.contactar}</p>
                       </Button>
                     </div>
                   </div>

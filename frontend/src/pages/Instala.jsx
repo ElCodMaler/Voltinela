@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import InstalaCont from '../components/InstalaCont'
 
-function Instala() {
+function Instala({info}) {
 
   const location = useLocation();
 
@@ -14,7 +14,7 @@ function Instala() {
 
   return (
     <>
-      <InstalaCont />
+      <InstalaCont info={info} />
     </>
   )
 }

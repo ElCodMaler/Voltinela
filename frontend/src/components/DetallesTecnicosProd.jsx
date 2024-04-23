@@ -6,7 +6,7 @@ import datos from '../dataBase/datos.json'
 
 const productos = Object.keys(datos).map((producto) => datos[producto]);
 
-function DetallesTecnicosProd() {
+function DetallesTecnicosProd({info}) {
 
   const { id } = useParams();
 
@@ -46,7 +46,7 @@ function DetallesTecnicosProd() {
       return (
         <>
           <br />
-          <h6 className='text-lg font-semibold lg:text-2xl'>Especificaciones: </h6>
+          <h6 className='text-lg font-semibold lg:text-2xl'>{info.especificaciones}: </h6>
           <br />
           <Accordion collapseAll>
             {renderAccordionElectricos()}
@@ -63,7 +63,7 @@ function DetallesTecnicosProd() {
       return (
         <AccordionPanel>
           <AccordionTitle>
-            <div className='flex flex-wrap'><AiFillThunderbolt className='mt-1 me-2' /> Eléctricas</div>
+            <div className='flex flex-wrap'><AiFillThunderbolt className='mt-1 me-2' /> {info.electricas}</div>
           </AccordionTitle>
           <AccordionContent>
             <ul className='list-none list-inside'>
@@ -80,7 +80,7 @@ function DetallesTecnicosProd() {
       return (
         <AccordionPanel>
           <AccordionTitle>
-            <div className='flex flex-wrap'><AiOutlinePoweroff className='mt-1 me-2' /> Técnicas</div>
+            <div className='flex flex-wrap'><AiOutlinePoweroff className='mt-1 me-2' /> {info.tecnicas}</div>
           </AccordionTitle>
           <AccordionContent>
             <ul className='list-none list-inside'>
@@ -97,7 +97,7 @@ function DetallesTecnicosProd() {
       return (
         <AccordionPanel>
             <AccordionTitle>
-              <div className='flex flex-wrap'><AiFillTool className='mt-1 me-2' /> Otros</div>
+              <div className='flex flex-wrap'><AiFillTool className='mt-1 me-2' /> {info.otras}</div>
             </AccordionTitle>
             <AccordionContent>
               <ul className='list-none list-inside'>

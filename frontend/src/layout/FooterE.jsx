@@ -3,7 +3,7 @@ import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, BsTiktok } from 'react-i
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 
-function FooterE({productos}) {
+function FooterE({info, productos}) {
 
   const navigate = useNavigate();
 
@@ -18,10 +18,10 @@ function FooterE({productos}) {
   const renderCategorias = () => {
     return (
       <>
-        <Footer.Link id={categorias[0]} onClick={() => handleSelectedCat(categorias[0])}>Estación Portatil de Poder</Footer.Link>
-        <Footer.Link id={categorias[1]} onClick={() => handleSelectedCat(categorias[1])}>Paneles Solares</Footer.Link>
-        <Footer.Link id={categorias[2]} onClick={() => handleSelectedCat(categorias[2])}>Servicios</Footer.Link>
-        <Footer.Link id={categorias[3]} onClick={() => handleSelectedCat(categorias[3])}>Baterías/Inversores</Footer.Link>
+        <Footer.Link id={categorias[0]} onClick={() => handleSelectedCat(categorias[0])}>{categorias[0]}</Footer.Link>
+        <Footer.Link id={categorias[1]} onClick={() => handleSelectedCat(categorias[1])}>{categorias[1]}</Footer.Link>
+        <Footer.Link id={categorias[2]} onClick={() => handleSelectedCat(categorias[2])}>{categorias[2]}</Footer.Link>
+        <Footer.Link id={categorias[3]} onClick={() => handleSelectedCat(categorias[3])}>Baterías / Inversores</Footer.Link>
       </>
     )
   };
@@ -42,7 +42,7 @@ function FooterE({productos}) {
             </div>
             <div className="grid grid-cols-2 gap-8 sm:mt-10 sm:grid-cols-3 sm:gap-4 md:grid-cols-6 md:gap-0 lg:gap-10">
               <div>
-                <Footer.Title className='lg:text-lg' title="Siguenos" />
+                <Footer.Title className='lg:text-lg' title={info.siguenos} />
                 <Footer.LinkGroup className='lg:text-lg' col>
                   <Footer.Link href="https://www.linkedin.com/company/voltinela/">LinkedIn</Footer.Link>
                   <Footer.Link href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d">Facebook</Footer.Link>
@@ -51,39 +51,39 @@ function FooterE({productos}) {
                 </Footer.LinkGroup>
               </div>
               <div>
-                <Footer.Title className='lg:text-lg' title="Productos" />
+                <Footer.Title className='lg:text-lg' title={info.productos} />
                 <Footer.LinkGroup className='lg:text-lg' col>
                   {renderCategorias()}
                 </Footer.LinkGroup>
               </div>
               <div>
-                <Footer.Title className='lg:text-lg' title="Programas" />
+                <Footer.Title className='lg:text-lg' title={info.programas} />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link><Link to={"/InvitaYGana"}>Invita y Gana</Link></Footer.Link>
-                  <Footer.Link><Link to={"/Embajadores"}>Embajadores</Link></Footer.Link>
-                  <Footer.Link><Link to={"/Instala+"}>Instalación</Link></Footer.Link>
-                  <Footer.Link><Link to={"/Carreras"}>Carreras</Link></Footer.Link>
+                  <Footer.Link><Link to={"/InvitaYGana"}>{info.invitaGana}</Link></Footer.Link>
+                  <Footer.Link><Link to={"/Embajadores"}>{info.embajadores}</Link></Footer.Link>
+                  <Footer.Link><Link to={"/Instala+"}>{info.instalacion}</Link></Footer.Link>
+                  <Footer.Link><Link to={"/Carreras"}>{info.carreras}</Link></Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
-                <Footer.Title className='lg:text-lg' title="Soporte" />
+                <Footer.Title className='lg:text-lg' title={info.soporte} />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link to={"/"}>Preguntas</Footer.Link>
-                  <Footer.Link to={"/"}>Contactos</Footer.Link>
+                  <Footer.Link to={"/"}>{info.preguntas}</Footer.Link>
+                  <Footer.Link to={"/"}>{info.contactos}</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
-                <Footer.Title className='lg:text-lg' title="Nosotros" />
+                <Footer.Title className='lg:text-lg' title={info.nosotros} />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link><Link to={"/Nosotros"}>Visión</Link></Footer.Link>
-                  <Footer.Link><Link to={"/Nosotros"}>Misión</Link></Footer.Link>
+                  <Footer.Link><Link to={"/Nosotros"}>{info.mision}</Link></Footer.Link>
+                  <Footer.Link><Link to={"/Nosotros"}>{info.vision}</Link></Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
                 <Footer.Title className='lg:text-lg' title="Legal" />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link href="#">Politicas de privacidad</Footer.Link>
-                  <Footer.Link href="#">Terminos &amp; Condiciones</Footer.Link>
+                  <Footer.Link href="#">{info.politicasPrivacidad}</Footer.Link>
+                  <Footer.Link href="#">{info.terminosCondiciones}</Footer.Link>
                 </Footer.LinkGroup>
               </div>
             </div>

@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom'
 import BannerNos from '../components/BannerNos'
 import NosotrosCont from '../components/NosotrosCont'
 
-function AboutUs() {
+function AboutUs({info}) {
 
   const location = useLocation();
 
@@ -15,9 +15,9 @@ function AboutUs() {
 
   return (
     <>
-        {/*<BannerNos />*/}
-
-        <NosotrosCont />
+      {/*<BannerNos />*/}
+      
+      <NosotrosCont info={info} />
     </>
   )
 }

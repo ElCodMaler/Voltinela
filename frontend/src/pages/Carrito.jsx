@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import CarritoCont from '../components/CarritoCont'
 
-function Carrito({carrito, removeProduct}) {
+function Carrito({ info, carrito, removeProduct }) {
 
   const location = useLocation();
 
@@ -14,7 +14,7 @@ function Carrito({carrito, removeProduct}) {
 
   return (
     <>
-      <CarritoCont carrito={carrito}  removeProduct={removeProduct}/>
+      <CarritoCont info={info} carrito={carrito}  removeProduct={removeProduct}/>
     </>
   )
 }

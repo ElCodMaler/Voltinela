@@ -5,11 +5,13 @@ import { Link, useLocation } from 'react-router-dom'
 import { HiMenuAlt2 } from "react-icons/hi";
 import { FaCartShopping } from "react-icons/fa6"
 
-function Header({carrito, productos}) {
+function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) {
 
   const [visible, setVisible] = useState(false);
 
   const [close, setClose] = useState(false);
+
+  const [ lenguage, setLenguage ] = useState("ES");
 
   const location = useLocation();
 
@@ -37,6 +39,16 @@ function Header({carrito, productos}) {
 
   const handleOpen = () => {
     setClose(true);
+  };
+
+  const handleChange = () => {
+    if (lenguage === "ES") {
+      handleLenguageEN();
+      setLenguage("EN");
+    } else {
+      handleLenguageES();
+      setLenguage("ES");
+    }
   };
 
   useEffect(() => {
@@ -67,6 +79,15 @@ function Header({carrito, productos}) {
               </Link>
             </Navbar.Brand>
             <nav className="text-center flex flex-wrap">
+              <label class="inline-flex items-center cursor-pointer me-2">
+                <input type="checkbox" value="" class="sr-only peer" onChange={handleChange} />
+                <div class="relative w-11 h-6 bg-gray-200 text-black peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#84cc16]">
+                  <div className='flex flex-row mt-0.5'>
+                    <span class="ms-1 text-sm font-medium text-white">EN</span>
+                    <span class="ms-1 text-sm font-medium text-black">ES</span>
+                  </div>
+                </div>
+              </label>
               <Link className='my-auto flex' to={'/Carrito'}>
                 <FaCartShopping className='text-2xl text-white md:text-3xl lg:text-4xl xl:text-2xl 2xl:text-3xl' />
                 {conterCarrito()}
@@ -84,7 +105,7 @@ function Header({carrito, productos}) {
                   <span className="sr-only">Close menu</span>
               </button>
             <div className="py-4 overflow-y-auto"> 
-              <SidebarComp carrito={carrito} productos={productos} handleClose={handleClose} />
+              <SidebarComp info={info} carrito={carrito} productos={productos} handleClose={handleClose} />
             </div>
           </div>
         </header>

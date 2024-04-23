@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import DetalTextForm from '../components/DetalTextForm'
 
-function Detal() {
+function Detal({info}) {
 
   const location = useLocation();
 
@@ -14,7 +14,7 @@ function Detal() {
 
   return (
     <>
-      <DetalTextForm />
+      <DetalTextForm info={info} />
     </>
   )
 }

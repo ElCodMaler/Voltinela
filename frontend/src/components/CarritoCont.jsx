@@ -5,7 +5,7 @@ import { AiOutlineArrowLeft, AiOutlineWhatsApp } from "react-icons/ai"
 import { MdDelete } from "react-icons/md"
 import Categorias from './Categorias'
 
-function CarritoCont({carrito, removeProduct}) {
+function CarritoCont({info, carrito, removeProduct}) {
   //variables de contacto de whatsapp
   const numero_cliente = '4127351051';
 
@@ -39,7 +39,7 @@ function CarritoCont({carrito, removeProduct}) {
                     {/*<span class="text-3xl font-bold text-gray-900 dark:text-white">${producto.precio}</span>*/}
                     <Button onClick={() => {removeProduct(producto.id)}} className="bg-red-600 rounded-full px-1 py-1 text-center">
                       <MdDelete className='text-lg' />
-                      <h6 className='text-white font-medium text-base'>Eliminar</h6>
+                      <h6 className='text-white font-medium text-base'>{info.eliminar}</h6>
                     </Button>
                 </div>
             </div>
@@ -61,7 +61,7 @@ function CarritoCont({carrito, removeProduct}) {
             </Link>
           </div>
           <div className='titulo container mx-auto w-max lg:py-10'>
-            <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>Carrito</h3>
+            <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>{info.carrito}</h3>
           </div>
           <br />
           <div className='container mx-auto px-4 lg:px-24'>
@@ -72,7 +72,7 @@ function CarritoCont({carrito, removeProduct}) {
             <div className='w-full flex justify-center py-5'>
               <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='border-2 focus:ring-0' pill style={{color:'#84cc16', borderColor:'#84cc16'}}>
                 <AiOutlineWhatsApp className='mr-2 h-7 w-7' />
-                <p className='text-base'>Contactar</p>
+                <p className='text-base'>{info.contactar}</p>
               </Button>
             </div>
           </div>

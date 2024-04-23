@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import CarrerasCont from '../components/CarrerasCont'
 
-function Carreras() {
+function Carreras({info}) {
 
   const location = useLocation();
 
@@ -14,7 +14,7 @@ function Carreras() {
   
   return (
     <>
-      <CarrerasCont />
+      <CarrerasCont info={info} />
     </>
   )
 }

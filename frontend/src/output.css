@@ -1202,6 +1202,10 @@ input:checked + .toggle-bg {
   top: 0px;
 }
 
+.top-1 {
+  top: 0.25rem;
+}
+
 .top-1\/2 {
   top: 50%;
 }
@@ -1224,14 +1228,6 @@ input:checked + .toggle-bg {
 
 .top-4 {
   top: 1rem;
-}
-
-.start-7 {
-  inset-inline-start: 1.75rem;
-}
-
-.top-1 {
-  top: 0.25rem;
 }
 
 .-z-10 {
@@ -1412,8 +1408,20 @@ input:checked + .toggle-bg {
   margin-right: 0.75rem;
 }
 
+.ms-1 {
+  margin-inline-start: 0.25rem;
+}
+
 .ms-4 {
   margin-inline-start: 1rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-0\.5 {
+  margin-top: 0.125rem;
 }
 
 .mt-1 {
@@ -1440,16 +1448,8 @@ input:checked + .toggle-bg {
   margin-top: 1.5rem;
 }
 
-.ms-1 {
-  margin-inline-start: 0.25rem;
-}
-
 .ms-2 {
   margin-inline-start: 0.5rem;
-}
-
-.ms-3 {
-  margin-inline-start: 0.75rem;
 }
 
 .block {
@@ -1939,6 +1939,10 @@ input:checked + .toggle-bg {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -2561,6 +2565,11 @@ input:checked + .toggle-bg {
   background-color: rgb(163 230 53 / var(--tw-bg-opacity));
 }
 
+.bg-lime-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(132 204 22 / var(--tw-bg-opacity));
+}
+
 .bg-lime-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(101 163 13 / var(--tw-bg-opacity));
@@ -2671,11 +2680,6 @@ input:checked + .toggle-bg {
 .bg-yellow-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(159 88 10 / var(--tw-bg-opacity));
-}
-
-.bg-lime-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(132 204 22 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
@@ -3092,6 +3096,11 @@ input:checked + .toggle-bg {
   padding-bottom: 1.25rem;
 }
 
+.px-1\.5 {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -3261,6 +3270,11 @@ input:checked + .toggle-bg {
 
 .tracking-tight {
   letter-spacing: -0.025em;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-blue-500 {
@@ -3926,6 +3940,11 @@ section .titulo {
   left: 4px;
 }
 
+.after\:start-\[2px\]::after {
+  content: var(--tw-content);
+  inset-inline-start: 2px;
+}
+
 .after\:top-0::after {
   content: var(--tw-content);
   top: 0px;
@@ -3977,10 +3996,44 @@ section .titulo {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.after\:rounded-full::after {
+  content: var(--tw-content);
+  border-radius: 9999px;
+}
+
+.after\:border::after {
+  content: var(--tw-content);
+  border-width: 1px;
+}
+
+.after\:border-gray-300::after {
+  content: var(--tw-content);
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
 .after\:border-white::after {
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.after\:bg-white::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.after\:transition-all::after {
+  content: var(--tw-content);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
 }
 
 .first\:ml-0:first-child {
@@ -4639,6 +4692,23 @@ section .titulo {
   --tw-bg-opacity: 0;
 }
 
+.peer:checked ~ .peer-checked\:bg-\[\#84cc16\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(132 204 22 / var(--tw-bg-opacity));
+}
+
+.peer:checked ~ .peer-checked\:after\:translate-x-full::after {
+  content: var(--tw-content);
+  --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.peer:checked ~ .peer-checked\:after\:border-white::after {
+  content: var(--tw-content);
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .peer:-moz-placeholder-shown ~ .peer-placeholder-shown\:top-1\/2 {
   top: 50%;
 }
@@ -4711,6 +4781,11 @@ section .titulo {
 .peer:focus ~ .peer-focus\:text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(28 100 242 / var(--tw-text-opacity));
+}
+
+.peer:focus ~ .peer-focus\:outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 :is(.dark .dark\:block) {
@@ -5932,6 +6007,16 @@ section .titulo {
     padding-right: 4rem;
   }
 
+  .sm\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .sm\:px-2\.5 {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -5947,27 +6032,17 @@ section .titulo {
     padding-bottom: 2rem;
   }
 
-  .sm\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .sm\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .sm\:px-2\.5 {
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-  }
-
   .sm\:pr-8 {
     padding-right: 2rem;
   }
 
   .sm\:text-center {
     text-align: center;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .sm\:text-xs {
@@ -5978,16 +6053,6 @@ section .titulo {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .sm\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }
 
@@ -6586,6 +6651,12 @@ section .titulo {
 
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
+}
+
+.peer:checked ~ .rtl\:peer-checked\:after\:-translate-x-full:where([dir="rtl"], [dir="rtl"] *)::after {
+  content: var(--tw-content);
+  --tw-translate-x: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .\[\&\:\:-webkit-scrollbar\]\:\!hidden::-webkit-scrollbar {

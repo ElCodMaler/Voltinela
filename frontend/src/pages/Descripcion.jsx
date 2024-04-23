@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import DescripcionCont from '../components/DescripcionCont'
 
-function Descripcion({ carrito, setCarrito, productos}) {
+function Descripcion({ info, carrito, setCarrito, productos}) {
 
   const location = useLocation();
 
@@ -14,7 +14,7 @@ function Descripcion({ carrito, setCarrito, productos}) {
 
   return (
     <>
-      <DescripcionCont carrito={carrito} setCarrito={setCarrito} productos={productos} />
+      <DescripcionCont info={info} carrito={carrito} setCarrito={setCarrito} productos={productos} />
     </>
   )
 }

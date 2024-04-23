@@ -8,26 +8,25 @@ import BannerAlMayor from '../components/BannerAlMayor'
 import Siguenos from '../components/Siguenos'
 import Programas from '../components/Programas'
 
-function Home({productos}) {
+function Home({info, productos}) {
   return (
     <>
-
       <main>
         <BannerIni />
 
-        <Categorias productos={productos} />
+        <Categorias info={info} productos={productos} />
 
-        <BannerAlMayor />
+        <BannerAlMayor info={info} />
 
-        <Programas />
+        <Programas info={info} />
 
-        <Siguenos />
+        <Siguenos info={info} />
 
         {/*<Proyectos />*/}
 
-        <Nosotros />
-        </main>
+        <Nosotros info={info} />
 
+      </main>
     </>
   )
 }
