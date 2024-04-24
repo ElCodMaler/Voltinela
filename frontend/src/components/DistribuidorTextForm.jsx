@@ -3,7 +3,7 @@ import FormularioDist from './FormularioDist'
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft } from "react-icons/ai"
 
-function DistribuidorTextForm() {
+function DistribuidorTextForm({info}) {
   return (
     <>
         <br />
@@ -18,47 +18,31 @@ function DistribuidorTextForm() {
                 </Link>
             </div>
             <div className='titulo container mx-auto w-max lg:py-10'>
-               <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>Distribuidor</h3>
+               <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>{info.distribuidor}</h3>
             </div>
             <br />
-            <div className='sm:mx-10 md:mx-16 lg:mx-20 xl:mx-28 2xl:mx-36 lg:py-10'>
+            <div className='sm:mx-10 md:mx-16 lg:py-10 lg:mx-20 xl:mx-44 2xl:mx-60'>
                 <div className='container mx-auto px-5 lg:px-12'>
                     <br />
-                    <h3 className='font-medium lg:text-xl'>Para Potenciales Distribuidores</h3>
+                    <h3 className='font-medium lg:text-xl'>{info.tituloDistribuidor}</h3>
                     <br />
-                    <p className='lg:text-xl'>Conviértete en Distribuidor de Voltinela y Abre Camino a un Futuro Sostenible</p>
+                    <p className='lg:text-xl'>{info.sub1Distribuidor}</p>
                     <br />
-                    <p className='lg:text-xl'>En Voltinela, lideramos la transformación hacia un futuro energético más sostenible y autosuficiente. 
-                        Nos especializamos en ofrecer soluciones energéticas de alta calidad que incluyen sistemas de 
-                        almacenamiento de energía, estaciones portátiles de poder, paneles solares, y mucho mas, haciendo la energía 
-                        renovable accesible para todos.
-                    </p>
+                    <p className='lg:text-xl'>{info.texto1Distribuidor}</p>
                     <br />
-                    <h3 className='font-medium lg:text-xl'>¿Por qué unirte a nuestra red de distribución?</h3>
+                    <h3 className='font-medium lg:text-xl'>{info.tituloListDistribuidor}</h3>
                     <br />
                     <ul className='container mx-auto px-10 text-sm font-normal list-disc lg:text-lg'>
-                        <li>
-                            Ofrece productos de energía renovable líderes en el mercado, destacando por su innovación, eficiencia y 
-                            sostenibilidad.
-                        </li>
+                        <li>{info.sub1ListDistribuidor}</li>
                         <br />
-                        <li>
-                            Apoya a hogares, negocios y fábricas en su transición hacia la autosuficiencia energética.
-                        </li>
+                        <li>{info.sub2ListDistribuidor}</li>
                         <br />
-                        <li>
-                            Benefíciate de ventajas exclusivas, incluido un amplio soporte técnico y promocional.
-                        </li>
+                        <li>{info.sub3ListDistribuidor}</li>
                     </ul>
                     <br />
-                    <p className='lg:text-xl'>
-                        Hazte distribuidor hoy. Estamos en busca de socios que compartan nuestra visión de un futuro más verde y 
-                        autosuficiente. Si estás interesado en esta oportunidad, te invitamos a dejarnos tus datos en el 
-                        formulario de contacto a continuación o a ponerte en contacto con nosotros. Juntos, podemos liderar el cambio 
-                        hacia un mundo más sostenible.
-                    </p>
+                    <p className='lg:text-xl'>{info.texto2Distribuidor}</p>
                     <br />
-                    <FormularioDist />
+                    <FormularioDist info={info} />
                 </div>
                 <br />
             </div>

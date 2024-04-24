@@ -31,7 +31,7 @@ function Siguenos({info}) {
                   </Button>
                 </a>
                 <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr">
-                  <Button gradientDuoTone='pinkToOrange' className='p-0 h-16 w-16 rounded-full text-white shadow-xl focus:ring-0 lg:h-24 lg:w-24'>
+                  <Button className="p-0 h-16 w-16 rounded-full bg-[url('/background-instagram.jpg')] bg-no-repeat bg-center bg-auto text-white shadow-xl focus:ring-0 lg:h-24 lg:w-24">
                       <AiOutlineInstagram className="h-12 w-12 lg:h-20 lg:w-20" />
                   </Button>
                 </a>

@@ -1148,11 +1148,6 @@ input:checked + .toggle-bg {
   margin-right: auto;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -1208,6 +1203,10 @@ input:checked + .toggle-bg {
   margin-inline-start: 0.5rem;
 }
 
+.ms-3 {
+  margin-inline-start: 0.75rem;
+}
+
 .ms-4 {
   margin-inline-start: 1rem;
 }
@@ -1236,24 +1235,8 @@ input:checked + .toggle-bg {
   margin-top: 1rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.me-5 {
-  margin-inline-end: 1.25rem;
-}
-
-.ms-5 {
-  margin-inline-start: 1.25rem;
-}
-
-.ms-3 {
-  margin-inline-start: 0.75rem;
 }
 
 .block {
@@ -1545,10 +1528,6 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
@@ -1739,6 +1718,10 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-\[url\(\'\/background-instagram\.jpg\'\)\] {
+  background-image: url('/background-instagram.jpg');
+}
+
 .bg-\[url\(\'\/paneles-portatiles\.jpg\'\)\] {
   background-image: url('/paneles-portatiles.jpg');
 }
@@ -1801,6 +1784,10 @@ input:checked + .toggle-bg {
 
 .bg-\[url\(\'vision-mision\.jpg\'\)\] {
   background-image: url('vision-mision.jpg');
+}
+
+.bg-auto {
+  background-size: auto;
 }
 
 .bg-cover {
@@ -2644,11 +2631,6 @@ section .titulo {
     margin-right: 2rem;
   }
 
-  .md\:my-3 {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-  }
-
   .md\:my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -2758,19 +2740,8 @@ section .titulo {
     margin-bottom: 2rem;
   }
 
-  .lg\:mx-5 {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-  }
-
-  .lg\:mx-12 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
-  .lg\:mx-16 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+  .lg\:ms-14 {
+    margin-inline-start: 3.5rem;
   }
 
   .lg\:mt-12 {
@@ -2783,18 +2754,6 @@ section .titulo {
 
   .lg\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .lg\:ms-5 {
-    margin-inline-start: 1.25rem;
-  }
-
-  .lg\:ms-12 {
-    margin-inline-start: 3rem;
-  }
-
-  .lg\:ms-14 {
-    margin-inline-start: 3.5rem;
   }
 
   .lg\:size-10 {
@@ -2982,6 +2941,11 @@ section .titulo {
     margin-right: 8rem;
   }
 
+  .xl\:mx-44 {
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+
   .xl\:ms-24 {
     margin-inline-start: 6rem;
   }
@@ -3013,6 +2977,11 @@ section .titulo {
 
   .xl\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .xl\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
   }
 
   .xl\:px-6 {
@@ -3082,8 +3051,9 @@ section .titulo {
     margin-right: 11rem;
   }
 
-  .\32xl\:ms-32 {
-    margin-inline-start: 8rem;
+  .\32xl\:mx-60 {
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
 
   .\32xl\:ms-36 {
@@ -3109,6 +3079,11 @@ section .titulo {
 
   .\32xl\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .\32xl\:px-60 {
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 
   .\32xl\:px-8 {
