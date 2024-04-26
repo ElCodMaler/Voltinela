@@ -3,9 +3,27 @@ import { Button, Checkbox, Label, TextInput, Textarea } from "flowbite-react"
 import { enviarMensaje } from '../util/email'
 
 function FormularioDetal({info}) {
-  
+  const numero_cliente = '4128849604';
+  let mensaje = '';
+
   const btn = useRef(null);
   const form = useRef(null);
+
+  const nombre = useRef(null);
+  const ci = useRef(null);
+  const email = useRef(null);
+  const telefono = useRef(null);
+  const ubicacion = useRef(null);
+
+  const handleSendWS = () => {
+    mensaje = mensaje+`(Formulario Detal)/nombre:${nombre.current.value}; 
+    C.I:${ci.current.value}; 
+    email:${email.current.value}; 
+    telefono:${telefono.current.value}; 
+    ubicacion:${ubicacion.current.value}.`;
+    
+    window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`)
+  }
 
   return (
     <>
