@@ -18,7 +18,7 @@ function FormularioDetal({info}) {
   const telefono = useRef(null);
 
   const handleSendWS = () => {
-    mensaje = mensaje+`(Formulario Detal)/Empresa:${nombre_empresa.current.value}; 
+    mensaje = `(Formulario Detal)/Empresa:${nombre_empresa.current.value}; 
     Rif:${rif_empresa.current.value}; 
     ubicacion:${ubicacion.current.value}; 
     nombre:${nombre.current.value}; 
@@ -84,7 +84,7 @@ function FormularioDetal({info}) {
                   <Textarea id="mensaje" name="mensaje" placeholder={info.mensaje} required rows={4} />
                 </div>
                 <div className='container mx-auto px-28 lg:px-60'>
-                  <Button id="button" name='button' ref={btn} onClick={() => handleSendWS} className='w-full' type="submit" pill style={{backgroundColor: '#84cc16'}}>
+                  <Button id="button" name='button' ref={btn} onClick={() => handleSendWS()} className='w-full' type="submit" pill style={{backgroundColor: '#84cc16'}}>
                     <p className='lg:text-xl'>{info.enviar}</p>
                   </Button>
                 </div>
