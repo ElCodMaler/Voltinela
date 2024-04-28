@@ -15,9 +15,9 @@ function Products({productos}) {
 
   return (
     <>
-
+      <main className='mt-16 sm:mt-20 md:mt-28 lg:mt-36 xl:mt-28 2xl:mt-32'>
         <Listado productos={productos} />
-
+      </main>
     </>
   )
 }

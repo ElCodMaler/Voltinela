@@ -14,7 +14,9 @@ function Descripcion({ info, carrito, setCarrito, productos}) {
 
   return (
     <>
-      <DescripcionCont info={info} carrito={carrito} setCarrito={setCarrito} productos={productos} />
+      <main className='mt-20 md:mt-28 lg:mt-40 xl:mt-36 2xl:mt-40'>
+        <DescripcionCont info={info} carrito={carrito} setCarrito={setCarrito} productos={productos} />
+      </main>
     </>
   )
 }

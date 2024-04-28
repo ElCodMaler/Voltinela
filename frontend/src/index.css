@@ -3,15 +3,18 @@
 @tailwind utilities;
 
 body {
-    background: url(fondo.jpg) black;
+    background: url(fondo2.jpg) rgb(54, 54, 54);
 }
 
 .shadow-xl {
     box-shadow: 0px 3px 20px -2px black;
 }
 
-header .bgNav {
-    background-color: #84cc1680;
+header nav .mx-auto.flex.flex-wrap.items-center.justify-between .text-center.flex.flex-wrap button .flex.items-stretch.transition-all {
+    padding-left: 0.5rem;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 nav.h-full.w-100 .h-full.overflow-y-auto{
@@ -40,25 +43,20 @@ header .fixed.z-40.overflow-y-auto div .h-full.w-100 .h-full.overflow-y-auto.ove
     color: white;
 }
 
-/*#drawer-navigation a{
+header .fixed.z-40.overflow-y-auto div .absolute {
+    width: 4rem;
+    height: 4rem;
+}
+
+header .fixed.z-40.overflow-y-auto div .absolute:hover {
+    background-color: #81cc00;
     color: white;
 }
 
-#drawer-navigation a:hover {
-    background-color: #84cc16;
+header .fixed.z-40.overflow-y-auto div .absolute svg {
+    width: 2rem;
+    height: 2rem;
 }
-
-#drawer-navigation button:hover {
-    background-color: #84cc16;
-}
-
-#drawer-navigation span{
-    color: white;
-}
-
-#drawer-navigation svg{
-    color: white;
-}*/
 
 section .titulo {
     cursor: context-menu;
@@ -80,14 +78,26 @@ section .titulo {
     border-width: 0;
 }
 
+#siguenos div .container.mx-auto.px-4.py-2 .grid.grid-cols-3.text-gray-500 a #gmail span {
+    padding: 0;
+}
+
+#siguenos div .container.mx-auto.px-4.py-2 .grid.grid-cols-3.text-gray-500 a #mercadoLibre span {
+    padding: 0;
+}
+
+#siguenos div .container.mx-auto.px-4.py-2 .grid.grid-cols-3.text-gray-500 a #tiktok span {
+    padding: 0;
+}
+
 #aboutUs .flex.flex-wrap.gap-3 button {
-    background-color: #84cc16;
+    background-color: #81cc00;
     color: white;
 }
 
 #nosotros div .container .flex.flex-wrap .bg-gray-300 {
     color: white;
-    background-color: #84cc16;
+    background-color: #81cc00;
 }
 
 #descripcion .relative.h-full.w-full .flex.h-full.snap-mandatory {
@@ -99,10 +109,16 @@ section .titulo {
     box-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
 }
 
-#descripcion section .flex.flex-col.items-center .grid.grid-cols-1.w-full .flex.flex-col.justify-between .divide-y.divide-gray-200 .bg-gray-100 {
-    background-color: #84cc16;
+#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .flex.flex-col.justify-between .divide-y.divide-gray-200 .flex.w-full.items-center.justify-between.p-5.text-left.font-medium.text-gray-500 {
+    --tw-ring-opacity: 0;
+    background-color: white;
+}
+
+#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .flex.flex-col.justify-between .divide-y.divide-gray-200 .flex.w-full.items-center.justify-between.p-5.text-left.font-medium.bg-gray-100.text-gray-900 {
+    background-color: #81cc00;
     color: white;
     box-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    --tw-ring-opacity: 0;
 }
 
 #descripcion .container.mx-auto.px-4.py-5 .flex.flex-col.items-center .grid.grid-cols-1.w-full.items-center.bg-white.rounded-lg.shadow .divide-y.divide-gray-200.border-gray-200 .flex.w-full.items-center.justify-between {
@@ -113,8 +129,60 @@ section .titulo {
     --tw-ring-opacity: 0;
 }
 
+#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .h-96 .relative.h-full.w-full .absolute button span {
+    --tw-ring-opacity: 0;
+    background-color: #81cc00;
+}
+
+#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .h-96 .relative.h-full.w-full .absolute .h-3.w-3.rounded-full.bg-white {
+    background-color: #81cc00;
+}
+
+#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .h-96 .relative.h-full.w-full .absolute .h-3.w-3.rounded-full {
+    background-color: #36363640;
+}
+
 #carritoCont .cartaCarrito {
     max-width: 100%;
+}
+
+@media (max-width: 320px) {
+    header nav .mx-auto.flex.flex-wrap.items-center.justify-between .flex.items-center a img {
+        height: 1.1rem;
+    }
+
+    header nav .mx-auto.flex.flex-wrap.items-center.justify-between .text-center.flex.flex-wrap .inline-flex.items-center.cursor-pointer .relative.w-11.h-6.bg-gray-200.text-black {
+        height: 1.2rem;
+        width: 2.15rem;
+    }
+
+    header nav .mx-auto.flex.flex-wrap.items-center.justify-between .text-center.flex.flex-wrap .inline-flex.items-center.cursor-pointer .relative.w-11.h-6.bg-gray-200.text-black::after {
+        height: 0.95rem;
+        width: 0.95rem;
+    }
+
+    header nav .mx-auto.flex.flex-wrap.items-center.justify-between .text-center.flex.flex-wrap .inline-flex.items-center.cursor-pointer .relative.w-11.h-6.bg-gray-200.text-black .flex.flex-row {
+        margin-top: 0;
+    }
+
+    header nav .mx-auto.flex.flex-wrap.items-center.justify-between .text-center.flex.flex-wrap .inline-flex.items-center.cursor-pointer .relative.w-11.h-6.bg-gray-200.text-black .flex.flex-row span {
+        font-size: 0.7rem;
+    }
+
+    header nav .mx-auto.flex.flex-wrap.items-center.justify-between .text-center.flex.flex-wrap .my-auto.flex svg {
+        font-size: 1.1rem;
+    }
+
+    header nav .mx-auto.flex.flex-wrap.items-center.justify-between .text-center.flex.flex-wrap .group.relative.flex.items-stretch .flex.items-stretch.transition-all svg {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
+
+@media (max-width: 355px) {
+    header nav .mx-auto.flex.flex-wrap.items-center.justify-between a a img {
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 430px) {
@@ -123,10 +191,42 @@ section .titulo {
     }
 }
 
+@media (min-width: 640px) {
+    header .fixed.z-40.overflow-y-auto div .absolute {
+        margin-top: 1.2rem;
+        margin-right: 3rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    header .fixed.z-40.overflow-y-auto div .absolute svg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    #programas .container.mx-auto.px-4 .grid.gab-2.grid-cols-2.space-x-3 a #invGan {
+        background-position: center bottom -1rem;
+    }
+
+    #programas .container.mx-auto.px-4 .grid.gab-2.grid-cols-2.space-x-3 a #emb {
+        background-position: center bottom -1rem;
+    }
+
+    #programas .container.mx-auto.px-4 .grid.gab-2.grid-cols-2.space-x-3 a #instal {
+        background-position: center bottom -2rem;
+    }
+}
+
 @media (min-height: 666px) and (max-width: 500px) {
     section .flex.justify-center.px-4.mx-auto.max-w-screen-xl.text-center.py-24 {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    main #bannerIni {
+        background-position: center bottom -1rem;
     }
 }
 
@@ -148,5 +248,19 @@ section .titulo {
     section .flex.justify-center.px-4.mx-auto.max-w-screen-xl.text-center.py-24 {
         padding-top: 110px;
         padding-bottom: 110px;
+    }
+}
+
+@media (min-width: 1280px) {
+    main #bannerIni {
+        background-position: center bottom -9rem;
+    }
+
+    #mayorista .container.mx-auto.px-4 .grid.gab-2.grid-cols-2.space-x-3 a #detal {
+        background-position: center bottom -1rem;
+    }
+
+    #programas .container.mx-auto.px-4 .grid.gab-2.grid-cols-2.space-x-3 a #instal {
+        background-position: center bottom -5rem;
     }
 }

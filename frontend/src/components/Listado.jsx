@@ -12,9 +12,9 @@ function Listado({productos}) {
 
     const renderTitulo = () => {
         if (categorias === 'Todos') {
-            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:px-6 lg:text-3xl lg:py-2 lg:px-6 xl:text-xl xl:py-3 xl:px-8 2xl:text-2xl 2xl:py-2 2xl:px-8' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>Productos</h3>
+            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:px-6 lg:text-3xl lg:py-2 lg:px-6 xl:text-xl xl:py-3 xl:px-8 2xl:text-2xl 2xl:py-2 2xl:px-8' style={{backgroundColor:'#81cc00', boxShadow: '0px 3px 20px -2px black'}}>Productos</h3>
         } else {
-            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:px-6 lg:text-3xl lg:py-2 lg:px-6 xl:text-xl xl:py-3 xl:px-8 2xl:text-2xl 2xl:py-2 2xl:px-8' style={{backgroundColor:'#84cc16', boxShadow: '0px 3px 20px -2px black'}}>{categorias}</h3>
+            return <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:px-6 lg:text-3xl lg:py-2 lg:px-6 xl:text-xl xl:py-3 xl:px-8 2xl:text-2xl 2xl:py-2 2xl:px-8' style={{backgroundColor:'#81cc00', boxShadow: '0px 3px 20px -2px black'}}>{categorias}</h3>
         }
     };
 
@@ -46,12 +46,11 @@ function Listado({productos}) {
 
   return (
     <>
-        <br />
-        <br />
-        <br />
-        <section className='lg:py-20'>
+        <section className='lg:mt-12'>
             <div className='container mx-auto px-4'>
-                <div className='ms-4 w-fit bg-white/30 rounded-md'>
+                <br />
+                <br />
+                <div className='ms-4 w-fit bg-white/50 rounded-md sm:ms-10 md:ms-16 lg:rounded-xl lg:ms-20 xl:ms-28 2xl:ms-36'>
                     <Link className='flex p-3' to={'/'}>
                         <AiOutlineArrowLeft className="lg:size-10" style={{color:'white'}}/>
                     </Link>

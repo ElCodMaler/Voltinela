@@ -906,32 +906,5 @@
             ]
         ],
         "precio": 500
-    },
-    {
-        "id": "27",
-        "categoria": "",
-        "imagen": "logo-voltinela-stock-verde.jpg",
-        "imagenes": [
-            "logo-voltinela-stock-verde.jpg"
-        ],
-        "titulo": "Lorem",
-        "tituloTecnico": "Lorem",
-        "descripcion": "Lorem",
-        "especificacionesElectricas": [
-            [
-                "Lorem : Lorem"
-            ]
-        ],
-        "especificacionesTecnicas": [
-            [
-                "Lorem : Lorem"
-            ]
-        ],
-        "otros": [
-            [
-                "Lorem : Lorem"
-            ]
-        ],
-        "precio": 500
     }
 ]

@@ -6,20 +6,17 @@ import FormularioIns from '../components/FormularioIns'
 function InstalaCont({info}) {
   return (
     <>
-        <br />
-        <br />
-        <br />
-        <br />
-        <section id='embajadores' className='bg-white lg:mt-12'>
+        <section id='embajadores' className='bg-white lg:mt-12' style={{borderBottomWidth: "0.1rem", borderColor: "rgb(229 231 235)"}}>
           <br />
-          <div className='ms-4 w-fit rounded-md' style={{backgroundColor:'#84cc16'}}>
+          <br />
+          <div className='ms-4 w-fit rounded-md sm:ms-10 md:ms-16 lg:rounded-xl lg:ms-20 xl:ms-28 2xl:ms-36' style={{backgroundColor:'#81CC00'}}>
               <Link className='flex p-3' to={'/'}>
                   <AiOutlineArrowLeft className="lg:size-10" style={{color:'white'}}/>
               </Link>
           </div>
           <br />
           <div className='titulo container mx-auto w-max lg:py-10'>
-              <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#84cc16'}}>{info.instalacion}</h3>
+              <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full md:text-3xl md:py-2 lg:text-4xl lg:py-3' style={{backgroundColor:'#81CC00'}}>{info.instalacion}</h3>
           </div>
           <div className='sm:mx-10 md:mx-16 lg:mx-20 xl:mx-28 2xl:mx-36 bg-white'>
             <div className='container mx-auto px-4 py-5'>
@@ -34,7 +31,6 @@ function InstalaCont({info}) {
           </div>
           <br />
         </section>
-        <br />
     </>
   )
 }

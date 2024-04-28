@@ -21,6 +21,7 @@ import data from './dataBase/data.json'
 import useCarrito from './util/useCarrito'
 
 function App() {
+  //console.log(window.devicePixelRatio);
 
   const iES = infoES;
   const iEN = infoEN;

@@ -1,5 +1,5 @@
 import { Footer } from 'flowbite-react';
-import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, BsTiktok } from 'react-icons/bs';
+import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, BsTiktok, BsTwitterX, BsYoutube } from 'react-icons/bs';
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -44,10 +44,13 @@ function FooterE({info, productos}) {
               <div>
                 <Footer.Title className='lg:text-lg' title={info.siguenos} />
                 <Footer.LinkGroup className='lg:text-lg' col>
-                  <Footer.Link href="https://www.linkedin.com/company/voltinela/">LinkedIn</Footer.Link>
                   <Footer.Link href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d">Facebook</Footer.Link>
                   <Footer.Link href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr">Instagram</Footer.Link>
+                  <Footer.Link href="#">X</Footer.Link>
+                  <Footer.Link href="#">YouTube</Footer.Link>
+                  <Footer.Link href="https://www.linkedin.com/company/voltinela/">LinkedIn</Footer.Link>
                   <Footer.Link href="https://www.tiktok.com/@voltinela">TikTok</Footer.Link>
+                  <Footer.Link href="#">Mercado Libre</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
@@ -92,9 +95,11 @@ function FooterE({info, productos}) {
           <div className="w-full sm:flex sm:items-center sm:justify-between">
             <Footer.Copyright href="#" by="Voltinela™" year={2024} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              <Footer.Icon href="https://www.linkedin.com/company/voltinela/" icon={BsLinkedin} />
               <Footer.Icon href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" icon={BsFacebook} />
               <Footer.Icon href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" icon={BsInstagram} />
+              <Footer.Icon href="#" icon={BsTwitterX} />
+              <Footer.Icon href="#" icon={BsYoutube} />
+              <Footer.Icon href="https://www.linkedin.com/company/voltinela/" icon={BsLinkedin} />
               <Footer.Icon href="https://www.tiktok.com/@voltinela" icon={BsTiktok} />
               <Footer.Icon href="https://github.com/Erny23" icon={BsGithub} />
             </div>

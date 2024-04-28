@@ -5,20 +5,16 @@ import { AiOutlineArrowLeft } from 'react-icons/ai'
 function NosotrosCont({info}) {
   return (
     <>
-        <br />
-        <br />
-        <br />
-        <br />
-        <section className='bg-white lg:mt-12 lg:py-10'>
+        <section className='bg-white lg:mt-12 lg:py-10' style={{borderBottomWidth: "0.1rem", borderColor: "rgb(229 231 235)"}}>
             <br />
-            <div className='ms-4 w-fit rounded-md' style={{backgroundColor:'#84cc16'}}>
+            <br />
+            <div className='ms-4 w-fit rounded-md sm:ms-10 md:ms-16 lg:rounded-xl lg:ms-28 xl:ms-44 2xl:ms-60' style={{backgroundColor:'#81cc00'}}>
                 <Link className='flex p-3' to={'/'}>
                     <AiOutlineArrowLeft className="lg:size-10" style={{color:'white'}} />
                 </Link>
             </div>
-            <br />
             <div className='titulo container mx-auto w-max'>
-                <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full lg:text-3xl' style={{backgroundColor:'#84cc16'}}>{info.nosotros}</h3>
+                <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full lg:text-3xl' style={{backgroundColor:'#81cc00'}}>{info.nosotros}</h3>
             </div>
             <br />
             <div>
@@ -41,7 +37,6 @@ function NosotrosCont({info}) {
                 </div>
             </div>
         </section>
-        <br />
     </>
   )
 }
