@@ -80,34 +80,34 @@ function SidebarComp({info, carrito, handleClose, productos}) {
                 </Sidebar.Collapse>
                 <Sidebar.Collapse className='text-white font-semibold hover:bg-lime-500 md:text-xl lg:text-2xl xl:text-3xl lg:py-4' icon={FaShop} label={info.mayorista}>
                   <Link to={'/Detal'}>
-                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4'>
+                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4' onClick={() => handleClose()}>
                       {info.detal}
                     </Sidebar.Item>
                   </Link>
                   <Link to={'/Distribuidor'}>
-                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4'>
+                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4' onClick={() => handleClose()}>
                       {info.distribuidor}
                     </Sidebar.Item>
                   </Link>
                 </Sidebar.Collapse>
                 <Sidebar.Collapse className='text-white font-semibold hover:bg-lime-500 md:text-xl lg:text-2xl xl:text-3xl lg:py-4' icon={HiDuplicate} label={info.programas}>
                   <Link to={'/InvitaYGana'}>
-                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4'>
+                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4' onClick={() => handleClose()}>
                       {info.invitaGana}
                     </Sidebar.Item>
                   </Link>
                   <Link to={'/Embajadores'}>
-                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4'>
+                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4' onClick={() => handleClose()}>
                       {info.embajadores}
                     </Sidebar.Item>
                   </Link>
                     <Link to={'/Instala+'}>
-                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4'>
+                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4' onClick={() => handleClose()}>
                       {info.instalacion}
                     </Sidebar.Item>
                   </Link>
                   <Link to={'/Carreras'}>
-                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4'>
+                    <Sidebar.Item className='text-white hover:bg-lime-500 lg:text-xl lg:py-4' onClick={() => handleClose()}>
                       {info.carreras}
                     </Sidebar.Item>
                   </Link>

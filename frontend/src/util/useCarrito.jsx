@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const useCarrito = () => {
-    const [productosCarrito, setCarrito] = useState([]);
+  const [productosCarrito, setCarrito] = useState([]);
 
   useEffect(() => {
     const productosGuardados = localStorage.getItem('productosCarrito');

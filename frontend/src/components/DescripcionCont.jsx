@@ -8,33 +8,53 @@ import DetallesTecnicosProd from '../components/DetallesTecnicosProd'
 import {toast, Toaster} from 'react-hot-toast'
 
 function DescripcionCont({ info, carrito, setCarrito, productos }) {
-    //variables de contacto de whatsapp
-    const numero_cliente = '4127351051';
+  //variables de contacto de whatsapp
+  const numero_cliente = '4127351051';
 
-    let mensaje = 'Quiero saber más sobre ';
+  let mensaje = 'Quiero saber más sobre ';
 
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const { categorias, id } = useParams();
+  const { categorias, id } = useParams();
 
-    const productoSeleccionado = productos.find((p) => p.id === id);
+  const productoSeleccionado = productos.find((p) => p.id === id);
 
-    mensaje = mensaje + productoSeleccionado.titulo+'.';//le agrego el producto a cotizar
+  mensaje = mensaje + productoSeleccionado.titulo+'.';//le agrego el producto a cotizar
 
-    const handleBack = () => {
-      navigate('/Productos');
-    };
+  const handleBack = () => {
+    navigate('/Productos');
+  };
+  
+  const exite_carrito = carrito.some((producto) => producto.id == id);
+  
+  const handleAddCar = () => {
+    if(!exite_carrito){
+      setCarrito(productoSeleccionado);
+      toast.success(`Guardaste ${productoSeleccionado.titulo} al carrito`)
+    }else{
+      toast.error(`${productoSeleccionado.titulo} ya se encuentra en el carrito`)
+    }  
+  };
 
-    const exite_carrito = carrito.some((producto) => producto.id == id);
-
-    const handleAddCar = () => {
-      if(!exite_carrito){
-        setCarrito(productoSeleccionado);
-        toast.success('Este producto se agrego al carrito')
-      }else{
-        toast.error('Este producto ya se encuentra en el carrito')
-      }  
-    };
+  const manualTec = () => {
+    if (productoSeleccionado.pdf !== "#") {
+      return (
+        <>
+          <div className='flex items-center'>
+            <h6 className="me-5 text-lg font-semibold tracking-tight xl:text-2xl 2xl:text-3xl">
+              {info.manualTecnico}:
+            </h6>
+            <a href={`${productoSeleccionado.pdf}`} download={`${productoSeleccionado.pdfNombre}`}>
+              <Button className='px-1 py-1 bg-[#81cc00] focus:ring-0 lg:px-2' pill>
+                <p className='text-white text-base lg:text-lg xl:text-xl'>{info.descargarPdf}</p>
+              </Button>
+            </a>
+          </div>
+          <br />
+        </>
+      )
+    }
+  };
 
   return (
     <>
@@ -63,7 +83,9 @@ function DescripcionCont({ info, carrito, setCarrito, productos }) {
                   {productoSeleccionado.descripcion}
                 </p>
                 <DetallesTecnicosProd info={info} productos={productos} />
-                <div className='flex flex-col justify-center py-5'>
+                <br />
+                {manualTec()}
+                <div className='flex flex-col justify-center pb-5'>
                   <Button className='focus:ring-0' pill style={{backgroundColor:'#81cc00'}} onClick={handleAddCar}>
                     <HiShoppingCart className='mr-2 h-7 w-7 lg:h-10 lg:w-10 2xl:h-14 2xl:w-14' />
                     <p className='text-lg lg:text-3xl 2xl:text-5xl'>{info.anadirAlCarrito}</p>

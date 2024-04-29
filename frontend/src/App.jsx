@@ -42,8 +42,6 @@ function App() {
     setProductos(ES);
   };
 
-  //const productos = Object.keys(datos).map((producto) => datos[producto]);
-
   const { productosCarrito , guardarProducto, eliminarProducto } = useCarrito();
 
   return (
@@ -55,8 +53,8 @@ function App() {
         <Routes>
             <Route path='*' element={<Home info={info} />} />
             <Route path='/' element={<Home info={info} productos={productos} />} />
-            <Route path='/Productos/:categorias' element={<Products info={info} productos={productos} />} />
-            <Route path='/descripcion/:categorias/:id' element={<Descripcion info={info} carrito={productosCarrito} setCarrito={guardarProducto} productos={productos} />} />
+            <Route path='/Productos/:categorias' element={<Products info={info} productos={productos} carrito={productosCarrito} setCarrito={guardarProducto} />} />
+            <Route path='/descripcion/:categorias/:id' element={<Descripcion info={info} productos={productos} carrito={productosCarrito} setCarrito={guardarProducto}/>} />
             <Route path='/Carrito' element={<Carrito info={info} carrito={productosCarrito} removeProduct={eliminarProducto}/>} />
             <Route path='/Detal' element={<Detal info={info} />} />
             <Route path='/Distribuidor' element={<Distribuidor info={info} />} />

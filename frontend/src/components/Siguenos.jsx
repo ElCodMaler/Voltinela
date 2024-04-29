@@ -52,17 +52,17 @@ function Siguenos({info}) {
                 </a>
                 <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="#">
                   <Button id='gmail' className='items-center p-0 h-16 w-16 rounded-2xl shadow-xl focus:ring-0 lg:h-24 lg:rounded-3xl lg:w-24' style={{backgroundColor:'white'}}>
-                    <img className='h-fit px-2' src='/gmail-logo.png' />
+                    <img className='h-fit px-1 py-2' src='/gmail-logo.png' />
                   </Button>
                 </a>
                 <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://www.tiktok.com/@voltinela">
                   <Button id='mercadoLibre' className='items-center p-0 h-16 w-16 rounded-2xl shadow-xl focus:ring-0 lg:rounded-3xl lg:h-24 lg:w-24' style={{backgroundColor:'white'}}>
-                    <img className='h-fit px-2' src='/mercadoLibre-logo.png' />
+                    <img className='h-fit px-1 py-2' src='/mercadoLibre-logo.png' />
                   </Button>
                 </a>
                 <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://www.tiktok.com/@voltinela">
                   <Button id='tiktok' className='items-center p-0 h-16 w-16 rounded-2xl shadow-xl focus:ring-0 lg:rounded-3xl lg:h-24 lg:w-24' style={{backgroundColor:'white'}}>
-                    <img className='h-fit px-2' src='/tiktok-logo.png' />
+                    <img className='h-fit px-1 py-2' src='/tiktok-logo.png' />
                   </Button>
                 </a>
               </div>

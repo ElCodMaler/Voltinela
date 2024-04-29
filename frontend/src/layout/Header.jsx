@@ -22,7 +22,7 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
   const conterCarrito = () => {
     if (cantidad > 0) {
       return (
-        <span className="absolute mb-5 ms-5 px-1.5 text-xs text-white font-semibold bg-[#81BC00] rounded-full sm:text-sm sm:ms-4 sm:mb-4 sm:px-2 md:text-base md:mb-6 lg:text-lg lg:ms-6 lg:mb-8 xl:ms-8 xl:mb-10">
+        <span className="absolute mb-5 ms-5 px-1.5 text-xs text-white font-semibold bg-[#81BC00] rounded-full sm:text-xs sm:ms-4 sm:mb-4 sm:px-1 md:px-2 md:text-base md:mb-6 lg:text-lg lg:ms-6 lg:mb-7 xl:mb-7 2xl:mb-9 2xl:ms-9">
           {cantidad}
         </span>
       )
@@ -65,7 +65,7 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
 
   return (
     <>
-        <header className={`${visible ? 'bg-[#81bc00]/80 backdrop-blur' : 'bg-[#81bc00]'} fixed top-0 left-0 right-0 z-30`}>
+        <header className={`${visible ? 'bg-[#363636]/80 backdrop-blur' : 'bg-[#363636]'} fixed top-0 left-0 right-0 z-30`}>
           <Navbar className="bg-transparent mx-4 my-4 px-6 py-0 sm:mx-10 md:mx-16 md:my-6 lg:px-8 lg:py-2 lg:mx-20 lg:mt-8" fluid rounded>
             <Navbar.Brand href="#" onClick={logoClick}>
               <Link to={'/'}>

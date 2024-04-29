@@ -1184,6 +1184,10 @@ input:checked + .toggle-bg {
   margin-inline-end: 0.5rem;
 }
 
+.me-5 {
+  margin-inline-end: 1.25rem;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -1666,8 +1670,17 @@ input:checked + .toggle-bg {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.bg-\[\#363636\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 54 54 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#363636\]\/75 {
   background-color: rgb(54 54 54 / 0.75);
+}
+
+.bg-\[\#363636\]\/80 {
+  background-color: rgb(54 54 54 / 0.8);
 }
 
 .bg-\[\#81BC00\] {
@@ -1675,13 +1688,9 @@ input:checked + .toggle-bg {
   background-color: rgb(129 188 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#81bc00\] {
+.bg-\[\#81cc00\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(129 188 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#81bc00\]\/80 {
-  background-color: rgb(129 188 0 / 0.8);
+  background-color: rgb(129 204 0 / var(--tw-bg-opacity));
 }
 
 .bg-blue-700 {
@@ -2760,6 +2769,11 @@ section .titulo {
     gap: 1rem;
   }
 
+  .sm\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -2788,6 +2802,11 @@ section .titulo {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
 
@@ -2866,6 +2885,11 @@ section .titulo {
     padding-right: 4rem;
   }
 
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2910,13 +2934,13 @@ section .titulo {
     line-height: 1.5rem;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
+  .md\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-  .md\:text-lg {
-    font-size: 1.125rem;
+  .md\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
@@ -2947,8 +2971,8 @@ section .titulo {
     margin-bottom: 2rem;
   }
 
-  .lg\:mb-8 {
-    margin-bottom: 2rem;
+  .lg\:mb-7 {
+    margin-bottom: 1.75rem;
   }
 
   .lg\:ms-14 {
@@ -3077,6 +3101,11 @@ section .titulo {
   .lg\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .lg\:px-20 {
@@ -3209,8 +3238,8 @@ section .titulo {
     margin-right: 11rem;
   }
 
-  .xl\:mb-10 {
-    margin-bottom: 2.5rem;
+  .xl\:mb-7 {
+    margin-bottom: 1.75rem;
   }
 
   .xl\:ms-24 {
@@ -3223,10 +3252,6 @@ section .titulo {
 
   .xl\:ms-44 {
     margin-inline-start: 11rem;
-  }
-
-  .xl\:ms-8 {
-    margin-inline-start: 2rem;
   }
 
   .xl\:mt-28 {
@@ -3347,12 +3372,20 @@ section .titulo {
     margin-right: 15rem;
   }
 
+  .\32xl\:mb-9 {
+    margin-bottom: 2.25rem;
+  }
+
   .\32xl\:ms-36 {
     margin-inline-start: 9rem;
   }
 
   .\32xl\:ms-60 {
     margin-inline-start: 15rem;
+  }
+
+  .\32xl\:ms-9 {
+    margin-inline-start: 2.25rem;
   }
 
   .\32xl\:mt-32 {

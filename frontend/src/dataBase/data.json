@@ -12,6 +12,8 @@
             "voltinela-centinela-300-6.jpg"
         ],
         "titulo": "Centinela 300",
+        "pdfNombre": "Manual-Voltinela-Centinela-300",
+        "pdf": "/VOLTINELA-300W-PORTABLE-POWER-STATION-EN.pdf",
         "tituloTecnico": "Portable Power Station 300W/296Wh",
         "descripcion": "Small but powerful, the Centinela 300 portable power station is your perfect ally for any adventure. Equipped with AC and DC outlets, car ports, and fast-charging USB ports, it is ideal for camping, the beach, and emergency situations. Keep your devices always charged, wherever you are.",
         "especificacionesElectricas": [
@@ -73,6 +75,8 @@
             "voltinela-centinela-500-6"
         ],
         "titulo": "Centinela 500",
+        "pdfNombre": "Manual-Voltinela-Centinela-500",
+        "pdf": "VOLTINELA-500W-PORTABLE-POWER-STATION-EN",
         "tituloTecnico": "Portable Power Station 500W/512Wh",
         "descripcion": "Robust and reliable, the Centinela 500 portable power station ensures that your electronic devices continue to work no matter where you are. From drones to coffee makers and fans, it is the perfect companion for your travels and emergencies, guaranteeing continuous power for what you need most. you need.",
         "especificacionesElectricas": [
@@ -138,6 +142,8 @@
             "voltinela-centinela-1200-6.jpg"
         ],
         "titulo": "Centinela 1200",
+        "pdfNombre": "Manual-Voltinela-Centinela-1200",
+        "pdf": "VOLTINELA-1200W-PORTABLE-POWER-STATION-EN",
         "tituloTecnico": "Portable Power Station 1.200W/1.008Wh",
         "descripcion": "For more demanding power needs, the Centinela 1200 portable power station offers the solution. Compatible with a wide range of electronic devices, from refrigerators to microwaves, it is ideal for extended trips, outdoor events, and emergency situations, ensuring you never run out of power.",
         "especificacionesElectricas": [
@@ -201,6 +207,8 @@
             "voltinela-centinela-2000-7.jpg"
         ],
         "titulo": "Centinela 2000",
+        "pdfNombre": "Manual-Voltinela-Centinela-2000",
+        "pdf": "VOLTINELA-1720W-PORTABLE-POWER-STATION-EN",
         "tituloTecnico": "Portable Power Station 2.000W/1.720Wh",
         "descripcion": "Specifically designed to expand the capacity of the Sentinel 2000 Pro Max, the Centinela 2000 portable battery is the essential accessory for those who need extended power on the go. Significantly increases your energy autonomy, ensuring that your electronic devices always have the support they need.",
         "especificacionesElectricas": [
@@ -245,6 +253,8 @@
             "voltinela-centinela-2000-pro-max-6.jpg"
         ],
         "titulo": "Centinela 2000 Pro Max",
+        "pdfNombre": "Manual-Voltinela-Centinela-2000-Pro-Max",
+        "pdf": "VOLTINELA-2000W-PORTABLE-POWER-STATION-EN",
         "tituloTecnico": "Portable Power Station 2.000W/1.720Wh",
         "descripcion": "The Centinela 2000 Pro Max portable power station is the ultimate choice for adventurers and professionals who require the ultimate in power performance. Compatible with virtually any electronic device, it offers the power and versatility necessary to keep you connected and operational in any situation, whether traveling, working in the field or emergencies.",
         "especificacionesElectricas": [
@@ -308,6 +318,8 @@
             "panel-solar-550.jpg"
         ],
         "titulo": "Panel solar de 550W",
+        "pdfNombre": "#",
+        "pdf": "#",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
         "descripcion": "Our 550W Solar Panel is ideal for those seeking an efficient and reliable solution, ensuring constant energy in your home. Beyond its contribution to a more sustainable future, it offers peace of mind and autonomy in critical moments, keeping your home always running.",
         "especificacionesElectricas": [
@@ -374,6 +386,8 @@
             "panel-solar-585.jpg"
         ],
         "titulo": "Panel solar de 585W",
+        "pdfNombre": "#",
+        "pdf": "#",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
         "descripcion": "Maximize your power generation capabilities with the 585W Solar Panel, designed for homes that not only seek to reduce their environmental footprint but also ensure a stable energy supply in unexpected situations, guaranteeing that your home remains active and self-sufficient.",
         "especificacionesElectricas": [
@@ -440,6 +454,8 @@
             "logo-voltinela-stock-verde.jpg"
         ],
         "titulo": "Installations",
+        "pdfNombre": "#",
+        "pdf": "#",
         "tituloTecnico": "Voltinela Installation Service",
         "descripcion": "Our installation service specializes in transforming your home or business into a bastion of energy autonomy. We offer professional installation of energy storage systems, batteries, inverters, and solar panels, designed to maximize the efficiency and reliability of your system. With our personalized approach, we ensure a perfect integration with your space, providing a smooth transition to energy self-sufficiency. Choose the Voltinela experience and take the step towards a more sustainable future with the confidence that your project is in expert hands.",
         "especificacionesElectricas": [
@@ -467,6 +483,8 @@
             "logo-voltinela-stock-verde.jpg"
         ],
         "titulo": "Solar panel cleaning",
+        "pdfNombre": "#",
+        "pdf": "#",
         "tituloTecnico": "Services",
         "descripcion": "Lorem",
         "especificacionesElectricas": [
@@ -496,6 +514,8 @@
             "LFP930k-3.jpg"
         ],
         "titulo": "Lithium Batteries 3kWh",
+        "pdfNombre": "#",
+        "pdf": "#",
         "tituloTecnico": "Battery 57.6V 50Ah each block",
         "descripcion": "Ensure a continuous energy supply with our 3kWh Lithium Batteries. Storing power for when you need it most, these batteries offer you a practical and economical solution, providing peace of mind and stability in your home, no matter the circumstances.",
         "especificacionesElectricas": [
@@ -582,6 +602,8 @@
             "inversor-afore-3.jpg"
         ],
         "titulo": "Inverter 6KW",
+        "pdfNombre": "#",
+        "pdf": "#",
         "tituloTecnico": "Afore AF6K-DH",
         "descripcion": "Optimize your solar energy with our 6KW Inverter, which ensures that your devices operate without interruptions, offering an intelligent solution for an efficient and prepared home for any eventuality, maintaining the comfort and safety of your family.",
         "especificacionesElectricas": [
@@ -694,6 +716,8 @@
             "inversor-afore-2.jpg"
         ],
         "titulo": "Inversor 9.6KW",
+        "pdfNombre": "#",
+        "pdf": "#",
         "tituloTecnico": "Afore AF9.6K-DH",
         "descripcion": "With our 9.6KW Inverter, prepare your home to maintain its lifestyle without interruptions, efficiently converting solar energy into usable electricity. It is the perfect solution to ensure robust and advanced energy management, ready for any eventuality.",
         "especificacionesElectricas": [
@@ -806,6 +830,8 @@
             "panel-solar-portatil-2.jpg"
         ],
         "titulo": "Panel Solar Portátil 100W",
+        "pdfNombre": "#",
+        "pdf": "#",
         "tituloTecnico": "Lorem",
         "descripcion": "Our 100W Portable Solar Panel is compact and efficient, making it perfect for outdoor adventures or as a discreet backup. It provides renewable energy at your fingertips, ensuring freedom and security at all times.",
         "especificacionesElectricas": [
@@ -861,6 +887,8 @@
             "panel-solar-portatil-4.jpg"
         ],
         "titulo": "Panel Solar Portátil 200W",
+        "pdfNombre": "#",
+        "pdf": "#",
         "tituloTecnico": "Lorem",
         "descripcion": "The 200W Portable Solar Panel, with its increased capacity, is perfect for larger energy needs on the go. Versatile and efficient, it keeps your devices charged and ready, supporting an active and mindful lifestyle without alluding to specific situations.",
         "especificacionesElectricas": [

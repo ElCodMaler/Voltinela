@@ -27,6 +27,8 @@
     "electricas": "Electrics",
     "tecnicas": "Technicals",
     "otras": "Others",
+    "manualTecnico": "Technical manual",
+    "descargarPdf": "Download PDF",
     "anadirAlCarrito": "Add to cart",
     "contactar": "Contact",
     "cotizar": "Quote",
