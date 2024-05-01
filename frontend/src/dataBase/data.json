@@ -61,7 +61,39 @@
                 "Weight : 3.2kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Which electronic appliances can I use with the unit? : All electronics devices within 300W."
+            ],
+            [
+                "What kind of solar panel should be selected to recharge the unit? : We recommend 100W~120W solar panel with the Optimum Operating Voltage (Vmp) of DC13V-24V. Never use higher than DC24V solar panel to recharge the power station."
+            ],
+            [
+                "Why does the unit has the Auto-Sleep Mode? : To avoid battery consumption caused by forgetting to turn off the output when not in use, the unit will switch to the Auto-Sleep Mode. That is, when the unit detects that no device is connected or the connected devices are less than or equal to 2W, it will automatically shut-off after 1 hour."
+            ],
+            [
+                "What kind of 'mini-fridge' or 'mini cooler' can the unit? : The AC continuous output of the unit is 300W and the battery capacity is 296Wh. It can power any device within 300W. However, the usage time depends on the power of the fridge and the fridge compressor. Normally the power of the compressor is three times that of the fridge."
+            ],
+            [
+                "Is the unit water/weather resistant? : NO. Do not expose the unit to water."
+            ],
+            [
+                "Can the batteries be replaceable or upgradeable? : NO. Batteries are built in. NOTE-Opening the unit will void the warranty."
+            ],
+            [
+                "Is there a way to disable a port group? : YES. Clicking the button of port group will disable/enable it. When enabled, an icon appears on the LCD screen."
+            ],
+            [
+                "How long will a single charge last without using the unit? : 3-5 months. But we suggest you charge the power station every 2 months if not used for a long time. It's better to keep it full energy in case of emergency usage."
+            ],
+            [
+                "Does this device support pass-through charging? : YES. You can simultaneously charge other devices while recharging the power station."
+            ],
+            [
+                "Can this unit jumpstart a car battery? : NO."
+            ]
+        ],
+        "precio": "322"
     },
     {
         "id": "2",
@@ -127,7 +159,33 @@
                 "Weight : 6.3kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "How do I know whether my appliance can work well with the power station? : Please check the rated label of your device first. If the device's operating power is within 500W, you can use the device normally."
+            ],
+            [
+                "How long can it run my device? : Running time = 512Wh*90% (conversion rate)/Device Rated Power. Eg. If you run a 50W cooling fan, the running time will be 512Wh*90%/50W=9hrs Please Note 1) The formula is NOT suitable for inductive loads with compressors, like refrigerator, air conditioner, etc. 2) The above data is for reference ONLY."
+            ],
+            [
+                "Why is there any sound during use or charging? : This product is with intelligent temperature control system. The built-in fans will help the product to get better cooling and securing usage. Slight noise is normal during using or charging."
+            ],
+            [
+                "Can I charge the power station while a device is plugged in? : Yes, this unit support Pass-Through Charging, you can simultaneously charge other devices while recharging the power station."
+            ],
+            [
+                "Can it be used to jump start a car? : No, it cannot be used to jump start a vehicle."
+            ],
+            [
+                "Why does the power station has the Auto-Sleep Mode? : To avoid forgetting to turn off the output during use, which will lead to unused battery consumption, this unit will turn to Auto-Sleep Mode when no device is connected or the connected device is less than or equal to a certain value. The unit will automatically shut down after 1 hour."
+            ],
+            [
+                "Is the power station waterproof? : No, please do NOT store it in a humid environment for a long time. Please store it in a dry and cool place."
+            ],
+            [
+                "Are the batteries replaceable or upgradeable? : NO. Batteries are built in. NOTE-Opening of the unit will void your warranty"
+            ]
+        ],
+        "precio": "495"
     },
     {
         "id": "3",
@@ -191,7 +249,33 @@
                 "Weight : 13kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "How do I know whether my appliance can work well with the power station? : Please check the rated label of your device first. If the device's operating power is within 1200W, you can use the device normally."
+            ],
+            [
+                "How long can it run my device? : Running time = 1008*90% (conversion rate) / Device Rated Power Eg. If your run a run a 800W microwave oven with it, the running time will be 1008Wh x 90% /800W = 1.1hrs. Please Note 1) The formula is NOT suitable for inductive loads with compressors, like refrigerator, air conditioner, etc. 2) The above data is for reference ONLY."
+            ],
+            [
+                "Why is there any sound during use or charging? : This product is with intelligent temperature control system. The built-in fans will help the product to get better cooling and secure usage. Slight noise is normal during using or charging."
+            ],
+            [
+                "Can I charge the power station while a device is plugged in? : Yes, this unit support Pass-Through Charging, you can simultaneously charge other devices while recharging the power station."
+            ],
+            [
+                ". Can it be used to jump start a car? : No, it cannot be used to jump start a vehicle."
+            ],
+            [
+                "Why does the power station has the Auto-Sleep Mode? : To avoid forgetting to turn off the output during use that results in battery consumption, the unit will turn to Auto-Sleep Mode when no device is connected or the connected device is less than or equal to a certain value. When without charging, and the AC&DC&USB outputs≤2W, the device will automatically shut down after 1 hour."
+            ],
+            [
+                "Is the power station waterproof? : No, please do NOT store it in a humid environment for a long time. Please store it in a dry and cool place."
+            ],
+            [
+                "Are the batteries replaceable or upgradeable? : NO. Batteries are built in. NOTE-Opening of the unit will void your warranty."
+            ]
+        ],
+        "precio": "948"
     },
     {
         "id": "4",
@@ -238,7 +322,33 @@
                 "Weight : 17.9kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "How do I know whether my appliance can work well with the 2000W power station? : Please check the rated label of your device first. If the device's operating power is within 2000W, you can use the device normally."
+            ],
+            [
+                "How long can it run my device? : Running time =1720*90% conversion rate / Device Rated Power Eg.If your run a run a 1,000W microwave oven with it, the running time will be 1720Wh x 90%/1000W = 1.548hrs Please Note 1) The formula is NOT suitable for inductive loads with compressors, like refrigerator, air conditioner, etc.2) The above data is for reference ONLY."
+            ],
+            [
+                "Why is there any sound during use or charging? : This product with intelligent temperature control system, built-in fans help our product to get better cooling and securing usage, slight noise is normal during using or charging."
+            ],
+            [
+                "Can i charge the 2000W power station while a device is plugged in? : Yes, this unit support Pass-Through Charging, you can simultaneously charge other devices while recharging the power station."
+            ],
+            [
+                "How to keep this product when it is not used for a long time? : If the battery is to be unused for a long time (more than 3 months), please recharge it every 3 months to keep the battery power above 50% if you don't use it.(it's recommended to check and charge every 3 months). Store it in a dry and cool place with temperature range between -4°F~140°F, and humidity 20%~85%RH. Avoid contact with corrosive substances, and far from fire and heat Sources."
+            ],
+            [
+                "Can it be used to jump start a car? : No,it cannot be used to jump start a vehicle. However, it can be used as power supply for automobiles. You can recharge the car via a power supply cord, which is available for purchase separately."
+            ],
+            [
+                "Why is the output to the low-power device automatically turned off after several hours? : If the ECO mode is on, the AC power will automatically turn off when AC load is≤ 50W or no load over 4 hours to save power drain."
+            ],
+            [
+                "ECO Mode : If the ECO Mode is off, to avoid forgetting to turn off the output during use that results in battery consumption, the unit will turn to Auto-Sleep Mode when no device is connected or the connected device is less than or equal to a certain value. When without charging, and the AC&DC&USB outputs≤2W, the device will automatically shut down after 1 hour."
+            ]
+        ],
+        "precio": "1.306"
     },
     {
         "id": "5",
@@ -308,7 +418,12 @@
                 "Weight : 21.5kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "1.730"
     },
     {
         "id": "6",
@@ -317,7 +432,7 @@
         "imagenes": [
             "panel-solar-550.jpg"
         ],
-        "titulo": "Panel solar de 550W",
+        "titulo": "550W Solar Panel",
         "pdfNombre": "#",
         "pdf": "#",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
@@ -376,7 +491,12 @@
                 "Weight : 28.6kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "227"
     },
     {
         "id": "7",
@@ -385,7 +505,7 @@
         "imagenes": [
             "panel-solar-585.jpg"
         ],
-        "titulo": "Panel solar de 585W",
+        "titulo": "585W Solar Panel",
         "pdfNombre": "#",
         "pdf": "#",
         "tituloTecnico": "Solar PV Module 182mm 144Cells",
@@ -444,7 +564,12 @@
                 "Weight : 28.6kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "429"
     },
     {
         "id": "8",
@@ -473,14 +598,19 @@
                 "Lorem :"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": ""
     },
     {
         "id": "9",
         "categoria": "Services",
-        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagen": "limpieza-paneles-portatiles.jpg",
         "imagenes": [
-            "logo-voltinela-stock-verde.jpg"
+            "limpieza-paneles-portatiles.jpg"
         ],
         "titulo": "Solar panel cleaning",
         "pdfNombre": "#",
@@ -502,7 +632,12 @@
                 "Lorem :"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": ""
     },
     {
         "id": "10",
@@ -590,7 +725,12 @@
                 "Communication : CAN/WIFI"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "980"
     },
     {
         "id": "11",
@@ -705,7 +845,12 @@
                 "EMC : FCC part15 CLASS B"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "2.887"
     },
     {
         "id": "12",
@@ -715,7 +860,7 @@
             "inversor-afore.jpg",
             "inversor-afore-2.jpg"
         ],
-        "titulo": "Inversor 9.6KW",
+        "titulo": "Inverter 9.6KW",
         "pdfNombre": "#",
         "pdf": "#",
         "tituloTecnico": "Afore AF9.6K-DH",
@@ -819,7 +964,12 @@
                 "EMC : FCC part15 CLASS B"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "3.679"
     },
     {
         "id": "13",
@@ -829,7 +979,7 @@
             "panel-solar-portatil.jpg",
             "panel-solar-portatil-2.jpg"
         ],
-        "titulo": "Panel Solar Portátil 100W",
+        "titulo": "Portable Solar Panel 100W",
         "pdfNombre": "#",
         "pdf": "#",
         "tituloTecnico": "Lorem",
@@ -876,7 +1026,12 @@
                 "Weight : 3.5kg / 7.9lb"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "260"
     },
     {
         "id": "14",
@@ -886,7 +1041,7 @@
             "panel-solar-portatil-2.jpg",
             "panel-solar-portatil-4.jpg"
         ],
-        "titulo": "Panel Solar Portátil 200W",
+        "titulo": "Portable Solar Panel 200W",
         "pdfNombre": "#",
         "pdf": "#",
         "tituloTecnico": "Lorem",
@@ -933,6 +1088,11 @@
                 "Weight : 6.62kg / 14.6lb"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "453"
     }
 ]

@@ -78,6 +78,14 @@ section .titulo {
     border-width: 0;
 }
 
+#siguenos div .container.mx-auto.px-4.py-2 .grid.grid-cols-3.text-gray-500 a button span {
+    padding: 0;
+}
+
+/*#siguenos div .container.mx-auto.px-4.py-2 .grid.grid-cols-3.text-gray-500 a #instagram span {
+    padding: 0;
+}
+
 #siguenos div .container.mx-auto.px-4.py-2 .grid.grid-cols-3.text-gray-500 a #gmail span {
     padding: 0;
 }
@@ -88,7 +96,7 @@ section .titulo {
 
 #siguenos div .container.mx-auto.px-4.py-2 .grid.grid-cols-3.text-gray-500 a #tiktok span {
     padding: 0;
-}
+}*/
 
 #aboutUs .flex.flex-wrap.gap-3 button {
     background-color: #81cc00;
@@ -98,6 +106,29 @@ section .titulo {
 #nosotros div .container .flex.flex-wrap .bg-gray-300 {
     color: white;
     background-color: #81cc00;
+}
+
+#productos section .container.mx-auto.px-4 .flex.flex-wrap.justify-center.grid.grid-cols-2 .flex.rounded-lg.border.border-gray-200 .flex.h-full.flex-col.justify-center.gap-4.p-6 {
+    padding: 0;
+    justify-content: start;
+}
+
+#productos section .container.mx-auto.px-4 .flex.flex-wrap.justify-center.grid.grid-cols-2 .flex.rounded-lg.border.border-gray-200 .flex.h-full.flex-col.justify-center.gap-4.p-6 .flex.flex-col.justify-between.items-start {
+    padding: 1.5rem;
+}
+
+#productos section .container.mx-auto.px-4 .flex.flex-wrap.justify-center.grid.grid-cols-2 .flex.rounded-lg.border.border-gray-200 .flex.h-full.flex-col.justify-center.gap-4.p-6 img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+#carrito #carritoCont .container.mx-auto.px-4.w-fit.grid.grid-cols-1.gap-5 .w-full.max-w-sm.bg-white.border.border-gray-200.rounded-lg.shadow img {
+    padding: 0;
+    justify-content: start;
+}
+
+#carrito #carritoCont .container.mx-auto.px-4.w-fit.grid.grid-cols-1.gap-5 .w-full.max-w-sm.bg-white.border.border-gray-200.rounded-lg.shadow .px-5.pb-5 {
+    padding-top: 1.25rem;
 }
 
 #descripcion .relative.h-full.w-full .flex.h-full.snap-mandatory {

@@ -12,8 +12,8 @@
             "voltinela-centinela-300-6.jpg"
         ],
         "titulo": "Centinela 300",
-        "pdfNombre": "#",
-        "pdf": "#",
+        "pdfNombre": "Manual-Voltinela-Centinela-300",
+        "pdf": "/VOLTINELA-300W-PORTABLE-POWER-STATION-EN.pdf",
         "tituloTecnico": "Estación Portátil de Poder 300W/296Wh",
         "descripcion": "Pequeña pero poderosa, la estación de energía portátil Centinela 300 es tu aliado perfecto para cualquier aventura. Equipada con salidas AC y DC, puertos para autos, y USB de carga rápida, es ideal para camping, la playa, y situaciones de emergencia. Mantén tus dispositivos siempre cargados, donde sea que estés.",
         "especificacionesElectricas": [
@@ -61,7 +61,39 @@
                 "Peso : 3.2kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "¿Qué aparatos electrónicos puedo usar con la unidad? : Todos los dispositivos electrónicos de hasta 300W."
+            ],
+            [
+                "¿Qué tipo de panel solar debería seleccionar para recargar la unidad? : Recomendamos un panel solar de 100W~120W con un Voltaje Operativo Óptimo (Vmp) de DC13V-24V. Nunca use un panel solar de más de DC24V para recargar la estación de energía."
+            ],
+            [
+                "¿Por qué la unidad tiene el Modo de Suspensión Automático? : Para evitar el consumo de batería causado por olvidar apagar la salida cuando no se usa, la unidad cambiará al Modo de Suspensión Automático. Es decir, cuando la unidad detecta que no hay ningún dispositivo conectado o los dispositivos conectados son de 2W o menos, se apagará automáticamente después de 1 hora."
+            ],
+            [
+                "¿Qué tipo de 'mini-refrigerador' o 'mini-enfriador' puede usar la unidad? : La salida continua de CA de la unidad es de 300W y la capacidad de la batería es de 296Wh. Puede alimentar cualquier dispositivo dentro de 300W. Sin embargo, el tiempo de uso depende de la potencia del refrigerador y del compresor del refrigerador. Normalmente, la potencia del compresor es tres veces la del refrigerador."
+            ],
+            [
+                "¿La unidad es resistente al agua/clima? : NO. No exponga la unidad al agua."
+            ],
+            [
+                "¿Se pueden reemplazar o actualizar las baterías? : NO. Las baterías están integradas. NOTA - Abrir la unidad anulará la garantía."
+            ],
+            [
+                "¿Hay alguna manera de desactivar un grupo de puertos? : SÍ. Al hacer clic en el botón de grupo de puertos se desactivará/activará. Cuando está activado, aparece un icono en la pantalla LCD."
+            ],
+            [
+                "¿Cuánto durará una sola carga sin usar la unidad? : 3-5 meses. Pero sugerimos que cargue la estación de energía cada 2 meses si no se usa durante mucho tiempo. Es mejor mantenerla a plena energía en caso de uso de emergencia."
+            ],
+            [
+                "¿Este dispositivo admite la carga pasante? : SÍ. Puede cargar simultáneamente otros dispositivos mientras recarga la estación de energía."
+            ],
+            [
+                "¿Puede esta unidad arrancar una batería de automóvil? : NO."
+            ]
+        ],
+        "precio": "322"
     },
     {
         "id": "2",
@@ -72,11 +104,11 @@
             "voltinela-centinela-500-2.jpg",
             "voltinela-centinela-500-3.jpg",
             "voltinela-centinela-500-4.jpg",
-            "voltinela-centinela-500-6"
+            "voltinela-centinela-500-6.jpg"
         ],
         "titulo": "Centinela 500",
-        "pdfNombre": "#",
-        "pdf": "#",
+        "pdfNombre": "Manual-Voltinela-Centinela-500",
+        "pdf": "VOLTINELA-500W-PORTABLE-POWER-STATION-EN",
         "tituloTecnico": "Estación Portátil de Poder 500W/512Wh",
         "descripcion": "Robusta y fiable, la estación de energía portátil Centinela 500 asegura que tus dispositivos electrónicos sigan funcionando sin importar dónde te encuentres. Desde drones hasta cafeteras y ventiladores, es la compañera perfecta para tus viajes y emergencias, garantizando energía continua para lo que más necesitas.",
         "especificacionesElectricas": [
@@ -127,7 +159,33 @@
                 "Peso : 6.3kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "¿Cómo sé si mi aparato puede funcionar bien con la estación de energía? : Primero revise la etiqueta de potencia de su dispositivo. Si la potencia operativa del dispositivo está dentro de los 500W, puede usar el dispositivo normalmente."
+            ],
+            [
+                "¿Cuánto tiempo puede funcionar mi dispositivo? : Tiempo de funcionamiento = 512Wh*90% (tasa de conversión)/Potencia nominal del dispositivo. Ej. Si usa un ventilador de enfriamiento de 50W, el tiempo de funcionamiento será 512Wh*90%/50W=9hrs. Por favor, tenga en cuenta 1) La fórmula NO es adecuada para cargas inductivas con compresores, como refrigeradores, aire acondicionado, etc. 2) Los datos anteriores son solo para referencia."
+            ],
+            [
+                "¿Por qué hay algún sonido durante el uso o la carga? : Este producto cuenta con un sistema de control de temperatura inteligente. Los ventiladores incorporados ayudarán al producto a obtener una mejor refrigeración y asegurar el uso. Un ligero ruido es normal durante el uso o la carga."
+            ],
+            [
+                "¿Puedo cargar la estación de energía mientras un dispositivo está enchufado? : Sí, esta unidad soporta la carga pasante, puede cargar simultáneamente otros dispositivos mientras recarga la estación de energía."
+            ],
+            [
+                "¿Se puede usar para arrancar un coche? : No, no se puede utilizar para arrancar un vehículo."
+            ],
+            [
+                "¿Por qué la estación de energía tiene el Modo de Suspensión Automático? : Para evitar olvidar apagar la salida durante el uso, lo que llevaría a un consumo innecesario de batería, esta unidad pasará al Modo de Suspensión Automático cuando no haya ningún dispositivo conectado o el dispositivo conectado sea menor o igual a un cierto valor. La unidad se apagará automáticamente después de 1 hora."
+            ],
+            [
+                "¿Es la estación de energía impermeable? : No, por favor NO la guarde en un ambiente húmedo por mucho tiempo. Guárdela en un lugar seco y fresco."
+            ],
+            [
+                "¿Se pueden reemplazar o mejorar las baterías? : NO. Las baterías están incorporadas. NOTA - La apertura de la unidad anulará su garantía."
+            ]
+        ],
+        "precio": "495"
     },
     {
         "id": "3",
@@ -142,8 +200,8 @@
             "voltinela-centinela-1200-6.jpg"
         ],
         "titulo": "Centinela 1200",
-        "pdfNombre": "#",
-        "pdf": "#",
+        "pdfNombre": "Manual-Voltinela-Centinela-1200",
+        "pdf": "VOLTINELA-1200W-PORTABLE-POWER-STATION-EN",
         "tituloTecnico": "Estación Portátil de Poder 1.200W/1.008Wh",
         "descripcion": "Para necesidades energéticas más exigentes, la estación de energía portátil Centinela 1200 te ofrece la solución. Compatible con una amplia gama de dispositivos electrónicos, desde refrigeradores hasta microondas, es ideal para viajes prolongados, eventos al aire libre, y situaciones de emergencia, asegurando que nunca te quedes sin energía.",
         "especificacionesElectricas": [
@@ -191,7 +249,33 @@
                 "Peso : 13kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "¿Cómo sé si mi aparato puede funcionar bien con la estación de energía? : Primero revise la etiqueta de potencia de su dispositivo. Si la potencia operativa del dispositivo está dentro de los 1200W, puede usar el dispositivo normalmente."
+            ],
+            [
+                "¿Cuánto tiempo puede funcionar mi dispositivo? : Tiempo de funcionamiento = 1008Wh*90% (tasa de conversión) / Potencia nominal del dispositivo. Ej. Si usa un horno microondas de 800W con ella, el tiempo de funcionamiento será 1008Wh x 90% / 800W = 1.1hrs. Por favor, tenga en cuenta 1) La fórmula NO es adecuada para cargas inductivas con compresores, como refrigeradores, aires acondicionados, etc. 2) Los datos anteriores son solo para referencia."
+            ],
+            [
+                "¿Por qué hay algún sonido durante el uso o la carga? : Este producto cuenta con un sistema de control de temperatura inteligente. Los ventiladores incorporados ayudarán al producto a obtener una mejor refrigeración y asegurar el uso. Un ligero ruido es normal durante el uso o la carga."
+            ],
+            [
+                "¿Puedo cargar la estación de energía mientras un dispositivo está enchufado? : Sí, esta unidad soporta la carga pasante, puede cargar simultáneamente otros dispositivos mientras recarga la estación de energía."
+            ],
+            [
+                "¿Se puede usar para arrancar un coche? : No, no se puede utilizar para arrancar un vehículo."
+            ],
+            [
+                "¿Por qué la estación de energía tiene el Modo de Suspensión Automático? : Para evitar olvidar apagar la salida durante el uso, lo que resultaría en consumo de batería, la unidad pasará al Modo de Suspensión Automático cuando no haya ningún dispositivo conectado o el dispositivo conectado sea menor o igual a un cierto valor. Cuando sin cargar, y las salidas de AC&DC&USB≤2W, el dispositivo se apagará automáticamente después de 1 hora."
+            ],
+            [
+                "¿Es la estación de energía impermeable? : No, por favor NO la guarde en un ambiente húmedo por mucho tiempo. Guárdela en un lugar seco y fresco."
+            ],
+            [
+                "¿Se pueden reemplazar o mejorar las baterías? : NO. Las baterías están incorporadas. NOTA - La apertura de la unidad anulará su garantía."
+            ]
+        ],
+        "precio": "948"
     },
     {
         "id": "4",
@@ -207,8 +291,8 @@
             "voltinela-centinela-2000-7.jpg"
         ],
         "titulo": "Centinela 2000",
-        "pdfNombre": "#",
-        "pdf": "#",
+        "pdfNombre": "Manual-Voltinela-Centinela-2000",
+        "pdf": "VOLTINELA-1720W-PORTABLE-POWER-STATION-EN",
         "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
         "descripcion": "Diseñada específicamente para expandir la capacidad del Centinela 2000 Pro Max, la batería portátil Centinela 2000 es el accesorio esencial para quienes necesitan energía extendida en movimiento. Aumenta significativamente tu autonomía energética, asegurando que tus dispositivos electrónicos siempre tengan el soporte que necesitan.",
         "especificacionesElectricas": [
@@ -238,7 +322,33 @@
                 "Peso : 17.9kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "¿Cómo sé si mi aparato puede funcionar bien con la estación de energía de 2000W? : Primero revise la etiqueta de potencia de su dispositivo. Si la potencia operativa del dispositivo está dentro de los 2000W, puede usar el dispositivo normalmente."
+            ],
+            [
+                "¿Cuánto tiempo puede funcionar mi dispositivo? : Tiempo de funcionamiento = 1720Wh*90% tasa de conversión / Potencia nominal del dispositivo. Ej. Si usa un horno microondas de 1000W con ella, el tiempo de funcionamiento será  1720Wh x 90% / 1000W = 1.548hrs. Por favor, tenga en cuenta 1) La fórmula NO es adecuada para cargas inductivas con compresores, como refrigeradores, aires acondicionados, etc. 2) Los datos anteriores son solo para referencia."
+            ],
+            [
+                "¿Por qué hay algún sonido durante el uso o la carga? : Este producto cuenta con un sistema de control de temperatura inteligente, los ventiladores incorporados ayudan a nuestro producto a obtener una mejor refrigeración y asegurar el uso, un ligero ruido es normal durante el uso o la carga."
+            ],
+            [
+                "¿Puedo cargar la estación de energía de 2000W mientras un dispositivo está enchufado? : Sí, esta unidad soporta la carga pasante, puede cargar simultáneamente otros dispositivos mientras recarga la estación de energía."
+            ],
+            [
+                "¿Cómo mantener este producto cuando no se usa durante mucho tiempo? : Si la batería va a estar sin usar durante mucho tiempo (más de 3 meses), por favor recárguela cada 3 meses para mantener la potencia de la batería por encima del 50% si no la usa (se recomienda revisar y cargar cada 3 meses). Guárdela en un lugar seco y fresco con un rango de temperatura entre -4°F~140°F y una humedad del 20%~85%RH. Evite el contacto con sustancias corrosivas, y manténgala alejada del fuego y fuentes de calor."
+            ],
+            [
+                "¿Se puede usar para arrancar un coche? : No, no se puede utilizar para arrancar un vehículo. Sin embargo, se puede usar como fuente de alimentación para automóviles. Puede recargar el coche mediante un cable de alimentación, que está disponible para comprar por separado."
+            ],
+            [
+                "¿Por qué se apaga automáticamente la salida al dispositivo de baja potencia después de varias horas? : Si el modo ECO está activado, la alimentación de CA se apagará automáticamente cuando la carga de CA sea ≤ 50W o no haya carga durante más de 4 horas para ahorrar energía."
+            ],
+            [
+                "Modo ECO : Si el Modo ECO está desactivado, para evitar olvidar apagar la salida durante el uso que resulta en consumo de batería, la unidad pasará al Modo de Suspensión Automático cuando no haya ningún dispositivo conectado o el dispositivo conectado sea menor o igual a un cierto valor. Cuando sin cargar, y las salidas de AC&DC&USB≤2W, el dispositivo se apagará automáticamente después de 1 hora."
+            ]
+        ],
+        "precio": "1.306"
     },
     {
         "id": "5",
@@ -253,8 +363,8 @@
             "voltinela-centinela-2000-pro-max-6.jpg"
         ],
         "titulo": "Centinela 2000 Pro Max",
-        "pdfNombre": "#",
-        "pdf": "#",
+        "pdfNombre": "Manual-Voltinela-Centinela-2000-Pro-Max",
+        "pdf": "VOLTINELA-2000W-PORTABLE-POWER-STATION-EN",
         "tituloTecnico": "Estación Portátil de Poder 2.000W/1.720Wh",
         "descripcion": "La estación de energía portátil Centinela 2000 Pro Max es la elección definitiva para los aventureros y profesionales que requieren lo máximo en rendimiento energético. Compatible con prácticamente cualquier dispositivo electrónico, ofrece la potencia y versatilidad necesarias para mantenerte conectado y operativo en cualquier situación, ya sea en viajes, trabajos en campo o emergencias.",
         "especificacionesElectricas": [
@@ -308,7 +418,12 @@
                 "Peso : 21.5kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "1.730"
     },
     {
         "id": "6",
@@ -376,7 +491,12 @@
                 "Peso : 28.6kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "227"
     },
     {
         "id": "7",
@@ -444,7 +564,12 @@
                 "Peso : 28.6kg"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "429"
     },
     {
         "id": "8",
@@ -473,14 +598,19 @@
                 "Lorem :"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": ""
     },
     {
         "id": "9",
         "categoria": "Servicios",
-        "imagen": "logo-voltinela-stock-verde.jpg",
+        "imagen": "limpieza-paneles-portatiles.jpg",
         "imagenes": [
-            "logo-voltinela-stock-verde.jpg"
+            "limpieza-paneles-portatiles.jpg"
         ],
         "titulo": "Limpieza de paneles solares",
         "pdfNombre": "#",
@@ -502,7 +632,12 @@
                 "Lorem :"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": ""
     },
     {
         "id": "10",
@@ -590,7 +725,12 @@
                 "Comunicación : CAN/WIFI"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "980"
     },
     {
         "id": "11",
@@ -705,7 +845,12 @@
                 "EMC : FCC part15 CLASS B"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "2.887"
     },
     {
         "id": "12",
@@ -819,7 +964,12 @@
                 "EMC : FCC part15 CLASS B"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "3.679"
     },
     {
         "id": "13",
@@ -876,7 +1026,12 @@
                 "Peso : 3.5kg / 7.9lb"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "260"
     },
     {
         "id": "14",
@@ -933,6 +1088,11 @@
                 "Peso : 6.62kg / 14.6lb"
             ]
         ],
-        "precio": 500
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "453"
     }
 ]

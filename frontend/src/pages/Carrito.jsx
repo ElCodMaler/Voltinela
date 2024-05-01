@@ -14,7 +14,7 @@ function Carrito({ info, carrito, removeProduct }) {
 
   return (
     <>
-      <main className='mt-16 sm:mt-16 md:mt-24 lg:mt-32 xl:mt-28 2xl:mt-32'>
+      <main id='carrito' className='mt-16 sm:mt-16 md:mt-24 lg:mt-32 xl:mt-28 2xl:mt-32'>
         <CarritoCont info={info} carrito={carrito}  removeProduct={removeProduct}/>
       </main>
     </>

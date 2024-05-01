@@ -15,7 +15,7 @@ function Products({productos}) {
 
   return (
     <>
-      <main className='mt-16 sm:mt-20 md:mt-28 lg:mt-36 xl:mt-28 2xl:mt-32'>
+      <main id='productos' className='mt-12 sm:mt-16 md:mt-24 lg:mt-36 xl:mt-28 2xl:mt-32'>
         <Listado productos={productos} />
       </main>
     </>

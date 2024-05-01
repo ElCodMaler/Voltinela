@@ -7,14 +7,14 @@ function Nosotros({info}) {
     <>
       <br />
       <div className='titulo container mx-auto w-max lg:py-4 xl:py-1 2xl:py-2'>
-         <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full shadow-xl md:text-3xl md:py-2 lg:text-4xl lg:py-3 xl:text-2xl xl:px-6 2xl:text-2xl 2xl:py-2' style={{backgroundColor:'#84cc16'}}>{info.nosotros}</h3>
+         <h3 className='text-lg text-white text-center font-bold px-4 py-1 rounded-full shadow-xl md:text-3xl md:py-2 lg:text-4xl lg:py-3 xl:text-3xl xl:px-6 2xl:text-4xl 2xl:py-2' style={{backgroundColor:'#84cc16'}}>{info.nosotros}</h3>
       </div>
       <br />
       <Link to={'/Nosotros'}>
         <section id='aboutUs'>
           <div className="bg-cover bg-center bg-no-repeat bg-[url('/teclado.jpg')] bg-gray-600 bg-blend-multiply">
               <div className="px-4 mx-auto max-w-screen-xl text-center py-12 md:py-16 lg:py-24 lg:px-20 xl:py-14 2xl:py-16">
-                  <p className='mb-1 text-base font-semibold text-white sm:px-16 lg:text-4xl xl:text-xl 2xl:text-2xl'>
+                  <p className='mb-1 text-base font-semibold text-white sm:px-16 sm:text-xl md:text-2xl lg:text-3xl 2xl:text-4xl'>
                     {info.textoNosotros}
                   </p>
                   <div className="flex flex-wrap gap-3 justify-center mt-3 lg:pt-8">

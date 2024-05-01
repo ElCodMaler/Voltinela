@@ -35,9 +35,9 @@ function CarritoCont({info, carrito, removeProduct}) {
           <br/>
           <div class="flex items-center justify-between">
               {/*<span class="text-3xl font-bold text-gray-900 dark:text-white">${producto.precio}</span>*/}
-              <Button onClick={() => {removeProduct(producto.id)}} className="bg-red-600 rounded-full px-1 py-1 text-center">
+              <Button onClick={() => {removeProduct(producto.id)}} className="px-1 py-1 text-white text-center bg-red-600 border-2 border-white rounded-full hover:border-red-600 hover:text-red-600 hover:bg-white">
                 <MdDelete className='text-2xl' />
-                <h6 className='text-white font-medium text-base'>{info.eliminar}</h6>
+                <h6 className='font-medium text-base'>{info.eliminar}</h6>
               </Button>
           </div>
         </div>
@@ -68,7 +68,7 @@ function CarritoCont({info, carrito, removeProduct}) {
           </div>
           <br />
             <div className='w-full flex justify-center py-5'>
-              <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='border-2 focus:ring-0 lg:border-4' pill style={{color:'#81cc00', borderColor:'#81cc00'}}>
+              <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='border-2 border-[#81cc00] text-[#81cc00] focus:ring-0 lg:border-4 hover:border-white hover:text-white hover:bg-gradient-to-b from-[#25D366] to-[#128C7E] lg:border-4' pill>
                 <AiOutlineWhatsApp className='mr-2 h-7 w-7 lg:h-10 lg:w-10 2xl:h-14 2xl:w-14' />
                 <p className='text-lg lg:text-3xl 2xl:text-5xl'>{info.cotizar}</p>
               </Button>
