@@ -51,7 +51,7 @@ function Siguenos({info}) {
                     <FaLinkedinIn  className="mt-2 h-12 w-12 lg:h-[4.5rem] lg:w-[4.5rem]" />
                   </Button>
                 </a>
-                <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="mailto:gilbertojeda30@gmail.com">
+                <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="mailto:voltinela@gmail.com">
                   <Button id='gmail' className='items-center p-0 h-16 w-16 rounded-2xl shadow-xl focus:ring-0 lg:h-24 lg:rounded-3xl lg:w-24' style={{backgroundColor:'white'}}>
                     <img className='px-1 w-14 lg:w-20' src='/gmail-logo.png' />
                   </Button>
