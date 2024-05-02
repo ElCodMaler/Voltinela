@@ -3556,6 +3556,10 @@ section .titulo {
     margin-top: 1.5rem;
   }
 
+  .xl\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .xl\:size-12 {
     width: 3rem;
     height: 3rem;
