@@ -160,7 +160,7 @@ section .titulo {
     --tw-ring-opacity: 0;
 }
 
-#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .h-96 .relative.h-full.w-full .absolute button span {
+/*#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .h-96 .relative.h-full.w-full .absolute button span {
     --tw-ring-opacity: 0;
     background-color: #81cc00;
 }
@@ -171,7 +171,7 @@ section .titulo {
 
 #descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .h-96 .relative.h-full.w-full .absolute .h-3.w-3.rounded-full {
     background-color: #36363640;
-}
+}*/
 
 #carritoCont .cartaCarrito {
     max-width: 100%;
@@ -207,6 +207,45 @@ section .titulo {
     header nav .mx-auto.flex.flex-wrap.items-center.justify-between .text-center.flex.flex-wrap .group.relative.flex.items-stretch .flex.items-stretch.transition-all svg {
         height: 1.5rem;
         width: 1.5rem;
+    }
+}
+
+@media (min-width: 275px) and (max-width: 319px) {
+    #descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full #carrusel {
+        height: 20rem;
+    }
+
+    #descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full div .relative.w-full.h-full.z-0 .absolute.z-30.flex button {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    #descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full #carrusel {
+        height: 20rem;
+    }
+
+    #descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full div .relative.w-full.h-full.z-0 .absolute.z-30.flex button {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 429px) {
+    #descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full #carrusel {
+        height: 25rem;
+    }
+
+    #descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full div .relative.w-full.h-full.z-0 .absolute.z-30.flex button {
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 500px) {
+    #descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full #carrusel {
+        height: 28rem;
     }
 }
 

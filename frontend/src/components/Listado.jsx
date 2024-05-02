@@ -25,7 +25,7 @@ function Listado({productos}) {
                     <img src={producto.imagen} alt={producto.titulo} />
                     <div className="flex flex-col justify-between items-start">
                         <h5 className="pb-2 text-base font-bold tracking-tight text-gray-900 lg:text-4xl lg:pb-4">{producto.titulo}</h5>
-                        <p className='flex flex-row text-lg font-bold text-black sm:text-xl lg:text-2xl 2xl:text-3xl'><span className='pt-0.5 text-sm'>US$</span>{producto.precio}<span className='content-end pb-0.5 text-sm sm:pb-0 sm:text-base lg:text-lg 2xl:text-xl'>,00</span></p>
+                        <p className='flex flex-row text-lg font-bold text-black sm:text-xl lg:text-2xl 2xl:text-3xl'><span className='pt-0.5 text-sm'>US$</span>{producto.precio}</p>
                     </div>
                 </Card>
             ))
@@ -35,7 +35,7 @@ function Listado({productos}) {
                     <img src={producto.imagen} alt={producto.titulo} />
                     <div className="flex flex-col justify-between items-start">
                         <h5 className="pb-2 text-base font-bold tracking-tight text-gray-900 lg:text-4xl lg:pb-4">{producto.titulo}</h5>
-                        <p className='flex flex-row text-lg font-bold text-black sm:text-xl lg:text-2xl 2xl:text-3xl'><span className='pt-0.5 text-sm'>US$</span>{producto.precio}<span className='content-end pb-0.5 text-sm sm:pb-0 sm:text-base lg:text-lg 2xl:text-xl'>,00</span></p>
+                        <p className='flex flex-row text-lg font-bold text-black sm:text-xl lg:text-2xl 2xl:text-3xl'><span className='pt-0.5 text-sm'>US$</span>{producto.precio}</p>
                     </div>
                 </Card>
             ))
@@ -44,6 +44,7 @@ function Listado({productos}) {
 
     const handleSelectedProduct = (id) => {
         navigate(`/Descripcion/${categorias}/${id}`);
+        window.location.reload();
     };
 
   return (

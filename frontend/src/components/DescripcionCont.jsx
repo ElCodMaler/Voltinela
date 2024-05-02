@@ -70,8 +70,8 @@ function DescripcionCont({ info, carrito, setCarrito, productos }) {
           <br />
           <div>
             <div className="grid grid-cols-1 w-full items-center bg-white rounded-lg shadow sm:mx-10 md:mx-16 lg:grid-cols-2 md:w-auto shadow-xl xl:mx-28 2xl:mx-36">
-              <div className="h-96 sm:h-[33rem] lg:h-[26rem] xl:h-[30rem] 2xl:h-[33rem]">
-                <CarruselProductos />
+              <div id='carrusel' className="h-[33rem] sm:h-[42rem] lg:h-[32rem] xl:h-[38rem] 2xl:h-[42rem]">
+                <CarruselProductos productos={productos} />
               </div>
               <div className="flex flex-col justify-between p-4 leading-normal md:px-12">
                 <h5 className="mb-2 text-lg font-bold tracking-tight md:pb-3 lg:text-xl xl:text-2xl 2xl:text-3xl">
@@ -87,7 +87,7 @@ function DescripcionCont({ info, carrito, setCarrito, productos }) {
                   <h6 className="me-5 text-lg font-semibold tracking-tight sm:text-xl lg:text-2xl 2xl:text-3xl">
                     {info.precio}:
                   </h6>
-                  <p className='flex flex-row text-lg font-bold text-black sm:text-xl lg:text-2xl 2xl:text-3xl'><span className='pt-0.5 text-sm'>US$</span>{productoSeleccionado.precio}<span className='content-end pb-0.5 text-sm sm:pb-0 sm:text-base lg:text-lg 2xl:text-xl'>,00</span></p>
+                  <p className='flex flex-row text-lg font-bold text-black sm:text-xl lg:text-2xl 2xl:text-3xl'><span className='pt-0.5 text-sm'>US$</span>{productoSeleccionado.precio}</p>
                   <br />
                 </div>
                 <DetallesTecnicosProd info={info} productos={productos} />

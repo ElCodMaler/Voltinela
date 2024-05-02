@@ -73,12 +73,12 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
               </Link>
             </Navbar.Brand>
             <nav className="text-center flex flex-wrap">
-              <label class="inline-flex items-center cursor-pointer me-2">
-                <input type="checkbox" value="" class="sr-only peer" onChange={handleChange} />
-                <div class="relative flex-row content-center w-11 h-6 lg:w-[4.9rem] lg:h-10 lg:after:h-9 lg:after:w-9 bg-gray-200 text-black peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#81cc00]">
+              <label className="inline-flex items-center cursor-pointer me-2">
+                <input type="checkbox" value="" className="sr-only peer" onChange={handleChange} />
+                <div className="relative flex-row content-center w-11 h-6 lg:w-[4.9rem] lg:h-10 lg:after:h-9 lg:after:w-9 bg-gray-200 text-black peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#81cc00]">
                   <div className='flex flex-row justify-between items-center mx-1 lg:mx-3'>
-                    <span class="text-sm font-medium text-white lg:text-lg">EN</span>
-                    <span class="text-sm font-medium text-[#363636] lg:text-lg">ES</span>
+                    <span className="text-sm font-medium text-white lg:text-lg">EN</span>
+                    <span className="text-sm font-medium text-[#363636] lg:text-lg">ES</span>
                   </div>
                 </div>
               </label>
