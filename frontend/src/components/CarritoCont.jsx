@@ -47,6 +47,7 @@ function CarritoCont({info, carrito, removeProduct}) {
 
   const handleSelectedProduct = (id, categoria) => {
     navigate(`/Descripcion/${categoria}/${id}`);
+    window.location.reload();
   };
     
   return (

@@ -49,7 +49,7 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
 
     const handleScroll = () => {
       const scrolled = window.scrollY;
-      if (scrolled < 100) {
+      if (scrolled < 30) {
         setVisible(false);
       } else {
         setVisible(true);
@@ -66,7 +66,7 @@ function Header({info, carrito, productos, handleLenguageEN, handleLenguageES}) 
   return (
     <>
         <header className={`${visible ? 'bg-[#363636]/80 backdrop-blur' : 'bg-[#363636]'} fixed top-0 left-0 right-0 z-30`}>
-          <Navbar className="bg-transparent mx-4 my-4 px-6 py-0 sm:mx-10 md:mx-16 md:my-6 lg:px-8 lg:py-2 lg:mx-20 lg:mt-8" fluid rounded>
+          <Navbar className={`${visible ? 'my-2 mt-9' : 'my-4'} bg-transparent mx-4 px-6 py-0 sm:mx-10 md:mx-16 lg:px-8 lg:py-2 lg:mx-20`} fluid rounded>
             <Navbar.Brand href="#" onClick={logoClick}>
               <Link to={'/'}>
                 <img src="voltinela-logo-blanco.png" className="mr-3 h-5 sm:h-6 md:h-8 lg:h-10 2xl:h-12" alt="Logo" />
