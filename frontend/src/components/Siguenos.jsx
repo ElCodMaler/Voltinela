@@ -22,7 +22,7 @@ function Siguenos({info}) {
             <div className="container mx-auto px-4 py-2">
               <div className="grid grid-cols-3 text-gray-500" style={{justifyContent: 'space-evenly'}}>
                 <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://wa.me/584127351051">
-                  <Button className='items-center p-0 h-16 w-16 rounded-2xl text-white shadow-xl bg-gradient-to-b from-[#25D366] to-[#128C7E] focus:ring-0 lg:rounded-3xl lg:h-24 lg:w-24'>
+                  <Button className='items-center p-0 h-16 w-16 rounded-2xl text-white shadow-xl bg-[#25D366] focus:ring-0 lg:rounded-3xl lg:h-24 lg:w-24'>
                     <AiOutlineWhatsApp className="h-14 w-14 lg:h-20 lg:w-20" />
                   </Button>
                 </a>
@@ -36,8 +36,8 @@ function Siguenos({info}) {
                       <AiOutlineInstagram className="h-16 w-16 lg:h-24 lg:w-24" />
                   </Button>
                 </a>
-                <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="#">
-                  <Button className='items-center p-0 h-16 w-16 rounded-2xl text-white shadow-xl focus:ring-0 lg:rounded-3xl lg:h-24 lg:w-24' style={{backgroundColor: 'rgb(255, 255, 255)'}}>
+                <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://youtube.com/@Voltinela?si=t5oRZCPrcyMmouyx">
+                  <Button id='youtube' className='items-center p-0 h-16 w-16 rounded-2xl text-white shadow-xl focus:ring-0 lg:rounded-3xl lg:h-24 lg:w-24' style={{backgroundColor: 'rgb(255, 255, 255)'}}>
                     <AiFillYoutube className="h-12 w-12 lg:h-20 lg:w-20" color='red' />
                   </Button>
                 </a>
@@ -56,7 +56,7 @@ function Siguenos({info}) {
                     <img className='px-1 w-14 lg:w-20' src='/gmail-logo.png' />
                   </Button>
                 </a>
-                <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://www.tiktok.com/@voltinela">
+                <a className="mx-5 my-4 flex justify-center md:mx-8 lg:mx-14 lg:my-8" href="https://listado.mercadolibre.com.ve/voltinela">
                   <Button id='mercadoLibre' className='items-center p-0 h-16 w-16 rounded-2xl shadow-xl focus:ring-0 lg:rounded-3xl lg:h-24 lg:w-24' style={{backgroundColor:'white'}}>
                     <img className='px-1 w-14 lg:w-20' src='/mercadoLibre-logo.png' />
                   </Button>

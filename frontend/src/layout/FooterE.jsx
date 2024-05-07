@@ -72,7 +72,7 @@ function FooterE({info, productos}) {
                 <Footer.Title className='lg:text-lg' title={info.soporte} />
                 <Footer.LinkGroup className='lg:text-lg' col>
                   <Footer.Link to={"/"}>{info.preguntas}</Footer.Link>
-                  <Footer.Link to={"/"}>{info.contactos}</Footer.Link>
+                  {/*<Footer.Link to={"/"}>{info.contactos}</Footer.Link>*/}
                 </Footer.LinkGroup>
               </div>
               <div>
@@ -98,7 +98,7 @@ function FooterE({info, productos}) {
               <Footer.Icon href="https://www.facebook.com/share/7UHpYKb5yMqCAifP/?mibextid=LQQJ4d" icon={BsFacebook} />
               <Footer.Icon href="https://www.instagram.com/voltinela?igsh=MXNza3R0cnJienBhdg%3D%3D&utm_source=qr" icon={BsInstagram} />
               <Footer.Icon href="#" icon={BsTwitterX} />
-              <Footer.Icon href="#" icon={BsYoutube} />
+              <Footer.Icon href="https://youtube.com/@Voltinela?si=t5oRZCPrcyMmouyx" icon={BsYoutube} />
               <Footer.Icon href="https://www.linkedin.com/company/voltinela/" icon={BsLinkedin} />
               <Footer.Icon href="https://www.tiktok.com/@voltinela" icon={BsTiktok} />
               <Footer.Icon href="https://github.com/Erny23" icon={BsGithub} />

@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "categoria": "Portable Power Station",
+        "categoria": "Portable power stations",
         "imagen": "voltinela-centinela-300.jpg",
         "imagenes": [
             "voltinela-centinela-300.jpg",
@@ -93,11 +93,11 @@
                 "Can this unit jumpstart a car battery? : NO."
             ]
         ],
-        "precio": "322"
+        "precio": "320"
     },
     {
         "id": "2",
-        "categoria": "Portable Power Station",
+        "categoria": "Portable power stations",
         "imagen": "voltinela-centinela-500.jpg",
         "imagenes": [
             "voltinela-centinela-500.jpg",
@@ -185,11 +185,11 @@
                 "Are the batteries replaceable or upgradeable? : NO. Batteries are built in. NOTE-Opening of the unit will void your warranty"
             ]
         ],
-        "precio": "495"
+        "precio": "490"
     },
     {
         "id": "3",
-        "categoria": "Portable Power Station",
+        "categoria": "Portable power stations",
         "imagen": "voltinela-centinela-1200.jpg",
         "imagenes": [
             "voltinela-centinela-1200.jpg",
@@ -275,11 +275,11 @@
                 "Are the batteries replaceable or upgradeable? : NO. Batteries are built in. NOTE-Opening of the unit will void your warranty."
             ]
         ],
-        "precio": "948"
+        "precio": "940"
     },
     {
         "id": "4",
-        "categoria": "Portable Power Station",
+        "categoria": "Portable power stations",
         "imagen": "voltinela-centinela-2000.jpg",
         "imagenes": [
             "voltinela-centinela-2000.jpg",
@@ -348,11 +348,11 @@
                 "ECO Mode : If the ECO Mode is off, to avoid forgetting to turn off the output during use that results in battery consumption, the unit will turn to Auto-Sleep Mode when no device is connected or the connected device is less than or equal to a certain value. When without charging, and the AC&DC&USB outputs≤2W, the device will automatically shut down after 1 hour."
             ]
         ],
-        "precio": "1.306"
+        "precio": "1.300"
     },
     {
         "id": "5",
-        "categoria": "Portable Power Station",
+        "categoria": "Portable power stations",
         "imagen": "voltinela-centinela-2000-pro-max.jpg",
         "imagenes": [
             "voltinela-centinela-2000-pro-max.jpg",
@@ -423,7 +423,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": "1.730"
+        "precio": "1.740"
     },
     {
         "id": "6",
@@ -496,7 +496,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": "227"
+        "precio": "220"
     },
     {
         "id": "7",
@@ -569,7 +569,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": "429"
+        "precio": "430"
     },
     {
         "id": "8",
@@ -850,7 +850,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": "2.887"
+        "precio": "2.890"
     },
     {
         "id": "12",
@@ -969,7 +969,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": "3.679"
+        "precio": "3.680"
     },
     {
         "id": "13",
@@ -1093,6 +1093,6 @@
                 "Lorem :"
             ]
         ],
-        "precio": "453"
+        "precio": "460"
     }
 ]

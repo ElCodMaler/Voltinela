@@ -99,7 +99,7 @@ function DescripcionCont({ info, carrito, setCarrito, productos }) {
                     <p className='text-lg lg:text-3xl 2xl:text-5xl'>{info.anadirAlCarrito}</p>
                   </Button>
                   <br />
-                  <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='border-2 border-[#81cc00] text-[#81cc00] focus:ring-0 lg:border-4 hover:border-white hover:text-white hover:bg-gradient-to-b from-[#25D366] to-[#128C7E]' pill>
+                  <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='bg-[#81cc00] border-2 border-white text-white focus:ring-0 lg:border-4 hover:bg-white hover:border-[#81cc00] hover:text-[#81cc00]' pill>
                     <AiOutlineWhatsApp className='mr-2 h-7 w-7 lg:h-10 lg:w-10 2xl:h-14 2xl:w-14' />
                     <p className='text-lg lg:text-3xl 2xl:text-5xl'>{info.cotizar}</p>
                   </Button>

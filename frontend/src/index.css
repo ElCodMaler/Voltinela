@@ -160,18 +160,18 @@ section .titulo {
     --tw-ring-opacity: 0;
 }
 
-/*#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .h-96 .relative.h-full.w-full .absolute button span {
+#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center #carrusel .relative.h-full.w-full .absolute button span {
     --tw-ring-opacity: 0;
     background-color: #81cc00;
 }
 
-#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .h-96 .relative.h-full.w-full .absolute .h-3.w-3.rounded-full.bg-white {
+#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center #carrusel .relative.h-full.w-full .absolute .h-3.w-3.rounded-full.bg-white {
     background-color: #81cc00;
 }
 
-#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center .h-96 .relative.h-full.w-full .absolute .h-3.w-3.rounded-full {
+#descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full.items-center #carrusel .relative.h-full.w-full .absolute .h-3.w-3.rounded-full {
     background-color: #36363640;
-}*/
+}
 
 #carritoCont .cartaCarrito {
     max-width: 100%;
@@ -222,6 +222,9 @@ section .titulo {
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
+    #inicio {
+        margin-top: 3.6rem;
+    }
     #descripcion .container.mx-auto.px-4 div .grid.grid-cols-1.w-full #carrusel {
         height: 20rem;
     }

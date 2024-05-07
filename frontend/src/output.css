@@ -1173,6 +1173,11 @@ input:checked + .toggle-bg {
   margin-right: auto;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -1186,11 +1191,6 @@ input:checked + .toggle-bg {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .mb-1 {
@@ -1279,14 +1279,6 @@ input:checked + .toggle-bg {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .mt-9 {
@@ -2964,14 +2956,6 @@ section .titulo {
     margin-top: 5rem;
   }
 
-  .sm\:mt-8 {
-    margin-top: 2rem;
-  }
-
-  .sm\:mt-7 {
-    margin-top: 1.75rem;
-  }
-
   .sm\:flex {
     display: flex;
   }
@@ -3082,11 +3066,6 @@ section .titulo {
     margin-right: 2rem;
   }
 
-  .md\:my-6 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
   .md\:mb-6 {
     margin-bottom: 1.5rem;
   }
@@ -3101,14 +3080,6 @@ section .titulo {
 
   .md\:mt-28 {
     margin-top: 7rem;
-  }
-
-  .md\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
-  .md\:mt-8 {
-    margin-top: 2rem;
   }
 
   .md\:size-12 {
@@ -3544,6 +3515,10 @@ section .titulo {
     margin-inline-start: 11rem;
   }
 
+  .xl\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .xl\:mt-28 {
     margin-top: 7rem;
   }
@@ -3554,10 +3529,6 @@ section .titulo {
 
   .xl\:mt-6 {
     margin-top: 1.5rem;
-  }
-
-  .xl\:mt-24 {
-    margin-top: 6rem;
   }
 
   .xl\:size-12 {

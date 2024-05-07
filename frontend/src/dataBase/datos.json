@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "categoria": "Estación Portátil de Poder",
+        "categoria": "Estaciones de energía portátil",
         "imagen": "voltinela-centinela-300.jpg",
         "imagenes": [
             "voltinela-centinela-300.jpg",
@@ -93,11 +93,11 @@
                 "¿Puede esta unidad arrancar una batería de automóvil? : NO."
             ]
         ],
-        "precio": "322"
+        "precio": "320"
     },
     {
         "id": "2",
-        "categoria": "Estación Portátil de Poder",
+        "categoria": "Estaciones de energía portátil",
         "imagen": "voltinela-centinela-500.jpg",
         "imagenes": [
             "voltinela-centinela-500.jpg",
@@ -185,11 +185,11 @@
                 "¿Se pueden reemplazar o mejorar las baterías? : NO. Las baterías están incorporadas. NOTA - La apertura de la unidad anulará su garantía."
             ]
         ],
-        "precio": "495"
+        "precio": "490"
     },
     {
         "id": "3",
-        "categoria": "Estación Portátil de Poder",
+        "categoria": "Estaciones de energía portátil",
         "imagen": "voltinela-centinela-1200.jpg",
         "imagenes": [
             "voltinela-centinela-1200.jpg",
@@ -275,11 +275,11 @@
                 "¿Se pueden reemplazar o mejorar las baterías? : NO. Las baterías están incorporadas. NOTA - La apertura de la unidad anulará su garantía."
             ]
         ],
-        "precio": "948"
+        "precio": "940"
     },
     {
         "id": "4",
-        "categoria": "Estación Portátil de Poder",
+        "categoria": "Estaciones de energía portátil",
         "imagen": "voltinela-centinela-2000.jpg",
         "imagenes": [
             "voltinela-centinela-2000.jpg",
@@ -348,11 +348,11 @@
                 "Modo ECO : Si el Modo ECO está desactivado, para evitar olvidar apagar la salida durante el uso que resulta en consumo de batería, la unidad pasará al Modo de Suspensión Automático cuando no haya ningún dispositivo conectado o el dispositivo conectado sea menor o igual a un cierto valor. Cuando sin cargar, y las salidas de AC&DC&USB≤2W, el dispositivo se apagará automáticamente después de 1 hora."
             ]
         ],
-        "precio": "1.306"
+        "precio": "1.300"
     },
     {
         "id": "5",
-        "categoria": "Estación Portátil de Poder",
+        "categoria": "Estaciones de energía portátil",
         "imagen": "voltinela-centinela-2000-pro-max.jpg",
         "imagenes": [
             "voltinela-centinela-2000-pro-max.jpg",
@@ -423,7 +423,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": "1.730"
+        "precio": "1.740"
     },
     {
         "id": "6",
@@ -496,7 +496,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": "227"
+        "precio": "220"
     },
     {
         "id": "7",
@@ -569,10 +569,134 @@
                 "Lorem :"
             ]
         ],
-        "precio": "429"
+        "precio": "430"
     },
     {
         "id": "8",
+        "categoria": "Paneles solares",
+        "imagen": "panel-solar-portatil.jpg",
+        "imagenes": [
+            "panel-solar-portatil.jpg",
+            "panel-solar-portatil-2.jpg"
+        ],
+        "titulo": "Panel Solar Portátil 100W",
+        "pdfNombre": "#",
+        "pdf": "#",
+        "tituloTecnico": "Lorem",
+        "descripcion": "Nuestro Panel Solar Portátil de 100W es compacto y eficaz, ideal para aventuras al aire libre o como respaldo discreto. Ofrece energía renovable al alcance de la mano, garantizando libertad y seguridad en todo momento.",
+        "especificacionesElectricas": [
+            [
+                "Poder máximo : 100W"
+            ],
+            [
+                "Eficiencia de conversion celular : 23%"
+            ],
+            [
+                "Votje de funcionamiento óptimo (Vmp) : 18V"
+            ],
+            [
+                "Corriente de funcionamiento óptima (Imp) : 5.6A"
+            ],
+            [
+                "Voltaje de circuito abierto (Voc) : 23.4V"
+            ],
+            [
+                "Corriente de cortocircuito (Isc) : 6.27A"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Conector de salida : DC 5.5 x 2.1mm"
+            ]
+        ],
+        "otros": [
+            [
+                "Dimensiones (desplegada) : 1230 x 560 mm"
+            ],
+            [
+                "Dimensiones (plegada) : 615 x 560 x 35 mm"
+            ],
+            [
+                "Número plegable : 2"
+            ],
+            [
+                "Temperatura : -40°C ± 85°C"
+            ],
+            [
+                "Peso : 3.5kg / 7.9lb"
+            ]
+        ],
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "260"
+    },
+    {
+        "id": "9",
+        "categoria": "Paneles solares",
+        "imagen": "panel-solar-portatil.jpg",
+        "imagenes": [
+            "panel-solar-portatil-2.jpg",
+            "panel-solar-portatil-4.jpg"
+        ],
+        "titulo": "Panel Solar Portátil 200W",
+        "pdfNombre": "#",
+        "pdf": "#",
+        "tituloTecnico": "Lorem",
+        "descripcion": "El Panel Solar Portátil de 200W, con más capacidad, es perfecto para necesidades energéticas mayores en movimiento. Versátil y eficiente, mantiene tus dispositivos cargados y listos, apoyando un estilo de vida activo y consciente sin aludir a situaciones específicas.",
+        "especificacionesElectricas": [
+            [
+                "Poder máximo : 200W"
+            ],
+            [
+                "Eficiencia de conversion celular : 23%"
+            ],
+            [
+                "Votje de funcionamiento óptimo (Vmp) : 18V"
+            ],
+            [
+                "Corriente de funcionamiento óptima (Imp) : 11A"
+            ],
+            [
+                "Voltaje de circuito abierto (Voc) : 23.4V"
+            ],
+            [
+                "Corriente de cortocircuito (Isc) : 12.34A"
+            ]
+        ],
+        "especificacionesTecnicas": [
+            [
+                "Conector de salida : M20 / XT60 / Anderson connectors"
+            ]
+        ],
+        "otros": [
+            [
+                "Dimensiones (desplegada) : 2390 x 564 mm"
+            ],
+            [
+                "Dimensiones (plegada) : 635 x 564 x 50 mm"
+            ],
+            [
+                "Número plegable : 4"
+            ],
+            [
+                "Temperatura : -40°C ± 85°C"
+            ],
+            [
+                "Peso : 6.62kg / 14.6lb"
+            ]
+        ],
+        "preguntas": [
+            [
+                "Lorem :"
+            ]
+        ],
+        "precio": "460"
+    },
+    {
+        "id": "10",
         "categoria": "Servicios",
         "imagen": "instalacion-paneles-portatiles.jpg",
         "imagenes": [
@@ -606,7 +730,7 @@
         "precio": ""
     },
     {
-        "id": "9",
+        "id": "11",
         "categoria": "Servicios",
         "imagen": "limpieza-paneles-portatiles.jpg",
         "imagenes": [
@@ -640,7 +764,7 @@
         "precio": ""
     },
     {
-        "id": "10",
+        "id": "12",
         "categoria": "Baterías Inversores",
         "imagen": "LFP930k.jpg",
         "imagenes": [
@@ -733,7 +857,7 @@
         "precio": "980"
     },
     {
-        "id": "11",
+        "id": "13",
         "categoria": "Baterías Inversores",
         "imagen": "inversor-afore.jpg",
         "imagenes": [
@@ -850,10 +974,10 @@
                 "Lorem :"
             ]
         ],
-        "precio": "2.887"
+        "precio": "2.890"
     },
     {
-        "id": "12",
+        "id": "14",
         "categoria": "Baterías Inversores",
         "imagen": "inversor-afore.jpg",
         "imagenes": [
@@ -969,130 +1093,6 @@
                 "Lorem :"
             ]
         ],
-        "precio": "3.679"
-    },
-    {
-        "id": "13",
-        "categoria": "Paneles solares",
-        "imagen": "panel-solar-portatil.jpg",
-        "imagenes": [
-            "panel-solar-portatil.jpg",
-            "panel-solar-portatil-2.jpg"
-        ],
-        "titulo": "Panel Solar Portátil 100W",
-        "pdfNombre": "#",
-        "pdf": "#",
-        "tituloTecnico": "Lorem",
-        "descripcion": "Nuestro Panel Solar Portátil de 100W es compacto y eficaz, ideal para aventuras al aire libre o como respaldo discreto. Ofrece energía renovable al alcance de la mano, garantizando libertad y seguridad en todo momento.",
-        "especificacionesElectricas": [
-            [
-                "Poder máximo : 100W"
-            ],
-            [
-                "Eficiencia de conversion celular : 23%"
-            ],
-            [
-                "Votje de funcionamiento óptimo (Vmp) : 18V"
-            ],
-            [
-                "Corriente de funcionamiento óptima (Imp) : 5.6A"
-            ],
-            [
-                "Voltaje de circuito abierto (Voc) : 23.4V"
-            ],
-            [
-                "Corriente de cortocircuito (Isc) : 6.27A"
-            ]
-        ],
-        "especificacionesTecnicas": [
-            [
-                "Conector de salida : DC 5.5 x 2.1mm"
-            ]
-        ],
-        "otros": [
-            [
-                "Dimensiones (desplegada) : 1230 x 560 mm"
-            ],
-            [
-                "Dimensiones (plegada) : 615 x 560 x 35 mm"
-            ],
-            [
-                "Número plegable : 2"
-            ],
-            [
-                "Temperatura : -40°C ± 85°C"
-            ],
-            [
-                "Peso : 3.5kg / 7.9lb"
-            ]
-        ],
-        "preguntas": [
-            [
-                "Lorem :"
-            ]
-        ],
-        "precio": "260"
-    },
-    {
-        "id": "14",
-        "categoria": "Paneles solares",
-        "imagen": "panel-solar-portatil.jpg",
-        "imagenes": [
-            "panel-solar-portatil-2.jpg",
-            "panel-solar-portatil-4.jpg"
-        ],
-        "titulo": "Panel Solar Portátil 200W",
-        "pdfNombre": "#",
-        "pdf": "#",
-        "tituloTecnico": "Lorem",
-        "descripcion": "El Panel Solar Portátil de 200W, con más capacidad, es perfecto para necesidades energéticas mayores en movimiento. Versátil y eficiente, mantiene tus dispositivos cargados y listos, apoyando un estilo de vida activo y consciente sin aludir a situaciones específicas.",
-        "especificacionesElectricas": [
-            [
-                "Poder máximo : 200W"
-            ],
-            [
-                "Eficiencia de conversion celular : 23%"
-            ],
-            [
-                "Votje de funcionamiento óptimo (Vmp) : 18V"
-            ],
-            [
-                "Corriente de funcionamiento óptima (Imp) : 11A"
-            ],
-            [
-                "Voltaje de circuito abierto (Voc) : 23.4V"
-            ],
-            [
-                "Corriente de cortocircuito (Isc) : 12.34A"
-            ]
-        ],
-        "especificacionesTecnicas": [
-            [
-                "Conector de salida : M20 / XT60 / Anderson connectors"
-            ]
-        ],
-        "otros": [
-            [
-                "Dimensiones (desplegada) : 2390 x 564 mm"
-            ],
-            [
-                "Dimensiones (plegada) : 635 x 564 x 50 mm"
-            ],
-            [
-                "Número plegable : 4"
-            ],
-            [
-                "Temperatura : -40°C ± 85°C"
-            ],
-            [
-                "Peso : 6.62kg / 14.6lb"
-            ]
-        ],
-        "preguntas": [
-            [
-                "Lorem :"
-            ]
-        ],
-        "precio": "453"
+        "precio": "3.680"
     }
 ]

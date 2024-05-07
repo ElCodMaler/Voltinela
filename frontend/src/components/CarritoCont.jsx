@@ -27,8 +27,8 @@ function CarritoCont({info, carrito, removeProduct}) {
     })
 
     return carrito.map((producto) => (
-      <div onClick={() => handleSelectedProduct(producto.id, producto.categoria)} className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <img className="p-8 rounded-t-lg" src={producto.imagen} alt={producto.titulo} />
+      <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img className="p-8 rounded-t-lg" src={producto.imagen} alt={producto.titulo} onClick={() => handleSelectedProduct(producto.id, producto.categoria)} />
         <div className="px-5 pb-5">
           <h5 className="text-xl font-bold tracking-tight text-gray-900">{producto.titulo}</h5>
           <h6 className="text-lg font-semibold tracking-tight text-gray-900">{producto.tituloTecnico}</h6>
@@ -69,7 +69,7 @@ function CarritoCont({info, carrito, removeProduct}) {
           </div>
           <br />
             <div className='w-full flex justify-center py-5'>
-              <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='border-2 border-[#81cc00] text-[#81cc00] focus:ring-0 lg:border-4 hover:border-white hover:text-white hover:bg-gradient-to-b from-[#25D366] to-[#128C7E] lg:border-4' pill>
+              <Button onClick={() => {window.open(`https://api.whatsapp.com/send?phone=+58${numero_cliente}&text=${mensaje}`); alert('Send!')}} className='bg-[#81cc00] border-2 border-white text-white focus:ring-0 lg:border-4 hover:bg-white hover:border-[#81cc00] hover:text-[#81cc00]' pill>
                 <AiOutlineWhatsApp className='mr-2 h-7 w-7 lg:h-10 lg:w-10 2xl:h-14 2xl:w-14' />
                 <p className='text-lg lg:text-3xl 2xl:text-5xl'>{info.cotizar}</p>
               </Button>

@@ -15,12 +15,12 @@ function CarruselProductos({productos}) {
 
   const renderImagenesProductos = () => {
     return imagenesProducto.map((imagenProducto, index) => (
-        /*<div key={index}>
+        <div key={index}>
           <img src={imagenProducto} alt={imagenProducto.titulo} />
-        </div>*/
-        <div key={index} className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src={`/${imagenProducto}`} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt={`/${imagenProducto}`}/>
         </div>
+        /*<div key={index} className="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src={`/${imagenProducto}`} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt={`/${imagenProducto}`}/>
+        </div>*/
     ));
   };
 
@@ -42,11 +42,11 @@ function CarruselProductos({productos}) {
 
   return (
     <>
-      {/*<Carousel>
+      <Carousel>
           {renderImagenesProductos()}
-      </Carousel>*/}
+      </Carousel>
 
-      <div id="default-carousel" className="relative w-full h-full z-0" data-carousel="slide">
+      {/*<div id="default-carousel" className="relative w-full h-full z-0" data-carousel="slide">
         <div className="relative h-full overflow-hidden rounded-lg">
             {renderImagenesProductos()}
         </div>
@@ -69,7 +69,7 @@ function CarruselProductos({productos}) {
                 <span className="sr-only">Next</span>
             </span>
         </button>
-      </div>
+      </div>*/}
 
     </>
   )

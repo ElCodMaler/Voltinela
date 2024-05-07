@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react'
 import { Card } from 'flowbite-react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
@@ -44,7 +43,7 @@ function Listado({productos}) {
 
     const handleSelectedProduct = (id) => {
         navigate(`/Descripcion/${categorias}/${id}`);
-        window.location.reload();
+        //window.location.reload();
     };
 
   return (

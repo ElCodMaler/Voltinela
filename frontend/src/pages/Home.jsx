@@ -11,7 +11,7 @@ import Programas from '../components/Programas'
 function Home({info, productos}) {
   return (
     <>
-      <main className='mt-16 sm:mt-16 md:mt-24 lg:mt-32 xl:mt-24 2xl:mt-32'>
+      <main id='inicio' className='mt-16 sm:mt-16 md:mt-20 lg:mt-28 xl:mt-24 2xl:mt-28'>
         <BannerIni />
 
         <Categorias info={info} productos={productos} />
