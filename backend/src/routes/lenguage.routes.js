@@ -5,4 +5,10 @@ const router = Router();
 
 router.get('/', lenguageC.getValues);
 
+router.post('/', lenguageC.addValues);
+
+router.put('/:id', lenguageC.updateValues);
+
+router.delete('/:id', lenguageC.deleteValues);
+
 export default router;

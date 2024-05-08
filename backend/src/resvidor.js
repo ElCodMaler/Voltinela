@@ -10,6 +10,7 @@ servidor.set('port', 4000);
 
 // Middlewares
 servidor.use(morgan("dev"));
+servidor.use(express.json());
 
 //Routes
 servidor.use(lenguageRoutes);
