@@ -3,7 +3,7 @@ import { Button, Checkbox, Label, TextInput, Textarea } from "flowbite-react"
 import { enviarMensaje } from '../util/email'
 
 function FormularioCar({info}) {
-  const numero_cliente = '4128849604';
+  const numero_cliente = '4127351051';
   let mensaje = '';
 
   const btn = useRef(null);
