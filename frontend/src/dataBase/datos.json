@@ -93,7 +93,8 @@
                 "¿Puede esta unidad arrancar una batería de automóvil? : NO."
             ]
         ],
-        "precio": "320"
+        "precio": "320",
+        "descuento": "290"
     },
     {
         "id": "2",
@@ -185,7 +186,8 @@
                 "¿Se pueden reemplazar o mejorar las baterías? : NO. Las baterías están incorporadas. NOTA - La apertura de la unidad anulará su garantía."
             ]
         ],
-        "precio": "490"
+        "precio": "490",
+        "descuento": "450"
     },
     {
         "id": "3",
@@ -275,7 +277,8 @@
                 "¿Se pueden reemplazar o mejorar las baterías? : NO. Las baterías están incorporadas. NOTA - La apertura de la unidad anulará su garantía."
             ]
         ],
-        "precio": "940"
+        "precio": "940",
+        "descuento": "860"
     },
     {
         "id": "4",
@@ -348,7 +351,8 @@
                 "Modo ECO : Si el Modo ECO está desactivado, para evitar olvidar apagar la salida durante el uso que resulta en consumo de batería, la unidad pasará al Modo de Suspensión Automático cuando no haya ningún dispositivo conectado o el dispositivo conectado sea menor o igual a un cierto valor. Cuando sin cargar, y las salidas de AC&DC&USB≤2W, el dispositivo se apagará automáticamente después de 1 hora."
             ]
         ],
-        "precio": "1.300"
+        "precio": "1.300",
+        "descuento": "1.180"
     },
     {
         "id": "5",
@@ -423,7 +427,8 @@
                 "Lorem :"
             ]
         ],
-        "precio": "1.740"
+        "precio": "1.740",
+        "descuento": "1.570"
     },
     {
         "id": "6",
@@ -496,7 +501,8 @@
                 "Lorem :"
             ]
         ],
-        "precio": "220"
+        "precio": "330",
+        "descuento": "Lorem"
     },
     {
         "id": "7",
@@ -569,7 +575,8 @@
                 "Lorem :"
             ]
         ],
-        "precio": "430"
+        "precio": "430",
+        "descuento": "390"
     },
     {
         "id": "8",
@@ -631,7 +638,8 @@
                 "Lorem :"
             ]
         ],
-        "precio": "260"
+        "precio": "260",
+        "descuento": "240"
     },
     {
         "id": "9",
@@ -693,7 +701,8 @@
                 "Lorem :"
             ]
         ],
-        "precio": "460"
+        "precio": "460",
+        "descuento": "420"
     },
     {
         "id": "10",
@@ -727,7 +736,8 @@
                 "Lorem :"
             ]
         ],
-        "precio": ""
+        "precio": "",
+        "descuento": ""
     },
     {
         "id": "11",
@@ -761,7 +771,8 @@
                 "Lorem :"
             ]
         ],
-        "precio": ""
+        "precio": "",
+        "descuento": ""
     },
     {
         "id": "12",
@@ -854,7 +865,8 @@
                 "Lorem :"
             ]
         ],
-        "precio": "980"
+        "precio": "980",
+        "descuento": "890"
     },
     {
         "id": "13",
@@ -974,7 +986,8 @@
                 "Lorem :"
             ]
         ],
-        "precio": "2.890"
+        "precio": "2.890",
+        "descuento": "2.620"
     },
     {
         "id": "14",
@@ -1093,6 +1106,7 @@
                 "Lorem :"
             ]
         ],
-        "precio": "3.680"
+        "precio": "3.680",
+        "descuento": "3.340"
     }
 ]

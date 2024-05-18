@@ -87,7 +87,8 @@ function DescripcionCont({ info, carrito, setCarrito, productos }) {
                   <h6 className="me-5 text-lg font-semibold tracking-tight sm:text-xl lg:text-2xl 2xl:text-3xl">
                     {info.precio}:
                   </h6>
-                  <p className='flex flex-row text-lg font-bold text-black sm:text-xl lg:text-2xl 2xl:text-3xl'><span className='pt-0.5 text-sm'>US$</span>{productoSeleccionado.precio}</p>
+                  <p className='flex flex-row text-lg font-bold text-red-700 sm:text-xl lg:text-2xl 2xl:text-3xl'><span className='pt-0.5 text-sm'>US$</span>{productoSeleccionado.descuento}</p>
+                  <p className='ms-3 flex flex-row text-lg font-bold line-through text-gray-700 sm:text-xl lg:text-2xl 2xl:text-3xl'><span className='pt-0.5 text-sm'>US$</span>{productoSeleccionado.precio}</p>
                   <br />
                 </div>
                 <DetallesTecnicosProd info={info} productos={productos} />
